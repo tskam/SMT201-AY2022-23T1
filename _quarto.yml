@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "SMT201-AY2022-23T1"
+  navbar:
+    left:
+    - text: "Syllabus"
+      href: syllabus.html
+    - text: "Lesson Plan"
+      href: lesson.html
+    - text: "Take-home Exercise"
+      menu:
+      - text: "Take-home Exercise 1"
+        href: Take-home_Ex01.html
+      - text: "Take-home Exercise 2"
+        href: Take-home_Ex02.html
+      - text: "Take-home Exercise 3"
+        href: Take-home_Ex03.html
+    - text: "GIS Project"
+      href: GISproject.html
+  right:
+    - text: "Resources"
+      href: resources.html
+    - text: "Home"
+      href: index.html
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

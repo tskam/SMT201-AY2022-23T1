@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SMT201-AY2022-23T1",
+    "section": "",
+    "text": "Welcome to the SMT201 Geographic Information Systems for Urban Planning!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to the course webpage of SMT201 Geographic Information Systems for Urban Planning"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "SMT201-AY2022-23T1",
+    "section": "",
+    "text": "Effective planning and management of smart cities require urban planners to integrate and share data from multiple sources to the urban users so that they can be active participants in the smart city planning process. GIS with its capability to capture, manage, display, and analyse information spatially is emerging as one of the important enabling tool in smart city planning.\nThis course provides students with an introduction to practical applications of GIS in smart city management and planning. Emphasis will be placed on:\n\nlocating, acquiring and integrating multi-sources of data into GIS,\nunderstand the principles and methodologies of geocoding and geo referencing ,\nbecome familiar with geovisualisation and GIS analysis techniques, and\nexplore the technologies and possibilities of GIS-enabled Planning Support Systems for smart city management."
+  },
+  {
+    "objectID": "syllabus.html#competencies",
+    "href": "syllabus.html#competencies",
+    "title": "SMT201-AY2022-23T1",
+    "section": "Competencies",
+    "text": "Competencies\n\nExplain the concepts, principles and component of GIS with reference to urban planning and management.\nDescribing the differences between GIS and other related geospatial technologies for urban planning.\nImporting, converting, transforming, integrating and managing urban geographical data.\nGeocoding and georeferencing geographical data.\nDescribing the basic principles and concepts of geographical data visualisation and thematic mapping design.\nExplaining vector-based geoprocessing methods using appropriate use cases.\nUse appropriate geoprocessing and vector-based GIS analysis functions to solve real world urban analysis problems.\nExplaining raster-based GIS analysis functions using appropriate use cases.\nUse appropriate cartographic modelling functions to solve real world urban analysis problems.\nExplaining the concepts of a Planning Support System.\nDesigning GIS enabled Planning Support System to answer urban planning and management related questions."
+  },
+  {
+    "objectID": "syllabus.html#course-structure",
+    "href": "syllabus.html#course-structure",
+    "title": "SMT201-AY2022-23T1",
+    "section": "Course structure",
+    "text": "Course structure\n\nBasic Modules\nThis course comprises ten integrated components as shown below:"
+  },
+  {
+    "objectID": "syllabus.html#pre-requisites",
+    "href": "syllabus.html#pre-requisites",
+    "title": "SMT201-AY2022-23T1",
+    "section": "Pre-requisites",
+    "text": "Pre-requisites\nThere are no pre-requisites for the class and the class is open to all SMT students as well as non-SMT students. However, a basic understanding of the principles of urban management and planning in the context of smart city is required. Students who are new to the discipline of urban management /planning and smart cities are encouraged to do self-learning and research prior to the commencement of the course.\n\nNaomi Carmon , and Susan S. Fainstein (2013) Policy, Planning, and People : Promoting Justice in Urban Development, University of Pennsylvania Press, USA.\nHoubing Song, et. al (2017) Smart Cities : Foundations, Principles, and Applications, John Wiley & Sons, NJ. USA."
+  },
+  {
+    "objectID": "syllabus.html#grading-summary",
+    "href": "syllabus.html#grading-summary",
+    "title": "SMT201-AY2022-23T1",
+    "section": "Grading Summary",
+    "text": "Grading Summary\nThe grading distribution of this course are as follows:\n\n\n\nComponent\nWeights\n\n\n\n\nClass Participation\n5%\n\n\nIn-class Exercise\n20%\n\n\nTake-home Exercise\n45%\n\n\nGIS Project\n30%\n\n\n\nThere will be no mid-term test or final examination for this course."
+  },
+  {
+    "objectID": "syllabus.html#reference",
+    "href": "syllabus.html#reference",
+    "title": "SMT201-AY2022-23T1",
+    "section": "Reference",
+    "text": "Reference\n\nCore Readings\n\nJochen Albrecht (2007) [**Key Concepts & Techniques in GIS**](https://ebookcentral-proquest-com.libproxy.smu.edu.sg/lib/smu/detail.action?pq-origsite=primo&docID=456755), SAGE Publication, London, UK.\nMaarseveen, Martin van.; Martinez, Javier.; Flacke, Johannes. (2019) [**GIS in Sustainable Urban Planning and Management**](https://www.taylorfrancis.com/books/oa-edit/10.1201/9781315146638/gis-sustainable-urban-planning-management-martin-van-maarseveen-javier-martinez-johannes-flacke), CRC Press.\n\n\n\nAdditional Readings\n\nDavid L. Berlyva (2002) Practical GIS Analysis, Taylor and Francis, London, UK.\nC. Dana Tomlin and C Dana Tomlin (2012) GIS and Cartographic Modeling, ESRI Press, Redland, USA."
+  }
+]
