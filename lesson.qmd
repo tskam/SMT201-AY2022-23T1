@@ -4,7 +4,7 @@ editor: visual
 ---
 
 | Week | Date       | Topic                                                     | Remarks |
-|-----------|----------|--------------------------------------|-------------|
+|-------|----------|--------------------------------------|------------------|
 | 1    | 22/8/2022  | Lesson 1: Introduction to GIS for Urban Planning          |         |
 | 2    | 29/8/2022  | Lesson 2: The Evil is in The Data                         |         |
 | 3    | 5/9/2022   | Lesson 3: Modelling Urban World                           |         |
