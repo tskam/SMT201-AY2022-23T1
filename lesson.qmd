@@ -1,0 +1,22 @@
+---
+title: "Weekly Lesson Plan"
+editor: visual
+---
+
+| Week | Date       | Topic                                                     | Remarks |
+|-----------|----------|--------------------------------------|-------------|
+| 1    | 22/8/2022  | Lesson 1: Introduction to GIS for Urban Planning          |         |
+| 2    | 29/8/2022  | Lesson 2: The Evil is in The Data                         |         |
+| 3    | 5/9/2022   | Lesson 3: Modelling Urban World                           |         |
+| 4    | 12/9/2022  | Lesson 4: Mapping and Visualising Urban World with GIS    |         |
+| 5    | 19/9/2022  | Lesson 5: Vector-based GeoProcessing and GIS Analysis     |         |
+| 6    | 26/9/2022  | Lesson 6: Urban Applications of Vector-based GIS Analysis |         |
+| 7    | 3/10/2022  | Lesson 7: The Science of Mapthematics                     |         |
+| 8    | 10/10/2022 | Mid-term break                                            |         |
+| 9    | 17/10/2022 | Lesson 8: Urban Applications of Raster-based GIS Analysis |         |
+| 10   | 24/10/2022 | Lesson 9: GIS Modelling for Urban Planning Support        |         |
+| 11   | 31/10/2022 | Lesson 10: Urban Network Analysis with GIS                |         |
+| 12   | 7/11/2022  | Lesson 11: Sharing Geographical Information               |         |
+| 13   | 14/11/2022 | Lesson 12: Epilogue                                       |         |
+| 14   | 21/11/2022 | Townhall Presentation                                     |         |
+| 15   | 28/11/2022 |                                                           |         |
