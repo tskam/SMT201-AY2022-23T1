@@ -1,0 +1,48 @@
+---
+title: "Lesson 10: Urban Network Analysis with GIS"
+description: |
+  In this lesson, you will learn the basic concepts of network data model and network analysis methods.
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Content
+
++ Why analyse with network?
++ Network model
++ Real world network system
++ Complexity of urban road network
++ Shortest path analysis algorithm
++ Network analysis methods 
+
+## Lesson Slides and Hands-on Notes 
+
+- Lesson slides in [html](../lesson/Lesson10/Lesson10.html) and [pdf](../lesson/Lesson10/Lesson10.pdf) formats.
+
+- Hands-on Exercise 10 in [html](../Hands-on_Ex/Hands-on_Ex10/Hands-on_Ex10.html) and [pdf](../Hands-on_Ex/Hands-on_Ex10/Hands-on_Ex10.pdf) formats. 
+
+
+## References
+### Concepts and Methods
+
++ Manfred M. Fischer (2003) ["*GIS AND NETWORK ANALYSIS*"](https://www.researchgate.net/publication/23730944_GIS_and_network_analysis) in **Handbook 5 Transport Geography and Spatial Systems**. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon
+
++ [5 Types of Network Analysis in GIS](https://gisgeography.com/network-analysis/)
+
++ Chun, Y, and Kim, H. (2018). [*Networks Defined*](https://gistbok.ucgis.org/bok-topics/2021-quarter-01/networks-defined). **The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition)**, John P. Wilson (Ed.). 
+
+
+### Applications
+
+
+### QGIS Methods
+
++ [QGIS Network Analysis Capabilities](https://www.giscourse.com/qgis-network-analysis-capabilities/)
+
++ [6.3. Lesson: Network Analysis](https://docs.qgis.org/3.16/en/docs/training_manual/vector_analysis/network_analysis.html) of QGIS Training Manual.
+
+* [About QNEAT3](https://root676.github.io/)

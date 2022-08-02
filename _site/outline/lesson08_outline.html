@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2022-08-02">
+<meta name="description" content="In this lesson, you will learn the basic concepts of raster-based GIS modelling methods for land suitability analysis.">
+
+<title>SMT201-AY2022-23T1 - Lesson 8: Urban Applications of Raster-based GIS Analysis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">SMT201-AY2022-23T1</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html">Syllabus</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../lesson.html">Lesson Plan</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-take-home-exercise" role="button" data-bs-toggle="dropdown" aria-expanded="false">Take-home Exercise</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-take-home-exercise">    
+        <li>
+    <a class="dropdown-item" href="../Take-home_Ex01.html">
+ <span class="dropdown-text">Take-home Exercise 1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Take-home_Ex02.html">
+ <span class="dropdown-text">Take-home Exercise 2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../Take-home_Ex03.html">
+ <span class="dropdown-text">Take-home Exercise 3</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../GISproject.html">GIS Project</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#content" id="toc-content" class="nav-link active" data-scroll-target="#content">Content</a></li>
+  <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
+  <ul class="collapse">
+  <li><a href="#concepts-and-methods" id="toc-concepts-and-methods" class="nav-link" data-scroll-target="#concepts-and-methods">Concepts and Methods</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lesson 8: Urban Applications of Raster-based GIS Analysis</h1>
+</div>
+
+<div>
+  <div class="description">
+    <p>In this lesson, you will learn the basic concepts of raster-based GIS modelling methods for land suitability analysis.</p>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 2, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="content" class="level2">
+<h2 class="anchored" data-anchor-id="content">Content</h2>
+<ul>
+<li>Descriptive model</li>
+<li>Prescriptive models
+<ul>
+<li>Binary method</li>
+<li>Ranking method</li>
+<li>Rating method</li>
+</ul></li>
+<li>GIS‐Based Multiple‐Criteria Decision Analysis</li>
+<li>Analytical Hierarchical Process (AHP)</li>
+<li>Predictive model</li>
+</ul>
+</section>
+<section id="lesson-slides-and-hands-on-notes" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
+<ul>
+<li><p>Lesson slides in <a href="../lesson/Lesson08/Lesson08.html">html</a> and <a href="../lesson/Lesson08/Lesson08.pdf">pdf</a> formats.</p></li>
+<li><p>Hands-on Exercise 8 in <a href="../Hands-on_Ex/Hands-on_Ex08/Hands-on_Ex08.html">html</a> and <a href="../Hands-on_Ex/Hands-on_Ex08/Hands-on_Ex08.pdf">pdf</a> formats.</p></li>
+</ul>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<section id="concepts-and-methods" class="level3">
+<h3 class="anchored" data-anchor-id="concepts-and-methods">Concepts and Methods</h3>
+<ul>
+<li>Berry, J.K. (2005) <a href="http://www.innovativegis.com/basis/BeyondMappingSeries/BeyondMapping_III/Topic7/BM_III_T7.htm">Topic 7–Basic Spatial Modeling Approaches</a> and <a href="http://www.innovativegis.com/basis/BeyondMappingSeries/BeyondMapping_III/Topic8/BM_III_T8.htm">Topic 8–Spatial Modeling Example</a> in <strong>Beyond Mapping III</strong>.</li>
+<li>Berry, J. K. (2005) GIS Modeling and Analysis. <a href="http://www.innovativegis.com/basis/papers/other/asprschapter/#Berry6_Modeling_Frameworks">Chapter GIS Modeling Frameworks</a>.</li>
+<li>Malczewski, Jacek (2004) <a href="https://www-sciencedirect-com.libproxy.smu.edu.sg/science/article/pii/S0305900603000801">“GIS-based land-use suitability analysis: a critical overview”</a>. <em>Progress in Planning</em>, Vol.62(1), pp.3-65.</li>
+<li>Montgomery, Bryn ; Dragićević, Suzana (2016) <a href="https://onlinelibrary-wiley-com.libproxy.smu.edu.sg/doi/full/10.1111/gean.12103">“Comparison of GIS‐Based Logic Scoring of Preference and Multicriteria Evaluation Methods: Urban Land Use Suitability”</a>. <em>Geographical Analysis</em>, Vol.48(4), pp.427-447.</li>
+<li>Siobhan Ryan and Ellis Nimick (2019) <a href="https://storymaps.arcgis.com/stories/b60b7399f6944bca86d1be6616c178cf">Multi-Criteria Decision Analysis and GIS</a>, <strong>ArcGIS StoryMaps</strong>.</li>
+</ul>
+</section>
+<section id="applications" class="level3">
+<h3 class="anchored" data-anchor-id="applications">Applications</h3>
+<ul>
+<li><p>Malihe Masoudi et. al (2021) <a href="https://doi.org/10.1007/s41742-021-00326-0">“GIS‑Based Multi‑Criteria and Multi‑Objective Evaluation for Sustainable Land‑Use Planning (Case Study: Qaleh Ganj County, Iran) “Landuse Planning Using MCE and Mola””</a>, <em>International Journal of Environmental Research</em> (2021) 15:457–474</p></li>
+<li><p>Abdullahi, Saleh ; Pradhan, Biswajeet (2016) <a href="https://link-springer-com.libproxy.smu.edu.sg/article/10.1007/s12061-015-9139-1">“Sustainable Brownfields Land Use Change Modeling Using GIS-based Weights-of-Evidence Approach”</a> <em>Applied Spatial Analysis and Policy</em>, Vol.9(1), pp.21-38.</p></li>
+<li><p>Dong, Mei ; Hu, Hui ; Xu, Riqing ; Gong, Xiaonan (2018) <a href="https://link-springer-com.libproxy.smu.edu.sg/article/10.1007/s10064-017-1069-5">“A GIS-based quantitative geo-environmental evaluation for land-use development in an urban area: Shunyi New City, Beijing, China”</a>. <em>Bulletin of Engineering Geology and the Environment</em>, Vol.77(3), pp.1203-1215.</p></li>
+<li><p>Parry, Jahangeer A ; Ganaie, Showkat A ; Sultan Bhat, M (2018) <a href="https://www.sciencedirect.com/science/article/pii/S2226585617301231?via%3Dihub">“GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&amp;K, India”</a>. <em>Journal of Urban Management</em>, Vol.7(2), pp.46-56.</p></li>
+<li><p>Chen, Jiapei (2014) <a href="https://environmentalsystemsresearch.springeropen.com/articles/10.1186/2193-2697-3-13">“GIS-based multi-criteria analysis for land use suitability assessment in City of Regina”</a>. <em>Environmental Systems Research</em>, Vol.3(1), pp.1-10.</p></li>
+<li><p>Sarath Midatana ; S. Saran ; K. V. Ramana (2018) <a href="https://doaj.org/article/c00d77c4bebf4754ab22bed617bd3117">“Site suitability analysis for industries using GIS and Multi criteria decision making”</a>. <em>ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em>, Vol.IV-5, pp.447-454.</p></li>
+<li><p><a href="https://pdfs.semanticscholar.org/57e2/8189fb06331966e99cb5f44f5e58eb45a6b0.pdf?_ga=2.87358040.1338523781.1569136260-1356347789.1558054866">Modelling land use changes according to transportation scenarios using raster based GIS indicators</a></p></li>
+<li><p><a href="http://journals.witpress.com/paperinfo.asp?pid=425">Cartographic Modeling Of Land Suitability For Industrial Development In The Egyptian Desert</a></p></li>
+<li><p><a href="http://www.isocarp.net/Data/case_studies/1262.pdf">Raster based GIS for Urban Management</a></p></li>
+<li><p><a href="http://www.itc.nl/library/papers_2003/msc/upla/yang_manlun.pdf">Suitability Analysis of Urban Green Space System Based on GIS</a></p></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
