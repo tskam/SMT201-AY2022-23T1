@@ -2,4 +2,17 @@
 title: "SMT201-AY2022-23T1"
 ---
 
-Welcome to the SMT201 Geographic Information Systems for Urban Planning!
+# Welcome to the SMT201 Geographic Information Systems for Urban Planning!  
+
+![](img/image2.jpg){fig-align="right"}
+
+In this web site, you will find all course materials here.
+
+Instructor: [Dr. Kam
+Tin Seong](https://www.smu.edu.sg/faculty/profile/9618/KAM-Tin-Seong), Associate Professor of Information Systems
+(Practice)\
+
+| Section | Time        | Venue       |
+|---------|-------------|-------------|
+| G1      | 8:15-11:30  | SCIS SR 2.1 |
+| G2      | 15:30-18:45 | SCIS SR 2.3 |
