@@ -1,9 +1,8 @@
 ---
 title: "Lesson 9: Multiple‐Criteria Decision Analysis (MCDA)"
-description: |
-  In this lesson, you will learn principles and methods of MCDA.  You will also gain hands-on experience on integrating MCDA with raster-based GIS modelling.
+description: "In this lesson, you will learn principles and methods of MCDA.  You will also gain hands-on experience on integrating MCDA with raster-based GIS modelling."
 date: "`r Sys.Date()`"
-output: distill::distill_article
+format: html
 ---
 
 ```{r setup, include=FALSE}
@@ -37,7 +36,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Applications
 
--   Malihe Masoudi et. al (2021) ["GIS‑Based Multi‑Criteria and Multi‑Objective Evaluation for Sustainable Land‑Use Planning (Case Study: Qaleh Ganj County, Iran) "Landuse Planning Using MCE and Mola""](https://doi.org/10.1007/s41742-021-00326-0), *International Journal of Environmental Research* (2021) 15:457--474
+-   Malihe Masoudi et. al (2021) ["GIS‑Based Multi‑Criteria and Multi‑Objective Evaluation for Sustainable Land‑Use Planning (Case Study: Qaleh Ganj County, Iran)"Landuse Planning Using MCE and Mola""](https://doi.org/10.1007/s41742-021-00326-0), *International Journal of Environmental Research* (2021) 15:457--474
 
 -   Abdullahi, Saleh ; Pradhan, Biswajeet (2016) ["Sustainable Brownfields Land Use Change Modeling Using GIS-based Weights-of-Evidence Approach"](https://link-springer-com.libproxy.smu.edu.sg/article/10.1007/s12061-015-9139-1) *Applied Spatial Analysis and Policy*, Vol.9(1), pp.21-38.
 

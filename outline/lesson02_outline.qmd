@@ -1,12 +1,8 @@
 ---
 title: "Lesson 2: The Evil is in The Data"
-description: |
-  In this lesson, students will learn the basic principles and concepts of GIS data models.  Related properties such as map projection, coordinates systems, georeferencing, geocoding, data storage formats will be discussed too.  Open data sources from the global communities as well as Singapore government agencies will be shared too.
+description: "In this lesson, students will learn the basic principles and concepts of GIS data models.  Related properties such as map projection, coordinates systems, georeferencing, geocoding, data storage formats will be discussed too.  Open data sources from the global communities as well as Singapore government agencies will be shared too."
 date: "`r Sys.Date()`"
-output:
-  distill::distill_article:
-    toc: true
-    toc_depth: 3
+format: html
 ---
 
 ```{r setup, include=FALSE}

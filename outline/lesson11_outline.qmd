@@ -1,9 +1,8 @@
 ---
 title: "Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping"
-description: |
-  In this lesson, you will learn the basic concepts of GeoWeb Mapping.  You will also gain hands-on experience on creating geoweb application using QGIS extension.
+description: "In this lesson, you will learn the basic concepts of GeoWeb Mapping.  You will also gain hands-on experience on creating geoweb application using QGIS extension."
 date: "`r Sys.Date()`"
-output: distill::distill_article
+format: html
 ---
 
 ```{r setup, include=FALSE}

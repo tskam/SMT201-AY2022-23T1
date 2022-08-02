@@ -1,12 +1,8 @@
 ---
 title: "Lesson 5: Vector-based GIS Analysis Methods"
-description: |
-  In this lesson, you will learn the basic concepts and methods of vector-based GIS Analysis.  You will also gain hands-on experience on using QGIS to perform basic vector-based GIS analysis operations.
+description: "In this lesson, you will learn the basic concepts and methods of vector-based GIS Analysis.  You will also gain hands-on experience on using QGIS to perform basic vector-based GIS analysis operations."
 date: "`r Sys.Date()`"
-output:
-  distill::distill_article:
-    toc: true
-    toc_depth: 3
+format: html
 ---
 
 ```{r setup, include=FALSE}

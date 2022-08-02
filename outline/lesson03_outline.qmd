@@ -1,12 +1,8 @@
 ---
 title: "Lesson 3: Modelling Urban World"
-description: |
-  In this lesson, you will learn how to build an urban GIS database to extracting, assembling, integrating and wrangling data from different sources.  You will also learn how to create a geodatabase and performing manual editing.
+description: "In this lesson, you will learn how to build an urban GIS database to extracting, assembling, integrating and wrangling data from different sources.  You will also learn how to create a geodatabase and performing manual editing."
 date: "`r Sys.Date()`"
-output:
-  distill::distill_article:
-    toc: true
-    toc_depth: 3
+format: html
 ---
 
 ```{r setup, include=FALSE}

@@ -1,12 +1,8 @@
 ---
 title: "Lesson 6: Urban Applications of Vector-based GIS Analysis"
-description: |
-  In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions.
+description: "In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions."
 date: "`r Sys.Date()`"
-output:
-  distill::distill_article:
-    toc: true
-    toc_depth: 3
+format: html
 ---
 
 ```{r setup, include=FALSE}

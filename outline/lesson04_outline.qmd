@@ -1,12 +1,8 @@
 ---
 title: "Lesson 4: Mapping and Visualising Urban World with GIS"
-description: |
-  In this lesson, you will learn the basic principles and methods of GIS mapping and Geovisualisation. You will also gain hands-on exercise on using QGIS to prepare GIS maps.
+description: "In this lesson, you will learn the basic principles and methods of GIS mapping and Geovisualisation. You will also gain hands-on exercise on using QGIS to prepare GIS maps."
 date: "`r Sys.Date()`"
-output:
-  distill::distill_article:
-    toc: true
-    toc_depth: 3
+format: html
 ---
 
 ```{r setup, include=FALSE}

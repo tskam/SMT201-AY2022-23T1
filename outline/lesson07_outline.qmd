@@ -1,17 +1,9 @@
 ---
 title: "Lesson 7: The Science of Mapthematics: Raster-based GIS analysis methods"
-description: |
-  In this lesson, you will learn the basic principles and methods of raster-based GIS analysis.  You will also gain hands-on experience on using QGIS to perform basic raster-based GIS analysis operations.
+description: "In this lesson, you will learn the basic principles and methods of raster-based GIS analysis.  You will also gain hands-on experience on using QGIS to perform basic raster-based GIS analysis operations."
 date: "`r Sys.Date()`"
-output:
-  distill::distill_article:
-    toc: true
-    toc_depth: 3
+format: html
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
 
 ## The Science of Mapthematics and Cartographic Modelling
 
