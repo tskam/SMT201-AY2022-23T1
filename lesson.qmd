@@ -4,19 +4,18 @@ editor: visual
 ---
 
 | Week | Date       | Topic                                                                                      | Remarks |
-|--------------|--------------|--------------------------------|--------------|
-| 1    | 22/8/2022  | [Lesson 1: Introduction to GIS for Urban Planning](outline/lesson01_outline.html)          |         |
-| 2    | 29/8/2022  | [Lesson 2: The Evil is in The Data](outline/lesson02_outline.html)                         |         |
-| 3    | 5/9/2022   | [Lesson 3: Modelling Urban World](outline/lesson03_outline.html)                           |         |
-| 4    | 12/9/2022  | [Lesson 4: Mapping and Visualising Urban World with GIS](outline/lesson04_outline.html)    |         |
-| 5    | 19/9/2022  | [Lesson 5: Vector-based GeoProcessing and GIS Analysis](outline/lesson05_outline.html)     |         |
-| 6    | 26/9/2022  | [Lesson 6: Urban Applications of Vector-based GIS Analysis](outline/lesson06_outline.html) |         |
-| 7    | 3/10/2022  | [Lesson 7: The Science of Mapthematics](outline/lesson07_outline.html)                     |         |
-| 8    | 10/10/2022 | Mid-term break                                                                             |         |
-| 9    | 17/10/2022 | [Lesson 8: Urban Applications of Raster-based GIS Analysis](outline/lesson08_outline.html) |         |
-| 10   | 24/10/2022 | [Lesson 9: GIS Modelling for Urban Planning Support](outline/lesson09_outline.html)        |         |
-| 11   | 31/10/2022 | [Lesson 10: Urban Network Analysis with GIS](outline/lesson10_outline.html)                |         |
-| 12   | 7/11/2022  | [Lesson 11: Sharing Geographical Information](outline/lesson11_outline.html)               |         |
-| 13   | 14/11/2022 | Lesson 12: Epilogue                                                                        |         |
-| 14   | 21/11/2022 | Townhall Presentation                                                                      |         |
-| 15   | 28/11/2022 |                                                                                            |         |
+|------|------------|--------------------------------------------------------------------------------------------|---------|
+| 1    | 15/8/2022  | [Lesson 1: Introduction to GIS for Urban Planning](outline/lesson01_outline.html)          |         |
+| 2    | 22/8/2022  | [Lesson 2: The Evil is in The Data](outline/lesson02_outline.html)                         |         |
+| 3    | 29/8/2022  | [Lesson 3: Modelling Urban World](outline/lesson03_outline.html)                           |         |
+| 4    | 5/9/2022   | [Lesson 4: Mapping and Visualising Urban World with GIS](outline/lesson04_outline.html)    |         |
+| 5    | 12/9/2022  | [Lesson 5: Vector-based GeoProcessing and GIS Analysis](outline/lesson05_outline.html)     |         |
+| 6    | 19/9/2022  | [Lesson 6: Urban Applications of Vector-based GIS Analysis](outline/lesson06_outline.html) |         |
+| 7    | 26/9/2022  | [Lesson 7: The Science of Mapthematics](outline/lesson07_outline.html)                     |         |
+| 8    | 3/10/2022  | Mid-term break                                                                             |         |
+| 9    | 10/10/2022 | [Lesson 8: Urban Applications of Raster-based GIS Analysis](outline/lesson08_outline.html) |         |
+| 10   | 17/10/2022 | [Lesson 9: GIS Modelling for Urban Planning Support](outline/lesson09_outline.html)        |         |
+| 11   | 24/10/2022 | [Lesson 10: Urban Network Analysis with GIS](outline/lesson10_outline.html)                |         |
+| 12   | 31/10/2022 | [Lesson 11: Sharing Geographical Information](outline/lesson11_outline.html)               |         |
+| 13   | 7/11/2022  | Lesson 12: Epilogue                                                                        |         |
+| 14   | 14/11/2022 | Townhall Presentation                                                                      |         |

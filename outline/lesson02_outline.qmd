@@ -39,9 +39,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Core Readings
 
--   [Chapter 2 Feature Representation](https://mgimond.github.io/Spatial/chp02-0.html) of Intro to GIS and Spatial Analysis
+-   [Chapter 2 Feature Representation](https://mgimond.github.io/Spatial/chp02_0.html) of Intro to GIS and Spatial Analysis
 -   [Chapter 3 GIS Data Management](https://mgimond.github.io/Spatial/gis-data-management.html) of Intro to GIS and Spatial Analysis
--   [Chapter 9 Coordinate Systems](https://mgimond.github.io/Spatial/chp09-0.html) of Intro to GIS and Spatial Analysis
+-   [Chapter 9 Coordinate Systems](https://mgimond.github.io/Spatial/chp09_0.html) of Intro to GIS and Spatial Analysis
 -   [Modeling Our World: The ESRI Guide to Geodatabase Design](http://downloads2.esri.com/support/documentation/ao_/Modeling_our_World.pdf)
 
 ### Additional Readings
