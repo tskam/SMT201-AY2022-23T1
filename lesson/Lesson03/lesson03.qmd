@@ -1,23 +1,414 @@
 ---
-title: "Lesson3: Modelling the Urban World"
+title: "Lesson3: <br/>Modelling the Urban World"
 author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
 institute: "School of Computing and Information Systems,<br/>Singapore Management University"
 date: "2022-08-06 (updated: `r Sys.Date()`)"
 css: "text.css"
-format: revealjs
+format: 
+  revealjs:
+    width: 1450
+    height: 850
 editor: visual
 ---
 
-## Testing
+## Content
 
-:::{.vlarge}
-Testing
+::: vlarge
+-   Geospatial Data Modelling: Basic Concepts
+
+-   Geospatial Data Abstraction
+
+-   Topology Data Models
+
+-   Other Geospatial Spatial Data Properties
+
+-   Geospatial Data Repositories
+
+-   Metadata of Geospatial Data
 :::
 
-:::{.large .red}
-Testing
+## Geospatial Data Modelling
+
+::: large
+Thinking beyond the data
 :::
 
-:::{.small}
-Testing
+![](img/image1.jpg)
+
+------------------------------------------------------------------------
+
+### Geospatial Data Modelling Process
+
+![](img/image2.jpg)
+
+------------------------------------------------------------------------
+
+### Levels of Data Model Abstraction
+
+![](img/image3.jpg)
+
+------------------------------------------------------------------------
+
+### Why should we worry about?
+
+![](img/image4.jpg)
+
+------------------------------------------------------------------------
+
+### What to represent?
+
+-   The world is infinitely complex, but computer systems are finite.
+
+-   Representations must somehow limit the amount of details captured.
+
+![](img/image5.jpg)
+
+------------------------------------------------------------------------
+
+### At what level of generalisation?
+
+::: vlarge
+Little White Lies and Lots of Them
+:::
+
+![](img/image6.jpg)
+
+------------------------------------------------------------------------
+
+### How to represent?
+
+-   A MRT station can be represented by a point feature or a polygon feature.
+
+.center\[ ![:scale 85%](img/image7.jpg)\]
+
+------------------------------------------------------------------------
+
+### How to capture multiple contexts?
+
+-   Geographical data link place, time, and attribute. .center\[ ![](img/image8.jpg)\]
+
+------------------------------------------------------------------------
+
+### Accuracy and Precision
+
+::: columns
+::: {.column width="60%"}
+-   Accuracy can be defined as the degree or closeness to which the information on a map matches the values in the real world.
+
+    -   In GIS data, accuracy can be referred to a geographic position, but it can be referred also to attribute, or conceptual accuracy.
+
+-   Precision refers how exact is the description of data.
+
+    -   Precise data may be inaccurate, because it may be exactly described but inaccurately gathered. (Maybe the surveyor made a mistake, or the data was recorded wrongly into the database).
+:::
+
+::: {.column width="40%"}
+![](img/image9.jpg)
+:::
+:::
+
+## Motivation of topological data models
+
+-   Topological errors
+
+![](img/image10.jpg)
+
+------------------------------------------------------------------------
+
+### What is Topological Errors?
+
+-   Topological errors occur often during the digitizing process. Errors of the operator may result in polygon knots, and loops, and there may be some errors associated with damaged source maps as well.
+
+![](img/image11.jpg)
+
+------------------------------------------------------------------------
+
+### Topological data models
+
+-   Data redundancy
+
+![](img/image12.jpg)
+
+------------------------------------------------------------------------
+
+### Intelligence GIS Data Model: Topology
+
+-   It manages spatial relationships by representing spatial objects (point, line, and area features) as an underlying graph of topological primitives: nodes, faces, and edges.
+
+![](img/image13.jpg)
+
+::: small
+Source: [ArcGIS Topology basics](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/topologies/topology-basics.htm)
+:::
+
+------------------------------------------------------------------------
+
+### Topological Data Models: ArcGIS Coverage
+
+-   A coverage is a georelational data model that stores vector data and their topology.
+
+![](img/image14.jpg)
+
+::: small
+Reference: [What is a coverage?](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/coverages/what-is-a-coverage.htm)\
+:::
+
+------------------------------------------------------------------------
+
+### Rule-based Topology
+
+-   Topology rules define the permissible spatial relationships between features.
+    -   The rules you define for a topology control the relationships between features within a feature class, between features in different feature classes, or between subtypes of features.
+
+![](img/image15.jpg){fig-align="center"}
+
+::: small
+Source: [Topology in ArcGIS](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/topologies/topology-in-arcgis.htm)
+:::
+
+------------------------------------------------------------------------
+
+### Rule-based Topology: ArcGIS Geodatabase
+
+::: columns
+::: {.column width="50%"}
+-   The geodatabase is a collection of geographic datasets of various types used in ArcGIS and managed in either a file folder or a relational database.
+-   It is the native data source for ArcGIS and is used for editing and data automation in ArcGIS.
+-   For more information, visit [What is a geodatabase?](https://pro.arcgis.com/en/pro-app/2.7/help/data/geodatabases/overview/what-is-a-geodatabase-.htm)\]
+:::
+
+::: {.column width="50%"}
+![](img/image16.jpg)
+:::
+:::
+
+------------------------------------------------------------------------
+
+### Issue of Multi-user editing: Transactions
+
+::: columns
+::: {.column width="40%"}
+-   A transaction is a group of changes that are made to a database as a coherent group.
+
+-   All the changes that form part of a transaction are either committed or the database is rolled back to its initial state
+
+-   The solutions: pessimistic locking vs optimistic versioning
+:::
+
+::: {.column width="60%"}
+![](img/image17.jpg)
+:::
+:::
+
+------------------------------------------------------------------------
+
+### Versioning
+
+::: columns
+::: {.column width="50%"}
+Creating multiple versions for editing and resolving conflict.
+:::
+
+::: {.column width="50%"}
+![](img/image18.jpg)
+:::
+:::
+
+## Spatial Indexing
+
+::: columns
+::: {.column width="50%"}
+-   Spatial indexes are used by spatial databases to optimise spatial queries.
+
+-   Indexes used by non-spatial databases cannot effectively handle features such as how far two points differ and whether points fall within a spatial area of interest.
+
+-   To learn more about Spatial Indexing, refer to [DM-66 Spatial Indexing](https://gistbok.ucgis.org/bok-topics/spatial-indexing)
+:::
+
+::: {.column width="50%"}
+![](img/image19.jpg)
+:::
+:::
+
+## Geospatial Data Repositories
+
+-   File-based
+
+    -   Vector format (i.e shapefile, personal geodatabase)
+
+-   Raster format (i.e geotiff)
+
+-   Database management systems
+
+    -   Middleware (i.e. ArcSDE)
+
+-   Geospatial extension
+
+    -   Commercial (Oracle Spatial)
+
+    -   Open source (PostGIS)
+
+------------------------------------------------------------------------
+
+### About SpatiaLite ![](img/image20.jpg)
+
+-   An open source library intended to extend the SQLite core to support fully fledged Spatial SQL capabilities.
+    -   SQLite is intrinsically simple and lightweight:
+        -   a single lightweight library implementing the full SQL engine
+        -   standard SQL implementation: almost complete SQL-92
+        -   no complex client/server architecture
+        -   a whole database simply corresponds to a single monolithic file (no size limits)
+        -   any DB-file can be safely exchanged across different platforms, because the internal architecture is universally portable
+        -   no installation, no configuration
+
+------------------------------------------------------------------------
+
+### About SpatiaLite ![](img/image20.jpg)
+
+-   SpatiaLite is licensed under the MPL tri-license terms. you are free to choose the best-fit license between:
+    -   the MPL 1.1
+    -   the GPL v2.0 or any subsequent version
+    -   the LGPL v2.1 or any subsequent version
+-   For more information visit the [homepage](https://www.gaia-gis.it/fossil/libspatialite/index)
+
+------------------------------------------------------------------------
+
+### GeoPackage
+
+-   An open, non-proprietary, platform-independent and standards-based data format for geographic information system implemented as a SQLite database container.
+
+-   To learn more about geopackage, visit [geopackage homepage](https://www.geopackage.org/) and at [wiki](https://en.wikipedia.org/wiki/GeoPackage).
+
+![](img/image21.jpg)
+
+------------------------------------------------------------------------
+
+### Getting to know GeoPackage
+
+-   Use open source SQLite as the storage engine, more reliable and platform independent than MDB, but with the advantage of easy, language independent, read/write access via SQL.
+
+    -   The SQLite engine is open source and multi-platform, so no Windows dependency.
+
+    -   The SQLite engine stores data in a single file, so no need to zip/unzip all the time.
+
+    -   Leverage existing OGC standards like the WKT standard for spatial reference systems, and the WKB standard for binary geometry representation.
+
+-   Document the format and include an extension mechanism so it can evolve over time and so third parties can experiment with new extensions.
+
+-   To learn more, read [Getting Started With GeoPackage](http://www.geopackage.org/guidance/getting-started.html)
+
+------------------------------------------------------------------------
+
+### Enterprise Geographic DBMS
+
+-   Provide spatial database management functions on top of conventional database management systems. For example IBM DB2 Spatial Extender, Informix Spatial Datablade
+
+![](img/image22.jpg)
+
+------------------------------------------------------------------------
+
+### Geographic Middleware Extensions
+
+-   Middle-tier application server that extend the DBMS software kernel to manage geographic data. For example: Geomedia Transaction Server, SpatialWare from MapInfo, Enterprise Server from Manifold.
+
+![](img/image23.jpg)
+
+------------------------------------------------------------------------
+
+### About PostGIS
+
+::: columns
+::: {.column width="50%"}
+-   [**PostGIS**](http://postgis.net/) spatially enables the [**PostgreSQL**](https://www.postgresql.org/) open source relational database. The database can then be used to store and query geospatial data (vector and raster).
+
+-   To learn more, visit [Introduction to PostGIS](https://postgis.net/workshops/postgis-intro/introduction.html) and [wiki](https://en.wikipedia.org/wiki/PostGIS).
+:::
+
+::: {.column width="50%"}
+![](img/image24.jpg)
+:::
+:::
+
+------------------------------------------------------------------------
+
+### Main Features of PostGIS
+
+-   High performance, robust spatial database built on PostgreSQL
+
+-   Simple Features for SQL (SFSQL) compliance.
+
+-   Proven reliability and transectional integrity (ACID compliance).
+
+-   Provides spatial representations of geometry types both vector (points , lines, polygons) and raster.
+
+-   Support for common and advanced spatial operations such as geometry creation and conversion, reprojection , buffer, convex hull, generalization, union, and more.
+
+-   Geodetic support for measurements across the globe/dateline.
+
+-   Command-line and graphical tools for flexible management.
+
+-   To learn more, read [Why should you care about PostGIS? --- A gentle introduction to spatial databases](https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b) and [PostGIS Manual](https://postgis.net/docs/).
+
+------------------------------------------------------------------------
+
+### Who Use PostGIS?
+
+-   Proprietary Desktop: ArcGIS, Manifold, Safe FME, CadCorp SIS, MapInfo Professional
+
+-   Proprietary Server: ArcServer , Ionic Enterprise, MapDotNet Server
+
+-   Open Source Server: GeoServer , Mapserver , Mapnik , DeeGree , SharpMap
+
+-   Open Source Desktop: GRASS, QGIS, uDig , gvSIG
+
+------------------------------------------------------------------------
+
+### Carto: Database on the cloud ![](img/image25.jpg)
+
+-   [Carto](https://carto.com/) is a Software as a Service (SaaS) cloud computing platform that provides GIS and web mapping tools in the browser. (Formally know as CartoDB ).
+
+-   Carto was built on open source software including PostGIS and PostgreSQL .
+
+-   The tool uses JavaScript extensively, including use in the front end web application, back end Node.js based APIs, and for the client libraries.
+
+-   To learn more, visit [wiki](https://en.wikipedia.org/wiki/CartoDB) and [How CARTO works](https://carto.com/help/getting-started/how-carto-works/)
+
+## Meta data: Data about the data
+
+-   Identification information
+
+-   Data quality information
+
+-   Spatial data organisation information
+
+-   Spatial reference information
+
+-   Entity and attribute information
+
+-   Distribution information
+
+-   Meta data reference information
+
+-   Citation information
+
+-   Time period information
+
+-   Contact information.
+
+------------------------------------------------------------------------
+
+### An example of metadata
+
+::: columns
+::: {.column width="50%"}
+-   Metadata is information about data. Similar to a library catalog record, metadata records document the who, what, when, where, how, and why of a data resource.
+
+-   Geospatial metadata describes maps, Geographic Information Systems (GIS) files, imagery, and other location-based data resources.
+
+-   To learn more, visit [Geospatial Metadata](https://www.fgdc.gov/metadata)
+:::
+
+::: {.column width="50%"}
+![](img/image26.jpg)
+:::
 :::

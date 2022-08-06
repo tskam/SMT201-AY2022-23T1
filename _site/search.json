@@ -698,5 +698,47 @@
     "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "What is Urban Planning?",
     "text": "What is Urban Planning?\n\n\nA political process concerned with the development and design of land use and the environment and the infrastructure passing into and out of urban areas.\nThe primary concern is the public welfare, which includes considerations of efficiency, sanitation, protection and use of the environment, as well as effects on social and economic activities.\nUrban planning is considered an interdisciplinary field that includes social engineering and design sciences."
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#content",
+    "href": "lesson/Lesson03/lesson03.html#content",
+    "title": "Lesson3: Modelling the Urban World",
+    "section": "Content",
+    "text": "Content\n\n\nGeospatial Data Modelling: Basic Concepts\nGeospatial Data Abstraction\nTopology Data Models\nOther Geospatial Spatial Data Properties\nGeospatial Data Repositories\nMetadata of Geospatial Data"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#geospatial-data-modelling",
+    "href": "lesson/Lesson03/lesson03.html#geospatial-data-modelling",
+    "title": "Lesson3: Modelling the Urban World",
+    "section": "Geospatial Data Modelling",
+    "text": "Geospatial Data Modelling\n\nThinking beyond the data"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#motivation-of-topological-data-models",
+    "href": "lesson/Lesson03/lesson03.html#motivation-of-topological-data-models",
+    "title": "Lesson3: Modelling the Urban World",
+    "section": "Motivation of topological data models",
+    "text": "Motivation of topological data models\n\nTopological errors"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#spatial-indexing",
+    "href": "lesson/Lesson03/lesson03.html#spatial-indexing",
+    "title": "Lesson3: Modelling the Urban World",
+    "section": "Spatial Indexing",
+    "text": "Spatial Indexing\n\n\n\nSpatial indexes are used by spatial databases to optimise spatial queries.\nIndexes used by non-spatial databases cannot effectively handle features such as how far two points differ and whether points fall within a spatial area of interest.\nTo learn more about Spatial Indexing, refer to DM-66 Spatial Indexing"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#geospatial-data-repositories",
+    "href": "lesson/Lesson03/lesson03.html#geospatial-data-repositories",
+    "title": "Lesson3: Modelling the Urban World",
+    "section": "Geospatial Data Repositories",
+    "text": "Geospatial Data Repositories\n\nFile-based\n\nVector format (i.e shapefile, personal geodatabase)\n\nRaster format (i.e geotiff)\nDatabase management systems\n\nMiddleware (i.e. ArcSDE)\n\nGeospatial extension\n\nCommercial (Oracle Spatial)\nOpen source (PostGIS)"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#meta-data-data-about-the-data",
+    "href": "lesson/Lesson03/lesson03.html#meta-data-data-about-the-data",
+    "title": "Lesson3: Modelling the Urban World",
+    "section": "Meta data: Data about the data",
+    "text": "Meta data: Data about the data\n\nIdentification information\nData quality information\nSpatial data organisation information\nSpatial reference information\nEntity and attribute information\nDistribution information\nMeta data reference information\nCitation information\nTime period information\nContact information."
   }
 ]

@@ -320,22 +320,379 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Lesson3: Modelling the Urban World</h1>
+  <h1 class="title">Lesson3: <br>Modelling the Urban World</h1>
   <p class="author">Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems</p>
   <p class="institute">School of Computing and Information Systems,<br>Singapore Management University</p>
   <p class="date">2022-08-06 (updated: 2022-08-06)</p>
 </section>
 
-<section id="testing" class="slide level2">
-<h2>Testing</h2>
+<section id="content" class="slide level2">
+<h2>Content</h2>
 <div class="vlarge">
-<p>Testing</p>
+<ul>
+<li><p>Geospatial Data Modelling: Basic Concepts</p></li>
+<li><p>Geospatial Data Abstraction</p></li>
+<li><p>Topology Data Models</p></li>
+<li><p>Other Geospatial Spatial Data Properties</p></li>
+<li><p>Geospatial Data Repositories</p></li>
+<li><p>Metadata of Geospatial Data</p></li>
+</ul>
 </div>
-<div class="large red">
-<p>Testing</p>
+</section>
+<section id="geospatial-data-modelling" class="slide level2">
+<h2>Geospatial Data Modelling</h2>
+<div class="large">
+<p>Thinking beyond the data</p>
 </div>
-<div class="small">
-<p>Testing</p>
+
+<img data-src="img/image1.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="geospatial-data-modelling-process">Geospatial Data Modelling Process</h3>
+
+<img data-src="img/image2.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="levels-of-data-model-abstraction">Levels of Data Model Abstraction</h3>
+
+<img data-src="img/image3.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="why-should-we-worry-about">Why should we worry about?</h3>
+
+<img data-src="img/image4.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="what-to-represent">What to represent?</h3>
+<ul>
+<li><p>The world is infinitely complex, but computer systems are finite.</p></li>
+<li><p>Representations must somehow limit the amount of details captured.</p></li>
+</ul>
+
+<img data-src="img/image5.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="at-what-level-of-generalisation">At what level of generalisation?</h3>
+<div class="vlarge">
+<p>Little White Lies and Lots of Them</p>
+</div>
+
+<img data-src="img/image6.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="how-to-represent">How to represent?</h3>
+<ul>
+<li>A MRT station can be represented by a point feature or a polygon feature.</li>
+</ul>
+<p>.center[ <img data-src="img/image7.jpg" alt=":scale 85%">]</p>
+</section>
+<section class="slide level2">
+
+<h3 id="how-to-capture-multiple-contexts">How to capture multiple contexts?</h3>
+<ul>
+<li>Geographical data link place, time, and attribute. .center[ <img data-src="img/image8.jpg">]</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="accuracy-and-precision">Accuracy and Precision</h3>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><p>Accuracy can be defined as the degree or closeness to which the information on a map matches the values in the real world.</p>
+<ul>
+<li>In GIS data, accuracy can be referred to a geographic position, but it can be referred also to attribute, or conceptual accuracy.</li>
+</ul></li>
+<li><p>Precision refers how exact is the description of data.</p>
+<ul>
+<li>Precise data may be inaccurate, because it may be exactly described but inaccurately gathered. (Maybe the surveyor made a mistake, or the data was recorded wrongly into the database).</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="img/image9.jpg"></p>
+</div>
+</div>
+</section>
+<section id="motivation-of-topological-data-models" class="slide level2">
+<h2>Motivation of topological data models</h2>
+<ul>
+<li>Topological errors</li>
+</ul>
+
+<img data-src="img/image10.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="what-is-topological-errors">What is Topological Errors?</h3>
+<ul>
+<li>Topological errors occur often during the digitizing process. Errors of the operator may result in polygon knots, and loops, and there may be some errors associated with damaged source maps as well.</li>
+</ul>
+
+<img data-src="img/image11.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="topological-data-models">Topological data models</h3>
+<ul>
+<li>Data redundancy</li>
+</ul>
+
+<img data-src="img/image12.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="intelligence-gis-data-model-topology">Intelligence GIS Data Model: Topology</h3>
+<ul>
+<li>It manages spatial relationships by representing spatial objects (point, line, and area features) as an underlying graph of topological primitives: nodes, faces, and edges.</li>
+</ul>
+
+<img data-src="img/image13.jpg" class="r-stretch"><div class="small">
+<p>Source: <a href="https://desktop.arcgis.com/en/arcmap/10.3/manage-data/topologies/topology-basics.htm">ArcGIS Topology basics</a></p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="topological-data-models-arcgis-coverage">Topological Data Models: ArcGIS Coverage</h3>
+<ul>
+<li>A coverage is a georelational data model that stores vector data and their topology.</li>
+</ul>
+
+<img data-src="img/image14.jpg" class="r-stretch"><div class="small">
+<p>Reference: <a href="https://desktop.arcgis.com/en/arcmap/10.3/manage-data/coverages/what-is-a-coverage.htm">What is a coverage?</a><br>
+</p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="rule-based-topology">Rule-based Topology</h3>
+<ul>
+<li>Topology rules define the permissible spatial relationships between features.
+<ul>
+<li>The rules you define for a topology control the relationships between features within a feature class, between features in different feature classes, or between subtypes of features.</li>
+</ul></li>
+</ul>
+
+<img data-src="img/image15.jpg" class="r-stretch quarto-figure-center"><div class="small">
+<p>Source: <a href="https://desktop.arcgis.com/en/arcmap/10.3/manage-data/topologies/topology-in-arcgis.htm">Topology in ArcGIS</a></p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="rule-based-topology-arcgis-geodatabase">Rule-based Topology: ArcGIS Geodatabase</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>The geodatabase is a collection of geographic datasets of various types used in ArcGIS and managed in either a file folder or a relational database.</li>
+<li>It is the native data source for ArcGIS and is used for editing and data automation in ArcGIS.</li>
+<li>For more information, visit <a href="https://pro.arcgis.com/en/pro-app/2.7/help/data/geodatabases/overview/what-is-a-geodatabase-.htm">What is a geodatabase?</a>]</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image16.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="issue-of-multi-user-editing-transactions">Issue of Multi-user editing: Transactions</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li><p>A transaction is a group of changes that are made to a database as a coherent group.</p></li>
+<li><p>All the changes that form part of a transaction are either committed or the database is rolled back to its initial state</p></li>
+<li><p>The solutions: pessimistic locking vs optimistic versioning</p></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image17.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="versioning">Versioning</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Creating multiple versions for editing and resolving conflict.</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image18.jpg"></p>
+</div>
+</div>
+</section>
+<section id="spatial-indexing" class="slide level2">
+<h2>Spatial Indexing</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Spatial indexes are used by spatial databases to optimise spatial queries.</p></li>
+<li><p>Indexes used by non-spatial databases cannot effectively handle features such as how far two points differ and whether points fall within a spatial area of interest.</p></li>
+<li><p>To learn more about Spatial Indexing, refer to <a href="https://gistbok.ucgis.org/bok-topics/spatial-indexing">DM-66 Spatial Indexing</a></p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image19.jpg"></p>
+</div>
+</div>
+</section>
+<section id="geospatial-data-repositories" class="slide level2">
+<h2>Geospatial Data Repositories</h2>
+<ul>
+<li><p>File-based</p>
+<ul>
+<li>Vector format (i.e shapefile, personal geodatabase)</li>
+</ul></li>
+<li><p>Raster format (i.e geotiff)</p></li>
+<li><p>Database management systems</p>
+<ul>
+<li>Middleware (i.e.&nbsp;ArcSDE)</li>
+</ul></li>
+<li><p>Geospatial extension</p>
+<ul>
+<li><p>Commercial (Oracle Spatial)</p></li>
+<li><p>Open source (PostGIS)</p></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="about-spatialite">About SpatiaLite <img data-src="img/image20.jpg"></h3>
+<ul>
+<li>An open source library intended to extend the SQLite core to support fully fledged Spatial SQL capabilities.
+<ul>
+<li>SQLite is intrinsically simple and lightweight:
+<ul>
+<li>a single lightweight library implementing the full SQL engine</li>
+<li>standard SQL implementation: almost complete SQL-92</li>
+<li>no complex client/server architecture</li>
+<li>a whole database simply corresponds to a single monolithic file (no size limits)</li>
+<li>any DB-file can be safely exchanged across different platforms, because the internal architecture is universally portable</li>
+<li>no installation, no configuration</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="about-spatialite-1">About SpatiaLite <img data-src="img/image20.jpg"></h3>
+<ul>
+<li>SpatiaLite is licensed under the MPL tri-license terms. you are free to choose the best-fit license between:
+<ul>
+<li>the MPL 1.1</li>
+<li>the GPL v2.0 or any subsequent version</li>
+<li>the LGPL v2.1 or any subsequent version</li>
+</ul></li>
+<li>For more information visit the <a href="https://www.gaia-gis.it/fossil/libspatialite/index">homepage</a></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="geopackage">GeoPackage</h3>
+<ul>
+<li><p>An open, non-proprietary, platform-independent and standards-based data format for geographic information system implemented as a SQLite database container.</p></li>
+<li><p>To learn more about geopackage, visit <a href="https://www.geopackage.org/">geopackage homepage</a> and at <a href="https://en.wikipedia.org/wiki/GeoPackage">wiki</a>.</p></li>
+</ul>
+
+<img data-src="img/image21.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="getting-to-know-geopackage">Getting to know GeoPackage</h3>
+<ul>
+<li><p>Use open source SQLite as the storage engine, more reliable and platform independent than MDB, but with the advantage of easy, language independent, read/write access via SQL.</p>
+<ul>
+<li><p>The SQLite engine is open source and multi-platform, so no Windows dependency.</p></li>
+<li><p>The SQLite engine stores data in a single file, so no need to zip/unzip all the time.</p></li>
+<li><p>Leverage existing OGC standards like the WKT standard for spatial reference systems, and the WKB standard for binary geometry representation.</p></li>
+</ul></li>
+<li><p>Document the format and include an extension mechanism so it can evolve over time and so third parties can experiment with new extensions.</p></li>
+<li><p>To learn more, read <a href="http://www.geopackage.org/guidance/getting-started.html">Getting Started With GeoPackage</a></p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="enterprise-geographic-dbms">Enterprise Geographic DBMS</h3>
+<ul>
+<li>Provide spatial database management functions on top of conventional database management systems. For example IBM DB2 Spatial Extender, Informix Spatial Datablade</li>
+</ul>
+
+<img data-src="img/image22.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="geographic-middleware-extensions">Geographic Middleware Extensions</h3>
+<ul>
+<li>Middle-tier application server that extend the DBMS software kernel to manage geographic data. For example: Geomedia Transaction Server, SpatialWare from MapInfo, Enterprise Server from Manifold.</li>
+</ul>
+
+<img data-src="img/image23.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="about-postgis">About PostGIS</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p><a href="http://postgis.net/"><strong>PostGIS</strong></a> spatially enables the <a href="https://www.postgresql.org/"><strong>PostgreSQL</strong></a> open source relational database. The database can then be used to store and query geospatial data (vector and raster).</p></li>
+<li><p>To learn more, visit <a href="https://postgis.net/workshops/postgis-intro/introduction.html">Introduction to PostGIS</a> and <a href="https://en.wikipedia.org/wiki/PostGIS">wiki</a>.</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image24.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="main-features-of-postgis">Main Features of PostGIS</h3>
+<ul>
+<li><p>High performance, robust spatial database built on PostgreSQL</p></li>
+<li><p>Simple Features for SQL (SFSQL) compliance.</p></li>
+<li><p>Proven reliability and transectional integrity (ACID compliance).</p></li>
+<li><p>Provides spatial representations of geometry types both vector (points , lines, polygons) and raster.</p></li>
+<li><p>Support for common and advanced spatial operations such as geometry creation and conversion, reprojection , buffer, convex hull, generalization, union, and more.</p></li>
+<li><p>Geodetic support for measurements across the globe/dateline.</p></li>
+<li><p>Command-line and graphical tools for flexible management.</p></li>
+<li><p>To learn more, read <a href="https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b">Why should you care about PostGIS? — A gentle introduction to spatial databases</a> and <a href="https://postgis.net/docs/">PostGIS Manual</a>.</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="who-use-postgis">Who Use PostGIS?</h3>
+<ul>
+<li><p>Proprietary Desktop: ArcGIS, Manifold, Safe FME, CadCorp SIS, MapInfo Professional</p></li>
+<li><p>Proprietary Server: ArcServer , Ionic Enterprise, MapDotNet Server</p></li>
+<li><p>Open Source Server: GeoServer , Mapserver , Mapnik , DeeGree , SharpMap</p></li>
+<li><p>Open Source Desktop: GRASS, QGIS, uDig , gvSIG</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="carto-database-on-the-cloud">Carto: Database on the cloud <img data-src="img/image25.jpg"></h3>
+<ul>
+<li><p><a href="https://carto.com/">Carto</a> is a Software as a Service (SaaS) cloud computing platform that provides GIS and web mapping tools in the browser. (Formally know as CartoDB ).</p></li>
+<li><p>Carto was built on open source software including PostGIS and PostgreSQL .</p></li>
+<li><p>The tool uses JavaScript extensively, including use in the front end web application, back end Node.js based APIs, and for the client libraries.</p></li>
+<li><p>To learn more, visit <a href="https://en.wikipedia.org/wiki/CartoDB">wiki</a> and <a href="https://carto.com/help/getting-started/how-carto-works/">How CARTO works</a></p></li>
+</ul>
+</section>
+<section id="meta-data-data-about-the-data" class="slide level2">
+<h2>Meta data: Data about the data</h2>
+<ul>
+<li><p>Identification information</p></li>
+<li><p>Data quality information</p></li>
+<li><p>Spatial data organisation information</p></li>
+<li><p>Spatial reference information</p></li>
+<li><p>Entity and attribute information</p></li>
+<li><p>Distribution information</p></li>
+<li><p>Meta data reference information</p></li>
+<li><p>Citation information</p></li>
+<li><p>Time period information</p></li>
+<li><p>Contact information.</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="an-example-of-metadata">An example of metadata</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Metadata is information about data. Similar to a library catalog record, metadata records document the who, what, when, where, how, and why of a data resource.</p></li>
+<li><p>Geospatial metadata describes maps, Geographic Information Systems (GIS) files, imagery, and other location-based data resources.</p></li>
+<li><p>To learn more, visit <a href="https://www.fgdc.gov/metadata">Geospatial Metadata</a></p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image26.jpg"></p>
+</div>
 </div>
 
 <div class="footer footer-default">
@@ -519,9 +876,9 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1450,
 
-        height: 700,
+        height: 850,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
