@@ -39,7 +39,7 @@
     "href": "lesson/Lesson01/lesson01.html#urban-planning-in-singapore",
     "title": "Lesson 1",
     "section": "Urban Planning in Singapore",
-    "text": "Urban Planning in Singapore\nFunctions of Singapore’s national planning authority\n\nSource: Singapore, Urban Redevelopment Authority"
+    "text": "Urban Planning in Singapore\nFunctions of Singapore’s national planning authority\n\n\n\nSource: Singapore, Urban Redevelopment Authority"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#why-geographic-information-matters",
@@ -214,7 +214,7 @@
     "href": "lesson/Lesson01/lesson01.html#in-conclusion-gis-support",
     "title": "Lesson 1",
     "section": "In conclusion, GIS support",
-    "text": "In conclusion, GIS support\n\nBetter informed decision making\nBetter communication with management\nBetter communication between departments\nBetter problem solving\nMore efficient use of resources\n\nGIS = Get Intelligent Solutions"
+    "text": "In conclusion, GIS support\n\nBetter informed decision making\nBetter communication with management\nBetter communication between departments\nBetter problem solving\nMore efficient use of resources\n\n\nGIS = Get Intelligent Solutions"
   },
   {
     "objectID": "lesson.html",
@@ -235,7 +235,7 @@
     "href": "outline/lesson01_outline.html#lesson-slides-and-hands-on-notes",
     "title": "Lesson 1: Introduction to GIS for Urban Planning",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html and pdf formats\nHands-on Exercise in html format."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html formats\nHands-on Exercise in html format."
   },
   {
     "objectID": "outline/lesson01_outline.html#readings",
@@ -537,5 +537,145 @@
     "title": "SMT201-AY2022-23T1",
     "section": "Reference",
     "text": "Reference\n\nCore Readings\n\nJochen Albrecht (2007) Key Concepts & Techniques in GIS, SAGE Publication, London, UK.\nJonathan Campbell and MIchael Shin (2011) Essentials of Geographic Information Systems, Saylor Foundation.\nMaarseveen, Martin van.; Martinez, Javier.; Flacke, Johannes. (2019) GIS in Sustainable Urban Planning and Management, CRC Press.\n\n\n\nAdditional Readings\n\nDavid L. Berlyva (2002) Practical GIS Analysis, Taylor and Francis, London, UK.\nC. Dana Tomlin and C Dana Tomlin (2012) GIS and Cartographic Modeling, ESRI Press, Redland, USA."
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#getting-to-know-geospatial-data-models",
+    "href": "lesson/Lesson02/lesson02.html#getting-to-know-geospatial-data-models",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Getting to Know Geospatial Data Models",
+    "text": "Getting to Know Geospatial Data Models\n\nBasic concept of geographical data\nBasic geospatial data models\nVector data models\n\nSpaghetti data models\nTopological data models\n\nRaster data models"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#discrete-objects-and-continuous-fields",
+    "href": "lesson/Lesson02/lesson02.html#discrete-objects-and-continuous-fields",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Discrete Objects and Continuous Fields",
+    "text": "Discrete Objects and Continuous Fields\n\nTwo ways of conceptualizing geographic variation\n\nThe most fundamental distinction in geographic representation\n\nDiscrete objects\n\nThe world as a table-top\nObjects with well-defined boundaries"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#discrete-objects",
+    "href": "lesson/Lesson02/lesson02.html#discrete-objects",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Discrete Objects",
+    "text": "Discrete Objects\n\n\n\nCountable, persistent through time, perhaps mobile\nHuman-made objects\n\nOffice buildings, houses, bus stops, etc\n\nBiological organisms\n\nAnimals, trees"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#continuous-fields",
+    "href": "lesson/Lesson02/lesson02.html#continuous-fields",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Continuous Fields",
+    "text": "Continuous Fields\n\n\n\nProperties that vary continuously over space\n\nValue is a function of location\nProperty can be of any attribute type, including direction\n\nElevation as the archetype\n\nA single value at every point on the Earth’s surface\nThe source of metaphor and language\nAny field can have slope, gradient, peaks, pits"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#what-will-you-learn-from-this-course",
+    "href": "lesson/Lesson02/lesson02.html#what-will-you-learn-from-this-course",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "What will you learn from this course?",
+    "text": "What will you learn from this course?\n\nGetting to Know Geospatial Data Models\n\nVector Data Model\nRaster Data Model\n\nGeoreferencing and Geocoding\nSources of GIS data\n\n\nIn this lesson, I will take about geospatial data models. The sharing consists of three main sections. First, I will shared with you vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data."
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#basic-spatial-data-models",
+    "href": "lesson/Lesson02/lesson02.html#basic-spatial-data-models",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Basic Spatial Data Models",
+    "text": "Basic Spatial Data Models\n\nVector, implementation of discrete object conceptual model\n\nPoint, line and polygon representations\nWidely used in cartography, and network analysis\n\nRaster, implementation of field conceptual model\n\nArray of cells used to represent objects\nUseful as background maps and for spatial analysis"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#vector-data-models",
+    "href": "lesson/Lesson02/lesson02.html#vector-data-models",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Vector Data Models",
+    "text": "Vector Data Models\n\n\n\nUsed to represent points, lines, and areas\nAll are represented using coordinates\n\nOne per point\n\nLines as polylines\n\nStraight lines between points\n\nAreas as polygons\n\nStraight lines between points, connecting back to the start\nPoint locations recorded as coordinates"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#vector-database",
+    "href": "lesson/Lesson02/lesson02.html#vector-database",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Vector Database",
+    "text": "Vector Database\n\n\nBuilding footprints are represented by polygon features, road reserves represented by polyline features, and convenient stores are represented by point features"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#georelational-vector-data-model",
+    "href": "lesson/Lesson02/lesson02.html#georelational-vector-data-model",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Georelational Vector Data Model",
+    "text": "Georelational Vector Data Model\n\n\nStores spatial and attribute data separately in a split system:\n\nspatial data (“geo”) in graphic fields, and\nattribute data (“relational”) in a relational database"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#attribute-table",
+    "href": "lesson/Lesson02/lesson02.html#attribute-table",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Attribute Table",
+    "text": "Attribute Table"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#types-of-attributes-numerical",
+    "href": "lesson/Lesson02/lesson02.html#types-of-attributes-numerical",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Types of Attributes: Numerical",
+    "text": "Types of Attributes: Numerical"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#other-types-of-attributes",
+    "href": "lesson/Lesson02/lesson02.html#other-types-of-attributes",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Other Types of Attributes",
+    "text": "Other Types of Attributes"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#vector-data-file-format-shapefile",
+    "href": "lesson/Lesson02/lesson02.html#vector-data-file-format-shapefile",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Vector Data File Format: shapefile",
+    "text": "Vector Data File Format: shapefile\n\n\n\nA shapefile is a simple, nontopological format for storing the geometric location and attribute information of geographic features.\nGeographic features in a shapefile can be represented by points, lines, or polygons (areas).\nTo find out more about shapefile, visit this link ."
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#other-vector-gis-file-formats",
+    "href": "lesson/Lesson02/lesson02.html#other-vector-gis-file-formats",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Other Vector GIS File Formats",
+    "text": "Other Vector GIS File Formats\n\nMapInfo TAB format - MapInfo’s vector data format using TAB, DAT, ID and MAP files.\nPersonal Geodatabase - Esri’s closed, integrated vector data storage strategy using Microsoft’s Access MDB format\nKeyhole Markup Language (KML) - XML based open standard (by OpenGIS) for GIS data exchange.\nGeography Markup Language (GML) - XML based open standard (by OpenGIS) for GIS data exchange.\nGeoJSON - a lightweight format based on JSON, used by many open source GIS packages.\nTopoJSON - an extension of GeoJSON that encodes topology."
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#raster-data-model",
+    "href": "lesson/Lesson02/lesson02.html#raster-data-model",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Raster Data Model",
+    "text": "Raster Data Model\n\n\n\nDivide the world into square cells\nRegister the corners to the Earth\nRepresent discrete objects as collections of one or more cells\nRepresent fields by assigning attribute values to cells\nMore commonly used to represent fields than discrete objects\n\nWhat is raster data?, ESRI. A good read to learn the basic of raster data."
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#content-is-more-important-than-format--data-or-picture",
+    "href": "lesson/Lesson02/lesson02.html#content-is-more-important-than-format--data-or-picture",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Content is more important than format- data or picture?",
+    "text": "Content is more important than format- data or picture?\nCharacteristics of raster data model\n.large[\n- Pixel size\n\nThe size of the cell or picture element, defining the level of spatial detail.\nAll variation within pixels is lost.\n\n- Assignment scheme\n\nThe value of a cell may be an average over the cell, or a total within the cell, or the commonest value in the cell.\nIt may also be the value found at the cell’s central point.\n\n]\n### Features as raster\n.vlarge[\n- Features lose uniqueness with raster representation a line becomes a collection of cells, not one feature)]\n.center[\n![:scale 75%](img/image2-12.jpg)\n]\n### Raster Resolution\n.vlarge[\n- Rasters always generalize spatial data\n\nA function of cell size (smaller cells = higher resolution).\nImpacts accuracy, processing speed, storage space.\n\n]\n.center[\n![:scale 75%](img/image2-13.jpg)\n]\n### Raster Resolution and Spatial Details\n.center[\n![:scale 75%](img/image2-14.jpg)\n]\n### Raster Resolution and Spatial Extent\n.pull-left[\n.large[Small-scale satellite image]\n![](img/image2-15a.jpg)\n]\n--\n.pull-right[\n.large[Large-scale satellite image]\n![](img/image2-15b.jpg)\n]\n### Multi-band Raster Data\n.center[\n![:scale 85%](img/image2-16.jpg)\n]\n???\nA raster can contain one or more bands. One type of multi-band raster dataset that is familiar to many of us is a color image. A basic color image consists of three bands: red, green, and blue. Each band represents light reflected from the red, green or blue portions of the electromagnetic spectrum. The pixel brightness for each band, when composited creates the colors that we see in an image.\n### Raster Data Format\n.large[\n- [GeoTIFF](https://en.wikipedia.org/wiki/GeoTIFF): TIFF variant enriched with GIS relevant metadata.\n- [JPEG2000](http://en.wikipedia.org/wiki/JPEG2000): Open-source raster format. A compressed format, allows both lossy and lossless compression.\n- [BIL, BIP, and BSQ raster files](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/bil-bip-and-bsq-raster-files.htm): image format linked with satellite derived imagery, namely: BIL (Band Interleaved by Line),BIP (Band Interleaved by Pixel) and BSQ (Band Sequential) . To learn more about these three data types, read [Fundamental of raster data](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/cell-size-of-raster-data.htm), ESRI.\n- [ADRG](http://en.wikipedia.org/w/index.php?title=ADRG&action=edit&redlink=1): National Geospatial-Intelligence Agency (NGA)’s ARC Digitized Raster Graphics.\n- [Digital raster graphic (DRG)](http://en.wikipedia.org/wiki/Digital_raster_graphic): digital scan of a paper USGS topographic map.\n- [ESRI grid](http://en.wikipedia.org/wiki/Esri_grid): proprietary binary and metadataless ASCII raster formats used by Esri.\n- [IMG](http://en.wikipedia.org/wiki/ERDAS_IMAGINE): ERDAS IMAGINE image file format.\n- [ECW](http://en.wikipedia.org/wiki/ECW_(file_format)): Enhanced Compressed Wavelet (from ERDAS). A compressed wavelet format, often lossy.\n- [MrSID](https://en.wikipedia.org/wiki/MrSID): Multi-Resolution Seamless Image Database (by Lizardtech). A compressed wavelet format, allows both lossy and lossless compression.\n]\n## Unique Properties of GIS Data\n.vlarge[\n- Geographical reference\n- Cartographic generalisation\n- GIS data accuracy and uncertainty\n]\n## Coordinate Systems and Map Projections\n### What is a coordinate system?\n.center[\n![:scale 55%](img/image2-17.jpg)\n]\n???\nA coordinate system is an important property of an geospatial data. It provides a location reference to the geospatial data.\n- A coordinate system is a reference system used to represent the locations of geographic features, imagery, and observations such as GPS locations within a common geographic framework.\n- Each coordinate system is defined by:\n\nIts measurement framework which is either geographic (in which spherical coordinates are measured from the earth’s center) or planimetric (in which the earth’s coordinates are projected onto a two-dimensional planar surface).\nUnit of measurement (typically feet or meters for projected coordinate systems or decimal degrees for latitude–longitude).\nThe definition of the map projection for projected coordinate systems.\nOther measurement system properties such as a spheroid of reference, a datum, and projection parameters like one or more standard parallels, a central meridian, and possible shifts in the x- and y-directions.\n\n- There are two common types of coordinate systems used in mapping, namely: **geographic coordinate systems** and **projected coordinate system**.\n### Geographical Coordinate Systems\n.center[\n![](img/image2-18.jpg)]\n.small[Reference: http://en.wikipedia.org/wiki/Map_projection]\n???\nGCS define locations on the earth using a three-dimensional spherical surface. For example, WGS84\nThey provides accuracy position information. Unit of measurement will be in either decimal degree or degree-minute-second format.\nGCS, however, are not appropriate for distance and area measurements. In this figure, it is clear that 1 degree distance at the north pole is relatively shorter than 1 degree at the equator.\n### Projected Coordinate Systems\n.large[\n- Based on a map projection such as transverse Mercator, Albers equal area, or Robinson.\n]\n.center[\n![:scale 85%](img/image2-19.jpg)]\n???\nA **projected coordinate system** based on a map projection such as transverse Mercator, Albers equal area, or Robinson, all of which (along with numerous other map projection models) provide various mechanisms to project maps of the earth’s spherical surface onto a two-dimensional Cartesian coordinate plane.\nProjected coordinate systems are sometimes referred to as **map projections**. For example, SVY21, the national projected coordinate system of Singapore.\nPCS provides consistent length and area measurement across space. Hence, it is important to transform a geospatial data from GCS to PCS before performing geospatial analysis.\n### Singapore Projected Coordinate System\n.center[\n![:scale 60%](img/image2-20.jpg)]\n.large[\n- [epsg.io](https://epsg.io/) provides a comprehensive list of country coordinate systems such as [svy21](https://epsg.io/3414).\n]\n???\nEach country will have her own projected coordinate system. Some country have more than one type of Project Coordinate Systems.\nThere are at least three coordinate systems commonly used in Singapore. They are svy21, Kertau Cassini 1968, and Rectified Skewed Orthomorphic (RSO). RSO is used in military and topographical mapping and svy21 is used for land and engineering surveying, cadastre, landuse and infrastructure mapping.\n### EPSG Reference System\n.large[\nLink to [epsg.io](https://epsg.io/)\n]\n.center[\n![](img/image2-21.jpg)\n]\n???\nThe EPSG Geodetic Parameter Dataset is a structured dataset of Coordinate Reference Systems and Coordinate Transformations. In 2005, OGP absorbed the European Petroleum Survey Group or EPSG, (1986–2005) into its structure.\nEPSG was a scientific organization with ties to the European petroleum industry consisting of specialists working in applied geodesy, surveying, and cartography related to oil exploration. EPSG compiled and disseminated the EPSG Geodetic Parameter Set, a widely used database of Earth ellipsoids, geodetic datums, geographic and projected coordinate systems, units of measurement, etc.\n### What is geocoding\n- Reference data: features with address attributes\nPoints, lines, polygons.\n.center[\n![:scale 85%](img/image2-22.jpg)\n.small[Source: http://en.wikipedia.org/wiki/Geocoding\n]]\n???\nGeocoding styles\nWhen geocoding an address, a geocoding service searches through the features in the reference data feature class to find the feature with address attributes that most closely match the address. The geometry of the matching feature is then used to create geometry for the address. Geocoding services can further use other types of reference data, such as alternate street name tables and place name alias tables. Some of the styles available are:\nSingle field geocoding service style\nUS One Address geocoding service style\nUS One Range geocoding service style\nUS Streets geocoding service style\nZIP geocoding service style\nZIP+4 geocoding service style\nZIP+4 Range geocoding service style\nUS Alphanumeric Ranges geocoding service style\nUS Hyphenated Ranges geocoding service style\nUS Cities with State geocoding service style\nWorld Cities with Country geocoding service style\n### GeoHash\n.pull-left[\n.large[\n- [GeoHash](https://en.wikipedia.org/wiki/Geohash) is a public domain geocode system invented in 2008 by Gustavo Niemeyer.\n- For more information, visit this [link](https://www.pubnub.com/learn/glossary/what-is-geohashing/) and\n]]\n.pull-right[\n.large[GeoHash of Singapore]\n![](img/image2-23.jpg)\n.small[\nSource: https://www.movable-type.co.uk/scripts/geohash.html\n]]\n???\nIt encodes a geographic location into a short string of letters and digits.\nIt is a hierarchical spatial data structure which subdivides space into buckets of grid shape, which is one of the many applications of what is known as a Z-order curve, and generally space-filling curves. (http://geohash.gofreerange.com/)\n### Geocoding in Singapore: SLA’s Address-Point Data\n.center[\n![:scale 70%](img/image2-24.jpg)\n]\n### Structure of SLA’s Address-Point data\n.center[\n![:scale 75%](img/image2-25.jpg)\n]\n???\nIt is important to note that the 6-digit postal code used in Address-point data is in character data type and not numerical data type. This is because at downtown area such as Outram Plannign subzone, the postal codes start with 0, as a result, if numeric data type is used. These postal codes will truncated into five digits.\n### [SLA Onemap Geocoding API](https://www.onemap.gov.sg/docs/#onemap-rest-apis)\n.center[\n![:scale 70%](img/image2-26.jpg)\n]\n### Geocoding options for QGIS users\n- Geocode Tools of [MMQGIS](https://michaelminn.com/linux/mmqgis/) plugin.\n.center[\n![:scale 60%](img/image2-27.jpg)\n]\n## Sources of GIS data\n.vlarge[\n- Field surveying\n\nConventional land surveying\nGPS surveying\n\n- Digitising\n- Remote sensing\n\nAirborn\nSatellite\n\n- Digital data\n\nInternet map services\nOpen Data.gov\n\n]\n### Field surveying\n.center[\n![:scale 65%](img/image2-28.jpg)\n]\n### Digitising\n.center[\n![](img/image2-29.jpg)\n]\n### Remotely Sensed Data\n.center[\n![:scale 85%](img/image2-30.jpg)\n]\n### Geospatial Digital Data from SLA\n.center[\n![:scale 75%](img/image2-31.jpg)\n]\n.small[Reference: http://www.asiageospatialforum.org/2011/proceeding/pps/leekim.pdf]\n### Geospatial Digital Data from Open Gov\n.pull-left[\n[data.gov.sg](https://data.gov.sg/)\n![](img/image2-32a.jpg)\n]\n.pull-right[\n[LTA DataMall](https://datamall.lta.gov.sg/content/datamall/en.html)\n![](img/image2-32b.jpg)\n]\n### OpenStreetMap (OSM)\n.center[\n![:scale 80%](img/image2-33.jpg)\n]\n- To learn more about OSM Singapore, visit this [link](http://wiki.openstreetmap.org/wiki/WikiProject_Singapore).\n- To obtain the latest OSM extract for Singapore, visit this [link](http://download.bbbike.org/osm/bbbike/Singapore/)\n### Open Global Digital Data\n.pull-left[\n[Natural Earth](http://www.naturalearthdata.com/)\n![:scale 85%](img/image2-34a.jpg)\n]\n.pull-right[\n[GDAM: Global Administration Boundary Maps](https://gadm.org/)\n![](img/image2-34b.jpg)]"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#unique-properties-of-gis-data",
+    "href": "lesson/Lesson02/lesson02.html#unique-properties-of-gis-data",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Unique Properties of GIS Data",
+    "text": "Unique Properties of GIS Data\n\nGeographical reference\nCartographic generalisation\nGIS data accuracy and uncertainty"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#coordinate-systems-and-map-projections",
+    "href": "lesson/Lesson02/lesson02.html#coordinate-systems-and-map-projections",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Coordinate Systems and Map Projections",
+    "text": "Coordinate Systems and Map Projections"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#what-is-geocoding",
+    "href": "lesson/Lesson02/lesson02.html#what-is-geocoding",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "What is geocoding",
+    "text": "What is geocoding\nReference data: features with address attributes points, lines, polygons.\n\nReference: Geocoding"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#sources-of-gis-data",
+    "href": "lesson/Lesson02/lesson02.html#sources-of-gis-data",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Sources of GIS data",
+    "text": "Sources of GIS data\n\nField surveying Conventional land surveying GPS surveying\nDigitising\nRemote sensing Airborn Satellite Sensor (i.e. IoT)\nDigital data Internet map services Open Data.gov"
   }
 ]

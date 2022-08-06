@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.0.37">
 
   <meta name="author" content="Dr.&nbsp;Kam Tin Seong">
-  <title>SMT201-AY2022-23T1 - Lesson 1</title>
+  <title>SMT201-AY2022-23T1 - Lesson 2: The Devil is in the Data: Collection, representation, and modelling</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -319,180 +319,529 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Lesson 1</h1>
-  <p class="subtitle">Introduction to Geographic Information Systems for Urban Planning</p>
+  <h1 class="title">Lesson 2: The Devil is in the Data: Collection, representation, and modelling</h1>
   <p class="author">Dr.&nbsp;Kam Tin Seong</p>
 </section>
 
-<section id="what-will-you-learn-from-this-lesson" class="slide level2">
-<h2>What will you learn from this lesson?</h2>
+<section id="what-will-you-learn-from-this-course" class="slide level2">
+<h2>What will you learn from this course?</h2>
 <ul>
-<li><p>Introducing Urban Planning</p>
+<li><p>Getting to Know Geospatial Data Models</p>
 <ul>
-<li><p>Motivation of urban planning</p></li>
-<li><p>Urban planning practice</p></li>
-<li><p>Urban planning in Singapore</p></li>
+<li><p>Vector Data Model</p></li>
+<li><p>Raster Data Model</p></li>
 </ul></li>
-<li><p>Geographic Information Systems (GIS) Fundamentals</p>
-<ul>
-<li><p>Basic concepts of GIS</p></li>
-<li><p>Major components of a GIS</p></li>
-<li><p>GIS toolkits</p></li>
-</ul></li>
+<li><p>Georeferencing and Geocoding</p></li>
+<li><p>Sources of GIS data</p></li>
 </ul>
-</section>
-<section id="what-is-urban-planningslide-2" class="slide level2">
-<h2>What is Urban Planning?Slide 2</h2>
-<div>
-<ul>
-<li class="fragment"><p>A <strong>political process</strong> concerned with the development and design of land use and the environment and the infrastructure passing into and out of urban areas.</p></li>
-<li class="fragment"><p>The primary concern is the <strong>public welfare</strong>, which includes considerations of efficiency, sanitation, protection and use of the environment, as well as effects on social and economic activities.</p></li>
-<li class="fragment"><p>Urban planning is considered an <strong>interdisciplinary</strong> field that includes social engineering and design sciences.</p></li>
-</ul>
+<div class="note">
+<p>In this lesson, I will take about geospatial data models. The sharing consists of three main sections. First, I will shared with you vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data.</p>
 </div>
 </section>
-<section id="urban-planning-in-practice" class="slide level2">
-<h2>Urban Planning in Practice</h2>
-<div>
+<section id="getting-to-know-geospatial-data-models" class="slide level2">
+<h2>Getting to Know Geospatial Data Models</h2>
 <ul>
-<li class="fragment"><p>Practitioners of urban planning are concerned with research and analysis, strategic thinking, architecture, urban design, public consultation, policy recommendations, implementation and management.</p></li>
-<li class="fragment"><p>Enforcement methodologies include governmental zoning, planning permissions, and building codes, as well as private easements and restrictive covenants.</p></li>
+<li><p>Basic concept of geographical data</p></li>
+<li><p>Basic geospatial data models</p></li>
+<li><p>Vector data models</p>
+<ul>
+<li><p>Spaghetti data models</p></li>
+<li><p>Topological data models</p></li>
+</ul></li>
+<li><p>Raster data models</p></li>
 </ul>
+</section>
+<section id="discrete-objects-and-continuous-fields" class="slide level2">
+<h2>Discrete Objects and Continuous Fields</h2>
+<ul>
+<li><p>Two ways of conceptualizing geographic variation</p>
+<ul>
+<li>The most fundamental distinction in geographic representation</li>
+</ul></li>
+<li><p>Discrete objects</p>
+<ul>
+<li><p>The world as a table-top</p></li>
+<li><p>Objects with well-defined boundaries</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="discrete-objects" class="slide level2">
+<h2>Discrete Objects</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Countable, persistent through time, perhaps mobile</p></li>
+<li><p>Human-made objects</p>
+<ul>
+<li>Office buildings, houses, bus stops, etc</li>
+</ul></li>
+<li><p>Biological organisms</p>
+<ul>
+<li>Animals, trees</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image2-1.jpg"></p>
+</div>
 </div>
 </section>
-<section id="urban-planning-in-singapore" class="slide level2">
-<h2>Urban Planning in Singapore</h2>
-<p>Functions of Singapore’s national planning authority</p>
-<p><img data-src="img/image1-1.jpg"></p>
+<section id="continuous-fields" class="slide level2">
+<h2>Continuous Fields</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Properties that vary continuously over space
+<ul>
+<li><p>Value is a function of location</p></li>
+<li><p>Property can be of any attribute type, including direction</p></li>
+</ul></li>
+<li>Elevation as the archetype
+<ul>
+<li><p>A single value at every point on the Earth’s surface</p></li>
+<li><p>The source of metaphor and language</p></li>
+<li><p>Any field can have slope, gradient, peaks, pits</p></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image2-2.jpg"></p>
+</div>
+</div>
+</section>
+<section id="basic-spatial-data-models" class="slide level2">
+<h2>Basic Spatial Data Models</h2>
+<ul>
+<li><p>Vector, implementation of discrete object conceptual model</p>
+<ul>
+<li><p>Point, line and polygon representations</p></li>
+<li><p>Widely used in cartography, and network analysis</p></li>
+</ul></li>
+<li><p>Raster, implementation of field conceptual model</p>
+<ul>
+<li><p>Array of cells used to represent objects</p></li>
+<li><p>Useful as background maps and for spatial analysis</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="vector-data-models" class="slide level2">
+<h2>Vector Data Models</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Used to represent points, lines, and areas</p></li>
+<li><p>All are represented using coordinates</p>
+<ul>
+<li>One per point</li>
+</ul></li>
+<li><p>Lines as polylines</p>
+<ul>
+<li>Straight lines between points</li>
+</ul></li>
+<li><p>Areas as polygons</p>
+<ul>
+<li><p>Straight lines between points, connecting back to the start</p></li>
+<li><p>Point locations recorded as coordinates</p></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image2-3.jpg"></p>
+</div>
+</div>
+</section>
+<section id="vector-database" class="slide level2">
+<h2>Vector Database</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Building footprints are represented by polygon features, road reserves represented by polyline features, and convenient stores are represented by point features</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image2-4.jpg"></p>
+</div>
+</div>
+</section>
+<section id="georelational-vector-data-model" class="slide level2">
+<h2>Georelational Vector Data Model</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Stores spatial and attribute data separately in a split system:</p>
+<ul>
+<li><p>spatial data (“geo”) in graphic fields, and</p></li>
+<li><p>attribute data (“relational”) in a relational database</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image2-5.jpg"></p>
+</div>
+</div>
+</section>
+<section id="attribute-table" class="slide level2">
+<h2>Attribute Table</h2>
 
+<img data-src="img/image2-6.jpg" class="r-stretch"></section>
+<section id="types-of-attributes-numerical" class="slide level2">
+<h2>Types of Attributes: Numerical</h2>
+
+<img data-src="img/image2-7.jpg" class="r-stretch"></section>
+<section id="other-types-of-attributes" class="slide level2">
+<h2>Other Types of Attributes</h2>
+
+<img data-src="img/image2-8.jpg" class="r-stretch"></section>
+<section id="vector-data-file-format-shapefile" class="slide level2">
+<h2>Vector Data File Format: shapefile</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>A shapefile is a simple, nontopological format for storing the geometric location and attribute information of geographic features.</p></li>
+<li><p>Geographic features in a shapefile can be represented by points, lines, or polygons (areas).</p></li>
+<li><p>To find out more about shapefile, visit this <a href="https://en.wikipedia.org/wiki/Shapefile">link</a> .</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image2-9.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="limitation-of-shapefile">Limitation of shapefile</h3>
+<ul>
+<li><p>It is proprietary (closed and controlled by ESRI).</p></li>
+<li><p>It’s a multifile format (.shp,.dbf.,.shx,.prj, encoding, other indexes, etc.) (everybody knows the problem with GIS newbies sending you solely the .shp… 😉).</p></li>
+<li><p>Attribute names are limited to 10 characters and only 255 attributes are allowed in .dbf.</p></li>
+<li><p>Limited data types. Data types are limited to float, integer, date and text with a maximum 254 characters.</p></li>
+<li><p>Unknown character set. There is no way to specify the character set used in the database.</p></li>
+<li><p>It’s limited to 2GB of file size. Although some tools are able to surpass this limit, they can never exceed 4GB of data.</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="limitation-of-shapefile-1">Limitation of shapefile</h3>
+<ul>
+<li><p>Uses ESRI’s <a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">WKT</a>. Can result in inconsistencies.</p></li>
+<li><p>Single geometry type per file. There is no way to save mixed geometry features.</p></li>
+<li><p>More complicated data structures are impossible to save. It’s a “flat table” format.</p></li>
+<li><p>There is no way to store 3D data with textures or appearances such as material definitions. There is also no way to store solids or parametric objects.</p></li>
+<li><p>Projections definition. They are incompatible or missing.</p></li>
+<li><p>Line and polygon geometry type, single or multipart, cannot be reliably determined at the layer level, it must be determined at the individual feature level.</p></li>
+</ul>
+</section>
+<section id="other-vector-gis-file-formats" class="slide level2">
+<h2>Other Vector GIS File Formats</h2>
+<ul>
+<li><p>MapInfo <a href="https://en.wikipedia.org/wiki/MapInfo_TAB_format">TAB</a> format - MapInfo’s vector data format using TAB, DAT, ID and MAP files.</p></li>
+<li><p><a href="https://desktop.arcgis.com/en/arcmap/latest/manage-data/administer-file-gdbs/personal-geodatabases.htm">Personal Geodatabase</a> - Esri’s closed, integrated vector data storage strategy using Microsoft’s Access MDB format</p></li>
+<li><p><a href="https://en.wikipedia.org/wiki/Keyhole_Markup_Language">Keyhole Markup Language (KML)</a> - XML based open standard (by OpenGIS) for GIS data exchange.</p></li>
+<li><p><a href="http://en.wikipedia.org/wiki/Geography_Markup_Language">Geography Markup Language</a> (GML) - XML based open standard (by OpenGIS) for GIS data exchange.</p></li>
+<li><p><a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> - a lightweight format based on JSON, used by many open source GIS packages.</p></li>
+<li><p><a href="https://github.com/topojson/topojson">TopoJSON</a> - an extension of GeoJSON that encodes topology.</p></li>
+</ul>
+</section>
+<section id="raster-data-model" class="slide level2">
+<h2>Raster Data Model</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Divide the world into square cells</p></li>
+<li><p>Register the corners to the Earth</p></li>
+<li><p>Represent discrete objects as collections of one or more cells</p></li>
+<li><p>Represent fields by assigning attribute values to cells</p></li>
+<li><p>More commonly used to represent fields than discrete objects</p></li>
+</ul>
+<p><a href="https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/what-is-raster-data.htm">What is raster data?</a>, ESRI. A good read to learn the basic of raster data.</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image2-10.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="raster-database">Raster Database</h3>
+<ul>
+<li><p>All raster formats are basically the same</p></li>
+<li><p>Cells organized in a matrix of rows and columns</p></li>
+<li><p>Content is more important than format- data or picture?</p></li>
+</ul>
+
+<img data-src="img/image2-11.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="characteristics-of-raster-data-model">Characteristics of raster data model</h3>
+<ul>
+<li><p>Pixel size</p>
+<ul>
+<li><p>The size of the cell or picture element, defining the level of spatial detail.</p></li>
+<li><p>All variation within pixels is lost.</p></li>
+</ul></li>
+<li><p>Assignment scheme</p>
+<ul>
+<li><p>The value of a cell may be an average over the cell, or a total within the cell, or the commonest value in the cell.</p></li>
+<li><p>It may also be the value found at the cell’s central point.</p></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="features-as-raster">Features as raster</h3>
+<p>Features lose uniqueness with raster representation a line becomes a collection of cells, not one feature.</p>
+
+<img data-src="img/image2-12.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="raster-resolution">Raster Resolution</h3>
+<ul>
+<li><p>Raster always generalize spatial data</p></li>
+<li><p>A function of cell size (smaller cells = higher resolution).</p></li>
+<li><p>Impacts accuracy, processing speed, storage space.</p></li>
+</ul>
+
+<img data-src="img/image2-13.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="raster-resolution-and-spatial-details">Raster Resolution and Spatial Details</h3>
+
+<img data-src="img/image2-14.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="raster-resolution-and-spatial-extent">Raster Resolution and Spatial Extent</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Small-scale satellite image <img data-src="img/image2-15a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p>Large-scale satellite image <img data-src="img/image2-15b.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="multi-band-raster-data">Multi-band Raster Data</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>A raster can contain one or more bands. One type of multi-band raster dataset that is familiar to many of us is a color image.</p></li>
+<li><p>A basic color image consists of three bands: red, green, and blue. Each band represents light reflected from the red, green or blue portions of the electromagnetic spectrum.</p></li>
+<li><p>The pixel brightness for each band, when composited creates the colors that we see in an image.</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image2-16.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="raster-data-format">Raster Data Format</h3>
+<p><a href="https://en.wikipedia.org/wiki/GeoTIFF">GeoTIFF</a>: TIFF variant enriched with GIS relevant metadata.</p>
+<p><a href="http://en.wikipedia.org/wiki/JPEG2000">JPEG2000</a>: Open-source raster format. A compressed format, allows both lossy and lossless compression.</p>
+<p><a href="https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/bil-bip-and-bsq-raster-files.htm">BIL, BIP, and BSQ raster files</a>: image format linked with satellite derived imagery, namely: BIL (Band Interleaved by Line),BIP (Band Interleaved by Pixel) and BSQ (Band Sequential). To learn more about these three data types, read <a href="https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/cell-size-of-raster-data.htm">Fundamental of raster data</a>, ESRI.</p>
+<p><a href="http://en.wikipedia.org/w/index.php?title=ADRG&amp;action=edit&amp;redlink=1">ADRG</a>: National Geospatial-Intelligence Agency (NGA)’s ARC Digitized Raster Graphics.</p>
+<p><a href="http://en.wikipedia.org/wiki/Digital_raster_graphic">Digital raster graphic (DRG)</a>: digital scan of a paper USGS topographic map.</p>
+<p><a href="http://en.wikipedia.org/wiki/Esri_grid">ESRI grid</a>: proprietary binary and metadataless ASCII raster formats used by Esri.</p>
+<p><a href="http://en.wikipedia.org/wiki/ERDAS_IMAGINE">IMG</a>: ERDAS IMAGINE image file format.</p>
+</section>
+<section class="slide level2">
+
+<h3 id="raster-data-format-1">Raster Data Format</h3>
+<p><a href="http://en.wikipedia.org/wiki/ECW_(file_format)">ECW</a>: Enhanced Compressed Wavelet (from ERDAS). A compressed wavelet format, often lossy.</p>
+<p><a href="https://en.wikipedia.org/wiki/MrSID">MrSID</a>: Multi-Resolution Seamless Image Database (by Lizardtech). A compressed wavelet format, allows both lossy and lossless compression.</p>
+</section>
+<section id="unique-properties-of-gis-data" class="slide level2">
+<h2>Unique Properties of GIS Data</h2>
+<ul>
+<li><p>Geographical reference</p></li>
+<li><p>Cartographic generalisation</p></li>
+<li><p>GIS data accuracy and uncertainty</p></li>
+</ul>
+</section>
+<section id="coordinate-systems-and-map-projections" class="slide level2">
+<h2>Coordinate Systems and Map Projections</h2>
+
+<img data-src="img/image2-17.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="what-is-a-coordinate-system">What is a coordinate system?</h3>
+<ul>
+<li><p>A coordinate system is an important property of an geospatial data. It provides a location reference to the geospatial data.</p></li>
+<li><p>A coordinate system is a reference system used to represent the locations of geographic features, imagery, and observations such as GPS locations within a common geographic framework.</p></li>
+<li><p>Each coordinate system is defined by:</p>
+<ul>
+<li><p>Its measurement framework which is either geographic (in which spherical coordinates are measured from the earth’s center) or planimetric (in which the earth’s coordinates are projected onto a two-dimensional planar surface).</p></li>
+<li><p>Unit of measurement (typically feet or meters for projected coordinate systems or decimal degrees for latitude–longitude).</p></li>
+<li><p>The definition of the map projection for projected coordinate systems.</p></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="what-is-a-coordinate-system-1">What is a coordinate system?</h3>
+<ul>
+<li><p>Other measurement system properties such as a spheroid of reference, a datum, and projection parameters like one or more standard parallels, a central meridian, and possible shifts in the x- and y-directions.</p></li>
+<li><p>There are two common types of coordinate systems used in mapping, namely:</p>
+<ul>
+<li><p>geographic coordinate systems, and</p></li>
+<li><p>projected coordinate system</p></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="geographical-coordinate-systems">Geographical Coordinate Systems</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>GCS define locations on the earth using a three-dimensional spherical surface. For example, WGS84. They provides accuracy position information.</p></li>
+<li><p>Unit of measurement will be in either decimal degree or degree-minute-second format.</p></li>
+<li><p>GCS, however, are not appropriate for distance and area measurements.</p>
+<ul>
+<li>In this figure, it is clear that 1 degree distance at the north pole is relatively shorter than 1 degree at the equator.</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image2-18.jpg"></p>
+</div>
+</div>
 <aside><div>
-<p>Source: <a href="http://www.ura.gov.sg">Singapore, Urban Redevelopment Authority</a></p>
+<p>Reference: <a href="http://en.wikipedia.org/wiki/Map_projection">Map Projection</a></p>
 </div></aside></section>
-<section id="why-geographic-information-matters" class="slide level2">
-<h2>Why Geographic Information Matters?</h2>
-<p>About 80% of all data maintained by organizations around the world has a location component. (Source: BusinessWeek Research Services, 2006)</p>
+<section class="slide level2">
 
-<img data-src="img/image1-2.jpg" class="r-stretch"></section>
-<section id="gi-in-smart-nation" class="slide level2">
-<h2>GI in Smart Nation</h2>
+<h3 id="projected-coordinate-systems">Projected Coordinate Systems</h3>
+<p>A projected coordinate system based on a map projection such as transverse Mercator, Albers equal area, or Robinson, all of which (along with numerous other map projection models) provide various mechanisms to project maps of the earth’s spherical surface onto a two-dimensional Cartesian coordinate plane.</p>
 
-<img data-src="img/image1-3.jpg" class="r-stretch"></section>
-<section id="the-explosion-in-the-availability-of-government-gi" class="slide level2">
-<h2>The explosion in the availability of Government GI</h2>
+<img data-src="img/image2-19.jpg" class="r-stretch"></section>
+<section class="slide level2">
 
-<img data-src="img/image1-4.jpg" class="r-stretch"></section>
-<section id="gis-fundamentals" class="slide level2">
-<h2>GIS Fundamentals</h2>
+<h3 id="projected-coordinate-systems-1">Projected Coordinate Systems</h3>
 <ul>
-<li><p>Introduction to GIS</p></li>
-<li><p>Major component of a GIS</p></li>
-<li><p>GIS functions</p></li>
-<li><p>GIS toolkits</p></li>
+<li><p>Projected coordinate systems are sometimes referred to as <strong>map projection</strong>s. For example, <strong>SVY21</strong>, the national projected coordinate system of Singapore.</p></li>
+<li><p>PCS provides consistent length and area measurement across space. Hence, it is important to transform a geospatial data from GCS to PCS before performing geospatial analysis.</p></li>
+<li><p>Each country will have her own projected coordinate system. Some country have more than one type of Project Coordinate Systems.</p></li>
 </ul>
 </section>
-<section id="gis-as-a-toolkit" class="slide level2">
-<h2>GIS as a toolkit</h2>
-<p>A GIS is a toolkit for creating, managing, analysing, visualising, and sharing data of any kind according to where it is located.</p>
+<section class="slide level2">
 
-<img data-src="img/image1-5.jpg" class="r-stretch"></section>
-<section id="components-of-a-gis" class="slide level2">
-<h2>Components of a GIS</h2>
-<p>A GIS extends the study of information systems by including geospatial data management, geoprocessing and geographically mediated knowledge.</p>
+<h3 id="singapore-projected-coordinate-system">Singapore Projected Coordinate System</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>There are at least three coordinate systems commonly used in Singapore. They are svy21, Kertau Cassini 1968, and Rectified Skewed Orthomorphic (RSO). RSO is used in military and topographical mapping and svy21 is used for land and engineering surveying, cadastre, landuse and infrastructure mapping.</p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image2-20.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
 
-<img data-src="img/image1-6.jpg" class="r-stretch"></section>
-<section id="getting-to-know-gis-functions" class="slide level2">
-<h2>Getting to Know GIS Functions</h2>
+<h3 id="epsg-reference-system">EPSG Reference System</h3>
+<p><a href="https://epsg.io/">epsg.io</a> provides a comprehensive list of country coordinate systems such as <a href="https://epsg.io/3414">svy21</a>.</p>
+
+<img data-src="img/image2-21.jpg" class="r-stretch"></section>
+<section id="what-is-geocoding" class="slide level2">
+<h2>What is geocoding</h2>
+<p>Reference data: features with address attributes points, lines, polygons.</p>
+
+<img data-src="img/image2-22.jpg" class="r-stretch"><p>Reference: <a href="http://en.wikipedia.org/wiki/Geocoding">Geocoding</a></p>
+</section>
+<section class="slide level2">
+
+<h3 id="geohash">GeoHash</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li><p>Geospatial Data Management</p></li>
-<li><p>GIS Mapping and Geovisualisation</p></li>
-<li><p>GIS Analysis</p></li>
+<li><p><a href="https://en.wikipedia.org/wiki/Geohash">GeoHash</a> is a public domain geocode system invented in 2008 by Gustavo Niemeyer.</p></li>
+<li><p>It encodes a geographic location into a short string of letters and digits.</p></li>
+<li><p>It is a hierarchical spatial data structure which subdivides space into buckets of grid shape, which is one of the many applications of what is known as a Z-order curve, and generally <a href="http://geohash.gofreerange.com/">space-filling curves</a>.</p></li>
+</ul>
+<p>For more information, visit this <a href="https://www.pubnub.com/learn/glossary/what-is-geohashing/">link</a></p>
+</div><div class="column" style="width:50%;">
+<p>GeoHash of Singapore</p>
+<p><img data-src="img/image2-23.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="geocoding-in-singapore-slas-address-point-data">Geocoding in Singapore: SLA’s Address-Point Data</h3>
+
+<img data-src="img/image2-24.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="structure-of-slas-address-point-data">Structure of SLA’s Address-Point data</h3>
+
+<img data-src="img/image2-25.jpg" class="r-stretch"><p>It is important to note that the 6-digit postal code used in Address-point data is in character data type and not numerical data type. This is because at downtown area such as Outram Plannign subzone, the postal codes start with 0, as a result, if numeric data type is used. These postal codes will truncated into five digits.</p>
+</section>
+<section class="slide level2">
+
+<h3 id="sla-onemap-geocoding">SLA Onemap Geocoding</h3>
+<p><a href="https://www.onemap.gov.sg/docs/#onemap-rest-apis">SLA Onemap Geocoding API</a></p>
+
+<img data-src="img/image2-26.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="geocoding-options-for-qgis-users">Geocoding options for QGIS users</h3>
+<p>Geocode Tools of <a href="https://michaelminn.com/linux/mmqgis/">MMQGIS</a> plugin.</p>
+
+<img data-src="img/image2-27.jpg" class="r-stretch"></section>
+<section id="sources-of-gis-data" class="slide level2">
+<h2>Sources of GIS data</h2>
+<ul>
+<li><p>Field surveying Conventional land surveying GPS surveying</p></li>
+<li><p>Digitising</p></li>
+<li><p>Remote sensing Airborn Satellite Sensor (i.e.&nbsp;IoT)</p></li>
+<li><p>Digital data Internet map services Open Data.gov</p></li>
 </ul>
 </section>
-<section id="geospatial-data-management-data-capture" class="slide level2">
-<h2>Geospatial Data Management: Data Capture</h2>
+<section class="slide level2">
 
-<img data-src="img/image1-7.jpg" class="r-stretch"></section>
-<section id="geospatial-data-management-data-integration" class="slide level2">
-<h2>Geospatial Data Management: Data Integration</h2>
+<h3 id="field-surveying">Field surveying</h3>
 
-<img data-src="img/image1-8.jpg" class="r-stretch"></section>
-<section id="geospatial-data-management-georeferencing" class="slide level2">
-<h2>Geospatial Data Management: Georeferencing</h2>
+<img data-src="img/image2-28.jpg" class="r-stretch"></section>
+<section class="slide level2">
 
-<img data-src="img/image1-9.jpg" class="r-stretch"></section>
-<section id="geovisulisation-interactive-maps" class="slide level2">
-<h2>Geovisulisation: interactive maps</h2>
+<h3 id="digitising">Digitising</h3>
 
-<img data-src="img/image1-10.jpg" class="r-stretch"></section>
-<section id="giss-generates-information" class="slide level2">
-<h2>GISs generates information</h2>
-<ul>
-<li><p>Locations What is at …..? Conditions</p></li>
-<li><p>Which environment…..?</p></li>
-<li><p>Trends What has changed….?</p></li>
-<li><p>Patterns What data are related …..?</p></li>
-<li><p>Models What if …..?</p></li>
+<img data-src="img/image2-29.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="remotely-sensed-data">Remotely Sensed Data</h3>
+
+<img data-src="img/image2-30.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="internet-of-things-iot">Internet of Things (IoT)</h3>
+
+<img data-src="img/image2-30b.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="geospatial-digital-data-from-sla">Geospatial Digital Data from SLA</h3>
+
+<img data-src="img/image2-31.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="geospatial-digital-data-from-open-gov">Geospatial Digital Data from Open Gov</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><a href="https://data.gov.sg/">Singapore Open Govenment Data Portal</a></p>
+<p><img data-src="img/image2-32a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><a href="https://datamall.lta.gov.sg/content/datamall/en.html">LTA DataMall</a></p>
+<p><img data-src="img/image2-32b.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="openstreetmap-osm">OpenStreetMap (OSM)</h3>
+
+<img data-src="img/image2-33.jpg" class="r-stretch"><ul>
+<li><p>To learn more about OSM Singapore, visit this <a href="http://wiki.openstreetmap.org/wiki/WikiProject_Singapore">link</a>.</p></li>
+<li><p>To obtain the latest OSM extract for Singapore, visit either <a href="https://download.geofabrik.de/asia/malaysia-singapore-brunei.html">Malaysia, Singapore, and Brunei</a> extract of <a href="https://download.geofabrik.de/">geofabrik</a> or <a href="http://download.bbbike.org/osm/bbbike/Singapore/">Singapore</a> extract of <a href="https://www.bbbike.org/">bbbike</a></p></li>
 </ul>
 </section>
-<section id="gis-analysis-vector-based" class="slide level2">
-<h2>GIS analysis – vector-based</h2>
+<section class="slide level2">
 
-<img data-src="img/image1-11.jpg" class="r-stretch"></section>
-<section id="gis-analysis-raster-based" class="slide level2">
-<h2>GIS analysis – raster-based</h2>
-
-<img data-src="img/image1-12.jpg" class="r-stretch"></section>
-<section id="gis-analysis-network-based" class="slide level2">
-<h2>GIS Analysis – network-based</h2>
-
-<img data-src="img/image1-13.jpg" class="r-stretch"></section>
-<section id="gis-analysis-3d-urban-models" class="slide level2">
-<h2>GIS Analysis: 3d Urban Models</h2>
-
-<img data-src="img/image1-14.jpg" class="r-stretch"></section>
-<section id="gis-as-a-melting-pot" class="slide level2">
-<h2>GIS as a Melting-Pot</h2>
-
-<img data-src="img/image1-15.jpg" class="r-stretch"></section>
-<section id="gis-platforms" class="slide level2">
-<h2>GIS platforms</h2>
-
-<img data-src="img/image1-16.jpg" class="r-stretch"></section>
-<section id="gis-desktop-software" class="slide level2">
-<h2>GIS Desktop Software</h2>
-
-<img data-src="img/image1-17.jpg" class="r-stretch"></section>
-<section id="qgis-an-open-source-desktop-gis" class="slide level2">
-<h2>QGIS: An Open Source Desktop GIS</h2>
-
-<img data-src="img/image1-18.jpg" class="r-stretch"></section>
-<section id="arcgis-vs-qgis" class="slide level2">
-<h2>ArcGIS vs QGIS</h2>
-
-<img data-src="img/image1-19.jpg" class="r-stretch"></section>
-<section id="gis-users-in-singapore" class="slide level2">
-<h2>GIS Users in Singapore</h2>
-
-<img data-src="img/image1-20.jpg" class="r-stretch"></section>
-<section id="gis-supported-urban-planning-framework" class="slide level2">
-<h2>GIS Supported Urban Planning Framework</h2>
-
-<img data-src="img/image1-21.jpg" class="r-stretch"></section>
-<section id="social-consciousness" class="slide level2">
-<h2>Social Consciousness</h2>
-
-<img data-src="img/image1-22.jpg" class="r-stretch"></section>
-<section id="in-conclusion-gis-support" class="slide level2">
-<h2>In conclusion, GIS support</h2>
-<ul>
-<li><p>Better informed decision making</p></li>
-<li><p>Better communication with management</p></li>
-<li><p>Better communication between departments</p></li>
-<li><p>Better problem solving</p></li>
-<li><p>More efficient use of resources</p></li>
-</ul>
-<div class="r-fit-text">
-<p>GIS = Get Intelligent Solutions</p>
+<h3 id="open-global-digital-data">Open Global Digital Data</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><a href="http://www.naturalearthdata.com/">Natural Earth</a></p>
+<p><img data-src="img/image2-34a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><a href="https://gadm.org/">GDAM: Global Administration Boundary Maps</a></p>
+<p><img data-src="img/image2-34b.jpg"></p>
+</div>
 </div>
 
 <div class="footer footer-default">
@@ -676,9 +1025,9 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1450,
 
-        height: 700,
+        height: 850,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,

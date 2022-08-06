@@ -48,7 +48,9 @@ Functions of Singapore's national planning authority
 
 ![](img/image1-1.jpg)
 
+::: aside
 Source: [Singapore, Urban Redevelopment Authority](http://www.ura.gov.sg)
+:::
 
 ## Why Geographic Information Matters?
 
@@ -182,4 +184,6 @@ A GIS extends the study of information systems by including geospatial data mana
 
 -   More efficient use of resources
 
+::: r-fit-text
 GIS = Get Intelligent Solutions
+:::
