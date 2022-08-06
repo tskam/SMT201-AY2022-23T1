@@ -30,7 +30,7 @@ editor: visual
 
     -   GIS toolkits
 
-## What is Urban Planning?Slide 2
+## What is Urban Planning?
 
 ::: incremental
 -   A **political process** concerned with the development and design of land use and the environment and the infrastructure passing into and out of urban areas.
@@ -40,7 +40,9 @@ editor: visual
 -   Urban planning is considered an **interdisciplinary** field that includes social engineering and design sciences.
 :::
 
-## Urban Planning in Practice
+------------------------------------------------------------------------
+
+### Urban Planning in Practice
 
 ::: incremental
 -   Practitioners of urban planning are concerned with research and analysis, strategic thinking, architecture, urban design, public consultation, policy recommendations, implementation and management.
@@ -48,7 +50,9 @@ editor: visual
 -   Enforcement methodologies include governmental zoning, planning permissions, and building codes, as well as private easements and restrictive covenants.
 :::
 
-## Urban Planning in Singapore
+------------------------------------------------------------------------
+
+### Urban Planning in Singapore
 
 Functions of Singapore's national planning authority
 
@@ -64,11 +68,15 @@ About 80% of all data maintained by organizations around the world has a locatio
 
 ![](img/image1-2.jpg)
 
-## GI in Smart Nation
+------------------------------------------------------------------------
+
+### GI in Smart Nation
 
 ![](img/image1-3.jpg)
 
-## The explosion in the availability of Government GI
+------------------------------------------------------------------------
+
+### The explosion in the availability of Government GI
 
 ![](img/image1-4.jpg)
 
@@ -82,19 +90,25 @@ About 80% of all data maintained by organizations around the world has a locatio
 
 -   GIS toolkits
 
-## GIS as a toolkit
+------------------------------------------------------------------------
+
+### GIS as a toolkit
 
 A GIS is a toolkit for creating, managing, analysing, visualising, and sharing data of any kind according to where it is located.
 
 ![](img/image1-5.jpg)
 
-## Components of a GIS
+------------------------------------------------------------------------
+
+### Components of a GIS
 
 A GIS extends the study of information systems by including geospatial data management, geoprocessing and geographically mediated knowledge.
 
 ![](img/image1-6.jpg)
 
-## Getting to Know GIS Functions
+------------------------------------------------------------------------
+
+### Getting to Know GIS Functions
 
 -   Geospatial Data Management
 
@@ -102,23 +116,33 @@ A GIS extends the study of information systems by including geospatial data mana
 
 -   GIS Analysis
 
-## Geospatial Data Management: Data Capture
+------------------------------------------------------------------------
+
+### Geospatial Data Management: Data Capture
 
 ![](img/image1-7.jpg)
 
-## Geospatial Data Management: Data Integration
+------------------------------------------------------------------------
+
+### Geospatial Data Management: Data Integration
 
 ![](img/image1-8.jpg)
 
-## Geospatial Data Management: Georeferencing
+------------------------------------------------------------------------
+
+### Geospatial Data Management: Georeferencing
 
 ![](img/image1-9.jpg)
 
-## Geovisulisation: interactive maps
+------------------------------------------------------------------------
+
+### Geovisulisation: interactive maps
 
 ![](img/image1-10.jpg)
 
-## GISs generates information
+------------------------------------------------------------------------
+
+### GISs generates information
 
 -   Locations What is at .....? Conditions
 
@@ -130,23 +154,33 @@ A GIS extends the study of information systems by including geospatial data mana
 
 -   Models What if .....?
 
-## GIS analysis -- vector-based
+------------------------------------------------------------------------
+
+### GIS analysis -- vector-based
 
 ![](img/image1-11.jpg)
 
-## GIS analysis -- raster-based
+------------------------------------------------------------------------
+
+### GIS analysis -- raster-based
 
 ![](img/image1-12.jpg)
 
-## GIS Analysis -- network-based
+------------------------------------------------------------------------
+
+### GIS Analysis -- network-based
 
 ![](img/image1-13.jpg)
 
-## GIS Analysis: 3d Urban Models
+------------------------------------------------------------------------
+
+### GIS Analysis: 3d Urban Models
 
 ![](img/image1-14.jpg)
 
-## GIS as a Melting-Pot
+------------------------------------------------------------------------
+
+### GIS as a Melting-Pot
 
 ![](img/image1-15.jpg)
 
@@ -154,15 +188,21 @@ A GIS extends the study of information systems by including geospatial data mana
 
 ![](img/image1-16.jpg)
 
-## GIS Desktop Software
+------------------------------------------------------------------------
+
+### GIS Desktop Software
 
 ![](img/image1-17.jpg)
 
-## QGIS: An Open Source Desktop GIS
+------------------------------------------------------------------------
+
+### QGIS: An Open Source Desktop GIS
 
 ![](img/image1-18.jpg)
 
-## ArcGIS vs QGIS
+------------------------------------------------------------------------
+
+### ArcGIS vs QGIS
 
 ![](img/image1-19.jpg)
 
@@ -180,6 +220,7 @@ A GIS extends the study of information systems by including geospatial data mana
 
 ## In conclusion, GIS support
 
+::: incremental
 -   Better informed decision making
 
 -   Better communication with management
@@ -190,6 +231,7 @@ A GIS extends the study of information systems by including geospatial data mana
 
 -   More efficient use of resources
 
-::: r-fit-text
+::: {.r-fit-text}
 GIS = Get Intelligent Solutions
+:::
 :::
