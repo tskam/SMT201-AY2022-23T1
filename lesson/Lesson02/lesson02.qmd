@@ -21,7 +21,7 @@ editor: visual
 -   Sources of GIS data
 
 ::: {.notes}
-In this lesson, I will take about geospatial data models. The sharing consists of three main sections. First, I will shared with you vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data.
+In this lesson, I will talk about geospatial data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena.  This is follow by a discussion of GIS data models.  In this lesson, we will mainly focus on vector and raster data models.  This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data.
 :::
 
 ## Getting to Know Geospatial Data Models
