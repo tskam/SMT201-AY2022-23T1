@@ -1,6 +1,9 @@
 ---
-title: "Lesson 2: The Devil is in the Data: Collection, representation, and modelling"
-author: "Dr. Kam Tin Seong"
+title: "Lesson 2: <br/>The Devil is in the Data: Collection, representation, and modelling"
+author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
+institute: "School of Computing and Information Systems,<br/>Singapore Management University"
+date: "2022-08-06 (updated: `r Sys.Date()`)"
+css: "text.css"
 format: 
   revealjs:
     width: 1450
@@ -20,8 +23,8 @@ editor: visual
 
 -   Sources of GIS data
 
-::: {.notes}
-In this lesson, I will talk about geospatial data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena.  This is follow by a discussion of GIS data models.  In this lesson, we will mainly focus on vector and raster data models.  This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data.
+::: notes
+In this lesson, I will talk about geospatial data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena. This is follow by a discussion of GIS data models. In this lesson, we will mainly focus on vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data.
 :::
 
 ## Getting to Know Geospatial Data Models
@@ -587,10 +590,9 @@ Geocode Tools of [MMQGIS](https://michaelminn.com/linux/mmqgis/) plugin.
 
 ------------------------------------------------------------------------
 
-### Internet of Things (IoT) 
+### Internet of Things (IoT)
 
 ![](img/image2-30b.jpg)
-
 
 ------------------------------------------------------------------------
 
@@ -602,19 +604,19 @@ Geocode Tools of [MMQGIS](https://michaelminn.com/linux/mmqgis/) plugin.
 
 ### Geospatial Digital Data from Open Gov
 
-:::: columns
+::: columns
 ::: {.column width="50%"}
 [Singapore Open Govenment Data Portal](https://data.gov.sg/)
 
 ![](img/image2-32a.jpg)
 :::
 
-::: {.column width="50%"} 
+::: {.column width="50%"}
 [LTA DataMall](https://datamall.lta.gov.sg/content/datamall/en.html)
 
 ![](img/image2-32b.jpg)
 :::
-::::
+:::
 
 ------------------------------------------------------------------------
 

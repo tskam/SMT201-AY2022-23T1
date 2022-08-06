@@ -16,203 +16,203 @@
   {
     "objectID": "lesson/Lesson01/lesson01.html#what-will-you-learn-from-this-lesson",
     "href": "lesson/Lesson01/lesson01.html#what-will-you-learn-from-this-lesson",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "What will you learn from this lesson?",
     "text": "What will you learn from this lesson?\n\nIntroducing Urban Planning\n\nMotivation of urban planning\nUrban planning practice\nUrban planning in Singapore\n\nGeographic Information Systems (GIS) Fundamentals\n\nBasic concepts of GIS\nMajor components of a GIS\nGIS toolkits"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#what-is-urban-planningslide-2",
     "href": "lesson/Lesson01/lesson01.html#what-is-urban-planningslide-2",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "What is Urban Planning?Slide 2",
     "text": "What is Urban Planning?Slide 2\n\n\nA political process concerned with the development and design of land use and the environment and the infrastructure passing into and out of urban areas.\nThe primary concern is the public welfare, which includes considerations of efficiency, sanitation, protection and use of the environment, as well as effects on social and economic activities.\nUrban planning is considered an interdisciplinary field that includes social engineering and design sciences."
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#urban-planning-in-practice",
     "href": "lesson/Lesson01/lesson01.html#urban-planning-in-practice",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "Urban Planning in Practice",
     "text": "Urban Planning in Practice\n\n\nPractitioners of urban planning are concerned with research and analysis, strategic thinking, architecture, urban design, public consultation, policy recommendations, implementation and management.\nEnforcement methodologies include governmental zoning, planning permissions, and building codes, as well as private easements and restrictive covenants."
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#urban-planning-in-singapore",
     "href": "lesson/Lesson01/lesson01.html#urban-planning-in-singapore",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "Urban Planning in Singapore",
     "text": "Urban Planning in Singapore\nFunctions of Singapore’s national planning authority\n\n\n\nSource: Singapore, Urban Redevelopment Authority"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#why-geographic-information-matters",
     "href": "lesson/Lesson01/lesson01.html#why-geographic-information-matters",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "Why Geographic Information Matters?",
     "text": "Why Geographic Information Matters?\nAbout 80% of all data maintained by organizations around the world has a location component. (Source: BusinessWeek Research Services, 2006)"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gi-in-smart-nation",
     "href": "lesson/Lesson01/lesson01.html#gi-in-smart-nation",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GI in Smart Nation",
     "text": "GI in Smart Nation"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#the-explosion-in-the-availability-of-government-gi",
     "href": "lesson/Lesson01/lesson01.html#the-explosion-in-the-availability-of-government-gi",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "The explosion in the availability of Government GI",
     "text": "The explosion in the availability of Government GI"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-fundamentals",
     "href": "lesson/Lesson01/lesson01.html#gis-fundamentals",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS Fundamentals",
     "text": "GIS Fundamentals\n\nIntroduction to GIS\nMajor component of a GIS\nGIS functions\nGIS toolkits"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-as-a-toolkit",
     "href": "lesson/Lesson01/lesson01.html#gis-as-a-toolkit",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS as a toolkit",
     "text": "GIS as a toolkit\nA GIS is a toolkit for creating, managing, analysing, visualising, and sharing data of any kind according to where it is located."
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#components-of-a-gis",
     "href": "lesson/Lesson01/lesson01.html#components-of-a-gis",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "Components of a GIS",
     "text": "Components of a GIS\nA GIS extends the study of information systems by including geospatial data management, geoprocessing and geographically mediated knowledge."
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#getting-to-know-gis-functions",
     "href": "lesson/Lesson01/lesson01.html#getting-to-know-gis-functions",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "Getting to Know GIS Functions",
     "text": "Getting to Know GIS Functions\n\nGeospatial Data Management\nGIS Mapping and Geovisualisation\nGIS Analysis"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#geospatial-data-management-data-capture",
     "href": "lesson/Lesson01/lesson01.html#geospatial-data-management-data-capture",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "Geospatial Data Management: Data Capture",
     "text": "Geospatial Data Management: Data Capture"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#geospatial-data-management-data-integration",
     "href": "lesson/Lesson01/lesson01.html#geospatial-data-management-data-integration",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "Geospatial Data Management: Data Integration",
     "text": "Geospatial Data Management: Data Integration"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#geospatial-data-management-georeferencing",
     "href": "lesson/Lesson01/lesson01.html#geospatial-data-management-georeferencing",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "Geospatial Data Management: Georeferencing",
     "text": "Geospatial Data Management: Georeferencing"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#geovisulisation-interactive-maps",
     "href": "lesson/Lesson01/lesson01.html#geovisulisation-interactive-maps",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "Geovisulisation: interactive maps",
     "text": "Geovisulisation: interactive maps"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#giss-generates-information",
     "href": "lesson/Lesson01/lesson01.html#giss-generates-information",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GISs generates information",
     "text": "GISs generates information\n\nLocations What is at …..? Conditions\nWhich environment…..?\nTrends What has changed….?\nPatterns What data are related …..?\nModels What if …..?"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-analysis-vector-based",
     "href": "lesson/Lesson01/lesson01.html#gis-analysis-vector-based",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS analysis – vector-based",
     "text": "GIS analysis – vector-based"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-analysis-raster-based",
     "href": "lesson/Lesson01/lesson01.html#gis-analysis-raster-based",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS analysis – raster-based",
     "text": "GIS analysis – raster-based"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-analysis-network-based",
     "href": "lesson/Lesson01/lesson01.html#gis-analysis-network-based",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS Analysis – network-based",
     "text": "GIS Analysis – network-based"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-analysis-3d-urban-models",
     "href": "lesson/Lesson01/lesson01.html#gis-analysis-3d-urban-models",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS Analysis: 3d Urban Models",
     "text": "GIS Analysis: 3d Urban Models"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-as-a-melting-pot",
     "href": "lesson/Lesson01/lesson01.html#gis-as-a-melting-pot",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS as a Melting-Pot",
     "text": "GIS as a Melting-Pot"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-platforms",
     "href": "lesson/Lesson01/lesson01.html#gis-platforms",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS platforms",
     "text": "GIS platforms"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-desktop-software",
     "href": "lesson/Lesson01/lesson01.html#gis-desktop-software",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS Desktop Software",
     "text": "GIS Desktop Software"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#qgis-an-open-source-desktop-gis",
     "href": "lesson/Lesson01/lesson01.html#qgis-an-open-source-desktop-gis",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "QGIS: An Open Source Desktop GIS",
     "text": "QGIS: An Open Source Desktop GIS"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#arcgis-vs-qgis",
     "href": "lesson/Lesson01/lesson01.html#arcgis-vs-qgis",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "ArcGIS vs QGIS",
     "text": "ArcGIS vs QGIS"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-users-in-singapore",
     "href": "lesson/Lesson01/lesson01.html#gis-users-in-singapore",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS Users in Singapore",
     "text": "GIS Users in Singapore"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#gis-supported-urban-planning-framework",
     "href": "lesson/Lesson01/lesson01.html#gis-supported-urban-planning-framework",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "GIS Supported Urban Planning Framework",
     "text": "GIS Supported Urban Planning Framework"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#social-consciousness",
     "href": "lesson/Lesson01/lesson01.html#social-consciousness",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "Social Consciousness",
     "text": "Social Consciousness"
   },
   {
     "objectID": "lesson/Lesson01/lesson01.html#in-conclusion-gis-support",
     "href": "lesson/Lesson01/lesson01.html#in-conclusion-gis-support",
-    "title": "Lesson 1",
+    "title": "Lesson 1: Introduction to Geographic Information Systems for Urban Planning",
     "section": "In conclusion, GIS support",
     "text": "In conclusion, GIS support\n\nBetter informed decision making\nBetter communication with management\nBetter communication between departments\nBetter problem solving\nMore efficient use of resources\n\n\nGIS = Get Intelligent Solutions"
   },
@@ -677,5 +677,19 @@
     "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
     "section": "Sources of GIS data",
     "text": "Sources of GIS data\n\nField surveying Conventional land surveying GPS surveying\nDigitising\nRemote sensing Airborn Satellite Sensor (i.e. IoT)\nDigital data Internet map services Open Data.gov"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#testing",
+    "href": "lesson/Lesson03/lesson03.html#testing",
+    "title": "Lesson3: Modelling the Urban World",
+    "section": "Testing",
+    "text": "Testing\n\nTesting\n\n\nTesting\n\n\nTesting"
+  },
+  {
+    "objectID": "lesson/Lesson03/lesson03.html#testing-1",
+    "href": "lesson/Lesson03/lesson03.html#testing-1",
+    "title": "Lesson3: Modelling the Urban World",
+    "section": "Testing",
+    "text": "Testing\n\nTesting\n\n\nTesting\n\n\nTesting"
   }
 ]

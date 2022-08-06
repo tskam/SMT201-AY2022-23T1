@@ -1,8 +1,14 @@
 ---
-title: "Lesson 1 "
-subtitle: "Introduction to Geographic Information Systems for Urban Planning"
-author: "Dr. Kam Tin Seong"
-format: revealjs
+title: "Lesson 1: <br/>Introduction to Geographic Information Systems for Urban Planning"
+subtitle: ""
+author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
+institute: "School of Computing and Information Systems,<br/>Singapore Management University"
+date: "2022-08-06 (updated: `r Sys.Date()`)"
+css: "text.css"
+format: 
+  revealjs:
+    width: 1450
+    height: 850
 editor: visual
 ---
 
