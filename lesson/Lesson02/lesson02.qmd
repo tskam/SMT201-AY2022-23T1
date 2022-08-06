@@ -109,9 +109,7 @@ In this lesson, I will take about geospatial data models. The sharing consists o
 
     -   Useful as background maps and for spatial analysis
 
-------------------------------------------------------------------------
-
-### Vector Data Models
+## Vector Data Models
 
 ::: columns
 ::: {.column width="50%"}
@@ -183,11 +181,13 @@ Stores spatial and attribute data separately in a split system:
 
 ------------------------------------------------------------------------
 
-## Other Types of Attributes
+### Other Types of Attributes
 
 ![](img/image2-8.jpg)
 
-## Vector Data File Format: shapefile
+------------------------------------------------------------------------
+
+### Vector Data File Format: shapefile
 
 ::: columns
 ::: {.column width="50%"}
@@ -235,7 +235,9 @@ Stores spatial and attribute data separately in a split system:
 
 -   Line and polygon geometry type, single or multipart, cannot be reliably determined at the layer level, it must be determined at the individual feature level.
 
-## Other Vector GIS File Formats
+------------------------------------------------------------------------
+
+### Other Vector GIS File Formats
 
 -   MapInfo [TAB](https://en.wikipedia.org/wiki/MapInfo_TAB_format) format - MapInfo's vector data format using TAB, DAT, ID and MAP files.
 
