@@ -235,7 +235,7 @@
     "href": "outline/lesson01_outline.html#lesson-slides-and-hands-on-notes",
     "title": "Lesson 1: Introduction to GIS for Urban Planning",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html formats\nHands-on Exercise in html format."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise in html format."
   },
   {
     "objectID": "outline/lesson01_outline.html#readings",
@@ -263,7 +263,7 @@
     "href": "outline/lesson02_outline.html#lesson-slides-and-hands-on-notes",
     "title": "Lesson 2: The Evil is in The Data",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html and pdf formats\nHands-on Exercise in html format."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise in html format."
   },
   {
     "objectID": "outline/lesson02_outline.html#readings",
@@ -291,7 +291,7 @@
     "href": "outline/lesson03_outline.html#lesson-slides-and-hands-on-notes",
     "title": "Lesson 3: Modelling Urban World",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html and pdf formats\nHands-on Exercise in html format."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise in html format."
   },
   {
     "objectID": "outline/lesson03_outline.html#readings",
@@ -319,7 +319,7 @@
     "href": "outline/lesson04_outline.html#lesson-slides-and-hands-on-notes",
     "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html and pdf formats\nHands-on Exercise in html format."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise in html format."
   },
   {
     "objectID": "outline/lesson04_outline.html#readings",
@@ -740,5 +740,54 @@
     "title": "Lesson3: Modelling the Urban World",
     "section": "Meta data: Data about the data",
     "text": "Meta data: Data about the data\n\nIdentification information\nData quality information\nSpatial data organisation information\nSpatial reference information\nEntity and attribute information\nDistribution information\nMeta data reference information\nCitation information\nTime period information\nContact information."
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#what-will-you-learn-in-this-lesson",
+    "href": "lesson/Lesson04/lesson04.html#what-will-you-learn-in-this-lesson",
+    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
+    "section": "What will you learn in this lesson?",
+    "text": "What will you learn in this lesson?\n\nMaps and Urban Environments\nTypology of Maps\n\nReference maps\nThematic maps\n\nQualitative thematic mapping\nQuantitative thematic mapping\n\nNumber of classes\nData classification\nColour scheme"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#learning-objectives",
+    "href": "lesson/Lesson04/lesson04.html#learning-objectives",
+    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this lesson, students will be able:\n\nto understand and explain the basic principles and methods of thematic mapping and cartographic design, and\nto use these understanding to design analytical maps to enlighten."
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#visualising-urban-environments-in-a-map",
+    "href": "lesson/Lesson04/lesson04.html#visualising-urban-environments-in-a-map",
+    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
+    "section": "Visualising Urban Environments in a Map",
+    "text": "Visualising Urban Environments in a Map\nAn interface between geospatial data users and geospatial data.\n\nOld proverb: A picture is worth a thousand words\n\n\n\n\n\n\n\nNew proverb: A map is worth a thousand numbers, maybe more!\n\n\nA map is a model of our environments.\nA map represents geographical data. However, it is also an interface between map viewers and the"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#role-of-maps",
+    "href": "lesson/Lesson04/lesson04.html#role-of-maps",
+    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
+    "section": "Role of Maps",
+    "text": "Role of Maps\n\nRecord and store spatially referenced data\nServe as computational aids\nServe as aids to mobility\nSummarise complex, voluminous spatial data\nHelp us to explore spatial patterns\nHelp us to visualise large volume of spatial data\nServe as trigger devices to stimulate thought"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#typology-of-maps",
+    "href": "lesson/Lesson04/lesson04.html#typology-of-maps",
+    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
+    "section": "Typology of Maps",
+    "text": "Typology of Maps"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#thematic-mapping",
+    "href": "lesson/Lesson04/lesson04.html#thematic-mapping",
+    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
+    "section": "Thematic Mapping",
+    "text": "Thematic Mapping\n\n\nQualitative Thematic Map\n\n\n\n\n\n\nQuantitative Thematic Map"
+  },
+  {
+    "objectID": "lesson/Lesson04/lesson04.html#reference",
+    "href": "lesson/Lesson04/lesson04.html#reference",
+    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
+    "section": "Reference",
+    "text": "Reference\nProportional Symbols\nChoropleth Maps\nDot Density Maps\nThe Basics of Data Classification\nShould a map be interactive?\nMap interaction"
   }
 ]

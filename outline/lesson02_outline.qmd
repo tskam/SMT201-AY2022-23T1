@@ -32,7 +32,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Lesson Slides and Hands-on Notes
 
--   Lesson slide in [html](../lesson/Lesson02/Lesson02.html) and [pdf](../lesson/Lesson02/Lesson02.pdf) formats
+-   Lesson slide in [html](../lesson/Lesson02/Lesson02.html) format.
 -   Hands-on Exercise in [html](../Hands-on_Ex/Hands-on_Ex02/Hands-on_Ex02.html) format.
 
 ## Readings
