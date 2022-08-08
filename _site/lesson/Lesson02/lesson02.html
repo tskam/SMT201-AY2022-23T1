@@ -323,22 +323,30 @@
   <h1 class="title">Lesson 2: <br>The Devil is in the Data: Collection, representation, and modelling</h1>
   <p class="author">Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems</p>
   <p class="institute">School of Computing and Information Systems,<br>Singapore Management University</p>
-  <p class="date">2022-08-06 (updated: 2022-08-06)</p>
+  <p class="date">2022-08-06 (updated: 2022-08-07)</p>
 </section>
 
 <section id="what-will-you-learn-from-this-course" class="slide level2">
 <h2>What will you learn from this course?</h2>
 <ul>
-<li><p>Getting to Know Geospatial Data Models</p>
+<li><p>Getting to Know GIS Data Models</p>
 <ul>
 <li><p>Vector Data Model</p></li>
 <li><p>Raster Data Model</p></li>
 </ul></li>
-<li><p>Georeferencing and Geocoding</p></li>
+<li><p>Georeferencing</p>
+<ul>
+<li><p>Geographic Coordinate Systems</p></li>
+<li><p>Projected Coordinate Systems</p></li>
+</ul></li>
+<li><p>Geocoding</p>
+<ul>
+<li>HeoHash</li>
+</ul></li>
 <li><p>Sources of GIS data</p></li>
 </ul>
 <aside class="notes">
-<p>In this lesson, I will talk about geospatial data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena. This is follow by a discussion of GIS data models. In this lesson, we will mainly focus on vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data.</p>
+<p>In this lesson, I will talk about GIS data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena. This is follow by a discussion of GIS data models. In this lesson, we will mainly focus on vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -351,11 +359,11 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="getting-to-know-geospatial-data-models" class="slide level2">
-<h2>Getting to Know Geospatial Data Models</h2>
+<section id="getting-to-know-gis-data-models" class="slide level2">
+<h2>Getting to Know GIS Data Models</h2>
 <ul>
 <li><p>Basic concept of geographical data</p></li>
-<li><p>Basic geospatial data models</p></li>
+<li><p>Basic GIS data models</p></li>
 <li><p>Vector data models</p>
 <ul>
 <li><p>Spaghetti data models</p></li>
@@ -422,8 +430,8 @@
 </div>
 </div>
 </section>
-<section id="basic-spatial-data-models" class="slide level2">
-<h2>Basic Spatial Data Models</h2>
+<section id="basic-gis-data-models" class="slide level2">
+<h2>Basic GIS Data Models</h2>
 <ul>
 <li><p>Vector, implementation of discrete object conceptual model</p>
 <ul>
@@ -677,7 +685,6 @@
 
 <h3 id="what-is-a-coordinate-system">What is a coordinate system?</h3>
 <ul>
-<li><p>A coordinate system is an important property of an geospatial data. It provides a location reference to the geospatial data.</p></li>
 <li><p>A coordinate system is a reference system used to represent the locations of geographic features, imagery, and observations such as GPS locations within a common geographic framework.</p></li>
 <li><p>Each coordinate system is defined by:</p>
 <ul>
@@ -695,13 +702,13 @@
 <li><p>There are two common types of coordinate systems used in mapping, namely:</p>
 <ul>
 <li><p>geographic coordinate systems, and</p></li>
-<li><p>projected coordinate system</p></li>
+<li><p>projected coordinate systems</p></li>
 </ul></li>
 </ul>
 </section>
 <section class="slide level2">
 
-<h3 id="geographical-coordinate-systems">Geographical Coordinate Systems</h3>
+<h3 id="geographical-coordinate-systems-gcs">Geographical Coordinate Systems (GCS)</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
@@ -721,17 +728,17 @@
 </div></aside></section>
 <section class="slide level2">
 
-<h3 id="projected-coordinate-systems">Projected Coordinate Systems</h3>
-<p>A projected coordinate system based on a map projection such as transverse Mercator, Albers equal area, or Robinson, all of which (along with numerous other map projection models) provide various mechanisms to project maps of the earth’s spherical surface onto a two-dimensional Cartesian coordinate plane.</p>
+<h3 id="projected-coordinate-systems-pcs">Projected Coordinate Systems (PCS)</h3>
+<p>A PCS based on a map projection such as transverse Mercator, Albers equal area, or Robinson, all of which (along with numerous other map projection models) provide various mechanisms to project maps of the earth’s spherical surface onto a two-dimensional Cartesian coordinate plane.</p>
 
 <img data-src="img/image2-19.jpg" class="r-stretch"></section>
 <section class="slide level2">
 
-<h3 id="projected-coordinate-systems-1">Projected Coordinate Systems</h3>
+<h3 id="projected-coordinate-systems">Projected Coordinate Systems</h3>
 <ul>
-<li><p>Projected coordinate systems are sometimes referred to as <strong>map projection</strong>s. For example, <strong>SVY21</strong>, the national projected coordinate system of Singapore.</p></li>
+<li><p>PCS are sometimes referred to as <strong>map projection</strong>s. For example, <strong>SVY21</strong>, the national projected coordinate system of Singapore.</p></li>
 <li><p>PCS provides consistent length and area measurement across space. Hence, it is important to transform a geospatial data from GCS to PCS before performing geospatial analysis.</p></li>
-<li><p>Each country will have her own projected coordinate system. Some country have more than one type of Project Coordinate Systems.</p></li>
+<li><p>Each country will have her own projected coordinate system. Some country have more than one type of PCS such as <a href="https://epsg.io/3414">SVY21/Singapore TM</a> and <a href="https://epsg.io/24500">Kertau 1968/Singapore Grid</a>.</p></li>
 </ul>
 </section>
 <section class="slide level2">

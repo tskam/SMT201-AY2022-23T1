@@ -543,7 +543,7 @@
     "href": "lesson/Lesson02/lesson02.html#getting-to-know-geospatial-data-models",
     "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
     "section": "Getting to Know Geospatial Data Models",
-    "text": "Getting to Know Geospatial Data Models\n\nBasic concept of geographical data\nBasic geospatial data models\nVector data models\n\nSpaghetti data models\nTopological data models\n\nRaster data models"
+    "text": "Getting to Know Geospatial Data Models\n\nBasic concept of geographical data\nBasic GIS data models\nVector data models\n\nSpaghetti data models\nTopological data models\n\nRaster data models"
   },
   {
     "objectID": "lesson/Lesson02/lesson02.html#discrete-objects-and-continuous-fields",
@@ -571,7 +571,7 @@
     "href": "lesson/Lesson02/lesson02.html#what-will-you-learn-from-this-course",
     "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
     "section": "What will you learn from this course?",
-    "text": "What will you learn from this course?\n\nGetting to Know Geospatial Data Models\n\nVector Data Model\nRaster Data Model\n\nGeoreferencing and Geocoding\nSources of GIS data\n\n\nIn this lesson, I will talk about geospatial data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena. This is follow by a discussion of GIS data models. In this lesson, we will mainly focus on vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data."
+    "text": "What will you learn from this course?\n\nGetting to Know GIS Data Models\n\nVector Data Model\nRaster Data Model\n\nGeoreferencing\n\nGeographic Coordinate Systems\nProjected Coordinate Systems\n\nGeocoding\n\nHeoHash\n\nSources of GIS data\n\n\nIn this lesson, I will talk about GIS data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena. This is follow by a discussion of GIS data models. In this lesson, we will mainly focus on vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data."
   },
   {
     "objectID": "lesson/Lesson02/lesson02.html#basic-spatial-data-models",
@@ -789,5 +789,19 @@
     "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
     "section": "Reference",
     "text": "Reference\nProportional Symbols\nChoropleth Maps\nDot Density Maps\nThe Basics of Data Classification\nShould a map be interactive?\nMap interaction"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#basic-gis-data-models",
+    "href": "lesson/Lesson02/lesson02.html#basic-gis-data-models",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Basic GIS Data Models",
+    "text": "Basic GIS Data Models\n\nVector, implementation of discrete object conceptual model\n\nPoint, line and polygon representations\nWidely used in cartography, and network analysis\n\nRaster, implementation of field conceptual model\n\nArray of cells used to represent objects\nUseful as background maps and for spatial analysis"
+  },
+  {
+    "objectID": "lesson/Lesson02/lesson02.html#getting-to-know-gis-data-models",
+    "href": "lesson/Lesson02/lesson02.html#getting-to-know-gis-data-models",
+    "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
+    "section": "Getting to Know GIS Data Models",
+    "text": "Getting to Know GIS Data Models\n\nBasic concept of geographical data\nBasic GIS data models\nVector data models\n\nSpaghetti data models\nTopological data models\n\nRaster data models"
   }
 ]

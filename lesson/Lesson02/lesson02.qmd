@@ -13,25 +13,33 @@ editor: visual
 
 ## What will you learn from this course?
 
--   Getting to Know Geospatial Data Models
+-   Getting to Know GIS Data Models
 
     -   Vector Data Model
 
     -   Raster Data Model
 
--   Georeferencing and Geocoding
+-   Georeferencing
+
+    -   Geographic Coordinate Systems
+
+    -   Projected Coordinate Systems
+
+-   Geocoding
+
+    -   HeoHash
 
 -   Sources of GIS data
 
 ::: notes
-In this lesson, I will talk about geospatial data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena. This is follow by a discussion of GIS data models. In this lesson, we will mainly focus on vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data.
+In this lesson, I will talk about GIS data models. The discussion consists of three main sections. First, I will share the basic principles of geographic phenomena. This is follow by a discussion of GIS data models. In this lesson, we will mainly focus on vector and raster data models. This is followed by explaining two important concepts of geospatial data, namely: georeferencing and geocoding. Lastly, I will share with you how and where we can find geospatial data.
 :::
 
-## Getting to Know Geospatial Data Models
+## Getting to Know GIS Data Models
 
 -   Basic concept of geographical data
 
--   Basic geospatial data models
+-   Basic GIS data models
 
 -   Vector data models
 
@@ -98,7 +106,7 @@ In this lesson, I will talk about geospatial data models. The discussion consist
 :::
 :::
 
-## Basic Spatial Data Models
+## Basic GIS Data Models
 
 -   Vector, implementation of discrete object conceptual model
 
@@ -408,8 +416,6 @@ Large-scale satellite image ![](img/image2-15b.jpg)
 
 ### What is a coordinate system?
 
--   A coordinate system is an important property of an geospatial data. It provides a location reference to the geospatial data.
-
 -   A coordinate system is a reference system used to represent the locations of geographic features, imagery, and observations such as GPS locations within a common geographic framework.
 
 -   Each coordinate system is defined by:
@@ -430,11 +436,11 @@ Large-scale satellite image ![](img/image2-15b.jpg)
 
     -   geographic coordinate systems, and
 
-    -   projected coordinate system
+    -   projected coordinate systems
 
 ------------------------------------------------------------------------
 
-### Geographical Coordinate Systems
+### Geographical Coordinate Systems (GCS)
 
 ::: columns
 ::: {.column width="50%"}
@@ -458,9 +464,9 @@ Reference: [Map Projection](http://en.wikipedia.org/wiki/Map_projection)
 
 ------------------------------------------------------------------------
 
-### Projected Coordinate Systems
+### Projected Coordinate Systems (PCS)
 
-A projected coordinate system based on a map projection such as transverse Mercator, Albers equal area, or Robinson, all of which (along with numerous other map projection models) provide various mechanisms to project maps of the earth's spherical surface onto a two-dimensional Cartesian coordinate plane.
+A PCS based on a map projection such as transverse Mercator, Albers equal area, or Robinson, all of which (along with numerous other map projection models) provide various mechanisms to project maps of the earth's spherical surface onto a two-dimensional Cartesian coordinate plane.
 
 ![](img/image2-19.jpg)
 
@@ -468,11 +474,11 @@ A projected coordinate system based on a map projection such as transverse Merca
 
 ### Projected Coordinate Systems
 
--   Projected coordinate systems are sometimes referred to as **map projection**s. For example, **SVY21**, the national projected coordinate system of Singapore.
+-   PCS are sometimes referred to as **map projection**s. For example, **SVY21**, the national projected coordinate system of Singapore.
 
 -   PCS provides consistent length and area measurement across space. Hence, it is important to transform a geospatial data from GCS to PCS before performing geospatial analysis.
 
--   Each country will have her own projected coordinate system. Some country have more than one type of Project Coordinate Systems.
+-   Each country will have her own projected coordinate system. Some country have more than one type of PCS such as [SVY21/Singapore TM](https://epsg.io/3414) and [Kertau 1968/Singapore Grid](https://epsg.io/24500).
 
 ------------------------------------------------------------------------
 
