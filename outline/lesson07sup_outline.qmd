@@ -1,6 +1,6 @@
 ---
-title: "Lesson 7: Urban Applications of Raster-based GIS Analysis"
-description: "In this lesson, you will learn the basic concepts of raster-based GIS modelling methods for land suitability analysis."
+title: "Lesson 9: Multiple‐Criteria Decision Analysis (MCDA)"
+description: "In this lesson, you will learn principles and methods of MCDA.  You will also gain hands-on experience on integrating MCDA with raster-based GIS modelling."
 date: "`r Sys.Date()`"
 format: html
 ---
@@ -22,9 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Lesson Slides and Hands-on Notes
 
--   Lesson slides in [html](../lesson/Lesson08/Lesson08.html) and [pdf](../lesson/Lesson08/Lesson08.pdf) formats.
-
--   Hands-on Exercise 8 in [html](../Hands-on_Ex/Hands-on_Ex08/Hands-on_Ex08.html) and [pdf](../Hands-on_Ex/Hands-on_Ex08/Hands-on_Ex08.pdf) formats.
+-   Hands-on Exercise 9 in [html](../Hands-on_Ex/Hands-on_Ex09/Hands-on_Ex09.html) and [pdf](../Hands-on_Ex/Hands-on_Ex09/Hands-on_Ex09.pdf) formats.
 
 ## References
 

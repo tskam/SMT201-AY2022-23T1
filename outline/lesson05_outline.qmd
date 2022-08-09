@@ -1,6 +1,6 @@
 ---
-title: "Lesson 5: Vector-based GIS Analysis Methods"
-description: "In this lesson, you will learn the basic concepts and methods of vector-based GIS Analysis.  You will also gain hands-on experience on using QGIS to perform basic vector-based GIS analysis operations."
+title: "Lesson 5: Urban Applications of Vector-based GIS Analysis"
+description: "In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions."
 date: "`r Sys.Date()`"
 format: html
 ---
@@ -11,39 +11,34 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Content
 
--   Spatial SQL
--   Spatial relationship
--   Geoprocessing Techniques
-    -   CLIP
-    -   DISSOLVE
-    -   APPEND
-    -   SPLIT
-    -   ERASE
--   Proximity Analysis
-    -   Buffering
-    -   Thiessen Polygon
--   Vector Overlaying
+-   Trade Area Analysis
+    -   Defining trade areas
+    -   Examples of trade areas
+    -   Factors that influence trade area
+    -   GIS-based trade area analysis process
+    -   GIS-based trade area delineation techniques
+-   Urban Analysis and Monitoring
+    -   Development control
+    -   Urban growth monitoring
+    -   Urban change detection
+-   Hands-on Exercise in [html](../Hands-on_Ex/Hands-on_Ex06/Hands-on_Ex06.html) and [pdf](../Hands-on_Ex/Hands-on_Ex06//Hands-on_Ex06.pdf) format.
 
-## Lesson Slides and Hands-on Notes
+## References
 
--   Lesson slide in [html](../lesson/Lesson05/Lesson05.html) and [pdf](../lesson/Lesson05/Lesson05.pdf) formats
+### Trade Area Analysis
 
-## Readings
+-   [Retail Trade Area Analysis: Concepts and New Approaches](http://www.experts.com/content/articles/Donald-Segal-JDM-Trade%20Area%20Analysis.pdf)
+-   Cui, Can ; Wang, Jiechen ; Pu, Yingxia ; Ma, Jinsong ; Chen, Gang (2012) ["GIS-based method of delimitating trade area for retail chains"](https://web-a-ebscohost-com.libproxy.smu.edu.sg/ehost/detail/detail?vid=0&sid=d8645ef8-9d8e-4b2f-a397-cfbcd9c25f45%40sessionmgr4008&bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#AN=80736486&db=asn). International *Journal of Geographical Information Science*, Vol.26(10), pp.1863-1879.
+-   ["The Evaluation of Trade Area Models and Analysis Methods for Site Selection"](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=17&ved=2ahUKEwiCgIqb4ePkAhWDXSsKHdKODNUQFjAQegQICBAC&url=http%3A%2F%2Ficonarp.selcuk.edu.tr%2Ficonarp%2Farticle%2Fdownload%2F203%2F153&usg=AOvVaw1-fj4zY8aWGmpKmE_2dL3k) from International Quick Service Restaurants' (QSR) Perspective.
+-   [Spatial Delineation of Market Areas: A Proposed Approach](https://spatial.usc.edu/wp-content/uploads/2014/04/GrayAmanda.pdf)
+-   [Shopping Mall Trade Area Analysis](http://www.slideshare.net/decemberstar55/shopping-mall-trade-area-analysis)
+-   [Downtown and Business District Market Analysis -\> Understand the Market: Trade Area Analysis](https://fyi.uwex.edu/downtown-market-analysis/understanding-the-market/trade-area-analysis/)
+-   Sample Trade Area Report
+    -   [Grafici Trade Area Report](http://www.brdconsulting.it/images/Progetti/TradeAreaReport/TradeAreaReportDemo.pdf)
+    -   [Wisconsin Example Studies](https://fyi.extension.wisc.edu/downtown-market-analysis/example-studies/wisconsin-example-studies/)
 
-### Core readings
+### GIS-based Urban Analysis
 
--   [Searches and Queries](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s10-02-searches-and-queries.html)
--   [Geospatial Analysis I: Vector Operations](https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html)
-
-## QGIS Methods
-
--   [10. Vector Spatial Analysis (Buffers))](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html) of **A Gentle Introduction to GIS**.
--   [6.2. Lesson: Vector Analysis](https://docs.qgis.org/3.16/en/docs/training_manual/vector_analysis/basic_analysis.html) of **QGIS Training Manual**.
--   The following sub-sections of **QGIS User Guide**:
-    -   [24.1.12. Vector analysis](https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html)
-    -   [24.1.13. Vector creation](https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectorcreation.html)
-    -   [24.1.14. Vector general](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html)
-    -   [24.1.15. Vector geometry](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html)
-    -   [24.1.16. Vector overlay](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html)
-    -   [24.1.17. Vector selection](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorselection.html)
-    -   [24.1.18. Vector table](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectortable.html)
+-   [GIS-based analysis of urban land-use changes](https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2Fs11769-002-0039-3.pdf)
+-   [Floodplain Management in Urban Developing Areas. Part II. GIS-Based Flood Analysis and Urban Growth Modelling](https://link-springer-com.libproxy.smu.edu.sg/article/10.1023/A%3A1008045419517)
+-   [Urban analysis with GIS](https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1023%2FA%3A1014262530372.pdf)

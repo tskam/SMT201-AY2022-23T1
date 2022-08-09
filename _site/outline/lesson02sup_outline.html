@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2022-08-09">
-<meta name="description" content="In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions.">
+<meta name="description" content="In this lesson, you will learn how to build an urban GIS database to extracting, assembling, integrating and wrangling data from different sources. You will also learn how to create a geodatabase and performing manual editing.">
 
-<title>SMT201-AY2022-23T1 - Lesson 5: Urban Applications of Vector-based GIS Analysis</title>
+<title>SMT201-AY2022-23T1 - Lesson 3: Modelling Urban World</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,11 +116,13 @@ ul.task-list{list-style: none;}
    
   <ul>
   <li><a href="#content" id="toc-content" class="nav-link active" data-scroll-target="#content">Content</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
+  <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a>
   <ul class="collapse">
-  <li><a href="#trade-area-analysis" id="toc-trade-area-analysis" class="nav-link" data-scroll-target="#trade-area-analysis">Trade Area Analysis</a></li>
-  <li><a href="#gis-based-urban-analysis" id="toc-gis-based-urban-analysis" class="nav-link" data-scroll-target="#gis-based-urban-analysis">GIS-based Urban Analysis</a></li>
+  <li><a href="#core-readings" id="toc-core-readings" class="nav-link" data-scroll-target="#core-readings">Core Readings</a></li>
+  <li><a href="#additional-readings" id="toc-additional-readings" class="nav-link" data-scroll-target="#additional-readings">Additional Readings</a></li>
   </ul></li>
+  <li><a href="#all-about-qgis" id="toc-all-about-qgis" class="nav-link" data-scroll-target="#all-about-qgis">All About QGIS</a></li>
   </ul>
 </nav>
     </div>
@@ -129,12 +131,12 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 5: Urban Applications of Vector-based GIS Analysis</h1>
+<h1 class="title">Lesson 3: Modelling Urban World</h1>
 </div>
 
 <div>
   <div class="description">
-    In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions.
+    In this lesson, you will learn how to build an urban GIS database to extracting, assembling, integrating and wrangling data from different sources. You will also learn how to create a geodatabase and performing manual editing.
   </div>
 </div>
 
@@ -157,51 +159,53 @@ ul.task-list{list-style: none;}
 <section id="content" class="level2">
 <h2 class="anchored" data-anchor-id="content">Content</h2>
 <ul>
-<li>Trade Area Analysis
+<li>Geospatial Data Models
 <ul>
-<li>Defining trade areas</li>
-<li>Examples of trade areas</li>
-<li>Factors that influence trade area</li>
-<li>GIS-based trade area analysis process</li>
-<li>GIS-based trade area delineation techniques</li>
+<li>Geospatial database design</li>
+<li>Spatial Metadata</li>
+<li>Spatial indexing</li>
+<li>Multi-user editing and versioning</li>
 </ul></li>
-<li>Urban Analysis and Monitoring
+<li>Geospatial Data Repositories
 <ul>
-<li>Development control</li>
-<li>Urban growth monitoring</li>
-<li>Urban change detection</li>
-</ul></li>
-<li>Hands-on Exercise in <a href="../Hands-on_Ex/Hands-on_Ex06/Hands-on_Ex06.html">html</a> and <a href="../Hands-on_Ex/Hands-on_Ex06//Hands-on_Ex06.pdf">pdf</a> format.</li>
-</ul>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<section id="trade-area-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="trade-area-analysis">Trade Area Analysis</h3>
-<ul>
-<li><a href="http://www.experts.com/content/articles/Donald-Segal-JDM-Trade%20Area%20Analysis.pdf">Retail Trade Area Analysis: Concepts and New Approaches</a></li>
-<li>Cui, Can ; Wang, Jiechen ; Pu, Yingxia ; Ma, Jinsong ; Chen, Gang (2012) <a href="https://web-a-ebscohost-com.libproxy.smu.edu.sg/ehost/detail/detail?vid=0&amp;sid=d8645ef8-9d8e-4b2f-a397-cfbcd9c25f45%40sessionmgr4008&amp;bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#AN=80736486&amp;db=asn">“GIS-based method of delimitating trade area for retail chains”</a>. International <em>Journal of Geographical Information Science</em>, Vol.26(10), pp.1863-1879.</li>
-<li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=17&amp;ved=2ahUKEwiCgIqb4ePkAhWDXSsKHdKODNUQFjAQegQICBAC&amp;url=http%3A%2F%2Ficonarp.selcuk.edu.tr%2Ficonarp%2Farticle%2Fdownload%2F203%2F153&amp;usg=AOvVaw1-fj4zY8aWGmpKmE_2dL3k">“The Evaluation of Trade Area Models and Analysis Methods for Site Selection”</a> from International Quick Service Restaurants’ (QSR) Perspective.</li>
-<li><a href="https://spatial.usc.edu/wp-content/uploads/2014/04/GrayAmanda.pdf">Spatial Delineation of Market Areas: A Proposed Approach</a></li>
-<li><a href="http://www.slideshare.net/decemberstar55/shopping-mall-trade-area-analysis">Shopping Mall Trade Area Analysis</a></li>
-<li><a href="https://fyi.uwex.edu/downtown-market-analysis/understanding-the-market/trade-area-analysis/">Downtown and Business District Market Analysis -&gt; Understand the Market: Trade Area Analysis</a></li>
-<li>Sample Trade Area Report
-<ul>
-<li><a href="http://www.brdconsulting.it/images/Progetti/TradeAreaReport/TradeAreaReportDemo.pdf">Grafici Trade Area Report</a></li>
-<li><a href="https://fyi.extension.wisc.edu/downtown-market-analysis/example-studies/wisconsin-example-studies/">Wisconsin Example Studies</a></li>
+<li>File-based</li>
+<li>Geospatial RDBMS</li>
+<li>Cloud based geospatial database</li>
 </ul></li>
 </ul>
 </section>
-<section id="gis-based-urban-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="gis-based-urban-analysis">GIS-based Urban Analysis</h3>
+<section id="lesson-slides-and-hands-on-notes" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
 <ul>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2Fs11769-002-0039-3.pdf">GIS-based analysis of urban land-use changes</a></li>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/article/10.1023/A%3A1008045419517">Floodplain Management in Urban Developing Areas. Part II. GIS-Based Flood Analysis and Urban Growth Modelling</a></li>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1023%2FA%3A1014262530372.pdf">Urban analysis with GIS</a></li>
+<li>Lesson slide in <a href="../lesson/Lesson03/Lesson03.html">html</a> format.</li>
+<li>Hands-on Exercise in <a href="">html</a> format.</li>
+</ul>
+</section>
+<section id="readings" class="level2">
+<h2 class="anchored" data-anchor-id="readings">Readings</h2>
+<section id="core-readings" class="level3">
+<h3 class="anchored" data-anchor-id="core-readings">Core Readings</h3>
+<ul>
+<li><a href="http://downloads2.esri.com/support/documentation/ao_/Modeling_our_World.pdf">Modeling Our World: The ESRI Guide to Geodatabase Design</a></li>
+</ul>
+</section>
+<section id="additional-readings" class="level3">
+<h3 class="anchored" data-anchor-id="additional-readings">Additional Readings</h3>
+<ul>
+<li><a href="https://www.researchgate.net/publication/266222038_Geospatial_Database_Template_for_Urban_Management_in_Fez_Morocco">Geospatial Database Template for Urban Management in Fez (Morocco)</a></li>
+<li><a href="https://www.fig.net/resources/proceedings/fig_proceedings/fig2018/papers/ts10h/TS10H_oli_shrestha_et_al_9568.pdf">Preparation of Geodatabase for Urban Planning in Nepal</a></li>
+<li><a href="https://www.researchgate.net/publication/324989663_Proposal_of_building_a_standard_geodatabase_for_urban_land_use">Proposal of building a standard geodatabase for urban land use</a></li>
+<li><a href="https://www.semanticscholar.org/paper/Object-oriented-GIS-Data-Modelling-for-Urban-Design-Li-Yang/1a170b10fcee2faa783505aac0e49cf32f5b0894?p2df">Object-oriented GIS Data Modelling for Urban Design</a></li>
+</ul>
+</section>
+</section>
+<section id="all-about-qgis" class="level2">
+<h2 class="anchored" data-anchor-id="all-about-qgis">All About QGIS</h2>
+<ul>
+<li><a href="https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/index.html">A Gentle Introduction to GIS</a>. Chapter 3-9.</li>
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

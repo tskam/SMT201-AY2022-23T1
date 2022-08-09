@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2022-08-09">
-<meta name="description" content="In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions.">
+<meta name="description" content="In this lesson, you will learn principles and methods of MCDA. You will also gain hands-on experience on integrating MCDA with raster-based GIS modelling.">
 
-<title>SMT201-AY2022-23T1 - Lesson 5: Urban Applications of Vector-based GIS Analysis</title>
+<title>SMT201-AY2022-23T1 - Lesson 9: Multiple‐Criteria Decision Analysis (MCDA)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,10 +116,11 @@ ul.task-list{list-style: none;}
    
   <ul>
   <li><a href="#content" id="toc-content" class="nav-link active" data-scroll-target="#content">Content</a></li>
+  <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
   <ul class="collapse">
-  <li><a href="#trade-area-analysis" id="toc-trade-area-analysis" class="nav-link" data-scroll-target="#trade-area-analysis">Trade Area Analysis</a></li>
-  <li><a href="#gis-based-urban-analysis" id="toc-gis-based-urban-analysis" class="nav-link" data-scroll-target="#gis-based-urban-analysis">GIS-based Urban Analysis</a></li>
+  <li><a href="#concepts-and-methods" id="toc-concepts-and-methods" class="nav-link" data-scroll-target="#concepts-and-methods">Concepts and Methods</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -129,12 +130,12 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 5: Urban Applications of Vector-based GIS Analysis</h1>
+<h1 class="title">Lesson 9: Multiple‐Criteria Decision Analysis (MCDA)</h1>
 </div>
 
 <div>
   <div class="description">
-    In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions.
+    In this lesson, you will learn principles and methods of MCDA. You will also gain hands-on experience on integrating MCDA with raster-based GIS modelling.
   </div>
 </div>
 
@@ -157,47 +158,49 @@ ul.task-list{list-style: none;}
 <section id="content" class="level2">
 <h2 class="anchored" data-anchor-id="content">Content</h2>
 <ul>
-<li>Trade Area Analysis
+<li>Descriptive model</li>
+<li>Prescriptive models
 <ul>
-<li>Defining trade areas</li>
-<li>Examples of trade areas</li>
-<li>Factors that influence trade area</li>
-<li>GIS-based trade area analysis process</li>
-<li>GIS-based trade area delineation techniques</li>
+<li>Binary method</li>
+<li>Ranking method</li>
+<li>Rating method</li>
 </ul></li>
-<li>Urban Analysis and Monitoring
+<li>GIS‐Based Multiple‐Criteria Decision Analysis</li>
+<li>Analytical Hierarchical Process (AHP)</li>
+<li>Predictive model</li>
+</ul>
+</section>
+<section id="lesson-slides-and-hands-on-notes" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
 <ul>
-<li>Development control</li>
-<li>Urban growth monitoring</li>
-<li>Urban change detection</li>
-</ul></li>
-<li>Hands-on Exercise in <a href="../Hands-on_Ex/Hands-on_Ex06/Hands-on_Ex06.html">html</a> and <a href="../Hands-on_Ex/Hands-on_Ex06//Hands-on_Ex06.pdf">pdf</a> format.</li>
+<li>Hands-on Exercise 9 in <a href="../Hands-on_Ex/Hands-on_Ex09/Hands-on_Ex09.html">html</a> and <a href="../Hands-on_Ex/Hands-on_Ex09/Hands-on_Ex09.pdf">pdf</a> formats.</li>
 </ul>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<section id="trade-area-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="trade-area-analysis">Trade Area Analysis</h3>
+<section id="concepts-and-methods" class="level3">
+<h3 class="anchored" data-anchor-id="concepts-and-methods">Concepts and Methods</h3>
 <ul>
-<li><a href="http://www.experts.com/content/articles/Donald-Segal-JDM-Trade%20Area%20Analysis.pdf">Retail Trade Area Analysis: Concepts and New Approaches</a></li>
-<li>Cui, Can ; Wang, Jiechen ; Pu, Yingxia ; Ma, Jinsong ; Chen, Gang (2012) <a href="https://web-a-ebscohost-com.libproxy.smu.edu.sg/ehost/detail/detail?vid=0&amp;sid=d8645ef8-9d8e-4b2f-a397-cfbcd9c25f45%40sessionmgr4008&amp;bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#AN=80736486&amp;db=asn">“GIS-based method of delimitating trade area for retail chains”</a>. International <em>Journal of Geographical Information Science</em>, Vol.26(10), pp.1863-1879.</li>
-<li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=17&amp;ved=2ahUKEwiCgIqb4ePkAhWDXSsKHdKODNUQFjAQegQICBAC&amp;url=http%3A%2F%2Ficonarp.selcuk.edu.tr%2Ficonarp%2Farticle%2Fdownload%2F203%2F153&amp;usg=AOvVaw1-fj4zY8aWGmpKmE_2dL3k">“The Evaluation of Trade Area Models and Analysis Methods for Site Selection”</a> from International Quick Service Restaurants’ (QSR) Perspective.</li>
-<li><a href="https://spatial.usc.edu/wp-content/uploads/2014/04/GrayAmanda.pdf">Spatial Delineation of Market Areas: A Proposed Approach</a></li>
-<li><a href="http://www.slideshare.net/decemberstar55/shopping-mall-trade-area-analysis">Shopping Mall Trade Area Analysis</a></li>
-<li><a href="https://fyi.uwex.edu/downtown-market-analysis/understanding-the-market/trade-area-analysis/">Downtown and Business District Market Analysis -&gt; Understand the Market: Trade Area Analysis</a></li>
-<li>Sample Trade Area Report
-<ul>
-<li><a href="http://www.brdconsulting.it/images/Progetti/TradeAreaReport/TradeAreaReportDemo.pdf">Grafici Trade Area Report</a></li>
-<li><a href="https://fyi.extension.wisc.edu/downtown-market-analysis/example-studies/wisconsin-example-studies/">Wisconsin Example Studies</a></li>
-</ul></li>
+<li>Berry, J.K. (2005) <a href="http://www.innovativegis.com/basis/BeyondMappingSeries/BeyondMapping_III/Topic7/BM_III_T7.htm">Topic 7–Basic Spatial Modeling Approaches</a> and <a href="http://www.innovativegis.com/basis/BeyondMappingSeries/BeyondMapping_III/Topic8/BM_III_T8.htm">Topic 8–Spatial Modeling Example</a> in <strong>Beyond Mapping III</strong>.</li>
+<li>Berry, J. K. (2005) GIS Modeling and Analysis. <a href="http://www.innovativegis.com/basis/papers/other/asprschapter/#Berry6_Modeling_Frameworks">Chapter GIS Modeling Frameworks</a>.</li>
+<li>Malczewski, Jacek (2004) <a href="https://www-sciencedirect-com.libproxy.smu.edu.sg/science/article/pii/S0305900603000801">“GIS-based land-use suitability analysis: a critical overview”</a>. <em>Progress in Planning</em>, Vol.62(1), pp.3-65.</li>
+<li>Montgomery, Bryn ; Dragićević, Suzana (2016) <a href="https://onlinelibrary-wiley-com.libproxy.smu.edu.sg/doi/full/10.1111/gean.12103">“Comparison of GIS‐Based Logic Scoring of Preference and Multicriteria Evaluation Methods: Urban Land Use Suitability”</a>. <em>Geographical Analysis</em>, Vol.48(4), pp.427-447.</li>
+<li>Siobhan Ryan and Ellis Nimick (2019) <a href="https://storymaps.arcgis.com/stories/b60b7399f6944bca86d1be6616c178cf">Multi-Criteria Decision Analysis and GIS</a>, <strong>ArcGIS StoryMaps</strong>.</li>
 </ul>
 </section>
-<section id="gis-based-urban-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="gis-based-urban-analysis">GIS-based Urban Analysis</h3>
+<section id="applications" class="level3">
+<h3 class="anchored" data-anchor-id="applications">Applications</h3>
 <ul>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2Fs11769-002-0039-3.pdf">GIS-based analysis of urban land-use changes</a></li>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/article/10.1023/A%3A1008045419517">Floodplain Management in Urban Developing Areas. Part II. GIS-Based Flood Analysis and Urban Growth Modelling</a></li>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1023%2FA%3A1014262530372.pdf">Urban analysis with GIS</a></li>
+<li><p>Malihe Masoudi et. al (2021) <a href="https://doi.org/10.1007/s41742-021-00326-0">“GIS‑Based Multi‑Criteria and Multi‑Objective Evaluation for Sustainable Land‑Use Planning (Case Study: Qaleh Ganj County, Iran)”Landuse Planning Using MCE and Mola””</a>, <em>International Journal of Environmental Research</em> (2021) 15:457–474</p></li>
+<li><p>Abdullahi, Saleh ; Pradhan, Biswajeet (2016) <a href="https://link-springer-com.libproxy.smu.edu.sg/article/10.1007/s12061-015-9139-1">“Sustainable Brownfields Land Use Change Modeling Using GIS-based Weights-of-Evidence Approach”</a> <em>Applied Spatial Analysis and Policy</em>, Vol.9(1), pp.21-38.</p></li>
+<li><p>Dong, Mei ; Hu, Hui ; Xu, Riqing ; Gong, Xiaonan (2018) <a href="https://link-springer-com.libproxy.smu.edu.sg/article/10.1007/s10064-017-1069-5">“A GIS-based quantitative geo-environmental evaluation for land-use development in an urban area: Shunyi New City, Beijing, China”</a>. <em>Bulletin of Engineering Geology and the Environment</em>, Vol.77(3), pp.1203-1215.</p></li>
+<li><p>Parry, Jahangeer A ; Ganaie, Showkat A ; Sultan Bhat, M (2018) <a href="https://www.sciencedirect.com/science/article/pii/S2226585617301231?via%3Dihub">“GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&amp;K, India”</a>. <em>Journal of Urban Management</em>, Vol.7(2), pp.46-56.</p></li>
+<li><p>Chen, Jiapei (2014) <a href="https://environmentalsystemsresearch.springeropen.com/articles/10.1186/2193-2697-3-13">“GIS-based multi-criteria analysis for land use suitability assessment in City of Regina”</a>. <em>Environmental Systems Research</em>, Vol.3(1), pp.1-10.</p></li>
+<li><p>Sarath Midatana ; S. Saran ; K. V. Ramana (2018) <a href="https://doaj.org/article/c00d77c4bebf4754ab22bed617bd3117">“Site suitability analysis for industries using GIS and Multi criteria decision making”</a>. <em>ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em>, Vol.IV-5, pp.447-454.</p></li>
+<li><p><a href="https://pdfs.semanticscholar.org/57e2/8189fb06331966e99cb5f44f5e58eb45a6b0.pdf?_ga=2.87358040.1338523781.1569136260-1356347789.1558054866">Modelling land use changes according to transportation scenarios using raster based GIS indicators</a></p></li>
+<li><p><a href="http://journals.witpress.com/paperinfo.asp?pid=425">Cartographic Modeling Of Land Suitability For Industrial Development In The Egyptian Desert</a></p></li>
+<li><p><a href="http://www.isocarp.net/Data/case_studies/1262.pdf">Raster based GIS for Urban Management</a></p></li>
+<li><p><a href="http://www.itc.nl/library/papers_2003/msc/upla/yang_manlun.pdf">Suitability Analysis of Urban Green Space System Based on GIS</a></p></li>
 </ul>
 
 

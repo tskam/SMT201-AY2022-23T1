@@ -1,6 +1,6 @@
 ---
-title: "Lesson 3: Modelling Urban World"
-description: "In this lesson, you will learn how to build an urban GIS database to extracting, assembling, integrating and wrangling data from different sources.  You will also learn how to create a geodatabase and performing manual editing."
+title: "Lesson 3: Mapping and Visualising Urban World with GIS"
+description: "In this lesson, you will learn the basic principles and methods of GIS mapping and Geovisualisation. You will also gain hands-on exercise on using QGIS to prepare GIS maps."
 date: "`r Sys.Date()`"
 format: html
 ---
@@ -11,34 +11,62 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Content
 
--   Geospatial Data Models
-    -   Geospatial database design
-    -   Spatial Metadata
-    -   Spatial indexing
-    -   Multi-user editing and versioning
--   Geospatial Data Repositories
-    -   File-based
-    -   Geospatial RDBMS
-    -   Cloud based geospatial database
+-   Maps and Urban Environments
+-   Typology of Maps
+    -   Reference maps
+    -   Thematic maps
+-   Qualitative thematic mapping
+-   Quantitative thematic mapping
+    -   Number of classes
+    -   Data classification
+    -   Colour scheme
 
 ## Lesson Slides and Hands-on Notes
 
--   Lesson slide in [html](../lesson/Lesson03/Lesson03.html) format.
--   Hands-on Exercise in [html]() format.
+-   Lesson slide in [html](../lesson/Lesson04/Lesson04.html) format.
+-   Hands-on Exercise in [html](../Hands-on_Ex/Hands-on_Ex04/Hands-on_Ex04.html) format.
 
 ## Readings
 
-### Core Readings
+### Core Reading (Highly recommended)
 
--   [Modeling Our World: The ESRI Guide to Geodatabase Design](http://downloads2.esri.com/support/documentation/ao_/Modeling_our_World.pdf)
+-   [What is a map?](https://www.axismaps.com/guide/what-is-a-map)
+-   [Visual Variables](https://www.axismaps.com/guide/visual-variables)
+-   [Using Colors on Maps](https://www.axismaps.com/guide/using-colors-on-maps)
+-   [Scale and Generalization](https://www.axismaps.com/guide/scale-and-generalization)
+-   [Proportional Symbols](https://www.axismaps.com/guide/proportional-symbols)
+-   [Choropleth Maps](https://www.axismaps.com/guide/choropleth)
+-   [The Basics of Data Classification](https://www.axismaps.com/guide/data-classification)
 
 ### Additional Readings
 
--   [Geospatial Database Template for Urban Management in Fez (Morocco)](https://www.researchgate.net/publication/266222038_Geospatial_Database_Template_for_Urban_Management_in_Fez_Morocco)
--   [Preparation of Geodatabase for Urban Planning in Nepal](https://www.fig.net/resources/proceedings/fig_proceedings/fig2018/papers/ts10h/TS10H_oli_shrestha_et_al_9568.pdf)
--   [Proposal of building a standard geodatabase for urban land use](https://www.researchgate.net/publication/324989663_Proposal_of_building_a_standard_geodatabase_for_urban_land_use)
--   [Object-oriented GIS Data Modelling for Urban Design](https://www.semanticscholar.org/paper/Object-oriented-GIS-Data-Modelling-for-Urban-Design-Li-Yang/1a170b10fcee2faa783505aac0e49cf32f5b0894?p2df)
+-   [Choropleth Maps -- A Guide to Data Classification](https://gisgeography.com/choropleth-maps-data-classification/)
+-   [Bivariate Choropleth](https://www.axismaps.com/guide/bivariate-choropleth)
+-   [Value-by-alpha maps](http://andywoodruff.com/blog/value-by-alpha-maps/)
+-   [What to consider when creating choropleth maps](https://blog.datawrapper.de/choroplethmaps/)
+-   [Choropleth Mapping with Exploratory Data Analysis](https://www.directionsmag.com/article/3363)
+-   [Cartogram Maps: Data Visualization with Exaggeration](https://gisgeography.com/cartogram-maps/)
+-   [Cartogram](https://en.wikipedia.org/wiki/Cartogram)
 
-## All About QGIS
+## References
 
--   [A Gentle Introduction to GIS](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/index.html). Chapter 3-9.
+-   Slocum, T., McMaster R., Kessler, F. and Howard, H. (2005) Thematic Cartography and Geographic Visualization (2nd Edition), Prentice Hall, New Jersey.
+-   Kraak, M-J & Ormeling, F. (2003) (2nd Edition) Cartography: Visualization of Geospatial Data. Pearson Education Limited, Essex, England.
+-   Monmonier, M. (1996) How to Lie with Maps, The University of Chicago Press, USA.
+
+## QGIS methods
+
+-   [4. Module: Laying out the Maps](https://docs.qgis.org/3.16/en/docs/training_manual/map_composer/index.html) of **QGIS Training Manual**.
+-   [9. Map Production](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/map_production.html) of **A Gentle Introduction to GIS**.
+-   The following sub-sections of **QGIS User Guide**:
+    -   [The Vector Properties Dialog: Symbology Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#symbology-properties)
+    -   [The Vector Properties Dialog: Labels Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#labels-properties)
+    -   [The Vector Properties Dialog: Diagrams Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#diagrams-properties)
+    -   [14.1.6. Masks Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#masks-properties)
+    -   [14.1.7. 3D View Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#d-view-properties)
+    -   [14.1.10. Joins Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#joins-properties)
+    -   [14.1.13. Display Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#display-properties)
+    -   [14.1.14. Rendering Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#rendering-properties)
+    -   [14.1.15. Variables Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#variables-properties)
+    -   [14.1.18. Legend Properties](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#legend-properties)
+    -   [18. Laying out the maps](https://docs.qgis.org/3.16/en/docs/user_manual/print_composer/index.html)

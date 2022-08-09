@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-08-07">
-<meta name="description" content="In this lesson, you will learn the basic principles and methods of GIS mapping and Geovisualisation. You will also gain hands-on exercise on using QGIS to prepare GIS maps.">
+<meta name="dcterms.date" content="2022-08-09">
+<meta name="description" content="In this lesson, you will learn the basic concepts and methods of vector-based GIS Analysis. You will also gain hands-on experience on using QGIS to perform basic vector-based GIS analysis operations.">
 
-<title>SMT201-AY2022-23T1 - Lesson 4: Mapping and Visualising Urban World with GIS</title>
+<title>SMT201-AY2022-23T1 - Lesson 4: Vector-based GIS Analysis Methods</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,11 +119,9 @@ ul.task-list{list-style: none;}
   <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a></li>
   <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a>
   <ul class="collapse">
-  <li><a href="#core-reading-highly-recommended" id="toc-core-reading-highly-recommended" class="nav-link" data-scroll-target="#core-reading-highly-recommended">Core Reading (Highly recommended)</a></li>
-  <li><a href="#additional-readings" id="toc-additional-readings" class="nav-link" data-scroll-target="#additional-readings">Additional Readings</a></li>
+  <li><a href="#core-readings" id="toc-core-readings" class="nav-link" data-scroll-target="#core-readings">Core readings</a></li>
   </ul></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
-  <li><a href="#qgis-methods" id="toc-qgis-methods" class="nav-link" data-scroll-target="#qgis-methods">QGIS methods</a></li>
+  <li><a href="#qgis-methods" id="toc-qgis-methods" class="nav-link" data-scroll-target="#qgis-methods">QGIS Methods</a></li>
   </ul>
 </nav>
     </div>
@@ -132,12 +130,12 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 4: Mapping and Visualising Urban World with GIS</h1>
+<h1 class="title">Lesson 4: Vector-based GIS Analysis Methods</h1>
 </div>
 
 <div>
   <div class="description">
-    In this lesson, you will learn the basic principles and methods of GIS mapping and Geovisualisation. You will also gain hands-on exercise on using QGIS to prepare GIS maps.
+    In this lesson, you will learn the basic concepts and methods of vector-based GIS Analysis. You will also gain hands-on experience on using QGIS to perform basic vector-based GIS analysis operations.
   </div>
 </div>
 
@@ -148,7 +146,7 @@ ul.task-list{list-style: none;}
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 7, 2022</p>
+      <p class="date">August 9, 2022</p>
     </div>
   </div>
     
@@ -160,81 +158,54 @@ ul.task-list{list-style: none;}
 <section id="content" class="level2">
 <h2 class="anchored" data-anchor-id="content">Content</h2>
 <ul>
-<li>Maps and Urban Environments</li>
-<li>Typology of Maps
+<li>Spatial SQL</li>
+<li>Spatial relationship</li>
+<li>Geoprocessing Techniques
 <ul>
-<li>Reference maps</li>
-<li>Thematic maps</li>
+<li>CLIP</li>
+<li>DISSOLVE</li>
+<li>APPEND</li>
+<li>SPLIT</li>
+<li>ERASE</li>
 </ul></li>
-<li>Qualitative thematic mapping</li>
-<li>Quantitative thematic mapping
+<li>Proximity Analysis
 <ul>
-<li>Number of classes</li>
-<li>Data classification</li>
-<li>Colour scheme</li>
+<li>Buffering</li>
+<li>Thiessen Polygon</li>
 </ul></li>
+<li>Vector Overlaying</li>
 </ul>
 </section>
 <section id="lesson-slides-and-hands-on-notes" class="level2">
 <h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
 <ul>
-<li>Lesson slide in <a href="../lesson/Lesson04/Lesson04.html">html</a> format.</li>
-<li>Hands-on Exercise in <a href="../Hands-on_Ex/Hands-on_Ex04/Hands-on_Ex04.html">html</a> format.</li>
+<li>Lesson slide in <a href="../lesson/Lesson05/Lesson05.html">html</a> and <a href="../lesson/Lesson05/Lesson05.pdf">pdf</a> formats</li>
 </ul>
 </section>
 <section id="readings" class="level2">
 <h2 class="anchored" data-anchor-id="readings">Readings</h2>
-<section id="core-reading-highly-recommended" class="level3">
-<h3 class="anchored" data-anchor-id="core-reading-highly-recommended">Core Reading (Highly recommended)</h3>
+<section id="core-readings" class="level3">
+<h3 class="anchored" data-anchor-id="core-readings">Core readings</h3>
 <ul>
-<li><a href="https://www.axismaps.com/guide/what-is-a-map">What is a map?</a></li>
-<li><a href="https://www.axismaps.com/guide/visual-variables">Visual Variables</a></li>
-<li><a href="https://www.axismaps.com/guide/using-colors-on-maps">Using Colors on Maps</a></li>
-<li><a href="https://www.axismaps.com/guide/scale-and-generalization">Scale and Generalization</a></li>
-<li><a href="https://www.axismaps.com/guide/proportional-symbols">Proportional Symbols</a></li>
-<li><a href="https://www.axismaps.com/guide/choropleth">Choropleth Maps</a></li>
-<li><a href="https://www.axismaps.com/guide/data-classification">The Basics of Data Classification</a></li>
+<li><a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s10-02-searches-and-queries.html">Searches and Queries</a></li>
+<li><a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html">Geospatial Analysis I: Vector Operations</a></li>
 </ul>
 </section>
-<section id="additional-readings" class="level3">
-<h3 class="anchored" data-anchor-id="additional-readings">Additional Readings</h3>
-<ul>
-<li><a href="https://gisgeography.com/choropleth-maps-data-classification/">Choropleth Maps – A Guide to Data Classification</a></li>
-<li><a href="https://www.axismaps.com/guide/bivariate-choropleth">Bivariate Choropleth</a></li>
-<li><a href="http://andywoodruff.com/blog/value-by-alpha-maps/">Value-by-alpha maps</a></li>
-<li><a href="https://blog.datawrapper.de/choroplethmaps/">What to consider when creating choropleth maps</a></li>
-<li><a href="https://www.directionsmag.com/article/3363">Choropleth Mapping with Exploratory Data Analysis</a></li>
-<li><a href="https://gisgeography.com/cartogram-maps/">Cartogram Maps: Data Visualization with Exaggeration</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Cartogram">Cartogram</a></li>
-</ul>
-</section>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<ul>
-<li>Slocum, T., McMaster R., Kessler, F. and Howard, H. (2005) Thematic Cartography and Geographic Visualization (2nd Edition), Prentice Hall, New Jersey.</li>
-<li>Kraak, M-J &amp; Ormeling, F. (2003) (2nd Edition) Cartography: Visualization of Geospatial Data. Pearson Education Limited, Essex, England.</li>
-<li>Monmonier, M. (1996) How to Lie with Maps, The University of Chicago Press, USA.</li>
-</ul>
 </section>
 <section id="qgis-methods" class="level2">
-<h2 class="anchored" data-anchor-id="qgis-methods">QGIS methods</h2>
+<h2 class="anchored" data-anchor-id="qgis-methods">QGIS Methods</h2>
 <ul>
-<li><a href="https://docs.qgis.org/3.16/en/docs/training_manual/map_composer/index.html">4. Module: Laying out the Maps</a> of <strong>QGIS Training Manual</strong>.</li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/map_production.html">9. Map Production</a> of <strong>A Gentle Introduction to GIS</strong>.</li>
+<li><a href="https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html">10. Vector Spatial Analysis (Buffers))</a> of <strong>A Gentle Introduction to GIS</strong>.</li>
+<li><a href="https://docs.qgis.org/3.16/en/docs/training_manual/vector_analysis/basic_analysis.html">6.2. Lesson: Vector Analysis</a> of <strong>QGIS Training Manual</strong>.</li>
 <li>The following sub-sections of <strong>QGIS User Guide</strong>:
 <ul>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#symbology-properties">The Vector Properties Dialog: Symbology Properties</a></li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#labels-properties">The Vector Properties Dialog: Labels Properties</a></li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#diagrams-properties">The Vector Properties Dialog: Diagrams Properties</a></li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#masks-properties">14.1.6. Masks Properties</a></li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#d-view-properties">14.1.7. 3D View Properties</a></li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#joins-properties">14.1.10. Joins Properties</a></li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#display-properties">14.1.13. Display Properties</a></li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#rendering-properties">14.1.14. Rendering Properties</a></li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#variables-properties">14.1.15. Variables Properties</a></li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/vector_properties.html#legend-properties">14.1.18. Legend Properties</a></li>
-<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/print_composer/index.html">18. Laying out the maps</a></li>
+<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html">24.1.12. Vector analysis</a></li>
+<li><a href="https://docs.qgis.org/3.16/en/docs/user_manual/processing_algs/qgis/vectorcreation.html">24.1.13. Vector creation</a></li>
+<li><a href="https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html">24.1.14. Vector general</a></li>
+<li><a href="https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html">24.1.15. Vector geometry</a></li>
+<li><a href="https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html">24.1.16. Vector overlay</a></li>
+<li><a href="https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorselection.html">24.1.17. Vector selection</a></li>
+<li><a href="https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectortable.html">24.1.18. Vector table</a></li>
 </ul></li>
 </ul>
 

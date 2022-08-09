@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-08-05">
-<meta name="description" content="In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions.">
+<meta name="dcterms.date" content="2022-08-09">
+<meta name="description" content="In this lesson, you will learn the basic principles and methods of raster-based GIS analysis. You will also gain hands-on experience on using QGIS to perform basic raster-based GIS analysis operations.">
 
-<title>SMT201-AY2022-23T1 - Lesson 6: Urban Applications of Vector-based GIS Analysis</title>
+<title>SMT201-AY2022-23T1 - Lesson 6: The Science of Mapthematics: Raster-based GIS analysis methods</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,12 +115,14 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#content" id="toc-content" class="nav-link active" data-scroll-target="#content">Content</a></li>
+  <li><a href="#the-science-of-mapthematics-and-cartographic-modelling" id="toc-the-science-of-mapthematics-and-cartographic-modelling" class="nav-link active" data-scroll-target="#the-science-of-mapthematics-and-cartographic-modelling">The Science of Mapthematics and Cartographic Modelling</a></li>
+  <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
   <ul class="collapse">
-  <li><a href="#trade-area-analysis" id="toc-trade-area-analysis" class="nav-link" data-scroll-target="#trade-area-analysis">Trade Area Analysis</a></li>
-  <li><a href="#gis-based-urban-analysis" id="toc-gis-based-urban-analysis" class="nav-link" data-scroll-target="#gis-based-urban-analysis">GIS-based Urban Analysis</a></li>
+  <li><a href="#core-reading" id="toc-core-reading" class="nav-link" data-scroll-target="#core-reading">Core Reading</a></li>
+  <li><a href="#additional-readings" id="toc-additional-readings" class="nav-link" data-scroll-target="#additional-readings">Additional readings</a></li>
   </ul></li>
+  <li><a href="#all-about-qgis" id="toc-all-about-qgis" class="nav-link" data-scroll-target="#all-about-qgis">All About QGIS</a></li>
   </ul>
 </nav>
     </div>
@@ -129,12 +131,12 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 6: Urban Applications of Vector-based GIS Analysis</h1>
+<h1 class="title">Lesson 6: The Science of Mapthematics: Raster-based GIS analysis methods</h1>
 </div>
 
 <div>
   <div class="description">
-    In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions.
+    In this lesson, you will learn the basic principles and methods of raster-based GIS analysis. You will also gain hands-on experience on using QGIS to perform basic raster-based GIS analysis operations.
   </div>
 </div>
 
@@ -145,7 +147,7 @@ ul.task-list{list-style: none;}
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 5, 2022</p>
+      <p class="date">August 9, 2022</p>
     </div>
   </div>
     
@@ -154,54 +156,65 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<section id="content" class="level2">
-<h2 class="anchored" data-anchor-id="content">Content</h2>
+<section id="the-science-of-mapthematics-and-cartographic-modelling" class="level2">
+<h2 class="anchored" data-anchor-id="the-science-of-mapthematics-and-cartographic-modelling">The Science of Mapthematics and Cartographic Modelling</h2>
 <ul>
-<li>Trade Area Analysis
+<li>Introduction to Raster-based GIS Analysis
 <ul>
-<li>Defining trade areas</li>
-<li>Examples of trade areas</li>
-<li>Factors that influence trade area</li>
-<li>GIS-based trade area analysis process</li>
-<li>GIS-based trade area delineation techniques</li>
+<li>The basic concept of raster GIS data model</li>
+<li>Raster database</li>
+<li>Characteristics of raster</li>
+<li>Raster resolution</li>
+<li>The composite weight</li>
 </ul></li>
-<li>Urban Analysis and Monitoring
+<li>Map Algebra Methods
 <ul>
-<li>Development control</li>
-<li>Urban growth monitoring</li>
-<li>Urban change detection</li>
+<li>Local functions</li>
+<li>Focal functions</li>
+<li>Neighbourhood functions</li>
+<li>Zonal functions</li>
 </ul></li>
-<li>Hands-on Exercise in <a href="../Hands-on_Ex/Hands-on_Ex06/Hands-on_Ex06.html">html</a> and <a href="../Hands-on_Ex/Hands-on_Ex06//Hands-on_Ex06.pdf">pdf</a> format.</li>
+<li>Cartographic Modelling
+<ul>
+<li>A process of map analysis</li>
+</ul></li>
+</ul>
+</section>
+<section id="lesson-slides-and-hands-on-notes" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
+<ul>
+<li><p>Lesson slides in <a href="../lesson/Lesson07/Lesson07.html">html</a> and <a href="../lesson/Lesson07/Lesson07.pdf">pdf</a> formats.</p></li>
+<li><p>Hands-on Exercise 7 in <a href="../Hands-on_Ex/Hands-on_Ex07/Hands-on_Ex07.html">html</a> and <a href="../Hands-on_Ex/Hands-on_Ex07/Hands-on_Ex07.pdf">pdf</a> formats.</p></li>
 </ul>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<section id="trade-area-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="trade-area-analysis">Trade Area Analysis</h3>
+<section id="core-reading" class="level3">
+<h3 class="anchored" data-anchor-id="core-reading">Core Reading</h3>
 <ul>
-<li><a href="http://www.experts.com/content/articles/Donald-Segal-JDM-Trade%20Area%20Analysis.pdf">Retail Trade Area Analysis: Concepts and New Approaches</a></li>
-<li>Cui, Can ; Wang, Jiechen ; Pu, Yingxia ; Ma, Jinsong ; Chen, Gang (2012) <a href="https://web-a-ebscohost-com.libproxy.smu.edu.sg/ehost/detail/detail?vid=0&amp;sid=d8645ef8-9d8e-4b2f-a397-cfbcd9c25f45%40sessionmgr4008&amp;bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#AN=80736486&amp;db=asn">“GIS-based method of delimitating trade area for retail chains”</a>. International <em>Journal of Geographical Information Science</em>, Vol.26(10), pp.1863-1879.</li>
-<li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=17&amp;ved=2ahUKEwiCgIqb4ePkAhWDXSsKHdKODNUQFjAQegQICBAC&amp;url=http%3A%2F%2Ficonarp.selcuk.edu.tr%2Ficonarp%2Farticle%2Fdownload%2F203%2F153&amp;usg=AOvVaw1-fj4zY8aWGmpKmE_2dL3k">“The Evaluation of Trade Area Models and Analysis Methods for Site Selection”</a> from International Quick Service Restaurants’ (QSR) Perspective.</li>
-<li><a href="https://spatial.usc.edu/wp-content/uploads/2014/04/GrayAmanda.pdf">Spatial Delineation of Market Areas: A Proposed Approach</a></li>
-<li><a href="http://www.slideshare.net/decemberstar55/shopping-mall-trade-area-analysis">Shopping Mall Trade Area Analysis</a></li>
-<li><a href="https://fyi.uwex.edu/downtown-market-analysis/understanding-the-market/trade-area-analysis/">Downtown and Business District Market Analysis -&gt; Understand the Market: Trade Area Analysis</a></li>
-<li>Sample Trade Area Report
-<ul>
-<li><a href="http://www.brdconsulting.it/images/Progetti/TradeAreaReport/TradeAreaReportDemo.pdf">Grafici Trade Area Report</a></li>
-<li><a href="https://fyi.extension.wisc.edu/downtown-market-analysis/example-studies/wisconsin-example-studies/">Wisconsin Example Studies</a></li>
-</ul></li>
+<li><a href="https://mgimond.github.io/Spatial/chp10_0.html">Chapter 10 Map Algebra</a> of Intro to GIS and Spatial Analysis (online version)</li>
+<li>Berry, Joseph (1987) <a href="https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2FBF01867159.pdf">“A mathematical structure for analyzing maps”</a>, Environmental Management, Vol.11(3), pp.317-325.</li>
+<li><a href="http://www.wiley.com/legacy/wileychi/gis/Volume1/BB1v1_ch23.pdf">Cartographic Modeling</a></li>
 </ul>
 </section>
-<section id="gis-based-urban-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="gis-based-urban-analysis">GIS-based Urban Analysis</h3>
+<section id="additional-readings" class="level3">
+<h3 class="anchored" data-anchor-id="additional-readings">Additional readings</h3>
 <ul>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2Fs11769-002-0039-3.pdf">GIS-based analysis of urban land-use changes</a></li>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/article/10.1023/A%3A1008045419517">Floodplain Management in Urban Developing Areas. Part II. GIS-Based Flood Analysis and Urban Growth Modelling</a></li>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1023%2FA%3A1014262530372.pdf">Urban analysis with GIS</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Map_algebra">Map algebra</a></li>
+<li><a href="http://www.innovativegis.com/basis/papers/other/asprschapter/">GIS Modeling and Analysis</a></li>
+</ul>
+</section>
+</section>
+<section id="all-about-qgis" class="level2">
+<h2 class="anchored" data-anchor-id="all-about-qgis">All About QGIS</h2>
+<ul>
+<li><a href="https://docs.qgis.org/3.4/en/docs/user_manual/working_with_raster/index.html">Working with Raster Data</a></li>
+<li><a href="https://docs.qgis.org/3.4/en/docs/training_manual/rasters/terrain_analysis.html">8.3. Lesson: Terrain Analysis</a></li>
+<li><a href="https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/raster_data.html">6. Raster Data</a> of <strong>A Gentle Introduction to GIS</strong>.</li>
+<li><a href="https://docs.qgis.org/3.16/en/docs/training_manual/rasters/index.html">7. Module: Rasters</a> of <strong>QGIS Training Manual</strong>.</li>
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

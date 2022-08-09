@@ -221,7 +221,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n15/8/2022\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n22/8/2022\nLesson 2: The Evil is in The Data\n\n\n\n3\n29/8/2022\nLesson 3: Modelling Urban World\n\n\n\n4\n5/9/2022\nLesson 4: Mapping and Visualising Urban World with GIS\n\n\n\n5\n12/9/2022\nLesson 5: Vector-based GeoProcessing and GIS Analysis\n\n\n\n6\n19/9/2022\nLesson 6: Urban Applications of Vector-based GIS Analysis\n\n\n\n7\n26/9/2022\nLesson 7: The Science of Mapthematics\n\n\n\n8\n3/10/2022\nMid-term break\n\n\n\n9\n10/10/2022\nLesson 8: Urban Applications of Raster-based GIS Analysis\n\n\n\n10\n17/10/2022\nLesson 9: GIS Modelling for Urban Planning Support\n\n\n\n11\n24/10/2022\nLesson 10: Urban Network Analysis with GIS\n\n\n\n12\n31/10/2022\nLesson 11: Sharing Geographical Information\n\n\n\n13\n7/11/2022\nLesson 12: Epilogue\n\n\n\n14\n14/11/2022\nTownhall Presentation"
+    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n15/8/2022\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n22/8/2022\nLesson 2: The Evil is in The Data\n\n\n\n3\n29/8/2022\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n5/9/2022\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n12/9/2022\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n19/9/2022\nLesson 6: The Science of Mapthematics\n\n\n\n7\n26/9/2022\nLesson 7: Urban Applications of Raster-based GIS Analysis\n\n\n\n8\n3/10/2022\nMid-term break\n\n\n\n9\n10/10/2022\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/10/2022\nLesson 9: Applied Image Analysis for the Urban Environment\n\n\n\n11\n24/10/2022\nLesson 10: Urban Network Analysis with GIS\n\n\n\n12\n31/10/2022\nLesson 11: Urban 3D Modelling and Visualisation with GIS\n\n\n\n13\n7/11/2022\nLesson 12: Sharing Geographical Information\n\n\n\n14\n14/11/2022\nTownhall Presentation"
   },
   {
     "objectID": "outline/lesson01_outline.html",
@@ -282,23 +282,23 @@
   {
     "objectID": "outline/lesson03_outline.html",
     "href": "outline/lesson03_outline.html",
-    "title": "Lesson 3: Modelling Urban World",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
     "section": "",
-    "text": "Geospatial Data Models\n\nGeospatial database design\nSpatial Metadata\nSpatial indexing\nMulti-user editing and versioning\n\nGeospatial Data Repositories\n\nFile-based\nGeospatial RDBMS\nCloud based geospatial database"
+    "text": "Maps and Urban Environments\nTypology of Maps\n\nReference maps\nThematic maps\n\nQualitative thematic mapping\nQuantitative thematic mapping\n\nNumber of classes\nData classification\nColour scheme"
   },
   {
     "objectID": "outline/lesson03_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson03_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 3: Modelling Urban World",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
     "section": "Lesson Slides and Hands-on Notes",
     "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise in html format."
   },
   {
     "objectID": "outline/lesson03_outline.html#readings",
     "href": "outline/lesson03_outline.html#readings",
-    "title": "Lesson 3: Modelling Urban World",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
     "section": "Readings",
-    "text": "Readings\n\nCore Readings\n\nModeling Our World: The ESRI Guide to Geodatabase Design\n\n\n\nAdditional Readings\n\nGeospatial Database Template for Urban Management in Fez (Morocco)\nPreparation of Geodatabase for Urban Planning in Nepal\nProposal of building a standard geodatabase for urban land use\nObject-oriented GIS Data Modelling for Urban Design"
+    "text": "Readings\n\nCore Reading (Highly recommended)\n\nWhat is a map?\nVisual Variables\nUsing Colors on Maps\nScale and Generalization\nProportional Symbols\nChoropleth Maps\nThe Basics of Data Classification\n\n\n\nAdditional Readings\n\nChoropleth Maps – A Guide to Data Classification\nBivariate Choropleth\nValue-by-alpha maps\nWhat to consider when creating choropleth maps\nChoropleth Mapping with Exploratory Data Analysis\nCartogram Maps: Data Visualization with Exaggeration\nCartogram"
   },
   {
     "objectID": "outline/lesson03_outline.html#all-about-qgis",
@@ -310,23 +310,23 @@
   {
     "objectID": "outline/lesson04_outline.html",
     "href": "outline/lesson04_outline.html",
-    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
+    "title": "Lesson 4: Vector-based GIS Analysis Methods",
     "section": "",
-    "text": "Maps and Urban Environments\nTypology of Maps\n\nReference maps\nThematic maps\n\nQualitative thematic mapping\nQuantitative thematic mapping\n\nNumber of classes\nData classification\nColour scheme"
+    "text": "Spatial SQL\nSpatial relationship\nGeoprocessing Techniques\n\nCLIP\nDISSOLVE\nAPPEND\nSPLIT\nERASE\n\nProximity Analysis\n\nBuffering\nThiessen Polygon\n\nVector Overlaying"
   },
   {
     "objectID": "outline/lesson04_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson04_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
+    "title": "Lesson 4: Vector-based GIS Analysis Methods",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise in html format."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html and pdf formats"
   },
   {
     "objectID": "outline/lesson04_outline.html#readings",
     "href": "outline/lesson04_outline.html#readings",
-    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
+    "title": "Lesson 4: Vector-based GIS Analysis Methods",
     "section": "Readings",
-    "text": "Readings\n\nCore Reading (Highly recommended)\n\nWhat is a map?\nVisual Variables\nUsing Colors on Maps\nScale and Generalization\nProportional Symbols\nChoropleth Maps\nThe Basics of Data Classification\n\n\n\nAdditional Readings\n\nChoropleth Maps – A Guide to Data Classification\nBivariate Choropleth\nValue-by-alpha maps\nWhat to consider when creating choropleth maps\nChoropleth Mapping with Exploratory Data Analysis\nCartogram Maps: Data Visualization with Exaggeration\nCartogram"
+    "text": "Readings\n\nCore readings\n\nSearches and Queries\nGeospatial Analysis I: Vector Operations"
   },
   {
     "objectID": "outline/lesson04_outline.html#references",
@@ -338,16 +338,16 @@
   {
     "objectID": "outline/lesson04_outline.html#qgis-methods",
     "href": "outline/lesson04_outline.html#qgis-methods",
-    "title": "Lesson 4: Mapping and Visualising Urban World with GIS",
-    "section": "QGIS methods",
-    "text": "QGIS methods\n\n4. Module: Laying out the Maps of QGIS Training Manual.\n9. Map Production of A Gentle Introduction to GIS.\nThe following sub-sections of QGIS User Guide:\n\nThe Vector Properties Dialog: Symbology Properties\nThe Vector Properties Dialog: Labels Properties\nThe Vector Properties Dialog: Diagrams Properties\n14.1.6. Masks Properties\n14.1.7. 3D View Properties\n14.1.10. Joins Properties\n14.1.13. Display Properties\n14.1.14. Rendering Properties\n14.1.15. Variables Properties\n14.1.18. Legend Properties\n18. Laying out the maps"
+    "title": "Lesson 4: Vector-based GIS Analysis Methods",
+    "section": "QGIS Methods",
+    "text": "QGIS Methods\n\n10. Vector Spatial Analysis (Buffers)) of A Gentle Introduction to GIS.\n6.2. Lesson: Vector Analysis of QGIS Training Manual.\nThe following sub-sections of QGIS User Guide:\n\n24.1.12. Vector analysis\n24.1.13. Vector creation\n24.1.14. Vector general\n24.1.15. Vector geometry\n24.1.16. Vector overlay\n24.1.17. Vector selection\n24.1.18. Vector table"
   },
   {
     "objectID": "outline/lesson05_outline.html",
     "href": "outline/lesson05_outline.html",
-    "title": "Lesson 5: Vector-based GIS Analysis Methods",
+    "title": "Lesson 5: Urban Applications of Vector-based GIS Analysis",
     "section": "",
-    "text": "Spatial SQL\nSpatial relationship\nGeoprocessing Techniques\n\nCLIP\nDISSOLVE\nAPPEND\nSPLIT\nERASE\n\nProximity Analysis\n\nBuffering\nThiessen Polygon\n\nVector Overlaying"
+    "text": "Trade Area Analysis\n\nDefining trade areas\nExamples of trade areas\nFactors that influence trade area\nGIS-based trade area analysis process\nGIS-based trade area delineation techniques\n\nUrban Analysis and Monitoring\n\nDevelopment control\nUrban growth monitoring\nUrban change detection\n\nHands-on Exercise in html and pdf format."
   },
   {
     "objectID": "outline/lesson05_outline.html#lesson-slides-and-hands-on-notes",
@@ -373,37 +373,37 @@
   {
     "objectID": "outline/lesson06_outline.html",
     "href": "outline/lesson06_outline.html",
-    "title": "Lesson 6: Urban Applications of Vector-based GIS Analysis",
-    "section": "",
-    "text": "Trade Area Analysis\n\nDefining trade areas\nExamples of trade areas\nFactors that influence trade area\nGIS-based trade area analysis process\nGIS-based trade area delineation techniques\n\nUrban Analysis and Monitoring\n\nDevelopment control\nUrban growth monitoring\nUrban change detection\n\nHands-on Exercise in html and pdf format."
-  },
-  {
-    "objectID": "outline/lesson06_outline.html#references",
-    "href": "outline/lesson06_outline.html#references",
-    "title": "Lesson 6: Urban Applications of Vector-based GIS Analysis",
-    "section": "References",
-    "text": "References\n\nTrade Area Analysis\n\nRetail Trade Area Analysis: Concepts and New Approaches\nCui, Can ; Wang, Jiechen ; Pu, Yingxia ; Ma, Jinsong ; Chen, Gang (2012) “GIS-based method of delimitating trade area for retail chains”. International Journal of Geographical Information Science, Vol.26(10), pp.1863-1879.\n“The Evaluation of Trade Area Models and Analysis Methods for Site Selection” from International Quick Service Restaurants’ (QSR) Perspective.\nSpatial Delineation of Market Areas: A Proposed Approach\nShopping Mall Trade Area Analysis\nDowntown and Business District Market Analysis -> Understand the Market: Trade Area Analysis\nSample Trade Area Report\n\nGrafici Trade Area Report\nWisconsin Example Studies\n\n\n\n\nGIS-based Urban Analysis\n\nGIS-based analysis of urban land-use changes\nFloodplain Management in Urban Developing Areas. Part II. GIS-Based Flood Analysis and Urban Growth Modelling\nUrban analysis with GIS"
-  },
-  {
-    "objectID": "outline/lesson07_outline.html",
-    "href": "outline/lesson07_outline.html",
-    "title": "Lesson 7: The Science of Mapthematics: Raster-based GIS analysis methods",
+    "title": "Lesson 6: The Science of Mapthematics: Raster-based GIS analysis methods",
     "section": "",
     "text": "Introduction to Raster-based GIS Analysis\n\nThe basic concept of raster GIS data model\nRaster database\nCharacteristics of raster\nRaster resolution\nThe composite weight\n\nMap Algebra Methods\n\nLocal functions\nFocal functions\nNeighbourhood functions\nZonal functions\n\nCartographic Modelling\n\nA process of map analysis"
   },
   {
+    "objectID": "outline/lesson06_outline.html#references",
+    "href": "outline/lesson06_outline.html#references",
+    "title": "Lesson 6: The Science of Mapthematics: Raster-based GIS analysis methods",
+    "section": "References",
+    "text": "References\n\nCore Reading\n\nChapter 10 Map Algebra of Intro to GIS and Spatial Analysis (online version)\nBerry, Joseph (1987) “A mathematical structure for analyzing maps”, Environmental Management, Vol.11(3), pp.317-325.\nCartographic Modeling\n\n\n\nAdditional readings\n\nMap algebra\nGIS Modeling and Analysis"
+  },
+  {
+    "objectID": "outline/lesson07_outline.html",
+    "href": "outline/lesson07_outline.html",
+    "title": "Lesson 7: Urban Applications of Raster-based GIS Analysis",
+    "section": "",
+    "text": "Descriptive model\nPrescriptive models\n\nBinary method\nRanking method\nRating method\n\nGIS‐Based Multiple‐Criteria Decision Analysis\nAnalytical Hierarchical Process (AHP)\nPredictive model"
+  },
+  {
     "objectID": "outline/lesson07_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson07_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 7: The Science of Mapthematics: Raster-based GIS analysis methods",
+    "title": "Lesson 7: Urban Applications of Raster-based GIS Analysis",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 7 in html and pdf formats."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 8 in html and pdf formats."
   },
   {
     "objectID": "outline/lesson07_outline.html#references",
     "href": "outline/lesson07_outline.html#references",
-    "title": "Lesson 7: The Science of Mapthematics: Raster-based GIS analysis methods",
+    "title": "Lesson 7: Urban Applications of Raster-based GIS Analysis",
     "section": "References",
-    "text": "References\n\nCore Reading\n\nChapter 10 Map Algebra of Intro to GIS and Spatial Analysis (online version)\nBerry, Joseph (1987) “A mathematical structure for analyzing maps”, Environmental Management, Vol.11(3), pp.317-325.\nCartographic Modeling\n\n\n\nAdditional readings\n\nMap algebra\nGIS Modeling and Analysis"
+    "text": "References\n\nConcepts and Methods\n\nBerry, J.K. (2005) Topic 7–Basic Spatial Modeling Approaches and Topic 8–Spatial Modeling Example in Beyond Mapping III.\nBerry, J. K. (2005) GIS Modeling and Analysis. Chapter GIS Modeling Frameworks.\nMalczewski, Jacek (2004) “GIS-based land-use suitability analysis: a critical overview”. Progress in Planning, Vol.62(1), pp.3-65.\nMontgomery, Bryn ; Dragićević, Suzana (2016) “Comparison of GIS‐Based Logic Scoring of Preference and Multicriteria Evaluation Methods: Urban Land Use Suitability”. Geographical Analysis, Vol.48(4), pp.427-447.\nSiobhan Ryan and Ellis Nimick (2019) Multi-Criteria Decision Analysis and GIS, ArcGIS StoryMaps.\n\n\n\nApplications\n\nMalihe Masoudi et. al (2021) “GIS‑Based Multi‑Criteria and Multi‑Objective Evaluation for Sustainable Land‑Use Planning (Case Study: Qaleh Ganj County, Iran)”Landuse Planning Using MCE and Mola””, International Journal of Environmental Research (2021) 15:457–474\nAbdullahi, Saleh ; Pradhan, Biswajeet (2016) “Sustainable Brownfields Land Use Change Modeling Using GIS-based Weights-of-Evidence Approach” Applied Spatial Analysis and Policy, Vol.9(1), pp.21-38.\nDong, Mei ; Hu, Hui ; Xu, Riqing ; Gong, Xiaonan (2018) “A GIS-based quantitative geo-environmental evaluation for land-use development in an urban area: Shunyi New City, Beijing, China”. Bulletin of Engineering Geology and the Environment, Vol.77(3), pp.1203-1215.\nParry, Jahangeer A ; Ganaie, Showkat A ; Sultan Bhat, M (2018) “GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&K, India”. Journal of Urban Management, Vol.7(2), pp.46-56.\nChen, Jiapei (2014) “GIS-based multi-criteria analysis for land use suitability assessment in City of Regina”. Environmental Systems Research, Vol.3(1), pp.1-10.\nSarath Midatana ; S. Saran ; K. V. Ramana (2018) “Site suitability analysis for industries using GIS and Multi criteria decision making”. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol.IV-5, pp.447-454.\nModelling land use changes according to transportation scenarios using raster based GIS indicators\nCartographic Modeling Of Land Suitability For Industrial Development In The Egyptian Desert\nRaster based GIS for Urban Management\nSuitability Analysis of Urban Green Space System Based on GIS"
   },
   {
     "objectID": "outline/lesson07_outline.html#all-about-qgis",
@@ -415,44 +415,44 @@
   {
     "objectID": "outline/lesson08_outline.html",
     "href": "outline/lesson08_outline.html",
-    "title": "Lesson 8: Urban Applications of Raster-based GIS Analysis",
+    "title": "Lesson 8: Introduction to Digital Image Processing and Analysis",
     "section": "",
-    "text": "Descriptive model\nPrescriptive models\n\nBinary method\nRanking method\nRating method\n\nGIS‐Based Multiple‐Criteria Decision Analysis\nAnalytical Hierarchical Process (AHP)\nPredictive model"
+    "text": "Why analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
   },
   {
     "objectID": "outline/lesson08_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson08_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 8: Urban Applications of Raster-based GIS Analysis",
+    "title": "Lesson 8: Introduction to Digital Image Processing and Analysis",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 8 in html and pdf formats."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 10 in html and pdf formats."
   },
   {
     "objectID": "outline/lesson08_outline.html#references",
     "href": "outline/lesson08_outline.html#references",
-    "title": "Lesson 8: Urban Applications of Raster-based GIS Analysis",
+    "title": "Lesson 8: Introduction to Digital Image Processing and Analysis",
     "section": "References",
-    "text": "References\n\nConcepts and Methods\n\nBerry, J.K. (2005) Topic 7–Basic Spatial Modeling Approaches and Topic 8–Spatial Modeling Example in Beyond Mapping III.\nBerry, J. K. (2005) GIS Modeling and Analysis. Chapter GIS Modeling Frameworks.\nMalczewski, Jacek (2004) “GIS-based land-use suitability analysis: a critical overview”. Progress in Planning, Vol.62(1), pp.3-65.\nMontgomery, Bryn ; Dragićević, Suzana (2016) “Comparison of GIS‐Based Logic Scoring of Preference and Multicriteria Evaluation Methods: Urban Land Use Suitability”. Geographical Analysis, Vol.48(4), pp.427-447.\nSiobhan Ryan and Ellis Nimick (2019) Multi-Criteria Decision Analysis and GIS, ArcGIS StoryMaps.\n\n\n\nApplications\n\nMalihe Masoudi et. al (2021) “GIS‑Based Multi‑Criteria and Multi‑Objective Evaluation for Sustainable Land‑Use Planning (Case Study: Qaleh Ganj County, Iran)”Landuse Planning Using MCE and Mola””, International Journal of Environmental Research (2021) 15:457–474\nAbdullahi, Saleh ; Pradhan, Biswajeet (2016) “Sustainable Brownfields Land Use Change Modeling Using GIS-based Weights-of-Evidence Approach” Applied Spatial Analysis and Policy, Vol.9(1), pp.21-38.\nDong, Mei ; Hu, Hui ; Xu, Riqing ; Gong, Xiaonan (2018) “A GIS-based quantitative geo-environmental evaluation for land-use development in an urban area: Shunyi New City, Beijing, China”. Bulletin of Engineering Geology and the Environment, Vol.77(3), pp.1203-1215.\nParry, Jahangeer A ; Ganaie, Showkat A ; Sultan Bhat, M (2018) “GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&K, India”. Journal of Urban Management, Vol.7(2), pp.46-56.\nChen, Jiapei (2014) “GIS-based multi-criteria analysis for land use suitability assessment in City of Regina”. Environmental Systems Research, Vol.3(1), pp.1-10.\nSarath Midatana ; S. Saran ; K. V. Ramana (2018) “Site suitability analysis for industries using GIS and Multi criteria decision making”. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol.IV-5, pp.447-454.\nModelling land use changes according to transportation scenarios using raster based GIS indicators\nCartographic Modeling Of Land Suitability For Industrial Development In The Egyptian Desert\nRaster based GIS for Urban Management\nSuitability Analysis of Urban Green Space System Based on GIS"
+    "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\n\n\nQGIS Methods\n\nQGIS Network Analysis Capabilities\n6.3. Lesson: Network Analysis of QGIS Training Manual.\nAbout QNEAT3"
   },
   {
     "objectID": "outline/lesson09_outline.html",
     "href": "outline/lesson09_outline.html",
-    "title": "Lesson 9: Multiple‐Criteria Decision Analysis (MCDA)",
+    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
     "section": "",
-    "text": "Descriptive model\nPrescriptive models\n\nBinary method\nRanking method\nRating method\n\nGIS‐Based Multiple‐Criteria Decision Analysis\nAnalytical Hierarchical Process (AHP)\nPredictive model"
+    "text": "Why analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
   },
   {
     "objectID": "outline/lesson09_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson09_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 9: Multiple‐Criteria Decision Analysis (MCDA)",
+    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nHands-on Exercise 9 in html and pdf formats."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 10 in html and pdf formats."
   },
   {
     "objectID": "outline/lesson09_outline.html#references",
     "href": "outline/lesson09_outline.html#references",
-    "title": "Lesson 9: Multiple‐Criteria Decision Analysis (MCDA)",
+    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
     "section": "References",
-    "text": "References\n\nConcepts and Methods\n\nBerry, J.K. (2005) Topic 7–Basic Spatial Modeling Approaches and Topic 8–Spatial Modeling Example in Beyond Mapping III.\nBerry, J. K. (2005) GIS Modeling and Analysis. Chapter GIS Modeling Frameworks.\nMalczewski, Jacek (2004) “GIS-based land-use suitability analysis: a critical overview”. Progress in Planning, Vol.62(1), pp.3-65.\nMontgomery, Bryn ; Dragićević, Suzana (2016) “Comparison of GIS‐Based Logic Scoring of Preference and Multicriteria Evaluation Methods: Urban Land Use Suitability”. Geographical Analysis, Vol.48(4), pp.427-447.\nSiobhan Ryan and Ellis Nimick (2019) Multi-Criteria Decision Analysis and GIS, ArcGIS StoryMaps.\n\n\n\nApplications\n\nMalihe Masoudi et. al (2021) “GIS‑Based Multi‑Criteria and Multi‑Objective Evaluation for Sustainable Land‑Use Planning (Case Study: Qaleh Ganj County, Iran)”Landuse Planning Using MCE and Mola””, International Journal of Environmental Research (2021) 15:457–474\nAbdullahi, Saleh ; Pradhan, Biswajeet (2016) “Sustainable Brownfields Land Use Change Modeling Using GIS-based Weights-of-Evidence Approach” Applied Spatial Analysis and Policy, Vol.9(1), pp.21-38.\nDong, Mei ; Hu, Hui ; Xu, Riqing ; Gong, Xiaonan (2018) “A GIS-based quantitative geo-environmental evaluation for land-use development in an urban area: Shunyi New City, Beijing, China”. Bulletin of Engineering Geology and the Environment, Vol.77(3), pp.1203-1215.\nParry, Jahangeer A ; Ganaie, Showkat A ; Sultan Bhat, M (2018) “GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&K, India”. Journal of Urban Management, Vol.7(2), pp.46-56.\nChen, Jiapei (2014) “GIS-based multi-criteria analysis for land use suitability assessment in City of Regina”. Environmental Systems Research, Vol.3(1), pp.1-10.\nSarath Midatana ; S. Saran ; K. V. Ramana (2018) “Site suitability analysis for industries using GIS and Multi criteria decision making”. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol.IV-5, pp.447-454.\nModelling land use changes according to transportation scenarios using raster based GIS indicators\nCartographic Modeling Of Land Suitability For Industrial Development In The Egyptian Desert\nRaster based GIS for Urban Management\nSuitability Analysis of Urban Green Space System Based on GIS"
+    "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\n\n\nQGIS Methods\n\nQGIS Network Analysis Capabilities\n6.3. Lesson: Network Analysis of QGIS Training Manual.\nAbout QNEAT3"
   },
   {
     "objectID": "outline/lesson10_outline.html",
@@ -803,5 +803,110 @@
     "title": "Lesson 2: The Devil is in the Data: Collection, representation, and modelling",
     "section": "Getting to Know GIS Data Models",
     "text": "Getting to Know GIS Data Models\n\nBasic concept of geographical data\nBasic GIS data models\nVector data models\n\nSpaghetti data models\nTopological data models\n\nRaster data models"
+  },
+  {
+    "objectID": "outline/lesson02sup_outline.html",
+    "href": "outline/lesson02sup_outline.html",
+    "title": "Lesson 3: Modelling Urban World",
+    "section": "",
+    "text": "Geospatial Data Models\n\nGeospatial database design\nSpatial Metadata\nSpatial indexing\nMulti-user editing and versioning\n\nGeospatial Data Repositories\n\nFile-based\nGeospatial RDBMS\nCloud based geospatial database"
+  },
+  {
+    "objectID": "outline/lesson02sup_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/lesson02sup_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 3: Modelling Urban World",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise in html format."
+  },
+  {
+    "objectID": "outline/lesson02sup_outline.html#readings",
+    "href": "outline/lesson02sup_outline.html#readings",
+    "title": "Lesson 3: Modelling Urban World",
+    "section": "Readings",
+    "text": "Readings\n\nCore Readings\n\nModeling Our World: The ESRI Guide to Geodatabase Design\n\n\n\nAdditional Readings\n\nGeospatial Database Template for Urban Management in Fez (Morocco)\nPreparation of Geodatabase for Urban Planning in Nepal\nProposal of building a standard geodatabase for urban land use\nObject-oriented GIS Data Modelling for Urban Design"
+  },
+  {
+    "objectID": "outline/lesson02sup_outline.html#all-about-qgis",
+    "href": "outline/lesson02sup_outline.html#all-about-qgis",
+    "title": "Lesson 3: Modelling Urban World",
+    "section": "All About QGIS",
+    "text": "All About QGIS\n\nA Gentle Introduction to GIS. Chapter 3-9."
+  },
+  {
+    "objectID": "outline/lesson07sup_outline.html",
+    "href": "outline/lesson07sup_outline.html",
+    "title": "Lesson 9: Multiple‐Criteria Decision Analysis (MCDA)",
+    "section": "",
+    "text": "Descriptive model\nPrescriptive models\n\nBinary method\nRanking method\nRating method\n\nGIS‐Based Multiple‐Criteria Decision Analysis\nAnalytical Hierarchical Process (AHP)\nPredictive model"
+  },
+  {
+    "objectID": "outline/lesson07sup_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/lesson07sup_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 9: Multiple‐Criteria Decision Analysis (MCDA)",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nHands-on Exercise 9 in html and pdf formats."
+  },
+  {
+    "objectID": "outline/lesson07sup_outline.html#references",
+    "href": "outline/lesson07sup_outline.html#references",
+    "title": "Lesson 9: Multiple‐Criteria Decision Analysis (MCDA)",
+    "section": "References",
+    "text": "References\n\nConcepts and Methods\n\nBerry, J.K. (2005) Topic 7–Basic Spatial Modeling Approaches and Topic 8–Spatial Modeling Example in Beyond Mapping III.\nBerry, J. K. (2005) GIS Modeling and Analysis. Chapter GIS Modeling Frameworks.\nMalczewski, Jacek (2004) “GIS-based land-use suitability analysis: a critical overview”. Progress in Planning, Vol.62(1), pp.3-65.\nMontgomery, Bryn ; Dragićević, Suzana (2016) “Comparison of GIS‐Based Logic Scoring of Preference and Multicriteria Evaluation Methods: Urban Land Use Suitability”. Geographical Analysis, Vol.48(4), pp.427-447.\nSiobhan Ryan and Ellis Nimick (2019) Multi-Criteria Decision Analysis and GIS, ArcGIS StoryMaps.\n\n\n\nApplications\n\nMalihe Masoudi et. al (2021) “GIS‑Based Multi‑Criteria and Multi‑Objective Evaluation for Sustainable Land‑Use Planning (Case Study: Qaleh Ganj County, Iran)”Landuse Planning Using MCE and Mola””, International Journal of Environmental Research (2021) 15:457–474\nAbdullahi, Saleh ; Pradhan, Biswajeet (2016) “Sustainable Brownfields Land Use Change Modeling Using GIS-based Weights-of-Evidence Approach” Applied Spatial Analysis and Policy, Vol.9(1), pp.21-38.\nDong, Mei ; Hu, Hui ; Xu, Riqing ; Gong, Xiaonan (2018) “A GIS-based quantitative geo-environmental evaluation for land-use development in an urban area: Shunyi New City, Beijing, China”. Bulletin of Engineering Geology and the Environment, Vol.77(3), pp.1203-1215.\nParry, Jahangeer A ; Ganaie, Showkat A ; Sultan Bhat, M (2018) “GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&K, India”. Journal of Urban Management, Vol.7(2), pp.46-56.\nChen, Jiapei (2014) “GIS-based multi-criteria analysis for land use suitability assessment in City of Regina”. Environmental Systems Research, Vol.3(1), pp.1-10.\nSarath Midatana ; S. Saran ; K. V. Ramana (2018) “Site suitability analysis for industries using GIS and Multi criteria decision making”. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol.IV-5, pp.447-454.\nModelling land use changes according to transportation scenarios using raster based GIS indicators\nCartographic Modeling Of Land Suitability For Industrial Development In The Egyptian Desert\nRaster based GIS for Urban Management\nSuitability Analysis of Urban Green Space System Based on GIS"
+  },
+  {
+    "objectID": "outline/lesson03_outline.html#references",
+    "href": "outline/lesson03_outline.html#references",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
+    "section": "References",
+    "text": "References\n\nSlocum, T., McMaster R., Kessler, F. and Howard, H. (2005) Thematic Cartography and Geographic Visualization (2nd Edition), Prentice Hall, New Jersey.\nKraak, M-J & Ormeling, F. (2003) (2nd Edition) Cartography: Visualization of Geospatial Data. Pearson Education Limited, Essex, England.\nMonmonier, M. (1996) How to Lie with Maps, The University of Chicago Press, USA."
+  },
+  {
+    "objectID": "outline/lesson03_outline.html#qgis-methods",
+    "href": "outline/lesson03_outline.html#qgis-methods",
+    "title": "Lesson 3: Mapping and Visualising Urban World with GIS",
+    "section": "QGIS methods",
+    "text": "QGIS methods\n\n4. Module: Laying out the Maps of QGIS Training Manual.\n9. Map Production of A Gentle Introduction to GIS.\nThe following sub-sections of QGIS User Guide:\n\nThe Vector Properties Dialog: Symbology Properties\nThe Vector Properties Dialog: Labels Properties\nThe Vector Properties Dialog: Diagrams Properties\n14.1.6. Masks Properties\n14.1.7. 3D View Properties\n14.1.10. Joins Properties\n14.1.13. Display Properties\n14.1.14. Rendering Properties\n14.1.15. Variables Properties\n14.1.18. Legend Properties\n18. Laying out the maps"
+  },
+  {
+    "objectID": "outline/lesson05_outline.html#references",
+    "href": "outline/lesson05_outline.html#references",
+    "title": "Lesson 5: Urban Applications of Vector-based GIS Analysis",
+    "section": "References",
+    "text": "References\n\nTrade Area Analysis\n\nRetail Trade Area Analysis: Concepts and New Approaches\nCui, Can ; Wang, Jiechen ; Pu, Yingxia ; Ma, Jinsong ; Chen, Gang (2012) “GIS-based method of delimitating trade area for retail chains”. International Journal of Geographical Information Science, Vol.26(10), pp.1863-1879.\n“The Evaluation of Trade Area Models and Analysis Methods for Site Selection” from International Quick Service Restaurants’ (QSR) Perspective.\nSpatial Delineation of Market Areas: A Proposed Approach\nShopping Mall Trade Area Analysis\nDowntown and Business District Market Analysis -> Understand the Market: Trade Area Analysis\nSample Trade Area Report\n\nGrafici Trade Area Report\nWisconsin Example Studies\n\n\n\n\nGIS-based Urban Analysis\n\nGIS-based analysis of urban land-use changes\nFloodplain Management in Urban Developing Areas. Part II. GIS-Based Flood Analysis and Urban Growth Modelling\nUrban analysis with GIS"
+  },
+  {
+    "objectID": "outline/lesson06_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/lesson06_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 6: The Science of Mapthematics: Raster-based GIS analysis methods",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 7 in html and pdf formats."
+  },
+  {
+    "objectID": "outline/lesson06_outline.html#all-about-qgis",
+    "href": "outline/lesson06_outline.html#all-about-qgis",
+    "title": "Lesson 6: The Science of Mapthematics: Raster-based GIS analysis methods",
+    "section": "All About QGIS",
+    "text": "All About QGIS\n\nWorking with Raster Data\n8.3. Lesson: Terrain Analysis\n6. Raster Data of A Gentle Introduction to GIS.\n7. Module: Rasters of QGIS Training Manual."
+  },
+  {
+    "objectID": "outline/lesson12_outline.html",
+    "href": "outline/lesson12_outline.html",
+    "title": "Lesson 12: Sharing Geographic Information on the Web: GeoWeb Mapping",
+    "section": "",
+    "text": "Motivation of GeoWeb Mapping\nGetting to Know GeoWeb Mapping Technology\n\nGeoWeb mapping system architecture\nGeoWeb mapping protocol\nGeoWeb mapping systems\n\nEvolution of GeoWeb Mapping\n2nd Generation GeoWeb Mapping Technology\n\nOpenLayers\nLeaflet"
+  },
+  {
+    "objectID": "outline/lesson12_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/lesson12_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 12: Sharing Geographic Information on the Web: GeoWeb Mapping",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 11 in html and pdf formats."
+  },
+  {
+    "objectID": "outline/lesson12_outline.html#references",
+    "href": "outline/lesson12_outline.html#references",
+    "title": "Lesson 12: Sharing Geographic Information on the Web: GeoWeb Mapping",
+    "section": "References",
+    "text": "References\n\nConcepts and Methods\n\nWeb mapping\n7 great alternatives to the Google Maps API\nEssential Resources: Mapping applications, frameworks and libraries\nResearch Explores How to Keep Up With Changing Web Mapping Technology\n\n\n\nApplications\n\n\nQGIS Methods\n\nqgis2web plugin"
   }
 ]

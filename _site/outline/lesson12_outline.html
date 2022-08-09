@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2022-08-09">
-<meta name="description" content="In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions.">
+<meta name="description" content="In this lesson, you will learn the basic concepts of GeoWeb Mapping. You will also gain hands-on experience on creating geoweb application using QGIS extension.">
 
-<title>SMT201-AY2022-23T1 - Lesson 5: Urban Applications of Vector-based GIS Analysis</title>
+<title>SMT201-AY2022-23T1 - Lesson 12: Sharing Geographic Information on the Web: GeoWeb Mapping</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,10 +116,12 @@ ul.task-list{list-style: none;}
    
   <ul>
   <li><a href="#content" id="toc-content" class="nav-link active" data-scroll-target="#content">Content</a></li>
+  <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
   <ul class="collapse">
-  <li><a href="#trade-area-analysis" id="toc-trade-area-analysis" class="nav-link" data-scroll-target="#trade-area-analysis">Trade Area Analysis</a></li>
-  <li><a href="#gis-based-urban-analysis" id="toc-gis-based-urban-analysis" class="nav-link" data-scroll-target="#gis-based-urban-analysis">GIS-based Urban Analysis</a></li>
+  <li><a href="#concepts-and-methods" id="toc-concepts-and-methods" class="nav-link" data-scroll-target="#concepts-and-methods">Concepts and Methods</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
+  <li><a href="#qgis-methods" id="toc-qgis-methods" class="nav-link" data-scroll-target="#qgis-methods">QGIS Methods</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -129,12 +131,12 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 5: Urban Applications of Vector-based GIS Analysis</h1>
+<h1 class="title">Lesson 12: Sharing Geographic Information on the Web: GeoWeb Mapping</h1>
 </div>
 
 <div>
   <div class="description">
-    In this lesson, you will gain hands-on experience on using QGIS vector-based GIS analysis methods discussed in Lesson 5 to address real world urban planning questions.
+    In this lesson, you will learn the basic concepts of GeoWeb Mapping. You will also gain hands-on experience on creating geoweb application using QGIS extension.
   </div>
 </div>
 
@@ -157,47 +159,46 @@ ul.task-list{list-style: none;}
 <section id="content" class="level2">
 <h2 class="anchored" data-anchor-id="content">Content</h2>
 <ul>
-<li>Trade Area Analysis
+<li>Motivation of GeoWeb Mapping</li>
+<li>Getting to Know GeoWeb Mapping Technology
 <ul>
-<li>Defining trade areas</li>
-<li>Examples of trade areas</li>
-<li>Factors that influence trade area</li>
-<li>GIS-based trade area analysis process</li>
-<li>GIS-based trade area delineation techniques</li>
+<li>GeoWeb mapping system architecture</li>
+<li>GeoWeb mapping protocol</li>
+<li>GeoWeb mapping systems</li>
 </ul></li>
-<li>Urban Analysis and Monitoring
+<li>Evolution of GeoWeb Mapping</li>
+<li>2nd Generation GeoWeb Mapping Technology
 <ul>
-<li>Development control</li>
-<li>Urban growth monitoring</li>
-<li>Urban change detection</li>
+<li>OpenLayers</li>
+<li>Leaflet</li>
 </ul></li>
-<li>Hands-on Exercise in <a href="../Hands-on_Ex/Hands-on_Ex06/Hands-on_Ex06.html">html</a> and <a href="../Hands-on_Ex/Hands-on_Ex06//Hands-on_Ex06.pdf">pdf</a> format.</li>
+</ul>
+</section>
+<section id="lesson-slides-and-hands-on-notes" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
+<ul>
+<li><p>Lesson slides in <a href="../lesson/Lesson11/Lesson11.html">html</a> and <a href="../lesson/Lesson11/Lesson11.pdf">pdf</a> formats.</p></li>
+<li><p>Hands-on Exercise 11 in <a href="../Hands-on_Ex/Hands-on_Ex11/Hands-on_Ex11.html">html</a> and <a href="../Hands-on_Ex/Hands-on_Ex11/Hands-on_Ex11.pdf">pdf</a> formats.</p></li>
 </ul>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<section id="trade-area-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="trade-area-analysis">Trade Area Analysis</h3>
+<section id="concepts-and-methods" class="level3">
+<h3 class="anchored" data-anchor-id="concepts-and-methods">Concepts and Methods</h3>
 <ul>
-<li><a href="http://www.experts.com/content/articles/Donald-Segal-JDM-Trade%20Area%20Analysis.pdf">Retail Trade Area Analysis: Concepts and New Approaches</a></li>
-<li>Cui, Can ; Wang, Jiechen ; Pu, Yingxia ; Ma, Jinsong ; Chen, Gang (2012) <a href="https://web-a-ebscohost-com.libproxy.smu.edu.sg/ehost/detail/detail?vid=0&amp;sid=d8645ef8-9d8e-4b2f-a397-cfbcd9c25f45%40sessionmgr4008&amp;bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#AN=80736486&amp;db=asn">“GIS-based method of delimitating trade area for retail chains”</a>. International <em>Journal of Geographical Information Science</em>, Vol.26(10), pp.1863-1879.</li>
-<li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=17&amp;ved=2ahUKEwiCgIqb4ePkAhWDXSsKHdKODNUQFjAQegQICBAC&amp;url=http%3A%2F%2Ficonarp.selcuk.edu.tr%2Ficonarp%2Farticle%2Fdownload%2F203%2F153&amp;usg=AOvVaw1-fj4zY8aWGmpKmE_2dL3k">“The Evaluation of Trade Area Models and Analysis Methods for Site Selection”</a> from International Quick Service Restaurants’ (QSR) Perspective.</li>
-<li><a href="https://spatial.usc.edu/wp-content/uploads/2014/04/GrayAmanda.pdf">Spatial Delineation of Market Areas: A Proposed Approach</a></li>
-<li><a href="http://www.slideshare.net/decemberstar55/shopping-mall-trade-area-analysis">Shopping Mall Trade Area Analysis</a></li>
-<li><a href="https://fyi.uwex.edu/downtown-market-analysis/understanding-the-market/trade-area-analysis/">Downtown and Business District Market Analysis -&gt; Understand the Market: Trade Area Analysis</a></li>
-<li>Sample Trade Area Report
-<ul>
-<li><a href="http://www.brdconsulting.it/images/Progetti/TradeAreaReport/TradeAreaReportDemo.pdf">Grafici Trade Area Report</a></li>
-<li><a href="https://fyi.extension.wisc.edu/downtown-market-analysis/example-studies/wisconsin-example-studies/">Wisconsin Example Studies</a></li>
-</ul></li>
+<li><a href="http://en.wikipedia.org/wiki/Web_mapping">Web mapping</a></li>
+<li><a href="http://www.creativebloq.com/inspiration/top-seven-alternatives-google-maps-api-7122779">7 great alternatives to the Google Maps API</a></li>
+<li><a href="http://www.visualisingdata.com/index.php/2013/09/essential-resources-mapping-applications-frameworks-and-libraries/">Essential Resources: Mapping applications, frameworks and libraries</a></li>
+<li><a href="http://www.directionsmag.com/articles/research-explores-how-to-keep-up-with-changing-web-mapping-technology/294410">Research Explores How to Keep Up With Changing Web Mapping Technology</a></li>
 </ul>
 </section>
-<section id="gis-based-urban-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="gis-based-urban-analysis">GIS-based Urban Analysis</h3>
+<section id="applications" class="level3">
+<h3 class="anchored" data-anchor-id="applications">Applications</h3>
+</section>
+<section id="qgis-methods" class="level3">
+<h3 class="anchored" data-anchor-id="qgis-methods">QGIS Methods</h3>
 <ul>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2Fs11769-002-0039-3.pdf">GIS-based analysis of urban land-use changes</a></li>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/article/10.1023/A%3A1008045419517">Floodplain Management in Urban Developing Areas. Part II. GIS-Based Flood Analysis and Urban Growth Modelling</a></li>
-<li><a href="https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1023%2FA%3A1014262530372.pdf">Urban analysis with GIS</a></li>
+<li><a href="https://github.com/tomchadwin/qgis2web/wiki">qgis2web plugin</a></li>
 </ul>
 
 
