@@ -46,11 +46,13 @@ format: html
 
 -   [Chapter 20: Planning](https://link-springer-com.libproxy.smu.edu.sg/content/pdf/10.1007%2F978-3-540-72680-7_20.pdf) of Springer Handbook of Geographic Information
 
--   [See What Others Can't](https://www.esri.com/videos/watch?&channelid=UCJ203R9PsZn6wF_zYfsp1SA&videoid=pg7ByVZo_sg&playlistid=PLaPDDLTCmy4bC2dGacC3ZH8YnCl4x7kuB&See%20What%20Others%20Can%27t)
-
 -   [What is Geographic Information Systems (GIS)?](https://gisgeography.com/what-gis-geographic-information-systems/)
 
--   [GIS: The Intelligent Nervous System](https://www.esri.com/videos/watch?&channelid=UCJ203R9PsZn6wF_zYfsp1SA&videoid=pg7ByVZo_sg&playlistid=PLaPDDLTCmy4bC2dGacC3ZH8YnCl4x7kuB&See%20What%20Others%20Can%27t)
+-   [See What Others Can't](https://mediaspace.esri.com/media/t/1_d46trbg5)
+
+-   [GIS: The Intelligent Nervous System](https://mediaspace.esri.com/media/t/1_tsoo4q11)
+
+-   [GIS - Mapping Common Ground](https://mediaspace.esri.com/playlist/dedicated/261131512/1_4mznih0r/1_zliyhe49)
 
 ## All About QGIS
 

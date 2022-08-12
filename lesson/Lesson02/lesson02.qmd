@@ -6,6 +6,8 @@ date: "2022-08-06 (updated: `r Sys.Date()`)"
 css: "text.css"
 format: 
   revealjs:
+    show-notes: true
+    slide-number: true
     width: 1450
     height: 850
 editor: visual

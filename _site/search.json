@@ -242,7 +242,7 @@
     "href": "outline/lesson01_outline.html#readings",
     "title": "Lesson 1: Introduction to GIS for Urban Planning",
     "section": "Readings",
-    "text": "Readings\n\nCore Readings\n\nUrban Planning\nWhat Is GIS?\nGeographic Information Systems and Urban Planning\nHow GIS technology helps in Smart City growth?\n\n\n\nAddition Readings\n\nUrban Planning\n\nUrban Planning\nChapter 2: Re-Examining Singapore’s Urban Planning and Governance Framework in Planning Singapore: The Experimental City. This book is available in digital form in smu library.\nShatkin, G (2014) “Reinterpreting the Meaning of the ‘Singapore’ Model: State Capitalism and Urban Planning”, International Journal of Urban and Regional Research, Vol. 38, Issue 1, pp. 116-137.\n\n\n\nGIS\n\nChapter 6: Geographic Information Systems of Springer Handbook of Geographic Information\nChapter 20: Planning of Springer Handbook of Geographic Information\nSee What Others Can’t\nWhat is Geographic Information Systems (GIS)?\nGIS: The Intelligent Nervous System"
+    "text": "Readings\n\nCore Readings\n\nUrban Planning\nWhat Is GIS?\nGeographic Information Systems and Urban Planning\nHow GIS technology helps in Smart City growth?\n\n\n\nAddition Readings\n\nUrban Planning\n\nUrban Planning\nChapter 2: Re-Examining Singapore’s Urban Planning and Governance Framework in Planning Singapore: The Experimental City. This book is available in digital form in smu library.\nShatkin, G (2014) “Reinterpreting the Meaning of the ‘Singapore’ Model: State Capitalism and Urban Planning”, International Journal of Urban and Regional Research, Vol. 38, Issue 1, pp. 116-137.\n\n\n\nGIS\n\nChapter 6: Geographic Information Systems of Springer Handbook of Geographic Information\nChapter 20: Planning of Springer Handbook of Geographic Information\nWhat is Geographic Information Systems (GIS)?\nSee What Others Can’t\nGIS: The Intelligent Nervous System\nGIS - Mapping Common Ground"
   },
   {
     "objectID": "outline/lesson01_outline.html#all-about-qgis",
@@ -478,21 +478,21 @@
   {
     "objectID": "outline/lesson11_outline.html",
     "href": "outline/lesson11_outline.html",
-    "title": "Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping",
+    "title": "Lesson 11: Urban 3D Modelling and Visualisation with GIS",
     "section": "",
     "text": "Motivation of GeoWeb Mapping\nGetting to Know GeoWeb Mapping Technology\n\nGeoWeb mapping system architecture\nGeoWeb mapping protocol\nGeoWeb mapping systems\n\nEvolution of GeoWeb Mapping\n2nd Generation GeoWeb Mapping Technology\n\nOpenLayers\nLeaflet"
   },
   {
     "objectID": "outline/lesson11_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson11_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping",
+    "title": "Lesson 11: Urban 3D Modelling and Visualisation with GIS",
     "section": "Lesson Slides and Hands-on Notes",
     "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 11 in html and pdf formats."
   },
   {
     "objectID": "outline/lesson11_outline.html#references",
     "href": "outline/lesson11_outline.html#references",
-    "title": "Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping",
+    "title": "Lesson 11: Urban 3D Modelling and Visualisation with GIS",
     "section": "References",
     "text": "References\n\nConcepts and Methods\n\nWeb mapping\n7 great alternatives to the Google Maps API\nEssential Resources: Mapping applications, frameworks and libraries\nResearch Explores How to Keep Up With Changing Web Mapping Technology\n\n\n\nApplications\n\n\nQGIS Methods\n\nqgis2web plugin"
   },

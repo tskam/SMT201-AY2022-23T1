@@ -9,6 +9,9 @@ format:
   revealjs:
     width: 1450
     height: 850
+    format:
+      show-notes: separate-page
+      slide-number: true
 editor: visual
 ---
 
@@ -231,7 +234,7 @@ A GIS extends the study of information systems by including geospatial data mana
 
 -   More efficient use of resources
 
-::: {.r-fit-text}
+::: r-fit-text
 GIS = Get Intelligent Solutions
 :::
 :::
