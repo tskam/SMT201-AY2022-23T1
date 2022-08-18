@@ -1,13 +1,13 @@
 ---
-title: "Lesson 4: <br/>Mapping and Visualising Urban World with GIS"
+title: "Lesson 3: <br/>Mapping and Visualising Urban World with GIS"
 author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
 institute: "School of Computing and Information Systems,<br/>Singapore Management University"
 date: "2022-08-06 (updated: `r Sys.Date()`)"
 css: "text.css"
 format: 
   revealjs:
-    width: 1920
-    height: 920
+    width: 1600
+    height: 900
 editor: visual
 ---
 
@@ -243,11 +243,13 @@ Chernoff Faces: variation on the graduated symbol theme: many variables for each
 
 ::: columns
 ::: {.column width="60%"}
--   Quantitative visual variables are most effective for depicting differences in amount, or quantitative differences. The visual variables that do a good job of showing ordinal differences are: colour value, colour saturation, size and texture/grain.
+-   Quantitative visual variables are most effective for depicting differences in amount, or quantitative differences.
 
--   Figure on the right shows four ordinal visual variables used each in point, linear and areal symbols.
+-   The visual variables that do a good job of showing ordinal differences are: colour value, colour saturation, size and texture/grain.
 
--   Colour value or lightness of hue may be used to represent quantitatively different data (either rank-ordered data or numerical amounts) such as population density. Value is typically light for low numbers (e.g., light green) and dark for high numbers (e.g., dark green).
+-   Colour value or lightness of hue may be used to represent quantitatively different data (either rank-ordered data or numerical amounts) such as population density.
+
+    -   Value is typically light for low numbers (e.g., light green) and dark for high numbers (e.g., dark green).
 
 -   Colour saturation or intensity of hue such as bright red compared with a dull, gray red can be used for quantitative data.
 :::
@@ -327,12 +329,12 @@ When designing a proportional symbol map, one of the important consideration is 
 
 ### Proportional Symbol Map: Pie Chart Map
 
-Proportional pie chart map places pie bar chart on a map based on the location of the observations.  The map below uses circle size to depict total sales in each city, and the pie slices then depict proportion of the three shipping modes, namely: delivery truck, express air and regular air.
+Proportional pie chart map places pie bar chart on a map based on the location of the observations. The map below uses circle size to depict total sales in each city, and the pie slices then depict proportion of the three shipping modes, namely: delivery truck, express air and regular air.
 
 ![](img/image18.jpg){fig-align="center" width="960"}
 
 ::: notes
-One important characteristic of proportional symbols is that they can easily be designed to represent more than one data value per location. Among the most common example is a pie chart map in which a circle is scaled proportionally to some total, and the size of wedges within the circle is scaled to depict a proportion of a total for two or more sub-categories. 
+One important characteristic of proportional symbols is that they can easily be designed to represent more than one data value per location. Among the most common example is a pie chart map in which a circle is scaled proportionally to some total, and the size of wedges within the circle is scaled to depict a proportion of a total for two or more sub-categories.
 :::
 
 ------------------------------------------------------------------------

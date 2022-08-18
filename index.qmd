@@ -10,7 +10,9 @@ In this web site, you will find all course materials here.
 
 Instructor: [Dr. Kam Tin Seong](https://www.smu.edu.sg/faculty/profile/9618/KAM-Tin-Seong), Associate Professor of Information Systems (Practice)
 
-Consultation booking [link](https://docs.google.com/spreadsheets/d/1Zz3_hqKc4qA5YFMTy2DJzlEd5EJRaDzHqUhWMTm-zxI/edit?usp=sharing).\
+Consultation booking [link](https://docs.google.com/spreadsheets/d/1Zz3_hqKc4qA5YFMTy2DJzlEd5EJRaDzHqUhWMTm-zxI/edit?usp=sharing).
+
+Virtual Meeting Room: [Webex](https://smu-sg.webex.com/meet/tskam)\
 
 | Section | Time        | Venue       |
 |---------|-------------|-------------|
