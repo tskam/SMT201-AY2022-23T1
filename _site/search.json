@@ -452,7 +452,7 @@
     "href": "outline/lesson05_outline.html",
     "title": "Lesson 5: Urban Applications of Vector-based GIS Analysis",
     "section": "",
-    "text": "Trade Area Analysis\n\nDefining trade areas\nExamples of trade areas\nFactors that influence trade area\nGIS-based trade area analysis process\nGIS-based trade area delineation techniques\n\nUrban Analysis and Monitoring\n\nDevelopment control\nUrban growth monitoring\nUrban change detection\n\nHands-on Exercise in html and pdf format."
+    "text": "Trade Area Analysis\n\nDefining trade areas\nExamples of trade areas\nFactors that influence trade area\nGIS-based trade area analysis process\nGIS-based trade area delineation techniques\n\nUrban Analysis and Monitoring\n\nDevelopment control\nUrban growth monitoring\nUrban change detection"
   },
   {
     "objectID": "outline/lesson05_outline.html#references",
@@ -677,5 +677,12 @@
     "title": "SMT201-AY2022-23T1",
     "section": "Reference",
     "text": "Reference\n\nCore Readings\n\nJochen Albrecht (2007) Key Concepts & Techniques in GIS, SAGE Publication, London, UK.\nJonathan Campbell and MIchael Shin (2011) Essentials of Geographic Information Systems, Saylor Foundation.\nMaarseveen, Martin van.; Martinez, Javier.; Flacke, Johannes. (2019) GIS in Sustainable Urban Planning and Management, CRC Press.\n\n\n\nAdditional Readings\n\nDavid L. Berlyva (2002) Practical GIS Analysis, Taylor and Francis, London, UK.\nC. Dana Tomlin and C Dana Tomlin (2012) GIS and Cartographic Modeling, ESRI Press, Redland, USA."
+  },
+  {
+    "objectID": "outline/lesson05_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/lesson05_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 5: Urban Applications of Vector-based GIS Analysis",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise in html format."
   }
 ]

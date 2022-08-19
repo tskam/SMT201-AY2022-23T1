@@ -21,7 +21,11 @@ knitr::opts_chunk$set(echo = FALSE)
     -   Development control
     -   Urban growth monitoring
     -   Urban change detection
--   Hands-on Exercise in [html](../Hands-on_Ex/Hands-on_Ex06/Hands-on_Ex06.html) and [pdf](../Hands-on_Ex/Hands-on_Ex06//Hands-on_Ex06.pdf) format.
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slide in [html](../lesson/Lesson04/Lesson04.html) format.
+-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex05) format.
 
 ## References
 
