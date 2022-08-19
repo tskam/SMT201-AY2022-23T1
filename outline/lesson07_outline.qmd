@@ -5,10 +5,6 @@ date: "`r Sys.Date()`"
 format: html
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 ## Content
 
 -   Descriptive model
@@ -22,9 +18,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Lesson Slides and Hands-on Notes
 
--   Lesson slides in [html](../lesson/Lesson08/Lesson08.html) and [pdf](../lesson/Lesson08/Lesson08.pdf) formats.
-
--   Hands-on Exercise 8 in [html](../Hands-on_Ex/Hands-on_Ex08/Hands-on_Ex08.html) and [pdf](../Hands-on_Ex/Hands-on_Ex08/Hands-on_Ex08.pdf) formats.
+-   Lesson slide in [html](../lesson/Lesson07/lesson07.html) format.
+-   Hands-on Exercise:
+    - [
+8  GIS Modelling for Urban Land Suitability Study
+](https://gis4urbplan.netlify.app/hands-on_ex07)
+    - [
+9  GIS-based Multicriteria Decision Analysis (MCDA) for Land Suitability Study
+](https://gis4urbplan.netlify.app/hands-on_ex08)
 
 ## References
 
