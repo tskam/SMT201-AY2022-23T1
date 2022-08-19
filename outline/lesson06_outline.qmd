@@ -23,9 +23,8 @@ format: html
 
 ## Lesson Slides and Hands-on Notes
 
--   Lesson slides in [html](../lesson/Lesson07/Lesson07.html) and [pdf](../lesson/Lesson07/Lesson07.pdf) formats.
-
--   Hands-on Exercise 7 in [html](../Hands-on_Ex/Hands-on_Ex07/Hands-on_Ex07.html) and [pdf](../Hands-on_Ex/Hands-on_Ex07/Hands-on_Ex07.pdf) formats.
+-   Lesson slide in [html](../lesson/Lesson06/Lesson06.html) format.
+-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex06) format.
 
 ## References
 
