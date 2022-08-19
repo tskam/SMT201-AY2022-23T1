@@ -571,4 +571,6 @@ During polygon overlay, many new and smaller polygons are created, some of which
 
 ## Reference
 
-Jochen Albrecht (2007) **Key Concepts and Techniques in GIS**, Chapter 4-6. SAGE Publication. This book is available in smu library. Click on this [link](https://ebookcentral-proquest-com.libproxy.smu.edu.sg/lib/smu/detail.action?pq-origsite=primo&docID=456755).
+Jochen Albrecht (2007) **Key Concepts and Techniques in GIS**, **Chapter 4-6**. SAGE Publication. This book is available in smu library. Click on this [link](https://ebookcentral-proquest-com.libproxy.smu.edu.sg/lib/smu/detail.action?pq-origsite=primo&docID=456755).
+
+Jonathan Campbell and MIchael Shin (2011) [Essentials of Geographic Information Systems](https://open.umn.edu/opentextbooks/textbooks/essentials-of-geographic-information-systems), Saylor Foundation. **Chapter 7: Geospatial Analysis I: Vector Operations**.
