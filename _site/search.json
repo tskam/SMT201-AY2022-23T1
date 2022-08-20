@@ -852,5 +852,110 @@
     "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
     "section": "GIS-based Predictive Model",
     "text": "GIS-based Predictive Model\n\nGeospatial hedonic pricing modelling"
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#content",
+    "href": "lesson/Lesson10/lesson10.html#content",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Content",
+    "text": "Content\n\nWhy analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#location-question",
+    "href": "lesson/Lesson10/lesson10.html#location-question",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Location question",
+    "text": "Location question\n\nHow to assign the eldercare centres to the closest polyclinic?"
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#a-network-model",
+    "href": "lesson/Lesson10/lesson10.html#a-network-model",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "A Network Model",
+    "text": "A Network Model\n\nA link refers to a linear segment defined by two end points. Also called edges.\nA node refers to an end point of a link."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#poor-man-network-data-source",
+    "href": "lesson/Lesson10/lesson10.html#poor-man-network-data-source",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Poor man network data source",
+    "text": "Poor man network data source\nBulk extract at Geofabrik free download server."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#shortest-path-analysis",
+    "href": "lesson/Lesson10/lesson10.html#shortest-path-analysis",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Shortest Path Analysis",
+    "text": "Shortest Path Analysis\nShortest path analysis finds the path with the minimum cumulative impedance between nodes on a network. The path may connect just two nodes an origin and a destination or have specific stops between the nodes."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#fastest-path",
+    "href": "lesson/Lesson10/lesson10.html#fastest-path",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Fastest Path",
+    "text": "Fastest Path\n\nFastest paths are based on time and you can use any measure of time you choose (seconds, minutes, hours, etc.)."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#travelling-salesman-problem",
+    "href": "lesson/Lesson10/lesson10.html#travelling-salesman-problem",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Travelling salesman problem",
+    "text": "Travelling salesman problem\n\nA route can visit many stops in a network. The origin can also be the destination, as the warehouse is in this example delivery route."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#beyond-network-model",
+    "href": "lesson/Lesson10/lesson10.html#beyond-network-model",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "Beyond network model",
+    "text": "Beyond network model\nAccessibility modelling.\n\nSource: https://developers.route360.net/index.html"
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#qgis-network-analysis-support",
+    "href": "lesson/Lesson10/lesson10.html#qgis-network-analysis-support",
+    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "section": "QGIS Network Analysis Support",
+    "text": "QGIS Network Analysis Support\n\n\n\nBuild in\n\n\n\n\nPlug-in\n\n\nFor more detail, visit this link"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#content",
+    "href": "lesson/Lesson12/lesson12.html#content",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "Content",
+    "text": "Content\n\nMotivation of GeoWeb Mapping\nHistory of GeoWeb Mapping\nFundamental of GeoWeb Mapping\nGeoWeb Mapping Protocols\nGeoWeb Mapping software\nGeoWeb Mapping 2.0"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#motivation-sharing-geographic-information",
+    "href": "lesson/Lesson12/lesson12.html#motivation-sharing-geographic-information",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "Motivation: Sharing geographic information",
+    "text": "Motivation: Sharing geographic information\n\n\n\nThree possible ways to share geographic data.\nWeb GIS allows data to be shared over the Web"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#how-a-geoweb-mapping-service-works",
+    "href": "lesson/Lesson12/lesson12.html#how-a-geoweb-mapping-service-works",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "How A GeoWeb Mapping Service Works",
+    "text": "How A GeoWeb Mapping Service Works\n\nClient-server architecture"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#geoweb-mapping-protocols",
+    "href": "lesson/Lesson12/lesson12.html#geoweb-mapping-protocols",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "GeoWeb Mapping Protocols",
+    "text": "GeoWeb Mapping Protocols\n\nWeb Map Service (WMS)\nWeb Feature Service (WFS)\nExtensible Markup Language (XML)\nGeography Markup Language (GML)\nKeyhole Markup Language (KML)"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#geospatial-server-software",
+    "href": "lesson/Lesson12/lesson12.html#geospatial-server-software",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "Geospatial Server Software",
+    "text": "Geospatial Server Software\n\n\nCommercial off-the-shelf (COS) \n\nOpen Source"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#geoweb-mapping-evolution",
+    "href": "lesson/Lesson12/lesson12.html#geoweb-mapping-evolution",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "GeoWeb Mapping evolution",
+    "text": "GeoWeb Mapping evolution\n\nImpact of Rich Internet Application (RIA)"
   }
 ]
