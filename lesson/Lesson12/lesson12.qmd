@@ -221,7 +221,7 @@ To learn more, click on this [link](http://geoserver.org/).
 
 ------------------------------------------------------------------------
 
-### OpenLayer 
+### OpenLayer
 
 -   An open source (provided under a modified BSD license) JavaScript library for displaying map data in web browsers.
 

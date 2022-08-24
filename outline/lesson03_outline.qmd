@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Lesson Slides and Hands-on Notes
 
 -   Lesson slide in [html](../lesson/Lesson03/Lesson03.html) format.
--   Hands-on Exercise in [html](../Hands-on_Ex/Hands-on_Ex03/Hands-on_Ex03.html) format.
+-   Hands-on Exercise in [html](https://gis4urbplan.netlify.app/hands-on_ex03) format.
 
 ## Readings
 
