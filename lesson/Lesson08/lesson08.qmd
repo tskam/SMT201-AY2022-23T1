@@ -1,0 +1,108 @@
+---
+title: "Lesson 8: Fundamentals of Remote Sensing"
+author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
+institute: "School of Computing and Information Systems,<br/>Singapore Management University"
+date: "2022-08-12 (updated: `r Sys.Date()`)"
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+editor: visual
+---
+
+# Content
+
+-   Principles of Remote Sensing
+
+-   Remote Sensing Technologies
+
+-   Digital Image Processing and Analysis
+
+## Principles of Remote Sensing
+
+::: columns
+::: {.column width="60%"}
+-   Remote sensing refers to the activities of recording, observing, and perceiving (sensing) objects or events in far-away (remote) places.
+-   In remote sensing, the sensors are not in direct contact with the objects or events being observed.
+-   Electromagnetic radiation normally is used as the information carrier in remote sensing.
+-   The output of a remote sensing system is usually an image representing the scene being observed.
+-   A further step of image analysis and interpretation is required to extract useful information from the image.
+:::
+
+::: {.column width="40%"}
+![](img/image1.jpg){fig-align="center" width="307"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+### History of remote sensing
+
+::: columns
+::: {.column width="50%"}
+-   The use of aerial Earth survey has started immediately with the invention of the photographic method.
+-   The first aerial photograph was taken by Gaspard-Félix Tournachon (known by the pseudonym Nadar) in 1858. It was a picture of a village near Paris captured from a balloon at an altitude of 80 m.
+:::
+
+::: {.column width="50%"}
+![](img/image2.jpg)
+:::
+:::
+
+------------------------------------------------------------------------
+
+### History of remote sensing: pigeon photographer method
+
+In 1907, Julius Neubronner, a pharmacist, invented the pigeon photographer method for aerial photography. Initially, he used carrier pigeons to deliver medicines, and then he decided to make an experiment designing an aluminium chest harness with minicamera for pigeons, which took automatic photos at regular intervals. Subsequently, in 1909, Neubronner sold some of such pigeon photography images turned into postcards.
+
+![](img/image3.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+### History of remote sensing: aerial photographs
+
+::: columns
+::: {.column width="50%"}
+-   Aerial photographs started to be taken from planes in 1909.
+-   Aerial photography was used during the World War I in military intelligence.
+-   The period between the two world wars was marked with the development of methods for civil application of aerial photography, first of all in cartography, geology, agriculture and forestry.
+-   Cameras, films and aircrafts improved along with significant development of stereographic mapping method.
+:::
+
+::: {.column width="50%"}
+![](img/image4.jpg){fig-align="center" width="600"}
+
+Source: [Secret second world war aerial images go online](https://www.theguardian.com/world/gallery/2009/nov/23/secondworldwar-secret-photographs-online)
+:::
+:::
+
+------------------------------------------------------------------------
+
+### History of remote sensing: space
+
+::: columns
+::: {.column width="50%"}
+-   Exploration of the outer space was the revolutionary step in the development of remote sensing techniques.
+-   Manned spacecrafts, artificial Earth satellites and orbital stations started to deliver extensively satellite images.
+-   The first photographs of ground surface have been captured by TIROS weather satellite and Mercury 1--4 spacecrafts in 1960--1962.
+-   Image on the right shows the first space photograph taken in 1946. The image captures Mexico.
+:::
+
+::: {.column width="50%"}
+![](img/image5.jpg){width="624"}
+:::
+:::
+
+---
+
+### History of remote sensing: Earth observation drone
+
+::: columns
+::: {.column width="50%"}
+- Although drone was first introduced in the early 1970s, civilian applications of drone only gaining attention since 2016.
+- Earth observation drone for urban analysis, on the other hand, is a very recent area of research.
+:::
+
+:::
+
+:::

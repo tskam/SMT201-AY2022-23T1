@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.0.37">
 
   <meta name="author" content="Dr.&nbsp;Kam Tin Seong Assoc. Professor of Information Systems">
-  <title>SMT201-AY2022-23T1 - Lesson 3: Mapping and Visualising Urban World with GIS</title>
+  <title>SMT201-AY2022-23T1 - Lesson 8: Fundamentals of Remote Sensing</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -25,7 +25,6 @@
     ul.task-list{list-style: none;}
   </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css" id="theme">
-  <link rel="stylesheet" href="text.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -320,558 +319,102 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Lesson 3: <br>Mapping and Visualising Urban World with GIS</h1>
+  <h1 class="title">Lesson 8: Fundamentals of Remote Sensing</h1>
   <p class="author">Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems</p>
   <p class="institute">School of Computing and Information Systems,<br>Singapore Management University</p>
-  <p class="date">2022-08-06 (updated: 2022-08-28)</p>
+  <p class="date">2022-08-12 (updated: 2022-08-26)</p>
 </section>
 
-<section id="what-will-you-learn-in-this-lesson" class="slide level2">
-<h2>What will you learn in this lesson?</h2>
+<section>
+<section id="content" class="title-slide slide level1 center">
+<h1>Content</h1>
 <ul>
-<li><p>Maps and Urban Environments</p></li>
-<li><p>Typology of Maps</p>
-<ul>
-<li><p>Reference maps</p></li>
-<li><p>Thematic maps</p></li>
-</ul></li>
-<li><p>Qualitative thematic mapping</p></li>
-<li><p>Quantitative thematic mapping</p>
-<ul>
-<li><p>Number of classes</p></li>
-<li><p>Data classification</p></li>
-<li><p>Colour scheme</p></li>
-</ul></li>
+<li><p>Principles of Remote Sensing</p></li>
+<li><p>Remote Sensing Technologies</p></li>
+<li><p>Digital Image Processing and Analysis</p></li>
 </ul>
 </section>
-<section id="learning-objectives" class="slide level2">
-<h2>Learning objectives</h2>
-<p>By the end of this lesson, students will be able:</p>
+<section id="principles-of-remote-sensing" class="slide level2">
+<h2>Principles of Remote Sensing</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
 <ul>
-<li><p>to understand and explain the basic principles and methods of thematic mapping and cartographic design, and</p></li>
-<li><p>to use these understanding to design analytical maps to enlighten.</p></li>
+<li>Remote sensing refers to the activities of recording, observing, and perceiving (sensing) objects or events in far-away (remote) places.</li>
+<li>In remote sensing, the sensors are not in direct contact with the objects or events being observed.</li>
+<li>Electromagnetic radiation normally is used as the information carrier in remote sensing.</li>
+<li>The output of a remote sensing system is usually an image representing the scene being observed.</li>
+<li>A further step of image analysis and interpretation is required to extract useful information from the image.</li>
 </ul>
-</section>
-<section id="visualising-urban-environments-in-a-map" class="slide level2">
-<h2>Visualising Urban Environments in a Map</h2>
-<p>An interface between geospatial data users and geospatial data.</p>
-<div style="font-size: 1.2em; text-align: center">
-<p>Old proverb: A picture is worth a thousand words</p>
-</div>
+</div><div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/image1.jpg" width="1000"></p>
+<p><img data-src="img/image1.jpg" width="307"></p>
 </figure>
 </div>
-<div style="font-size: 1.2em; text-align: center">
-<p>New proverb: A map is worth a thousand numbers, maybe more!</p>
 </div>
-<aside class="notes">
-<p>A map is a model of our environments.</p>
-<p>A map represents geographical data. However, it is also an interface between map viewers and the</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="role-of-maps" class="slide level2">
-<h2>Role of Maps</h2>
-<ul>
-<li><p>Record and store spatially referenced data</p></li>
-<li><p>Serve as computational aids</p></li>
-<li><p>Serve as aids to mobility</p></li>
-<li><p>Summarise complex, voluminous spatial data</p></li>
-<li><p>Help us to explore spatial patterns</p></li>
-<li><p>Help us to visualise large volume of spatial data</p></li>
-<li><p>Serve as trigger devices to stimulate thought</p></li>
-</ul>
+</div>
 </section>
 <section class="slide level2">
 
-<h3 id="role-of-maps-map-serves-as-a-record">Role of Maps: Map serves as a record</h3>
+<h3 id="history-of-remote-sensing">History of remote sensing</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>The use of aerial Earth survey has started immediately with the invention of the photographic method.</li>
+<li>The first aerial photograph was taken by Gaspard-Félix Tournachon (known by the pseudonym Nadar) in 1858. It was a picture of a village near Paris captured from a balloon at an altitude of 80 m.</li>
+</ul>
+</div><div class="column" style="width:50%;">
 <p><img data-src="img/image2.jpg"></p>
-<p>Source: <a href="http://en.wikipedia.org/wiki/Battle_of_Singapore">Battle of Singapore</a></p>
-<aside class="notes">
-<p>A map serves as a record of the physical and cultural environment at a particular time. For example, the map above shows Singapore in early February 1942; the disposition of Allied ground forces is in red. The main north–south transport corridor, formed by Woodlands Road and the railway, connecting the city centre (in the southeast) and The Causeway (central north), is the black line running through the centre of the island. Sarimbun is at the north west corner of the island; Bukit Timah is located close to the centre on the transport corridor; Pasir Panjang is between the city centre and the southwest corner of the island and the “Jurong Line” is the bracket-like shape in red, just west of Woodlands Road land use allocation on Singapore Concept Plan in 2001.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="role-of-maps-map-reveals-patterns">Role of maps: Map reveals patterns</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image3.jpg" width="686"></p>
-</figure>
 </div>
-<p>Source: <a href="http://en.wikipedia.org/wiki/John_Snow_%28physician%29">John Snows</a></p>
-<aside class="notes">
-<p>While investigating an outbreak of cholera in London, Dr.&nbsp;John Snow noticed that a large proportion of deaths occurred in households near the Broad Street water pump. He theorised that the water from this pump was the source of contamination and lobbied to have the pump handle removed so that people could not drink the water. Although it’s unlikely that this action stopped the epidemic (it was already waning when the pump handle was removed), the map he later constructed to visualize where the cholera deaths occurred provided strong support for his hypothesis (i.e.&nbsp;confirmation).</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+</div>
 </section>
-<section id="typology-of-maps" class="slide level2">
-<h2>Typology of Maps</h2>
-
-<img data-src="img/image4.jpg" width="694" class="r-stretch quarto-figure-center"></section>
 <section class="slide level2">
 
-<h3 id="reference-map-topography-map">Reference map – Topography Map</h3>
+<h3 id="history-of-remote-sensing-pigeon-photographer-method">History of remote sensing: pigeon photographer method</h3>
+<p>In 1907, Julius Neubronner, a pharmacist, invented the pigeon photographer method for aerial photography. Initially, he used carrier pigeons to deliver medicines, and then he decided to make an experiment designing an aluminium chest harness with minicamera for pigeons, which took automatic photos at regular intervals. Subsequently, in 1909, Neubronner sold some of such pigeon photography images turned into postcards.</p>
+
+<img data-src="img/image3.jpg" class="r-stretch quarto-figure-center"></section>
+<section class="slide level2">
+
+<h3 id="history-of-remote-sensing-aerial-photographs">History of remote sensing: aerial photographs</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li><p>Topographic maps are detailed, accurate graphic representations of features that appear on the Earth’s surface.</p></li>
-<li><p>Contour lines are one of the important feature on a topographical map.</p></li>
-<li><p>Other important features are geographic graticule and a coordinate grid. They allow map readers to determine relative and absolute positions of mapped features.</p></li>
-<li><p>A map legend (or key) lists the features shown on that map, and their corresponding symbols.</p></li>
-<li><p>Traditionally present in paper printed format.</p></li>
+<li>Aerial photographs started to be taken from planes in 1909.</li>
+<li>Aerial photography was used during the World War I in military intelligence.</li>
+<li>The period between the two world wars was marked with the development of methods for civil application of aerial photography, first of all in cartography, geology, agriculture and forestry.</li>
+<li>Cameras, films and aircrafts improved along with significant development of stereographic mapping method.</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/image5.jpg" width="1054"></p>
+<p><img data-src="img/image4.jpg" width="600"></p>
 </figure>
 </div>
-</div>
-</div>
-<aside class="notes">
-<p>Topographic maps are detailed, accurate graphic representations of features that appear on the Earth’s surface. These features include:</p>
-<ul>
-<li><p>cultural: roads, buildings, urban development, railways, airports, names of places and geographic features, administrative boundaries, state and international borders, reserves</p></li>
-<li><p>hydrography: lakes, rivers, streams, swamps, coastal flats</p></li>
-<li><p>relief: mountains, valleys, slopes, depressions</p></li>
-<li><p>vegetation: wooded and cleared areas, vineyards and orchards.</p></li>
-</ul>
-<p>It is important to note that a map is merely a two or three dimensional representation of the physical environment at a given time. Therefore, a map will never be entirely up to date. Changes to the landscape and cultural features regularly occur (such as roads, vegetation, and buildings), resulting in maps becoming dated, although the rate of obsolescence varies depending upon location.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="reference-map-topography-map-1">Reference map – Topography Map</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Figure on this slide shows the close-up view of a topographical map.</p>
-<ul>
-<li><p>Show the physical and cultural landscapes of the earth surface.</p></li>
-<li><p>Different colours and symbols are used to represent real world features.</p></li>
-<li><p>Labels are used to indicate locations and places.</p></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="img/image6.jpg" width="546"></p>
-</div>
-</div>
-</section>
-<section id="thematic-mapping" class="slide level2">
-<h2>Thematic Mapping</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="qualitative-thematic-map">Qualitative Thematic Map</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image7a.jpg"></p>
-</figure>
-</div>
-</div><div class="column" style="width:50%;">
-<h3 id="quantitative-thematic-map">Quantitative Thematic Map</h3>
-<p><img data-src="img/image7b.jpg"></p>
+<p>Source: <a href="https://www.theguardian.com/world/gallery/2009/nov/23/secondworldwar-secret-photographs-online">Secret second world war aerial images go online</a></p>
 </div>
 </div>
 </section>
 <section class="slide level2">
 
-<h3 id="visual-variables-and-cartographic-symbols---nominal-or-ordinal-scales">Visual Variables and Cartographic Symbols - Nominal or ordinal scales</h3>
+<h3 id="history-of-remote-sensing-space">History of remote sensing: space</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li><p>Nominal visual variables are best for emphasizing differences in kind, or qualitative differences.</p></li>
-<li><p>The four visual variables that work best for showing nominal differences are: colour hue, shape, arrangement and orientation.</p></li>
-<li><p>Figure on the right shows four nominal visual variables used each in point, linear and areal symbols. Colour hue such as red blue and green may be used to categorise features that are qualitative different such as a river and a road.</p></li>
+<li>Exploration of the outer space was the revolutionary step in the development of remote sensing techniques.</li>
+<li>Manned spacecrafts, artificial Earth satellites and orbital stations started to deliver extensively satellite images.</li>
+<li>The first photographs of ground surface have been captured by TIROS weather satellite and Mercury 1–4 spacecrafts in 1960–1962.</li>
+<li>Image on the right shows the first space photograph taken in 1946. The image captures Mexico.</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image8a.jpg" width="680"></p>
-</figure>
+<p><img data-src="img/image5.jpg" width="624"></p>
 </div>
 </div>
-</div>
-</section>
-<section class="slide level2">
-
-<h3 id="qualitative-thematic-map-1">Qualitative Thematic Map</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Point symbol Map</p>
-<p><img data-src="img/image9.jpg"></p>
-</div><div class="column" style="width:50%;">
-<p>Line Symbol Map</p>
-<p><img data-src="img/image10.jpg" width="575"></p>
-</div><aside class="notes">
-<p>Different point symbols are used to represent facility types.</p>
-<p>A road map is an example of a thematic map. It shows the road network of an area. In this map, lines with different colours, symbols, and markers are used to differentiate hierarchy of roads and transport facilities. Additionally, labels are used to identify locations and places.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</div>
-</section>
-<section class="slide level2">
-
-<h3 id="qualitative-thematic-map-areas-or-polygons">Qualitative Thematic Map: Areas or Polygons</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image11.jpg" width="919"></p>
-</figure>
-</div>
-<aside class="notes">
-<p>Land use map above is a good example of a discrete thematic map. In this map, different colour hues are use to represent different land use types.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="qualitative-map-multivariate-map">Qualitative Map: Multivariate Map</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image12.jpg" width="467"></p>
-</figure>
-</div>
-<aside class="notes">
-<p>Chernoff Faces: variation on the graduated symbol theme: many variables for each symbol.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="visual-variables-and-cartographic-symbols---ratio-scale">Visual Variables and Cartographic Symbols - Ratio scale</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div style="font-size: 0.8em">
-<ul>
-<li>Quantitative visual variables are most effective for depicting differences in amount, or quantitative differences.</li>
-<li>The visual variables that do a good job of showing ordinal differences are: colour value, colour saturation, size and texture/grain.</li>
-<li>Colour value or lightness of hue may be used to represent quantitatively different data (either rank-ordered data or numerical amounts) such as population density.
-<ul>
-<li>Value is typically light for low numbers (e.g., light green) and dark for high numbers (e.g., dark green).</li>
-</ul></li>
-<li>Colour saturation or intensity of hue such as bright red compared with a dull, gray red can be used for quantitative data.</li>
-</ul>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image8b.jpg" width="536"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section class="slide level2">
-
-<h3 id="quantitative-thematic-map-dot-density-map">Quantitative Thematic Map: Dot Density Map</h3>
-<p>A dot-density map is a type of thematic map that uses dots or other symbols on the map to show the values of one or more numeric data fields. Each dot on a dot-density map represents some amount of data.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image13.jpg" width="738"></p>
-</figure>
-</div>
-<p>one dot represent 100 households</p>
-<p>Reference: <a href="https://en.wikipedia.org/wiki/Dot_distribution_map">Dot distribution map</a> at wiki and <a href="https://www.axismaps.com/guide/dot-density">Dot Density Maps</a></p>
-<aside class="notes">
-<p>Dot density maps, or dot maps, portray the geographic distribution of discrete phenomena using an arrangement of identical point symbols, most commonly dots.</p>
-<p>The dot density technique dates to at least the 19th century and is today accepted as one of the primary techniques for representing geographic patterns.</p>
-<p>Figure above shows the first dot density map. It was published in 1830 by 1830 Armand Joseph Frere de Montizon. It shows the population distribution of France. Each dot represent 10,000 people.</p>
-<p>Dot density maps are particularly useful for understanding global distribution of the mapped phenomenon and comparing relative densities of different regions on the map. Dot density maps are also easy to understand, requiring little cognitive effort by the map reader when compared to isoline maps.</p>
-<p>However, retrieval of specific information from dot density maps is difficult, as map users find manual counting of dots tedious and tend to underestimate dot totals as density increases.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="quantitative-thematic-map-proportional-symbol-map">Quantitative Thematic Map: Proportional Symbol Map</h3>
-<p>The proportional symbol technique uses symbols of different sizes to represent data associated with different areas or locations within the map. For example, the proportional map below use circle with different sizes to represent millions of people.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image14.jpg" width="1188"></p>
-</figure>
-</div>
-<aside class="notes">
-<p>The proportional symbol technique uses symbols of different sizes to represent data associated with different areas or locations within the map. For example, the proportional maps above use circle with different sizes to represent millions of people.</p>
-<p>There are two types of point features that are typically depicted with proportional symbols: features for which the data represents a geographic position directly (e.g., gallons of oil from individual oil wells), and features that are geographic areas to which data are aggregated and the data magnitudes are assigned to a representative point within the area (e.g., the geographic centroid of a state as in the examples above). In either case, the area of the symbol is scaled to represent the data magnitude, sometimes with a bit of exaggeration to adjust for a general tendency of human vision to underestimate differences in area. A variant on this direct data-to-symbol scaling groups values into categories first, then scales the symbol to represent the mean for the category, assigning a symbol to each place to represent the category range that the mean for the place falls within</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="how-to-size-circles-incorrectly-and-correctly">How to size circles incorrectly and correctly?</h3>
-<p>Figure below explains how attribute values are map on circles. One strategy to overcome this problem is to use square instead of circle.</p>
-
-<img data-src="img/image16.jpg" width="739" class="r-stretch quarto-figure-center"></section>
-<section class="slide level2">
-
-<h3 id="quantitative-thematic-map-proportional-symbol-map-1">Quantitative Thematic Map: Proportional Symbol Map</h3>
-<p>Instead of using circle, square symbol shall be used.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image15.jpg" width="1384"></p>
-</figure>
-</div>
-<aside class="notes">
-<p>Map readers’ estimation of values from symbols has been the subject of extensive research by cartographers. These studies have generally found that readers make the most accurate estimates from bars and squares and are generally not as good at estimating values from circles, whose areas they tend to underestimate, especially for larger symbol sizes.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="how-to-make-proportional-symbol-maps-clearer">How to make proportional symbol maps clearer?</h3>
-<p>When designing a proportional symbol map, one of the important consideration is to avoid the circles blocking each other. One possible strategy to overcome this problem is to applying opacity (also known as transparency).</p>
-
-<img data-src="img/image17.jpg" width="320" class="r-stretch quarto-figure-center"></section>
-<section class="slide level2">
-
-<h3 id="proportional-symbol-map-pie-chart-map">Proportional Symbol Map: Pie Chart Map</h3>
-<p>Proportional pie chart map places pie bar chart on a map based on the location of the observations. The map below uses circle size to depict total sales in each city, and the pie slices then depict proportion of the three shipping modes, namely: delivery truck, express air and regular air.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image18.jpg" width="960"></p>
-</figure>
-</div>
-<aside class="notes">
-<p>One important characteristic of proportional symbols is that they can easily be designed to represent more than one data value per location. Among the most common example is a pie chart map in which a circle is scaled proportionally to some total, and the size of wedges within the circle is scaled to depict a proportion of a total for two or more sub-categories.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="proportional-symbol-map-bar-chart-map">Proportional Symbol Map: Bar Chart Map</h3>
-<p>Proportional side-by-side bar map places side-by-side bar chart on a map based on the location of the observations.</p>
-
-<img data-src="img/image19.jpg" class="r-stretch quarto-figure-center"></section>
-<section class="slide level2">
-
-<h3 id="classified-choropleth-map">Classified choropleth map</h3>
-<p>A classed choropleth map combines areal units into a smaller number of groups. Interval levels may vary, but typically 4 to 7 are used in a map. There is different classification techniques used to divide up the intervals.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="img/image21.jpg" width="1198"></p>
-</figure>
-</div>
-<aside class="notes">
-<p>A choropleth map can be either classified or unclassified.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="unclassified-choropleth-map">Unclassified choropleth map</h3>
-<p>An unclassified choropleth map is similar to a classed choropleth map; however, an unclassed choropleth maps do not have an averaged statistic towards each particular colour.</p>
-
-<img data-src="img/image20.jpg" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="choropleth-mapping-technique---number-of-classes">Choropleth mapping technique - Number of classes</h3>
-<p>The readability of a choropleth map will be affected by the number of classes used.</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>When a small number of classes is used, the spatial distribution reveals will be very limited.</p>
-<p><img data-src="img/image22a.jpg"></p>
-</div><div class="column" style="width:50%;">
-<p>When an appropriate number of classes is used, the spatial distribution reveals will be clear.</p>
-<p><img data-src="img/image22b.jpg"></p>
-</div>
-</div>
-</section>
-<section class="slide level2">
-
-<h3 id="choropleth-mapping-technique---number-of-classes-1">Choropleth mapping technique - Number of classes</h3>
-<p>Figure below provided a mathematical method to determine number of classes used for preparing a choropleth map.</p>
-
-<img data-src="img/image22.jpg" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="choropleth-map---methods-of-choosing-classes">Choropleth map - Methods of choosing classes</h3>
-<ul>
-<li><p>Based on the nature of the distribution</p>
-<ul>
-<li>quantile, equal interval, natural breaks, standard deviations, defined interval</li>
-</ul></li>
-<li><p>Arbitrary</p>
-<ul>
-<li><p>Can be based on round numbers. Examples: Grouping according to age or census housing categories.</p></li>
-<li><p>Can result in empty categories</p></li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="data-classification-method-equal-interval">Data classification method: Equal interval</h3>
-<p>Divides the range of attribute values into equally sized classes.</p>
-
-<img data-src="img/image23a.jpg" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="data-classification-method-quantitle">Data classification method: Quantitle</h3>
-<p>Same number of features per class.</p>
-
-<img data-src="img/image23b.jpg" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="data-classification-method-jenks-also-known-as-natural-breaks">Data classification method: Jenks (also known as Natural breaks)</h3>
-<p>Default Jenk’s statistical optimization by finds natural groupings in the data.</p>
-
-<img data-src="img/image23c.jpg" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="data-classification-method-standard-deviation">Data classification method: Standard deviation</h3>
-<p>A measure of dispersion. Use if the distribution approximates a normal distribution.</p>
-
-<img data-src="img/image23d.jpg" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="choropleth-map---colour-scheme">Choropleth map - Colour scheme</h3>
-<p><a href="http://colorbrewer2.org/">ColorBrewer</a> is an online tool designed to help people select good color schemes for maps and other graphics.</p>
-
-<img data-src="img/image24.jpg" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="colour-scheme-tip">Colour Scheme Tip</h3>
-<ul>
-<li><p>Avoiding multiple colours in choropleth mapping</p></li>
-<li><p>Stick with a single hue (or a small set of closely related hues) and vary intensity from pale colours for low values to increasingly darker and brighter colours for high values.</p></li>
-</ul>
-
-<img data-src="img/image25.png" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="quantitative-thematic-map---bivariate">Quantitative Thematic Map - Bivariate</h3>
-<p>Symbolising features based on more than one attribute</p>
-
-<img data-src="img/image26.jpg" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="quantitative-thematic-map---bivariate-choropleth-map">Quantitative Thematic Map - Bivariate Choropleth Map</h3>
-<p>Symbolized features based on more than one attribute</p>
-
-<img data-src="img/image27.jpg" class="r-stretch"><p>Source: <a href="http://kellystravelmap.blogspot.sg/2013/07/bivariate-choropleth-map.html">Bivariate choropleth map</a> and this <a href="http://icaci.org/files/documents/ICC_proceedings/ICC2013/_extendedAbstract/278_proceeding.pdf">article</a></p>
-</section>
-<section id="reference" class="slide level2">
-<h2>Reference</h2>
-<p><a href="https://www.axismaps.com/guide/proportional-symbols">Proportional Symbols</a></p>
-<p><a href="https://www.axismaps.com/guide/choropleth">Choropleth Maps</a></p>
-<p><a href="https://www.axismaps.com/guide/dot-density">Dot Density Maps</a></p>
-<p><a href="https://www.axismaps.com/guide/data-classification">The Basics of Data Classification</a></p>
-<p><a href="https://www.axismaps.com/guide/should-a-map-be-interactive">Should a map be interactive?</a></p>
-<p><a href="https://www.axismaps.com/guide/map-interaction">Map interaction</a></p>
 
 <div class="footer footer-default">
 
 </div>
-</section>
+</section></section>
     </div>
   </div>
 

@@ -957,5 +957,12 @@
     "title": "Lesson 12: Sharing Geographical Information with WebGIS",
     "section": "GeoWeb Mapping evolution",
     "text": "GeoWeb Mapping evolution\n\nImpact of Rich Internet Application (RIA)"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#principles-of-remote-sensing",
+    "href": "lesson/Lesson08/lesson08.html#principles-of-remote-sensing",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Principles of Remote Sensing",
+    "text": "Principles of Remote Sensing\n\n\n\nRemote sensing refers to the activities of recording, observing, and perceiving (sensing) objects or events in far-away (remote) places.\nIn remote sensing, the sensors are not in direct contact with the objects or events being observed.\nElectromagnetic radiation normally is used as the information carrier in remote sensing.\nThe output of a remote sensing system is usually an image representing the scene being observed.\nA further step of image analysis and interpretation is required to extract useful information from the image."
   }
 ]

@@ -242,20 +242,18 @@ Chernoff Faces: variation on the graduated symbol theme: many variables for each
 ### Visual Variables and Cartographic Symbols - Ratio scale
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="50%"}
+::: {style="font-size: 0.8em"}
 -   Quantitative visual variables are most effective for depicting differences in amount, or quantitative differences.
-
 -   The visual variables that do a good job of showing ordinal differences are: colour value, colour saturation, size and texture/grain.
-
 -   Colour value or lightness of hue may be used to represent quantitatively different data (either rank-ordered data or numerical amounts) such as population density.
-
     -   Value is typically light for low numbers (e.g., light green) and dark for high numbers (e.g., dark green).
-
 -   Colour saturation or intensity of hue such as bright red compared with a dull, gray red can be used for quantitative data.
 :::
+:::
 
-::: {.column width="40%"}
-![](img/image8b.jpg){fig-align="center" width="600"}
+::: {.column width="50%"}
+![](img/image8b.jpg){fig-align="center" width="536"}
 :::
 :::
 
@@ -351,7 +349,7 @@ Proportional side-by-side bar map places side-by-side bar chart on a map based o
 
 A classed choropleth map combines areal units into a smaller number of groups. Interval levels may vary, but typically 4 to 7 are used in a map. There is different classification techniques used to divide up the intervals.
 
-![](img/image21.jpg){fig-align="center" width="1326"}
+![](img/image21.jpg){fig-align="center" width="1198"}
 
 ::: notes
 A choropleth map can be either classified or unclassified.
