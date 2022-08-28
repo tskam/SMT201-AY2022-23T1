@@ -283,9 +283,9 @@ A collection of GIS functions for transforming the geometrics of GIS data
 
 ### Geoprocessing function: Erase
 
--   Erase removes from the input layers those features that fall within the area extent of the erase layer.
+Erase removes from the input layers those features that fall within the area extent of the erase layer.
 
-![](img/image6b.jpg)
+![](img/image6b.jpg){fig-align="center"}
 
 ------------------------------------------------------------------------
 
