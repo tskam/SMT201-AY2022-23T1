@@ -964,5 +964,12 @@
     "title": "Lesson 8: Fundamentals of Remote Sensing",
     "section": "Principles of Remote Sensing",
     "text": "Principles of Remote Sensing\n\n\n\nRemote sensing refers to the activities of recording, observing, and perceiving (sensing) objects or events in far-away (remote) places.\nIn remote sensing, the sensors are not in direct contact with the objects or events being observed.\nElectromagnetic radiation normally is used as the information carrier in remote sensing.\nThe output of a remote sensing system is usually an image representing the scene being observed.\nA further step of image analysis and interpretation is required to extract useful information from the image."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#content",
+    "href": "lesson/Lesson08/lesson08.html#content",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Content",
+    "text": "Content\n\nPrinciples of Remote Sensing\nRemote Sensing Technologies\nDigital Image Processing and Analysis"
   }
 ]

@@ -10,7 +10,7 @@ format:
 editor: visual
 ---
 
-# Content
+## Content
 
 -   Principles of Remote Sensing
 
@@ -93,16 +93,19 @@ Source: [Secret second world war aerial images go online](https://www.theguardia
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ### History of remote sensing: Earth observation drone
 
 ::: columns
 ::: {.column width="50%"}
-- Although drone was first introduced in the early 1970s, civilian applications of drone only gaining attention since 2016.
-- Earth observation drone for urban analysis, on the other hand, is a very recent area of research.
+-   Although drone was first introduced in the early 1970s, civilian applications of drone only gaining attention since 2016.
+-   Earth observation drone for urban analysis, on the other hand, is a very recent area of research.
+:::
 :::
 
 :::
 
-:::
+---
+
+### this is a testing
