@@ -18,6 +18,8 @@ editor: visual
 
 -   Digital Image Processing and Analysis
 
+-   XXXX
+
 ## Principles of Remote Sensing
 
 ::: columns
