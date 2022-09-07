@@ -1,0 +1,77 @@
+---
+title: "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis"
+date: "`r Sys.Date()`"
+format: html
+---
+
+## Overview
+
+This handout provides the context, task, expectations and grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise.
+
+## Task
+
+### Mini Case 1: Mapping the dynamics of the city
+
+Demographic change is important for urban planning because it determines the size, structure and geographic distribution of the city population. In this mini case, you are tasked to analyse and visualise the changing geographical distribution of aged (i.e. age 65 and above) and young (i.e. age 14 and below) population of Singapore over the three census periods (i.e. 2000, 2010, and 2020). The specific tasks of this mini case are as follow:
+
+-   To assemble, extract and derive the necessary data from relevant publicly available sources and store them in an unified urban data model.
+-   To prepare a series of thematic maps by using appropriate mapping techniques showing the geographical distribution of the urban dynamics.
+-   For each thematic map prepared, write a short report of not more than 100 words describing the geographical patterns revealed by the map.
+-   With reference to the analysis results, discuss important lesson(s) learnt from the dynamics of urban population changes of Singapore over the last two decades. (Not more than 100 words)
+
+#### Data
+
+For the purpose of this study, the following data and data source are highly recommended:
+
+-   [Singapore Residents by Planning Area / Subzone, Single Year of Age and Sex](https://www.singstat.gov.sg/find-data/search-by-theme/population/geographic-distribution/latest-data). Multiple years and you are required to extract 2000, 2010 and 2020 figures by using appropriate QGIS methods.
+
+-   Multiple years Master Plan Subzone Boundary (No Sea) data from data.gov.sg.
+
+### Mini Case 2: Impact of master plan proposal land use on the forested land
+
+Every five year, Urban Redevelopment Authority (URA) of Singapore will publish the new Master Plan (MP). It is the statutory land use plan which guides Singapore's development in the medium term over the next 10 to 15 years. The latest version, Master Plan 2019 (MP19) was gazetted on 27 Nov 2019. As a socially conscious GIS analyst, you have decided to conduct a study to reveal the impact of the new master plan on our natural environment (i.e. forested land). The study aims to provide policy makers as well as general public analytical-centric information for supporting inclusive and participatory planning process.
+
+The specific tasks of the study are as follows:
+
+-   assemble GIS data needed to perform the study. Three main data sets have been identified. They are: MP2019 Planning subzone boundary, MP2019 Land Use and Forested Land (extracted from osm). Other useful GIS data sets can be added if they are necessary.
+-   using appropriate GIS analysis methods to delineate forested land lost to the proposed land use by MP19.
+-   prepare a forested land change map for a selected planning areas of your choice to show the forested land lost.
+-   derive appropriate statistics (i.e. statistical tables and graphics) to complement the GIS maps analysis.
+-   critically evaluate the issue(s) revealed by the map and suggest appropriate alternative planning approach.
+
+## Take-home Exercise Deliverable
+
+### GIS data repository
+
+The GIS repository includes but not limited to geospatial data compiled and derived, QGIS project file and data dictionary. It must be in a single zipped file (i.e. .zip). The geospatial data must be stored in a GeoPackage database format. The data dictionary can be in either MS Word document or edited into the GIS data.The project deliverable must be uploaded onto eLearn.
+
+### Take-home Exercise Report
+
+You are required to edit your take-home exercise report in MS Word format. The take-home exercise report, beside others, should include all the thematic maps prepared and their respective discussion.
+
+More importantly, the report must provide a **reproducible** step-by-step guide on the following process:
+
+-   data compilation, extraction and integration,
+-   data cleaning, preparation and wrangling,
+-   GIS analysis (including tabular and graphical analysis), and
+-   GIS maps design.
+
+> Note: **Reproducible** means that readers are able to perform the same analysis and obtain similar results by using the same data sets and by following the step-by-step guide.
+
+The title of the report should be in the form of *SMT201_AY2022-23T1_Ex1*.
+
+> Note: This is an individual exercise. You are required to work on the take home exercise and prepare submission individually.
+
+## Grading
+
+-   Quality of the GIS data model built (including metadata) (20 marks),
+-   Appropriateness of the GIS methods used (20 marks),
+-   Quality of GIS maps prepared (20 marks),
+-   Reproducibility of the GIS processes (20 marks)
+-   Ability to provide correct interpretation of the analysis results and to recommend appropriate alternatives (20 marks).
+
+## Submission Date
+
+The take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.
+
+Due Date: 25th September 2022, 11:59pm (midnight).
