@@ -151,7 +151,7 @@ Provides fast selection in tables, drawings, and drawing layers in maps using "o
 
 -   This spatial query technique returns those features that are entirely within the source layer. Features with coincident boundaries are not selected by this query.
 
--   It allows for points, lines, or polygon as the target layer, but only polygons can be used as a source layer.
+-   It allows for points, lines, or polygon as the source layer, but only polygons can be used as a target layer.
 
 ![](img/image5d.jpg){fig-align="center"}
 
