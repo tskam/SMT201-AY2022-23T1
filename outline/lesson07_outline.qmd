@@ -1,5 +1,5 @@
 ---
-title: "Lesson 7: Urban Applications of Raster-based GIS Analysis"
+title: "Lesson 7: GIS-based Multi-Criteria Decision Analysis"
 description: "In this lesson, you will learn the basic concepts of raster-based GIS modelling methods for land suitability analysis."
 date: "`r Sys.Date()`"
 format: html
@@ -20,12 +20,8 @@ format: html
 
 -   Lesson slide in [html](../lesson/Lesson07/lesson07.html) format.
 -   Hands-on Exercise:
-    - [
-8  GIS Modelling for Urban Land Suitability Study
-](https://gis4urbplan.netlify.app/hands-on_ex07)
-    - [
-9  GIS-based Multicriteria Decision Analysis (MCDA) for Land Suitability Study
-](https://gis4urbplan.netlify.app/hands-on_ex08)
+    -   [8 GIS Modelling for Urban Land Suitability Study](https://gis4urbplan.netlify.app/hands-on_ex07)
+    -   [9 GIS-based Multicriteria Decision Analysis (MCDA) for Land Suitability Study](https://gis4urbplan.netlify.app/hands-on_ex08)
 
 ## References
 

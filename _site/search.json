@@ -298,7 +298,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n15/8/2022\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n22/8/2022\nLesson 2: The Evil is in The Data\n\n\n\n3\n29/8/2022\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n5/9/2022\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n12/9/2022\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n19/9/2022\nLesson 6: The Science of Mapthematics\n\n\n\n7\n26/9/2022\nLesson 7: Urban Applications of Raster-based GIS Analysis\n\n\n\n8\n3/10/2022\nMid-term break\n\n\n\n9\n10/10/2022\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/10/2022\nLesson 9: Applied Image Analysis for the Urban Environment\n\n\n\n11\n24/10/2022\nLesson 10: Urban Network Analysis with GIS\n\n\n\n12\n31/10/2022\nLesson 11: Urban 3D Modelling and Visualisation with GIS\n\n\n\n13\n7/11/2022\nLesson 12: Sharing Geographical Information\n\n\n\n14\n14/11/2022\nTownhall Presentation"
+    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n15/8/2022\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n22/8/2022\nLesson 2: The Evil is in The Data\n\n\n\n3\n29/8/2022\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n5/9/2022\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n12/9/2022\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n19/9/2022\nLesson 6: The Science of Mapthematics\n\n\n\n7\n26/9/2022\nLesson 7: GIS-based Multi-Criteria Decision Analysis\n\n\n\n8\n3/10/2022\nMid-term break\n\n\n\n9\n10/10/2022\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/10/2022\nLesson 9: Applied Image Analysis for the Urban Environment\n\n\n\n11\n24/10/2022\nLesson 10: Urban Network Analysis with GIS\n\n\n\n12\n31/10/2022\nLesson 11: Urban 3D Modelling and Visualisation with GIS\n\n\n\n13\n7/11/2022\nLesson 12: Sharing Geographical Information\n\n\n\n14\n14/11/2022\nTownhall Presentation"
   },
   {
     "objectID": "outline/lesson01_outline.html",
@@ -513,21 +513,21 @@
   {
     "objectID": "outline/lesson07_outline.html",
     "href": "outline/lesson07_outline.html",
-    "title": "Lesson 7: Urban Applications of Raster-based GIS Analysis",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
     "section": "",
     "text": "Descriptive model\nPrescriptive models\n\nBinary method\nRanking method\nRating method\n\nGIS‐Based Multiple‐Criteria Decision Analysis\nAnalytical Hierarchical Process (AHP)\nPredictive model"
   },
   {
     "objectID": "outline/lesson07_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson07_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 7: Urban Applications of Raster-based GIS Analysis",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
     "section": "Lesson Slides and Hands-on Notes",
     "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise:\n\n8 GIS Modelling for Urban Land Suitability Study\n9 GIS-based Multicriteria Decision Analysis (MCDA) for Land Suitability Study"
   },
   {
     "objectID": "outline/lesson07_outline.html#references",
     "href": "outline/lesson07_outline.html#references",
-    "title": "Lesson 7: Urban Applications of Raster-based GIS Analysis",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
     "section": "References",
     "text": "References\n\nConcepts and Methods\n\nBerry, J.K. (2005) Topic 7–Basic Spatial Modeling Approaches and Topic 8–Spatial Modeling Example in Beyond Mapping III.\nBerry, J. K. (2005) GIS Modeling and Analysis. Chapter GIS Modeling Frameworks.\nMalczewski, Jacek (2004) “GIS-based land-use suitability analysis: a critical overview”. Progress in Planning, Vol.62(1), pp.3-65.\nMontgomery, Bryn ; Dragićević, Suzana (2016) “Comparison of GIS‐Based Logic Scoring of Preference and Multicriteria Evaluation Methods: Urban Land Use Suitability”. Geographical Analysis, Vol.48(4), pp.427-447.\nSiobhan Ryan and Ellis Nimick (2019) Multi-Criteria Decision Analysis and GIS, ArcGIS StoryMaps.\n\n\n\nApplications\n\nMalihe Masoudi et. al (2021) “GIS‑Based Multi‑Criteria and Multi‑Objective Evaluation for Sustainable Land‑Use Planning (Case Study: Qaleh Ganj County, Iran)”Landuse Planning Using MCE and Mola””, International Journal of Environmental Research (2021) 15:457–474\nAbdullahi, Saleh ; Pradhan, Biswajeet (2016) “Sustainable Brownfields Land Use Change Modeling Using GIS-based Weights-of-Evidence Approach” Applied Spatial Analysis and Policy, Vol.9(1), pp.21-38.\nDong, Mei ; Hu, Hui ; Xu, Riqing ; Gong, Xiaonan (2018) “A GIS-based quantitative geo-environmental evaluation for land-use development in an urban area: Shunyi New City, Beijing, China”. Bulletin of Engineering Geology and the Environment, Vol.77(3), pp.1203-1215.\nParry, Jahangeer A ; Ganaie, Showkat A ; Sultan Bhat, M (2018) “GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&K, India”. Journal of Urban Management, Vol.7(2), pp.46-56.\nChen, Jiapei (2014) “GIS-based multi-criteria analysis for land use suitability assessment in City of Regina”. Environmental Systems Research, Vol.3(1), pp.1-10.\nSarath Midatana ; S. Saran ; K. V. Ramana (2018) “Site suitability analysis for industries using GIS and Multi criteria decision making”. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol.IV-5, pp.447-454.\nModelling land use changes according to transportation scenarios using raster based GIS indicators\nCartographic Modeling Of Land Suitability For Industrial Development In The Egyptian Desert\nRaster based GIS for Urban Management\nSuitability Analysis of Urban Green Space System Based on GIS"
   },
