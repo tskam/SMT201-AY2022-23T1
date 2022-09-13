@@ -1,5 +1,5 @@
 ---
-title: "Lesson 6: The Science of Mathematics<br/>Raster-based GIS Analysis Methods"
+title: "Lesson 6: The Science of Mapthematics<br/>Raster-based GIS Analysis Methods"
 author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
 institute: "School of Computing and Information Systems,<br/>Singapore Management University"
 date: "2022-08-12 (updated: `r Sys.Date()`)"
@@ -35,13 +35,19 @@ editor: visual
 
 ## Raster GIS Data
 
+::: columns
+::: {.column width="50%"}
 -   All raster formats are basically the same
 
--   Cells organized in a matrix of rows and columns
+    -   Cells organized in a matrix of rows and columns
 
 -   Content is more important than format: data or picture?
+:::
 
+::: {.column width="50%"}
 ![](img/image1.jpg){fig-align="center"}
+:::
+:::
 
 ## Map Algebra
 
@@ -49,7 +55,7 @@ editor: visual
 ::: {.column width="50%"}
 -   Map algebra is a simple and an elegant set based algebra for manipulating geographic data, proposed by Dr. Dana Tomlin in the early 1980s.
 
--   It is a set of primitive operations in a GIS which allows two or more raster layers ("maps") of similar dimensions to produce a new raster layer (map) using algebraic operations such as addition, subtraction etc.
+-   It is a set of primitive operations in a GIS which allows one or more raster layers ("maps") of similar dimensions to produce a new raster layer (map) using algebraic operations such as addition, subtraction etc.
 :::
 
 ::: {.column width="50%"}
@@ -303,9 +309,9 @@ Mathematics of slope
 
 -   Usage of aspect:
 
--   Find all west-facing slopes on a mountain as part of a search for the best slopes for building resort residential units.
+    -   Find all west-facing slopes on a mountain as part of a search for the best slopes for building resort residential units.
 
--   Calculate the solar illumination for each location in a region as part of a study to determine the diversity of life at each.
+    -   Calculate the solar illumination for each location in a region as part of a study to determine the diversity of life at each.
 :::
 
 ::: {.column width="50%"}

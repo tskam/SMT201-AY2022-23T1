@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.0.37">
 
   <meta name="author" content="Dr.&nbsp;Kam Tin Seong Assoc. Professor of Information Systems">
-  <title>SMT201-AY2022-23T1 - Lesson 6: The Science of MathematicsRaster-based GIS Analysis Methods</title>
+  <title>SMT201-AY2022-23T1 - Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -320,7 +320,7 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Lesson 6: The Science of Mathematics<br>Raster-based GIS Analysis Methods</h1>
+  <h1 class="title">Lesson 6: The Science of Mapthematics<br>Raster-based GIS Analysis Methods</h1>
   <p class="author">Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems</p>
   <p class="institute">School of Computing and Information Systems,<br>Singapore Management University</p>
   <p class="date">2022-08-12 (updated: 2022-09-13)</p>
@@ -347,20 +347,31 @@
 </section>
 <section id="raster-gis-data" class="slide level2">
 <h2>Raster GIS Data</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li><p>All raster formats are basically the same</p></li>
-<li><p>Cells organized in a matrix of rows and columns</p></li>
+<li><p>All raster formats are basically the same</p>
+<ul>
+<li>Cells organized in a matrix of rows and columns</li>
+</ul></li>
 <li><p>Content is more important than format: data or picture?</p></li>
 </ul>
-
-<img data-src="img/image1.jpg" class="r-stretch quarto-figure-center"></section>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/image1.jpg"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
 <section id="map-algebra" class="slide level2">
 <h2>Map Algebra</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
 <li><p>Map algebra is a simple and an elegant set based algebra for manipulating geographic data, proposed by Dr.&nbsp;Dana Tomlin in the early 1980s.</p></li>
-<li><p>It is a set of primitive operations in a GIS which allows two or more raster layers (“maps”) of similar dimensions to produce a new raster layer (map) using algebraic operations such as addition, subtraction etc.</p></li>
+<li><p>It is a set of primitive operations in a GIS which allows one or more raster layers (“maps”) of similar dimensions to produce a new raster layer (map) using algebraic operations such as addition, subtraction etc.</p></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <p><img data-src="img/image2.jpg" width="640"></p>
@@ -589,9 +600,11 @@
 <div class="column" style="width:50%;">
 <ul>
 <li><p>Aspect is the direction that a slope faces. It identifies the steepest downslope direction at a location on a surface.</p></li>
-<li><p>Usage of aspect:</p></li>
+<li><p>Usage of aspect:</p>
+<ul>
 <li><p>Find all west-facing slopes on a mountain as part of a search for the best slopes for building resort residential units.</p></li>
 <li><p>Calculate the solar illumination for each location in a region as part of a study to determine the diversity of life at each.</p></li>
+</ul></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <p><img data-src="img/image23.jpg"></p>
