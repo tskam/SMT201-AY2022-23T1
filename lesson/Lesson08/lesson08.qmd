@@ -13,10 +13,15 @@ editor: visual
 ## Content
 
 -   Principles of Remote Sensing
-
--   Remote Sensing Technologies
-
--   Digital Image Processing and Analysis
+    -   A historical overview
+-   Physical Principles of Remote Sensing
+-   Basic principles of remotely sensed data
+    -   Spectral resolution
+    -   Spatial resolution
+-   Remotely Sensed Data Sources
+-   Urban Applications of Remotely Sensed Data
+-   Digital Image Analysis Methods image
+    -   processing techniques
 
 ## Principles of Remote Sensing
 
@@ -101,11 +106,71 @@ Source: [Secret second world war aerial images go online](https://www.theguardia
 ::: {.column width="50%"}
 -   Although drone was first introduced in the early 1970s, civilian applications of drone only gaining attention since 2016.
 -   Earth observation drone for urban analysis, on the other hand, is a very recent area of research.
+-   Visit this [link](https://medium.com/supervisionearth/satellite-vs-drone-imagery-knowing-the-difference-and-effectiveness-of-supervision-earths-90e98b78777c) to learn more about drone image versus satellite imagery.
+:::
+
+::: {.column width="50%"}
+A 5cm resolution aerial photo take from drone.
+
+![](img/image6.jpg){width="600"}
 :::
 :::
 
+## Physical Principles of Remote Sensing
+
+### Electromagnetic Radiation
+
+::: columns
+::: {.column width="50%"}
+Electromagnetic spectrum is a system, which "classifies all energy by wavelengths (from short wavelength cosmic energy to long wavelength radio waves) that travel harmonically with constant speed of light" (NASA, 2013).
 :::
 
----
+::: {.column width="50%"}
+![](img/image7.jpg)
+:::
+:::
 
-### this is a testing
+------------------------------------------------------------------------
+
+### Spectrum
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 0.7em"}
+-   The range of electromagnetic waves with different frequencies is called a spectrum.
+-   The following ranges of electromagnetic radiation such as ultraviolet, visible, infrared, microwave, and radio are used to obtain remote sensing data.
+    -   Ultraviolet range (0.1--0.38 μm) is used to assess the state of plants and water reservoirs, and determine the expansion of trace gases and ozone in atmosphere.
+    -   Visible (0.38--0.74 μm) range and infrared (0.75--1000 μm), which is divided into three types due to its wide range: near-infrared (0.75--1.5 μm), intermediate (1.5--3 μm) and far-infrared (3--1000 μm) radiation. Near-infrared and visible ranges are widely used to obtain images of forest areas.
+    -   Thermal range (2.5 μm --- 1 mm) provides information on the heat field. It has been shown that the temperature difference can reach several degrees in different types of vegetation, plantations of different densities, composition and age, in the surface layer, at the level of the surface and in the soil.
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="font-size: 0.7em"}
+-   Microwave radiation (1 mm --- 1 m) range provides information about topographic characteristics of territories and water zones, deposits of moisture in soil and plant leaves, effects of industrial emission on plants.
+-   Radio frequency range (1 m --- \> 10 km) provides information about the underlying terrain. It allows for analysis of the relief of the territory, identification of hazardous natural processes, such as mudflows, landslides etc. Radar photography is possible under any weather conditions and at any time of the day.
+
+![](img/image8.jpg)
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+### Passive and Active Remote Sensing
+
+::: columns
+::: {.column width="50%"}
+RS system measuring natural emission operates with passive remote sensing. Accordingly, this system can sense only when there is natural emission available:
+
+-   during the day --- in the visible range;
+-   during the day and at night --- in thermal infrared and microwave range.
+
+![](img/image9a.jpg){width="230"}
+:::
+
+::: {.column width="50%"}
+:::
+:::
+
+## Reference

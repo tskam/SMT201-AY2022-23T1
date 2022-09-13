@@ -73,17 +73,17 @@ editor: visual
 ::: {.column width="50%"}
 -   Local functions use only the data in a single cell to calculate an output value.
 
--   Potential operators fall into six categories:
+-   Potential operators fall into five categories:
 
--   trigonometric (i.e. sine, cosine, tangent, arcsine)
+    -   trigonometric (i.e. sine, cosine, tangent, arcsine)
 
--   transformation (i.e. sqrt, exp, log)
+    -   transformation (i.e. sqrt, exp, log)
 
--   relational operations (\>, \<, =)
+    -   relational operations (\>, \<, =)
 
--   statistical (i.e. mean, median, mode)
+    -   statistical (i.e. mean, median, mode)
 
--   arithmetic (i.e. absolute value of x)
+    -   arithmetic (i.e. absolute value of x)
 :::
 
 ::: {.column width="50%"}

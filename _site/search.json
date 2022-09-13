@@ -970,7 +970,7 @@
     "href": "lesson/Lesson08/lesson08.html#content",
     "title": "Lesson 8: Fundamentals of Remote Sensing",
     "section": "Content",
-    "text": "Content\n\nPrinciples of Remote Sensing\nRemote Sensing Technologies\nDigital Image Processing and Analysis"
+    "text": "Content\n\nPrinciples of Remote Sensing\n\nA historical overview\n\nPhysical Principles of Remote Sensing\nBasic principles of remotely sensed data\n\nSpectral resolution\nSpatial resolution\n\nRemotely Sensed Data Sources\nUrban Applications of Remotely Sensed Data\nDigital Image Analysis Methods image\n\nprocessing techniques"
   },
   {
     "objectID": "Take-home_Ex01.html",
@@ -1034,5 +1034,26 @@
     "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
     "section": "Take-home Exercise Deliverable",
     "text": "Take-home Exercise Deliverable\n\nGIS data repository\nThe GIS repository includes but not limited to geospatial data compiled and derived, QGIS project file and data dictionary. It must be in a single zipped file (i.e. .zip). The geospatial data must be stored in a GeoPackage database format. The data dictionary can be in either MS Word document or edited into the GIS data.The project deliverable must be uploaded onto eLearn.\n\n\nTake-home Exercise Report\nYou are required to edit your take-home exercise report in MS Word format. The take-home exercise report, beside others, should include all the thematic maps prepared and their respective discussion.\nMore importantly, the report must provide a reproducible step-by-step guide on the following process:\n\ndata compilation, extraction and integration,\ndata cleaning, preparation and wrangling,\nGIS analysis (including tabular and graphical analysis), and\nGIS maps design.\n\n\nNote: Reproducible means that readers are able to perform the same analysis and obtain similar results by using the same data sets and by following the step-by-step guide.\n\nThe title of the report should be in the form of SMT201_AY2022-23T1_Ex1.\n\nNote: This is an individual exercise. You are required to work on the take home exercise and prepare submission individually."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#reference",
+    "href": "lesson/Lesson08/lesson08.html#reference",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Reference",
+    "text": "Reference"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#satillite-remote-sensing-technology",
+    "href": "lesson/Lesson08/lesson08.html#satillite-remote-sensing-technology",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Satillite Remote Sensing Technology",
+    "text": "Satillite Remote Sensing Technology"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#physical-principles-of-remote-sensing",
+    "href": "lesson/Lesson08/lesson08.html#physical-principles-of-remote-sensing",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Physical Principles of Remote Sensing",
+    "text": "Physical Principles of Remote Sensing\nElectromagnetic Radiation\n\n\nElectromagnetic spectrum is a system, which “classifies all energy by wavelengths (from short wavelength cosmic energy to long wavelength radio waves) that travel harmonically with constant speed of light” (NASA, 2013)."
   }
 ]

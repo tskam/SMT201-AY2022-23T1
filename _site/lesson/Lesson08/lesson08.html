@@ -322,15 +322,28 @@
   <h1 class="title">Lesson 8: Fundamentals of Remote Sensing</h1>
   <p class="author">Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems</p>
   <p class="institute">School of Computing and Information Systems,<br>Singapore Management University</p>
-  <p class="date">2022-08-12 (updated: 2022-09-01)</p>
+  <p class="date">2022-08-12 (updated: 2022-09-10)</p>
 </section>
 
 <section id="content" class="slide level2">
 <h2>Content</h2>
 <ul>
-<li><p>Principles of Remote Sensing</p></li>
-<li><p>Remote Sensing Technologies</p></li>
-<li><p>Digital Image Processing and Analysis</p></li>
+<li>Principles of Remote Sensing
+<ul>
+<li>A historical overview</li>
+</ul></li>
+<li>Physical Principles of Remote Sensing</li>
+<li>Basic principles of remotely sensed data
+<ul>
+<li>Spectral resolution</li>
+<li>Spatial resolution</li>
+</ul></li>
+<li>Remotely Sensed Data Sources</li>
+<li>Urban Applications of Remotely Sensed Data</li>
+<li>Digital Image Analysis Methods image
+<ul>
+<li>processing techniques</li>
+</ul></li>
 </ul>
 </section>
 <section id="principles-of-remote-sensing" class="slide level2">
@@ -418,14 +431,70 @@
 <ul>
 <li>Although drone was first introduced in the early 1970s, civilian applications of drone only gaining attention since 2016.</li>
 <li>Earth observation drone for urban analysis, on the other hand, is a very recent area of research.</li>
+<li>Visit this <a href="https://medium.com/supervisionearth/satellite-vs-drone-imagery-knowing-the-difference-and-effectiveness-of-supervision-earths-90e98b78777c">link</a> to learn more about drone image versus satellite imagery.</li>
 </ul>
+</div><div class="column" style="width:50%;">
+<p>A 5cm resolution aerial photo take from drone.</p>
+<p><img data-src="img/image6.jpg" width="600"></p>
 </div>
 </div>
-<p>:::</p>
+</section>
+<section id="physical-principles-of-remote-sensing" class="slide level2">
+<h2>Physical Principles of Remote Sensing</h2>
+<h3 id="electromagnetic-radiation">Electromagnetic Radiation</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Electromagnetic spectrum is a system, which “classifies all energy by wavelengths (from short wavelength cosmic energy to long wavelength radio waves) that travel harmonically with constant speed of light” (NASA, 2013).</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image7.jpg"></p>
+</div>
+</div>
 </section>
 <section class="slide level2">
 
-<h3 id="this-is-a-testing">this is a testing</h3>
+<h3 id="spectrum">Spectrum</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div style="font-size: 0.7em">
+<ul>
+<li>The range of electromagnetic waves with different frequencies is called a spectrum.</li>
+<li>The following ranges of electromagnetic radiation such as ultraviolet, visible, infrared, microwave, and radio are used to obtain remote sensing data.
+<ul>
+<li>Ultraviolet range (0.1–0.38 μm) is used to assess the state of plants and water reservoirs, and determine the expansion of trace gases and ozone in atmosphere.</li>
+<li>Visible (0.38–0.74 μm) range and infrared (0.75–1000 μm), which is divided into three types due to its wide range: near-infrared (0.75–1.5 μm), intermediate (1.5–3 μm) and far-infrared (3–1000 μm) radiation. Near-infrared and visible ranges are widely used to obtain images of forest areas.</li>
+<li>Thermal range (2.5 μm — 1 mm) provides information on the heat field. It has been shown that the temperature difference can reach several degrees in different types of vegetation, plantations of different densities, composition and age, in the surface layer, at the level of the surface and in the soil.</li>
+</ul></li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<div style="font-size: 0.7em">
+<ul>
+<li>Microwave radiation (1 mm — 1 m) range provides information about topographic characteristics of territories and water zones, deposits of moisture in soil and plant leaves, effects of industrial emission on plants.</li>
+<li>Radio frequency range (1 m — &gt; 10 km) provides information about the underlying terrain. It allows for analysis of the relief of the territory, identification of hazardous natural processes, such as mudflows, landslides etc. Radar photography is possible under any weather conditions and at any time of the day.</li>
+</ul>
+<p><img data-src="img/image8.jpg"></p>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="passive-and-active-remote-sensing">Passive and Active Remote Sensing</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>RS system measuring natural emission operates with passive remote sensing. Accordingly, this system can sense only when there is natural emission available:</p>
+<ul>
+<li>during the day — in the visible range;</li>
+<li>during the day and at night — in thermal infrared and microwave range.</li>
+</ul>
+<p><img data-src="img/image9a.jpg" width="230"></p>
+</div><div class="column" style="width:50%;">
+
+</div>
+</div>
+</section>
+<section id="reference" class="slide level2">
+<h2>Reference</h2>
 
 <div class="footer footer-default">
 
