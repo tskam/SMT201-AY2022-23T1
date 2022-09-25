@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2022-09-25">
+
+<title>SMT201-AY2022-23T1 - Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SMT201-AY2022-23T1</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./syllabus.html">Syllabus</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lesson.html">Lesson Plan</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-take-home-exercise" role="button" data-bs-toggle="dropdown" aria-expanded="false">Take-home Exercise</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-take-home-exercise">    
+        <li>
+    <a class="dropdown-item" href="./Take-home_Ex01.html">
+ <span class="dropdown-text">Take-home Exercise 1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Take-home_Ex02.html">
+ <span class="dropdown-text">Take-home Exercise 2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Take-home_Ex03.html">
+ <span class="dropdown-text">Take-home Exercise 3</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./GISproject.html">GIS Project</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#the-task" id="toc-the-task" class="nav-link" data-scroll-target="#the-task">The Task</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
+  </ul></li>
+  <li><a href="#take-home-exercise-deliverable" id="toc-take-home-exercise-deliverable" class="nav-link" data-scroll-target="#take-home-exercise-deliverable">Take-home Exercise Deliverable</a>
+  <ul class="collapse">
+  <li><a href="#gis-data-repository" id="toc-gis-data-repository" class="nav-link" data-scroll-target="#gis-data-repository">GIS data repository</a></li>
+  <li><a href="#take-home-exercise-report" id="toc-take-home-exercise-report" class="nav-link" data-scroll-target="#take-home-exercise-report">Take-home Exercise Report</a></li>
+  </ul></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#submission-date" id="toc-submission-date" class="nav-link" data-scroll-target="#submission-date">Submission Date</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 25, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This handout provides the context, task, expectations and grading criteria of Take-home Exercise 2. Students must review and understand them before getting started with the take-home exercise.</p>
+<section id="the-task" class="level3">
+<h3 class="anchored" data-anchor-id="the-task">The Task</h3>
+<p>Elevation and related terrain variables are important in most people lives. Terrain determines the natural availability and location of surface water, and hence soil moisture and drainage. Terrain also strongly influences the location and nature of transportation networks, and the cost and methods of house and road construction. Prior to the introduction of GIS, the modelling and analysis of terrain data was a very mathematically demanding process which was usually only performed by geoscience and mapping science specialists. Today, modern GIS tool such as QGIS has made terrain modelling, anaysis and mapping relatively easy to perform by casual data analysts.</p>
+<p>In this take-home exercise, you are required to apply appropriate analysis tools of QGIS to perform the following tasks and analysis:</p>
+<ul>
+<li><p>To assemble, extract and building the following GIS layers:</p>
+<ul>
+<li><p>Bukit Timah Natural Reserve boundary</p></li>
+<li><p>DEM for the study area.</p></li>
+<li><p>Cycling paths and walking paths</p></li>
+<li><p>View points</p></li>
+</ul></li>
+<li><p>Perform and prepare a visibility analysis report by using the view points layer. The report should include maps and a short write-up of not more than 300 words discussing the findings of the analysis and recommendation.</p></li>
+<li><p>Perform and profile analysis report by using the the <a href="https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/bukit-timah-nature-reserve/btnr-maps/bt-mbt_aug-2018.ashx?la=en&amp;hash=CEB9254091D2C4D557371AE0C581D81E2E04EEB6">cycling paths</a> and <a href="https://www.nparks.gov.sg/-/media/nparks-real-content/gardens-parks-and-nature/parks-and-nature-reserve/bukit-timah-nature-reserve/btnr-maps/btnr-base-map_170921_pathed.ashx?la=en&amp;hash=F60BA3509131B55C1C5EF286EDDFF27598C6C4F3">walking paths</a>. The report should include maps and a short write-up of not more than 600 words discussing the findings of the analysis and recommendation.</p></li>
+</ul>
+</section>
+<section id="the-data" class="level3">
+<h3 class="anchored" data-anchor-id="the-data">The Data</h3>
+<p>For the purpose of this study, Bukit Timah Natural Reserve planning subzone will be used. The following data and data source are highly recommended:</p>
+<ul>
+<li><p>URA Master Plan 2019 Subzone Boundary. This data set can be download from data.gov.sg</p></li>
+<li><p>STRM 30m Digital Elevation Model (DEM) <a href="https://earthexplorer.usgs.gov/">USGS Earth Explorer</a> portal.</p></li>
+<li><p>Appropriate GIS data from OpenStreetMap (OSM)</p></li>
+</ul>
+</section>
+</section>
+<section id="take-home-exercise-deliverable" class="level2">
+<h2 class="anchored" data-anchor-id="take-home-exercise-deliverable">Take-home Exercise Deliverable</h2>
+<section id="gis-data-repository" class="level3">
+<h3 class="anchored" data-anchor-id="gis-data-repository">GIS data repository</h3>
+<p>The GIS repository includes but not limited to geospatial data compiled and derived, QGIS project file and data dictionary. It must be in a single zipped file (i.e.&nbsp;.zip). The geospatial data must be stored in a GeoPackage database format. The data dictionary can be in either MS Word document or edited into the GIS data.The project deliverable must be uploaded onto eLearn.</p>
+</section>
+<section id="take-home-exercise-report" class="level3">
+<h3 class="anchored" data-anchor-id="take-home-exercise-report">Take-home Exercise Report</h3>
+<p>You are required to edit your take-home exercise report in MS Word format. The take-home exercise report, beside others, should include all the thematic maps prepared and their respective discussion.</p>
+<p>More importantly, the report must provide a <strong>reproducible</strong> step-by-step guide on the following process:</p>
+<ul>
+<li>data compilation, extraction and integration,</li>
+<li>data cleaning, preparation and wrangling,</li>
+<li>GIS analysis (including tabular and graphical analysis), and</li>
+<li>GIS maps design.</li>
+</ul>
+<blockquote class="blockquote">
+<p>Note: <strong>Reproducible</strong> means that readers are able to perform the same analysis and obtain similar results by using the same data sets and by following the step-by-step guide.</p>
+</blockquote>
+<p>The title of the report should be in the form of <em>SMT201_AY2022-23T1_Ex2</em>.</p>
+<blockquote class="blockquote">
+<p>Note: This is an individual exercise. You are required to work on the take home exercise and prepare submission individually.</p>
+</blockquote>
+</section>
+</section>
+<section id="grading" class="level2">
+<h2 class="anchored" data-anchor-id="grading">Grading</h2>
+<ul>
+<li>Quality of the GIS data model built (including metadata) (20 marks),</li>
+<li>Appropriateness of the GIS methods used (20 marks),</li>
+<li>Quality of GIS maps prepared (20 marks),</li>
+<li>Reproducibility of the GIS processes (20 marks)</li>
+<li>Ability to provide correct interpretation of the analysis results and to recommend appropriate alternatives (20 marks).</li>
+</ul>
+</section>
+<section id="submission-date" class="level2">
+<h2 class="anchored" data-anchor-id="submission-date">Submission Date</h2>
+<p>The take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.</p>
+<p>Due Date: 16th October 2022, 11:59pm (midnight).</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

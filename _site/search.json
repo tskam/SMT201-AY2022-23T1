@@ -1055,5 +1055,47 @@
     "title": "Lesson 8: Fundamentals of Remote Sensing",
     "section": "Physical Principles of Remote Sensing",
     "text": "Physical Principles of Remote Sensing\nElectromagnetic Radiation\n\n\nElectromagnetic spectrum is a system, which “classifies all energy by wavelengths (from short wavelength cosmic energy to long wavelength radio waves) that travel harmonically with constant speed of light” (NASA, 2013)."
+  },
+  {
+    "objectID": "Take-home_Ex02.html",
+    "href": "Take-home_Ex02.html",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "",
+    "text": "This handout provides the context, task, expectations and grading criteria of Take-home Exercise 2. Students must review and understand them before getting started with the take-home exercise.\n\n\nElevation and related terrain variables are important in most people lives. Terrain determines the natural availability and location of surface water, and hence soil moisture and drainage. Terrain also strongly influences the location and nature of transportation networks, and the cost and methods of house and road construction. Prior to the introduction of GIS, the modelling and analysis of terrain data was a very mathematically demanding process which was usually only performed by geoscience and mapping science specialists. Today, modern GIS tool such as QGIS has made terrain modelling, anaysis and mapping relatively easy to perform by casual data analysts.\nIn this take-home exercise, you are required to apply appropriate analysis tools of QGIS to perform the following tasks and analysis:\n\nTo assemble, extract and building the following GIS layers:\n\nBukit Timah Natural Reserve boundary\nDEM for the study area.\nCycling paths and walking paths\nView points\n\nPerform and prepare a visibility analysis report by using the view points layer. The report should include maps and a short write-up of not more than 300 words discussing the findings of the analysis and recommendation.\nPerform and profile analysis report by using the the cycling paths and walking paths. The report should include maps and a short write-up of not more than 600 words discussing the findings of the analysis and recommendation.\n\n\n\n\nFor the purpose of this study, Bukit Timah Natural Reserve planning subzone will be used. The following data and data source are highly recommended:\n\nURA Master Plan 2019 Subzone Boundary. This data set can be download from data.gov.sg\nSTRM 30m Digital Elevation Model (DEM) USGS Earth Explorer portal.\nAppropriate GIS data from OpenStreetMap (OSM)"
+  },
+  {
+    "objectID": "Take-home_Ex02.html#the-task",
+    "href": "Take-home_Ex02.html#the-task",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "The Task",
+    "text": "The Task\nElevation and related terrain variables are important in most people lives. Terrain determines the natural availability and location of surface water, and hence soil moisture and drainage. Terrain also strongly influences the location and nature of transportation networks, and the cost and methods of house and road construction. Prior to the introduction of GIS, the modelling and analysis of terrain data was a very mathematically demanding process which was usually only performed by geoscience and mapping science specialists. Today, modern GIS tool such as QGIS has made terrain modelling, anaysis and mapping relatively easy to perform by casual data analysts.\nIn this take-home exercise, you are required apply appropriate analysis tools of QGIS to perform the following analysis\nThe specific tasks of this take-home exercise are as follow:\n\nTo assemble, extract and building the following GIS layers:\n\nBukit Timah Natural Reserve boundary\nDEM for the study area.\nCycling paths and walking paths\nView points\n\nPerform and prepare a visibility analysis report by using the view points layer. The report should include maps and a short write-up of not more than 300 words discussing the findings of the analysis and recommendation.\nPerform and profile analysis report by using the the cycling paths and walking paths. The report should include maps and a short write-up of not more than 600 words discussing the findings of the analysis and recommendation."
+  },
+  {
+    "objectID": "Take-home_Ex02.html#the-data",
+    "href": "Take-home_Ex02.html#the-data",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "The Data",
+    "text": "The Data\nFor the purpose of this study, Bukit Timah Natural Reserve planning subzone will be used. The following data and data source are highly recommended:\n\nURA Master Plan 2019 Subzone Boundary. This data set can be download from data.gov.sg\nSTRM 30m Digital Elevation Model (DEM) USGS Earth Explorer portal.\nCycling and path within Bukit Timah Nature"
+  },
+  {
+    "objectID": "Take-home_Ex02.html#take-home-exercise-deliverable",
+    "href": "Take-home_Ex02.html#take-home-exercise-deliverable",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "Take-home Exercise Deliverable",
+    "text": "Take-home Exercise Deliverable\n\nGIS data repository\nThe GIS repository includes but not limited to geospatial data compiled and derived, QGIS project file and data dictionary. It must be in a single zipped file (i.e. .zip). The geospatial data must be stored in a GeoPackage database format. The data dictionary can be in either MS Word document or edited into the GIS data.The project deliverable must be uploaded onto eLearn.\n\n\nTake-home Exercise Report\nYou are required to edit your take-home exercise report in MS Word format. The take-home exercise report, beside others, should include all the thematic maps prepared and their respective discussion.\nMore importantly, the report must provide a reproducible step-by-step guide on the following process:\n\ndata compilation, extraction and integration,\ndata cleaning, preparation and wrangling,\nGIS analysis (including tabular and graphical analysis), and\nGIS maps design.\n\n\nNote: Reproducible means that readers are able to perform the same analysis and obtain similar results by using the same data sets and by following the step-by-step guide.\n\nThe title of the report should be in the form of SMT201_AY2022-23T1_Ex2.\n\nNote: This is an individual exercise. You are required to work on the take home exercise and prepare submission individually."
+  },
+  {
+    "objectID": "Take-home_Ex02.html#grading",
+    "href": "Take-home_Ex02.html#grading",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "Grading",
+    "text": "Grading\n\nQuality of the GIS data model built (including metadata) (20 marks),\nAppropriateness of the GIS methods used (20 marks),\nQuality of GIS maps prepared (20 marks),\nReproducibility of the GIS processes (20 marks)\nAbility to provide correct interpretation of the analysis results and to recommend appropriate alternatives (20 marks)."
+  },
+  {
+    "objectID": "Take-home_Ex02.html#submission-date",
+    "href": "Take-home_Ex02.html#submission-date",
+    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
+    "section": "Submission Date",
+    "text": "Submission Date\nThe take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.\nDue Date: 16th October 2022, 11:59pm (midnight)."
   }
 ]
