@@ -22,7 +22,7 @@ In this take-home exercise, you are required to apply appropriate analysis tools
 
     -   Cycling paths and walking paths
 
-    -    View points
+    -   View points
 
 -   Perform and prepare a visibility analysis report by using the view points layer. The report should include maps and a short write-up of not more than 300 words discussing the findings of the analysis and recommendation.
 
