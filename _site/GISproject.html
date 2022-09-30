@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2022-09-30">
+
+<title>SMT201-AY2022-23T1 - GIS Project</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SMT201-AY2022-23T1</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./syllabus.html">Syllabus</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lesson.html">Lesson Plan</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-take-home-exercise" role="button" data-bs-toggle="dropdown" aria-expanded="false">Take-home Exercise</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-take-home-exercise">    
+        <li>
+    <a class="dropdown-item" href="./Take-home_Ex01.html">
+ <span class="dropdown-text">Take-home Exercise 1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Take-home_Ex02.html">
+ <span class="dropdown-text">Take-home Exercise 2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Take-home_Ex03.html">
+ <span class="dropdown-text">Take-home Exercise 3</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="./GISproject.html" aria-current="page">GIS Project</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#topic" id="toc-topic" class="nav-link" data-scroll-target="#topic">Topic</a></li>
+  <li><a href="#scope-of-work" id="toc-scope-of-work" class="nav-link" data-scroll-target="#scope-of-work">Scope of Work</a></li>
+  <li><a href="#project-milestone" id="toc-project-milestone" class="nav-link" data-scroll-target="#project-milestone">Project Milestone</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#townhall-poster-presentation" id="toc-townhall-poster-presentation" class="nav-link" data-scroll-target="#townhall-poster-presentation">Townhall Poster Presentation</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a>
+  <ul class="collapse">
+  <li><a href="#project-website" id="toc-project-website" class="nav-link" data-scroll-target="#project-website">Project Website</a></li>
+  <li><a href="#poster" id="toc-poster" class="nav-link" data-scroll-target="#poster">Poster</a></li>
+  <li><a href="#final-deliverable" id="toc-final-deliverable" class="nav-link" data-scroll-target="#final-deliverable">Final Deliverable</a></li>
+  </ul></li>
+  <li><a href="#sample-projects" id="toc-sample-projects" class="nav-link" data-scroll-target="#sample-projects">Sample Projects</a></li>
+  <li><a href="#qa" id="toc-qa" class="nav-link" data-scroll-target="#qa">Q&amp;A</a></li>
+  <li><a href="#hard-work" id="toc-hard-work" class="nav-link" data-scroll-target="#hard-work">Hard Work</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">GIS Project</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 30, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The purpose of the GIS project is to provide students with a first hand experience on building a GIS-Enabled Urban Planning Support System by integrating open government data and other open source data sets. You will also learn how to collect, process and analyse spatially related issues using real world data. Students are encouraged to focus on research topics that are relevant to their field of study.</p>
+<p>The project is to be done in a team. You are required to form a project team of <strong>2-3 members</strong> by the second week of the academic term. Each project team must start thinking about their project ideas from week 8 onward. You are expected to discuss your project topic and scope of works with the instructor between week 8-9 of the academic term. A project website must be prepared and will be linked to this page by the end of week 10.</p>
+</section>
+<section id="topic" class="level2">
+<h2 class="anchored" data-anchor-id="topic">Topic</h2>
+<p>You are required to choose one of the sub-theme provided below:</p>
+<p>Theme 1: Urban Application of Satellite Remote Sensing and GIS</p>
+<ul>
+<li><p>Sub-theme 1: A comparison study of land cover classification by using Landsat 8 and Sentinel 2 data.</p></li>
+<li><p>Sub-theme 2: Land cover change detection using high resolution multispectral satellite data.</p></li>
+<li><p>Sub-theme 3: Land use classification by integrating GIS and remotely sensed data.</p></li>
+</ul>
+<p>Theme 2: Geography of Accessibility with GIS-based Network Analysis</p>
+<ul>
+<li><p>Sub-theme 1: Impact of closures or mergers of education institutions on equity of access.</p></li>
+<li><p>Sub-theme 2: Catchment areas study of the Thomson-East Coast MRT Line Stage 4.</p></li>
+</ul>
+</section>
+<section id="scope-of-work" class="level2">
+<h2 class="anchored" data-anchor-id="scope-of-work">Scope of Work</h2>
+<p>The project will comprise of, but not limited to the followings steps:</p>
+<ul>
+<li>Selection of project focus and conducting literature review.</li>
+<li>Preparing proposal and project website.</li>
+<li>Data collection, extraction, integration, transformation and wrangling.</li>
+<li>Designing and building GIS model and database.</li>
+<li>Performing GIS analysis.</li>
+<li>Preparing poster and project webpage.</li>
+</ul>
+</section>
+<section id="project-milestone" class="level2">
+<h2 class="anchored" data-anchor-id="project-milestone">Project Milestone</h2>
+<ul>
+<li>Formulation of project team: by week 2 before lesson</li>
+<li>Assemble GIS data: from week 7 onward</li>
+<li>Create project website : by week 8</li>
+<li>Submission of project poster: by the end of Week 13.</li>
+<li>Submission of project artifacts and update project webpage: 20th November 2022 at 11.59pm (mid-night)</li>
+</ul>
+</section>
+<section id="grading" class="level2">
+<h2 class="anchored" data-anchor-id="grading">Grading</h2>
+<p>The GIS project will account for 35% of your final grade in the course. The distribution of marks for each stage of the project are as follows:</p>
+<ul>
+<li>Townhall presentation (peer evaluation) 15%</li>
+<li>Project poster 15%</li>
+<li>Project website and report 30%</li>
+<li>Project artifact 40%</li>
+</ul>
+<p>The course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.</p>
+<p>In small group projects, each person will be graded individually. A good group project is a system consisting of a collection of well defined subsystems. Each subsystem should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!</p>
+</section>
+<section id="townhall-poster-presentation" class="level2">
+<h2 class="anchored" data-anchor-id="townhall-poster-presentation">Townhall Poster Presentation</h2>
+<p>A townhall presentation will be held on 14th November 2022 (Monday) between 11.30am - 2.30pm. The venue will be at SMU Basement Concourse.</p>
+</section>
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<section id="project-website" class="level3">
+<h3 class="anchored" data-anchor-id="project-website">Project Website</h3>
+<section id="project-github" class="level4">
+<h4 class="anchored" data-anchor-id="project-github">Project Github</h4>
+<p>At the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and project report. It must be used to maintain a complete project versioning including the application and project documents. The Github link must be included in the project webpage. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.</p>
+</section>
+<section id="project-website-1" class="level4">
+<h4 class="anchored" data-anchor-id="project-website-1">Project Website</h4>
+<p>Each project team are required to create the project website by using either <a href="https://quarto.org/docs/tools/rstudio.html">Quarto</a>. It will be disseminated by using <a href="https://www.netlify.com/">Netfity</a> web server.</p>
+<ul>
+<li>The title of your project,</li>
+<li>A short description of not more than 350 word summarising the motivation, objectives, methodology and key findings, and</li>
+<li>The project proposal.
+<ul>
+<li>Motivation of the project</li>
+<li>Project objective</li>
+<li>Data</li>
+<li>Scope of work</li>
+<li>Project schedule including a Gannt chart</li>
+</ul></li>
+<li>Methodology
+<ul>
+<li>a detail documentation of the methods used.</li>
+</ul></li>
+<li>Results and Discussion</li>
+<li>Lesson learned</li>
+</ul>
+</section>
+</section>
+<section id="poster" class="level3">
+<h3 class="anchored" data-anchor-id="poster">Poster</h3>
+<p>The poster should provide an overview of your project. It should include, but not limited to the following information:</p>
+<ul>
+<li>Issues and problems - A clear statement of the issues or/and problems that your project addresses.</li>
+<li>Motivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.</li>
+<li>Approach - A description of the GIS analysis and other urban analysis techniques you used to solve the problem.</li>
+<li>Results - Screenshots and a working demo of the system you built.</li>
+<li>Future Work - An explanation of how the work could be extended.</li>
+</ul>
+<p>The dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).</p>
+<ul>
+<li>Size = ISO A1 (594 × 841mm or 23.39 × 33.11inci)</li>
+<li>Resolution = 300dpi or above</li>
+<li>File format = jpeg</li>
+</ul>
+<p>Please ensure that the poster is in high resolution.</p>
+<p>The poster will be considered as a final deliverable. So don’t forget to apply good visual design principles to both your poster and project report.</p>
+<p>Note: The course instructor will be responsible for printing your poster. You are required to upload your posters to the project webpage of your project one week and your project Dropbox before the poster presentation.</p>
+<p>Below are sample posters for your reference:</p>
+<ul>
+<li><a href="https://wiki.smu.edu.sg/1920t1smt201/G1-Group12_Poster">Hut of North</a></li>
+<li><a href="https://wiki.smu.edu.sg/1920t1smt201/G2-Group07_Poster">What’s Best for Jurong West</a></li>
+</ul>
+</section>
+<section id="final-deliverable" class="level3">
+<h3 class="anchored" data-anchor-id="final-deliverable">Final Deliverable</h3>
+<p>The final deliverable will include:</p>
+<ul>
+<li>Fully updated project webpage</li>
+<li>Project Poster on project webpage</li>
+<li>Project Report on project webpage</li>
+<li>Project artifact, the complete GIS project folder including but not limited to raw data, process data, QGIS project file, and output maps.</li>
+</ul>
+<section id="project-report" class="level4">
+<h4 class="anchored" data-anchor-id="project-report">Project Report</h4>
+<p>The project report should focus on but not limited to the followings:</p>
+<ul>
+<li>A detail discussion of the GIS analysis process and functions used.</li>
+<li>A comprehensive discussion of the analysis results.</li>
+<li>A collection of analytical maps (can be statics or interactive web maps)</li>
+</ul>
+</section>
+<section id="submission-instruction" class="level4">
+<h4 class="anchored" data-anchor-id="submission-instruction">Submission instruction</h4>
+<p>The project artefact is due (submitted to LMS Dropbox) by the end of the day on 20th November 2022 at 11.59pm (mid-night).</p>
+</section>
+</section>
+</section>
+<section id="sample-projects" class="level2">
+<h2 class="anchored" data-anchor-id="sample-projects">Sample Projects</h2>
+<p>Note that the following examples are for references purposes. You are urged to use your own creativity and innovation to design the application.</p>
+<ul>
+<li><a href="https://wiki.smu.edu.sg/1920t1smt201/Project_Groups">AY2019-2020 Term 1 Project</a>
+<ul>
+<li><a href="https://wiki.smu.edu.sg/1920t1smt201/G1-Group03">G1-Group3 Innogol</a></li>
+<li><a href="https://wiki.smu.edu.sg/1920t1smt201/G2-Group15_About">G2-Group15 Nothing is 台南</a></li>
+</ul></li>
+<li>AY2020-2021 Term 1
+<ul>
+<li><a href="https://smt201-g1.netlify.app/">Group 2</a></li>
+<li><a href="https://smt201group4project.netlify.app/">Group 4</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="qa" class="level2">
+<h2 class="anchored" data-anchor-id="qa">Q&amp;A</h2>
+</section>
+<section id="hard-work" class="level2">
+<h2 class="anchored" data-anchor-id="hard-work">Hard Work</h2>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
