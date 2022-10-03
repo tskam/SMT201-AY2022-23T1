@@ -26,15 +26,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   Lesson slides in [html](../lesson/Lesson08/Lesson08.html) format.
 
--   Hands-on Exercise 8 in [html](../Hands-on_Ex/Hands-on_Ex08/Hands-on_Ex08.html) format.
+-   Hands-on Exercise 8:
 
+    -   [Chapter 2: Acquiring Landsat 8 Data](https://qgis4rdpa.netlify.app/hands-on_01)
+    -   [Chapter 3: Acquiring Sentinel-2 Data](https://qgis4rdpa.netlify.app/hands-on_02) 
+    
+    
 ## References
 
 ### Concepts and Methods
 
-- Richards, John A. author.; 2013Manfred M. Fischer (2013) [Remote Sensing Digital Image Analysis: An Introduction](https://link-springer-com.libproxy.smu.edu.sg/book/10.1007/978-3-642-30062-2), Springer. 
+-   Richards, John A. author.; 2013Manfred M. Fischer (2013) [Remote Sensing Digital Image Analysis: An Introduction](https://link-springer-com.libproxy.smu.edu.sg/book/10.1007/978-3-642-30062-2), Springer.
 
 ### QGIS Methods
 
 -   [From GIS to Remote Sensing](https://fromgistors.blogspot.com/)
-
