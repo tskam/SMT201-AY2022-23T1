@@ -1237,5 +1237,68 @@
     "title": "Lesson 8: Fundamentals of Remote Sensing",
     "section": "Slicing",
     "text": "Slicing\nDensity slicing converts the continuous gray tone range into a series of density intervals marked by a separate color or symbol to represent different features."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#content",
+    "href": "lesson/Lesson09/lesson09.html#content",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Content",
+    "text": "Content\n\nWhy analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#location-question",
+    "href": "lesson/Lesson09/lesson09.html#location-question",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Location question",
+    "text": "Location question\n\nHow to assign the eldercare centres to the closest polyclinic?"
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#a-network-model",
+    "href": "lesson/Lesson09/lesson09.html#a-network-model",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "A Network Model",
+    "text": "A Network Model\n\nA link refers to a linear segment defined by two end points. Also called edges.\nA node refers to an end point of a link."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#poor-man-network-data-source",
+    "href": "lesson/Lesson09/lesson09.html#poor-man-network-data-source",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Poor man network data source",
+    "text": "Poor man network data source\nBulk extract at Geofabrik free download server."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#shortest-path-analysis",
+    "href": "lesson/Lesson09/lesson09.html#shortest-path-analysis",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Shortest Path Analysis",
+    "text": "Shortest Path Analysis\nShortest path analysis finds the path with the minimum cumulative impedance between nodes on a network. The path may connect just two nodes an origin and a destination or have specific stops between the nodes."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#fastest-path",
+    "href": "lesson/Lesson09/lesson09.html#fastest-path",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Fastest Path",
+    "text": "Fastest Path\n\nFastest paths are based on time and you can use any measure of time you choose (seconds, minutes, hours, etc.)."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#travelling-salesman-problem",
+    "href": "lesson/Lesson09/lesson09.html#travelling-salesman-problem",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Travelling salesman problem",
+    "text": "Travelling salesman problem\n\nA route can visit many stops in a network. The origin can also be the destination, as the warehouse is in this example delivery route."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#beyond-network-model",
+    "href": "lesson/Lesson09/lesson09.html#beyond-network-model",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Beyond network model",
+    "text": "Beyond network model\nAccessibility modelling.\n\nSource: https://developers.route360.net/index.html"
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#qgis-network-analysis-support",
+    "href": "lesson/Lesson09/lesson09.html#qgis-network-analysis-support",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "QGIS Network Analysis Support",
+    "text": "QGIS Network Analysis Support\n\n\n\nBuild in\n\n\n\n\nPlug-in\n\n\nFor more detail, visit this link"
   }
 ]
