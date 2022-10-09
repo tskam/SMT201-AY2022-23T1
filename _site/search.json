@@ -7,6 +7,76 @@
     "text": "Welcome to the course webpage of SMT201 Geographic Information Systems for Urban Planning"
   },
   {
+    "objectID": "GISproject.html",
+    "href": "GISproject.html",
+    "title": "GIS Project",
+    "section": "",
+    "text": "The purpose of the GIS project is to provide students with a first hand experience on building a GIS-Enabled Urban Planning Support System by integrating open government data and other open source data sets. You will also learn how to collect, process and analyse spatially related issues using real world data. Students are encouraged to focus on research topics that are relevant to their field of study.\nThe project is to be done in a team. You are required to form a project team of 2-3 members by the second week of the academic term. Each project team must start thinking about their project ideas from week 8 onward. You are expected to discuss your project topic and scope of works with the instructor between week 8-9 of the academic term. A project website must be prepared and will be linked to this page by the end of week 10."
+  },
+  {
+    "objectID": "GISproject.html#topic",
+    "href": "GISproject.html#topic",
+    "title": "GIS Project",
+    "section": "Topic",
+    "text": "Topic\nYou are required to choose one of the sub-theme provided below:\nTheme 1: Urban Application of Satellite Remote Sensing and GIS\n\nSub-theme 1: A comparison study of land cover classification by using Landsat 8 and Sentinel 2 data.\nSub-theme 2: Land cover change detection using high resolution multispectral satellite data.\nSub-theme 3: Land use classification by integrating GIS and remotely sensed data.\n\nTheme 2: Geography of Accessibility with GIS-based Network Analysis\n\nSub-theme 1: Impact of closures or mergers of education institutions on equity of access.\nSub-theme 2: Catchment areas study of the Thomson-East Coast MRT Line Stage 4."
+  },
+  {
+    "objectID": "GISproject.html#scope-of-work",
+    "href": "GISproject.html#scope-of-work",
+    "title": "GIS Project",
+    "section": "Scope of Work",
+    "text": "Scope of Work\nThe project will comprise of, but not limited to the followings steps:\n\nSelection of project focus and conducting literature review.\nPreparing proposal and project website.\nData collection, extraction, integration, transformation and wrangling.\nDesigning and building GIS model and database.\nPerforming GIS analysis.\nPreparing poster and project webpage."
+  },
+  {
+    "objectID": "GISproject.html#project-milestone",
+    "href": "GISproject.html#project-milestone",
+    "title": "GIS Project",
+    "section": "Project Milestone",
+    "text": "Project Milestone\n\nFormulation of project team: by week 2 before lesson\nAssemble GIS data: from week 7 onward\nCreate project website : by week 8\nSubmission of project poster: by the end of Week 13.\nSubmission of project artifacts and update project webpage: 20th November 2022 at 11.59pm (mid-night)"
+  },
+  {
+    "objectID": "GISproject.html#grading",
+    "href": "GISproject.html#grading",
+    "title": "GIS Project",
+    "section": "Grading",
+    "text": "Grading\nThe GIS project will account for 35% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\n\nTownhall presentation (peer evaluation) 15%\nProject poster 15%\nProject website and report 30%\nProject artifact 40%\n\nThe course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.\nIn small group projects, each person will be graded individually. A good group project is a system consisting of a collection of well defined subsystems. Each subsystem should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!"
+  },
+  {
+    "objectID": "GISproject.html#townhall-poster-presentation",
+    "href": "GISproject.html#townhall-poster-presentation",
+    "title": "GIS Project",
+    "section": "Townhall Poster Presentation",
+    "text": "Townhall Poster Presentation\nA townhall presentation will be held on 14th November 2022 (Monday) between 11.30am - 2.30pm. The venue will be at SMU Basement Concourse."
+  },
+  {
+    "objectID": "GISproject.html#deliverables",
+    "href": "GISproject.html#deliverables",
+    "title": "GIS Project",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nProject Website\n\nProject Github\nAt the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and project report. It must be used to maintain a complete project versioning including the application and project documents. The Github link must be included in the project webpage. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\nProject Website\nEach project team are required to create the project website by using either Quarto. It will be disseminated by using Netfity web server.\n\nThe title of your project,\nA short description of not more than 350 word summarising the motivation, objectives, methodology and key findings, and\nThe project proposal.\n\nMotivation of the project\nProject objective\nData\nScope of work\nProject schedule including a Gannt chart\n\nMethodology\n\na detail documentation of the methods used.\n\nResults and Discussion\nLesson learned\n\n\n\n\nPoster\nThe poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems that your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the GIS analysis and other urban analysis techniques you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11inci)\nResolution = 300dpi or above\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nThe poster will be considered as a final deliverable. So don’t forget to apply good visual design principles to both your poster and project report.\nNote: The course instructor will be responsible for printing your poster. You are required to upload your posters to the project webpage of your project one week and your project Dropbox before the poster presentation.\nBelow are sample posters for your reference:\n\nHut of North\nWhat’s Best for Jurong West\n\n\n\nFinal Deliverable\nThe final deliverable will include:\n\nFully updated project webpage\nProject Poster on project webpage\nProject Report on project webpage\nProject artifact, the complete GIS project folder including but not limited to raw data, process data, QGIS project file, and output maps.\n\n\nProject Report\nThe project report should focus on but not limited to the followings:\n\nA detail discussion of the GIS analysis process and functions used.\nA comprehensive discussion of the analysis results.\nA collection of analytical maps (can be statics or interactive web maps)\n\n\n\nSubmission instruction\nThe project artefact is due (submitted to LMS Dropbox) by the end of the day on 20th November 2022 at 11.59pm (mid-night)."
+  },
+  {
+    "objectID": "GISproject.html#sample-projects",
+    "href": "GISproject.html#sample-projects",
+    "title": "GIS Project",
+    "section": "Sample Projects",
+    "text": "Sample Projects\nNote that the following examples are for references purposes. You are urged to use your own creativity and innovation to design the application.\n\nAY2019-2020 Term 1 Project\n\nG1-Group3 Innogol\nG2-Group15 Nothing is 台南\n\nAY2020-2021 Term 1\n\nGroup 2\nGroup 4"
+  },
+  {
+    "objectID": "GISproject.html#qa",
+    "href": "GISproject.html#qa",
+    "title": "GIS Project",
+    "section": "Q&A",
+    "text": "Q&A"
+  },
+  {
+    "objectID": "GISproject.html#hard-work",
+    "href": "GISproject.html#hard-work",
+    "title": "GIS Project",
+    "section": "Hard Work",
+    "text": "Hard Work"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SMT201-AY2022-23T1",
@@ -294,6 +364,307 @@
     "text": "Reference\nJochen Albrecht (2007) Key Concepts and Techniques in GIS, Chapter 4-6. SAGE Publication. This book is available in smu library. Click on this link.\nJonathan Campbell and MIchael Shin (2011) Essentials of Geographic Information Systems, Saylor Foundation. Chapter 7: Geospatial Analysis I: Vector Operations."
   },
   {
+    "objectID": "lesson/Lesson06/lesson06.html#content",
+    "href": "lesson/Lesson06/lesson06.html#content",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Content",
+    "text": "Content\n\nIntroduction to Raster GIS\n\nThe basic concept of raster GIS data model\nRaster database\nCharacteristics of raster\nRaster resolution\n\nMap Algebra Methods\n\nLocal functions\nFocal functions\nNeighbourhood functions\nZonal functions"
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#raster-gis-data",
+    "href": "lesson/Lesson06/lesson06.html#raster-gis-data",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Raster GIS Data",
+    "text": "Raster GIS Data\n\n\n\nAll raster formats are basically the same\n\nCells organized in a matrix of rows and columns\n\nContent is more important than format: data or picture?"
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#map-algebra",
+    "href": "lesson/Lesson06/lesson06.html#map-algebra",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Map Algebra",
+    "text": "Map Algebra\n\n\n\nMap algebra is a simple and an elegant set based algebra for manipulating geographic data, proposed by Dr. Dana Tomlin in the early 1980s.\nIt is a set of primitive operations in a GIS which allows one or more raster layers (“maps”) of similar dimensions to produce a new raster layer (map) using algebraic operations such as addition, subtraction etc."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#map-algebra-functions",
+    "href": "lesson/Lesson06/lesson06.html#map-algebra-functions",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Map Algebra Functions",
+    "text": "Map Algebra Functions\n\nLocal function – characterising individual locations\nNeighbourhood function – characterising locations within neighbourhood\nZonal function – characterising location within a zone"
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#neighbourhood-functions",
+    "href": "lesson/Lesson06/lesson06.html#neighbourhood-functions",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Neighbourhood Functions",
+    "text": "Neighbourhood Functions\n\nThese are also called focal functions.\nLocal neighbourhood functions examine the target cell and immediate neighbours.\nA value is returned based on their combined evaluation.\nNeighbourhood scan be defined by rectangles, circles, wedges, doughnut shapes (annulus) etc."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#zonal-functions",
+    "href": "lesson/Lesson06/lesson06.html#zonal-functions",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Zonal Functions",
+    "text": "Zonal Functions\n\n\n\nA zonal operation is employed on groups of cells of similar value or like features, not surprisingly called zones.\nThese zones could be conceptualized as raster versions of polygons. Zonal rasters are often created by reclassifying an input raster into just a few categories.\nZonal operations may be applied to a single raster or two overlaying rasters.\nGiven a single input raster, zonal operations measure the geometry of each zone in the raster, such as area, perimeter, thickness, and centroid."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#global-functions",
+    "href": "lesson/Lesson06/lesson06.html#global-functions",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Global Functions",
+    "text": "Global Functions\n\n\n\nGlobal operations are similar to zonal operations whereby the entire raster dataset’s extent represents a single zone.\nTypical global operations include determining basic statistical values for the raster as a whole.\nFor example, the minimum, maximum, average, range, and so forth can be quickly calculated over the entire extent of the input raster and subsequently be output to a raster in which every cell contains that calculated value."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#distance-functions-euclidean-distance",
+    "href": "lesson/Lesson06/lesson06.html#distance-functions-euclidean-distance",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Distance Functions: Euclidean Distance",
+    "text": "Distance Functions: Euclidean Distance\n\n\n\nThe Euclidean distance functions describe each cell’s relationship to a source or a set of sources.\nThe Euclidean distance output raster contains the measured distance from every cell to the nearest source."
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#terrain-analysis",
+    "href": "lesson/Lesson06/lesson06.html#terrain-analysis",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Terrain Analysis",
+    "text": "Terrain Analysis\n\nTerrain models\nSlope and Aspect\nHillshading\nTerrain Profile\nVisibility Analysis"
+  },
+  {
+    "objectID": "lesson/Lesson06/lesson06.html#reference",
+    "href": "lesson/Lesson06/lesson06.html#reference",
+    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
+    "section": "Reference",
+    "text": "Reference\n\nBeyond Mapping I\nBeyond Mapping II - Spatial Reasoning\nBeyond Mapping III - Map Analysis\nBeyond Mapping IV – GIS Modeling"
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#content",
+    "href": "lesson/Lesson07/lesson07.html#content",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "Content",
+    "text": "Content\n\nDescriptive model\nPrescriptive models\n\nBinary method\nRanking method\nRating method\n\nGIS‐Based Multiple‐Criteria Decision Analysis\nAnalytical Hierarchical Process (AHP)\nPredictive model"
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#gis-based-descriptive-model",
+    "href": "lesson/Lesson07/lesson07.html#gis-based-descriptive-model",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "GIS-based Descriptive Model",
+    "text": "GIS-based Descriptive Model\n\nUsing GIS maps to describe the spatial distribution of real world phenomena."
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#gis-based-prescriptive-model",
+    "href": "lesson/Lesson07/lesson07.html#gis-based-prescriptive-model",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "GIS-based Prescriptive Model",
+    "text": "GIS-based Prescriptive Model\n\nSuitability analysis in a GIS context is a geographic, or GIS-based process used to determine the appropriateness of a given area for a particular use.\nThe basic premise of GIS suitability analysis is that each aspect of the landscape has intrinsic characteristics that are to some degree either suitable or unsuitable for the activities being planned.\nThe results are often displayed on a map that is used to highlight areas from high to low suitability."
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#multiplecriteria-decision-analysis-process",
+    "href": "lesson/Lesson07/lesson07.html#multiplecriteria-decision-analysis-process",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "Multiple‐Criteria Decision Analysis Process",
+    "text": "Multiple‐Criteria Decision Analysis Process"
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#gisbased-multiplecriteria-decision-analysis",
+    "href": "lesson/Lesson07/lesson07.html#gisbased-multiplecriteria-decision-analysis",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "GIS‐Based Multiple‐Criteria Decision Analysis",
+    "text": "GIS‐Based Multiple‐Criteria Decision Analysis"
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#analytical-hierarchical-process-ahp",
+    "href": "lesson/Lesson07/lesson07.html#analytical-hierarchical-process-ahp",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "Analytical Hierarchical Process (AHP)",
+    "text": "Analytical Hierarchical Process (AHP)\n\nA method for decision making in situations where multiple objectives are present.\nIt uses a pair-wise comparison matrix to calculate the relative value and costs of security requirements.\nBy using AHP, the requirements engineer can also confirm the consistency of the result.\nAHP can prevent subjective judgment errors and increase the likelihood that the results are reliable.\nTo learn more, click on this link."
+  },
+  {
+    "objectID": "lesson/Lesson07/lesson07.html#gis-based-predictive-model",
+    "href": "lesson/Lesson07/lesson07.html#gis-based-predictive-model",
+    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
+    "section": "GIS-based Predictive Model",
+    "text": "GIS-based Predictive Model\n\nGeospatial hedonic pricing modelling"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#content",
+    "href": "lesson/Lesson08/lesson08.html#content",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Content",
+    "text": "Content\n\nPrinciples of Remote Sensing\n\nA historical overview\n\nPhysical Principles of Remote Sensing\nBasic principles of remotely sensed data\n\nSpectral resolution\nSpatial resolution\n\nRemotely Sensed Data Sources\nUrban Applications of Remotely Sensed Data\nDigital Image Analysis Methods image\n\nprocessing techniques"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#principles-of-remote-sensing",
+    "href": "lesson/Lesson08/lesson08.html#principles-of-remote-sensing",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Principles of Remote Sensing",
+    "text": "Principles of Remote Sensing\n\n\n\nRemote sensing refers to the activities of recording, observing, and perceiving (sensing) objects or events in far-away (remote) places.\nIn remote sensing, the sensors are not in direct contact with the objects or events being observed.\nElectromagnetic radiation normally is used as the information carrier in remote sensing.\nThe output of a remote sensing system is usually an image representing the scene being observed.\nA further step of image analysis and interpretation is required to extract useful information from the image."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#physical-principles-of-remote-sensing",
+    "href": "lesson/Lesson08/lesson08.html#physical-principles-of-remote-sensing",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Physical Principles of Remote Sensing",
+    "text": "Physical Principles of Remote Sensing\nElectromagnetic Radiation\n\n\nElectromagnetic spectrum is a system, which “classifies all energy by wavelengths (from short wavelength cosmic energy to long wavelength radio waves) that travel harmonically with constant speed of light” (NASA, 2013)."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-landsat",
+    "href": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-landsat",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Popular Remotely Sensed Data: Landsat",
+    "text": "Popular Remotely Sensed Data: Landsat\n\nThe Landsat program is the longest-running enterprise for the acquisition of satellite imagery of the Earth.\nThe first satellite within the program was launched in 1972, the most recent one, Landsat 8, on February 11, 2013."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-sentinel",
+    "href": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-sentinel",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Popular Remotely Sensed Data: Sentinel",
+    "text": "Popular Remotely Sensed Data: Sentinel\nSentinel is the Copernicus Programme satellite constellation conducted by the European Space Agency. The Sentinel missions have the following objectives:\n\nSentinel‑1 provides all-weather, day and night radar imaging. The first Sentinel‑1A satellite was successfully launched in 2014, and the second, Sentinel‑1B, in two years — on 25 April 2016.\nSentinel‑2 provides high-resolution optical imaging for land services (e. g. imagery of vegetation, soil and water cover, inland waterways and coastal areas). Sentinel‑2 also provides real-time information for emergency services. The first Sentinel‑2 satellite was successfully launched on 23 June 2015.\nSentinel‑3 provides ocean and global land monitoring services. The first Sentinel‑3A satellite was launched on 16 January 2016.\nSentinel‑4 will be launched in 2023. It is intended to provide data for monitoring of atmospheric composition and operate jointly with a Meteosat Third Generation Satellite."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#fundamentals-of-image-processing",
+    "href": "lesson/Lesson08/lesson08.html#fundamentals-of-image-processing",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Fundamentals of Image Processing",
+    "text": "Fundamentals of Image Processing\n\nImage Enhancement\nBand Combinations, Ratios and Indices\nColour Composite Images"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#image-enhancement",
+    "href": "lesson/Lesson08/lesson08.html#image-enhancement",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Image enhancement",
+    "text": "Image enhancement\n\nEnhancements are used to make it easier for visual interpretation and understanding of imagery. The advantage of digital imagery is that it allows us to manipulate the digital pixel values in an image.\nCommon practices include\n\ncontrast enhancement,\nspatial filtering and\ndensity slicing."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#spatial-filtering",
+    "href": "lesson/Lesson08/lesson08.html#spatial-filtering",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Spatial Filtering",
+    "text": "Spatial Filtering\n\nSpatial filtering encompasses another set of digital processing functions which are used to enhance the appearance of an image.\nSpatial filters are designed to highlight or suppress specific features in an image based on their spatial frequency.\nSpatial frequency is related to the concept of image texture,\nA common filtering procedure involves moving a ‘window’ of a few pixels in dimension (e.g. 3x3, 5x5, etc.) over each pixel in the image, applying a mathematical calculation using the pixel values under that window, and replacing the central pixel with the new value."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#band-combinations-ratios-and-indices",
+    "href": "lesson/Lesson08/lesson08.html#band-combinations-ratios-and-indices",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Band Combinations, Ratios and Indices",
+    "text": "Band Combinations, Ratios and Indices\n\nNormalized Difference Vegetation Index (NDVI)\nNormalized Difference Built-up Index (NDBI)"
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#colour-composite-images",
+    "href": "lesson/Lesson08/lesson08.html#colour-composite-images",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Colour Composite Images",
+    "text": "Colour Composite Images\n\n\nIn displaying a colour composite image, three primary colours (red, green and blue) are used. When these three colours are combined in various proportions, they produce different colours in the visible spectrum. Associating each spectral band (not necessarily a visible band) to a separate primary colour results in a colour composite image."
+  },
+  {
+    "objectID": "lesson/Lesson08/lesson08.html#reference",
+    "href": "lesson/Lesson08/lesson08.html#reference",
+    "title": "Lesson 8: Fundamentals of Remote Sensing",
+    "section": "Reference",
+    "text": "Reference"
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#content",
+    "href": "lesson/Lesson09/lesson09.html#content",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Content",
+    "text": "Content\n\nWhy analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#location-question",
+    "href": "lesson/Lesson09/lesson09.html#location-question",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Location question",
+    "text": "Location question\n\nHow to assign the eldercare centres to the closest polyclinic?"
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#a-network-model",
+    "href": "lesson/Lesson09/lesson09.html#a-network-model",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "A Network Model",
+    "text": "A Network Model\n\nA link refers to a linear segment defined by two end points. Also called edges.\nA node refers to an end point of a link."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#poor-man-network-data-source",
+    "href": "lesson/Lesson09/lesson09.html#poor-man-network-data-source",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Poor man network data source",
+    "text": "Poor man network data source\nBulk extract at Geofabrik free download server."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#shortest-path-analysis",
+    "href": "lesson/Lesson09/lesson09.html#shortest-path-analysis",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Shortest Path Analysis",
+    "text": "Shortest Path Analysis\nShortest path analysis finds the path with the minimum cumulative impedance between nodes on a network. The path may connect just two nodes an origin and a destination or have specific stops between the nodes."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#fastest-path",
+    "href": "lesson/Lesson09/lesson09.html#fastest-path",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Fastest Path",
+    "text": "Fastest Path\n\nFastest paths are based on time and you can use any measure of time you choose (seconds, minutes, hours, etc.)."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#travelling-salesman-problem",
+    "href": "lesson/Lesson09/lesson09.html#travelling-salesman-problem",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Travelling salesman problem",
+    "text": "Travelling salesman problem\n\nA route can visit many stops in a network. The origin can also be the destination, as the warehouse is in this example delivery route."
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#beyond-network-model",
+    "href": "lesson/Lesson09/lesson09.html#beyond-network-model",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "Beyond network model",
+    "text": "Beyond network model\nAccessibility modelling.\n\nSource: https://developers.route360.net/index.html"
+  },
+  {
+    "objectID": "lesson/Lesson09/lesson09.html#qgis-network-analysis-support",
+    "href": "lesson/Lesson09/lesson09.html#qgis-network-analysis-support",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
+    "section": "QGIS Network Analysis Support",
+    "text": "QGIS Network Analysis Support\n\n\n\nBuild in\n\n\n\n\nPlug-in\n\n\nFor more detail, visit this link"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#content",
+    "href": "lesson/Lesson12/lesson12.html#content",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "Content",
+    "text": "Content\n\nMotivation of GeoWeb Mapping\nHistory of GeoWeb Mapping\nFundamental of GeoWeb Mapping\nGeoWeb Mapping Protocols\nGeoWeb Mapping software\nGeoWeb Mapping 2.0"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#motivation-sharing-geographic-information",
+    "href": "lesson/Lesson12/lesson12.html#motivation-sharing-geographic-information",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "Motivation: Sharing geographic information",
+    "text": "Motivation: Sharing geographic information\n\n\n\nThree possible ways to share geographic data.\nWeb GIS allows data to be shared over the Web"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#how-a-geoweb-mapping-service-works",
+    "href": "lesson/Lesson12/lesson12.html#how-a-geoweb-mapping-service-works",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "How A GeoWeb Mapping Service Works",
+    "text": "How A GeoWeb Mapping Service Works\n\nClient-server architecture"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#geoweb-mapping-protocols",
+    "href": "lesson/Lesson12/lesson12.html#geoweb-mapping-protocols",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "GeoWeb Mapping Protocols",
+    "text": "GeoWeb Mapping Protocols\n\nWeb Map Service (WMS)\nWeb Feature Service (WFS)\nExtensible Markup Language (XML)\nGeography Markup Language (GML)\nKeyhole Markup Language (KML)"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#geospatial-server-software",
+    "href": "lesson/Lesson12/lesson12.html#geospatial-server-software",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "Geospatial Server Software",
+    "text": "Geospatial Server Software\n\n\nCommercial off-the-shelf (COS) \n\nOpen Source"
+  },
+  {
+    "objectID": "lesson/Lesson12/lesson12.html#geoweb-mapping-evolution",
+    "href": "lesson/Lesson12/lesson12.html#geoweb-mapping-evolution",
+    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
+    "section": "GeoWeb Mapping evolution",
+    "text": "GeoWeb Mapping evolution\n\nImpact of Rich Internet Application (RIA)"
+  },
+  {
     "objectID": "lesson.html",
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
@@ -455,6 +826,13 @@
     "text": "Trade Area Analysis\n\nDefining trade areas\nExamples of trade areas\nFactors that influence trade area\nGIS-based trade area analysis process\nGIS-based trade area delineation techniques\n\nUrban Analysis and Monitoring\n\nDevelopment control\nUrban growth monitoring\nUrban change detection"
   },
   {
+    "objectID": "outline/lesson05_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/lesson05_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 5: Urban Applications of Vector-based GIS Analysis",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise in html format."
+  },
+  {
     "objectID": "outline/lesson05_outline.html#references",
     "href": "outline/lesson05_outline.html#references",
     "title": "Lesson 5: Urban Applications of Vector-based GIS Analysis",
@@ -555,44 +933,44 @@
   {
     "objectID": "outline/lesson09_outline.html",
     "href": "outline/lesson09_outline.html",
-    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
     "section": "",
-    "text": "Urban Land-use/Land Cover Change Detection: Principles and Methods\nUrban Features Extraction techniques"
+    "text": "Why analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
   },
   {
     "objectID": "outline/lesson09_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson09_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
     "section": "Lesson Slides and Hands-on Notes",
     "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 10 in html and pdf formats."
   },
   {
     "objectID": "outline/lesson09_outline.html#references",
     "href": "outline/lesson09_outline.html#references",
-    "title": "Lesson 9: Applied Image Analysis for the Urban Environment",
+    "title": "Lesson 9: Urban Network Analysis with GIS",
     "section": "References",
-    "text": "References\n\nArticles\n\nSandipta Das . Dasharatha P Angadi (2022) “Land use land cover change detection and monitoring of urban growth using remote sensing and GIS techniques: a micro-level study” GeoJournal, Vol. 87, pp. 2101–2123.\nGeymen, Abdurrahman ; Baz, Ibrahim (2007) Monitoring urban growth and detecting land-cover changes on the Istanbul metropolitan area, Environmental Monitoring and Assessment, Vol.136 (1-3), p.449-459.\nYin, Jie et. al. (2010) Monitoring urban expansion and land use/land cover changes of Shanghai metropolitan area during the transitional economy (1979–2009) in China, Environmental Monitoring and Assessment, Vol.177 (1-4), p.609-621.\nPraveen Kumar Mallupattu* and Jayarama Reddy Sreenivasula Reddy (2013) Analysis of Land Use/Land Cover Changes Using Remote Sensing Data and GIS at an Urban Area, Tirupati, India, The Scientific World Journal (online)\n\n\n\nQGIS Methods\n\nLandcover change detection using QGIS. Land use landcover change detection\nStep-by-Step: Land Cover Change Detection through Supervised Classification.\n\n\n\nQGIS Plugin\n\nGEOSYS Plugin\nPCA4CD - PCA for change detection\nbuildseg: QGIS plugin for building extraction\nSemi-Automatic Classification Plugin (SCP) for QGIS\nTerminus\nTree Density Calculator\nUrban Green SARCA"
+    "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\n\n\nQGIS Methods\n\nQGIS Network Analysis Capabilities\n6.3. Lesson: Network Analysis of QGIS Training Manual.\nAbout QNEAT3"
   },
   {
     "objectID": "outline/lesson10_outline.html",
     "href": "outline/lesson10_outline.html",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
     "section": "",
-    "text": "Why analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
+    "text": "Urban Land-use/Land Cover Change Detection: Principles and Methods\nUrban Features Extraction techniques"
   },
   {
     "objectID": "outline/lesson10_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson10_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
     "section": "Lesson Slides and Hands-on Notes",
     "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 10 in html and pdf formats."
   },
   {
     "objectID": "outline/lesson10_outline.html#references",
     "href": "outline/lesson10_outline.html#references",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
     "section": "References",
-    "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\n\n\nQGIS Methods\n\nQGIS Network Analysis Capabilities\n6.3. Lesson: Network Analysis of QGIS Training Manual.\nAbout QNEAT3"
+    "text": "References\n\nArticles\n\nSandipta Das . Dasharatha P Angadi (2022) “Land use land cover change detection and monitoring of urban growth using remote sensing and GIS techniques: a micro-level study” GeoJournal, Vol. 87, pp. 2101–2123.\nGeymen, Abdurrahman ; Baz, Ibrahim (2007) Monitoring urban growth and detecting land-cover changes on the Istanbul metropolitan area, Environmental Monitoring and Assessment, Vol.136 (1-3), p.449-459.\nYin, Jie et. al. (2010) Monitoring urban expansion and land use/land cover changes of Shanghai metropolitan area during the transitional economy (1979–2009) in China, Environmental Monitoring and Assessment, Vol.177 (1-4), p.609-621.\nPraveen Kumar Mallupattu* and Jayarama Reddy Sreenivasula Reddy (2013) Analysis of Land Use/Land Cover Changes Using Remote Sensing Data and GIS at an Urban Area, Tirupati, India, The Scientific World Journal (online)\n\n\n\nQGIS Methods\n\nLandcover change detection using QGIS. Land use landcover change detection\nStep-by-Step: Land Cover Change Detection through Supervised Classification.\n\n\n\nQGIS Plugin\n\nGEOSYS Plugin\nPCA4CD - PCA for change detection\nbuildseg: QGIS plugin for building extraction\nSemi-Automatic Classification Plugin (SCP) for QGIS\nTerminus\nTree Density Calculator\nUrban Green SARCA"
   },
   {
     "objectID": "outline/lesson11_outline.html",
@@ -679,300 +1057,6 @@
     "text": "Reference\n\nCore Readings\n\nJochen Albrecht (2007) Key Concepts & Techniques in GIS, SAGE Publication, London, UK.\nJonathan Campbell and MIchael Shin (2011) Essentials of Geographic Information Systems, Saylor Foundation.\nMaarseveen, Martin van.; Martinez, Javier.; Flacke, Johannes. (2019) GIS in Sustainable Urban Planning and Management, CRC Press.\n\n\n\nAdditional Readings\n\nDavid L. Berlyva (2002) Practical GIS Analysis, Taylor and Francis, London, UK.\nC. Dana Tomlin and C Dana Tomlin (2012) GIS and Cartographic Modeling, ESRI Press, Redland, USA."
   },
   {
-    "objectID": "outline/lesson05_outline.html#lesson-slides-and-hands-on-notes",
-    "href": "outline/lesson05_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 5: Urban Applications of Vector-based GIS Analysis",
-    "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slide in html format.\nHands-on Exercise in html format."
-  },
-  {
-    "objectID": "lesson/Lesson06/lesson06.html#content",
-    "href": "lesson/Lesson06/lesson06.html#content",
-    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
-    "section": "Content",
-    "text": "Content\n\nIntroduction to Raster GIS\n\nThe basic concept of raster GIS data model\nRaster database\nCharacteristics of raster\nRaster resolution\n\nMap Algebra Methods\n\nLocal functions\nFocal functions\nNeighbourhood functions\nZonal functions"
-  },
-  {
-    "objectID": "lesson/Lesson06/lesson06.html#raster-gis-data",
-    "href": "lesson/Lesson06/lesson06.html#raster-gis-data",
-    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
-    "section": "Raster GIS Data",
-    "text": "Raster GIS Data\n\n\n\nAll raster formats are basically the same\n\nCells organized in a matrix of rows and columns\n\nContent is more important than format: data or picture?"
-  },
-  {
-    "objectID": "lesson/Lesson06/lesson06.html#map-algebra",
-    "href": "lesson/Lesson06/lesson06.html#map-algebra",
-    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
-    "section": "Map Algebra",
-    "text": "Map Algebra\n\n\n\nMap algebra is a simple and an elegant set based algebra for manipulating geographic data, proposed by Dr. Dana Tomlin in the early 1980s.\nIt is a set of primitive operations in a GIS which allows one or more raster layers (“maps”) of similar dimensions to produce a new raster layer (map) using algebraic operations such as addition, subtraction etc."
-  },
-  {
-    "objectID": "lesson/Lesson06/lesson06.html#map-algebra-functions",
-    "href": "lesson/Lesson06/lesson06.html#map-algebra-functions",
-    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
-    "section": "Map Algebra Functions",
-    "text": "Map Algebra Functions\n\nLocal function – characterising individual locations\nNeighbourhood function – characterising locations within neighbourhood\nZonal function – characterising location within a zone"
-  },
-  {
-    "objectID": "lesson/Lesson06/lesson06.html#neighbourhood-functions",
-    "href": "lesson/Lesson06/lesson06.html#neighbourhood-functions",
-    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
-    "section": "Neighbourhood Functions",
-    "text": "Neighbourhood Functions\n\nThese are also called focal functions.\nLocal neighbourhood functions examine the target cell and immediate neighbours.\nA value is returned based on their combined evaluation.\nNeighbourhood scan be defined by rectangles, circles, wedges, doughnut shapes (annulus) etc."
-  },
-  {
-    "objectID": "lesson/Lesson06/lesson06.html#zonal-functions",
-    "href": "lesson/Lesson06/lesson06.html#zonal-functions",
-    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
-    "section": "Zonal Functions",
-    "text": "Zonal Functions\n\n\n\nA zonal operation is employed on groups of cells of similar value or like features, not surprisingly called zones.\nThese zones could be conceptualized as raster versions of polygons. Zonal rasters are often created by reclassifying an input raster into just a few categories.\nZonal operations may be applied to a single raster or two overlaying rasters.\nGiven a single input raster, zonal operations measure the geometry of each zone in the raster, such as area, perimeter, thickness, and centroid."
-  },
-  {
-    "objectID": "lesson/Lesson06/lesson06.html#global-functions",
-    "href": "lesson/Lesson06/lesson06.html#global-functions",
-    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
-    "section": "Global Functions",
-    "text": "Global Functions\n\n\n\nGlobal operations are similar to zonal operations whereby the entire raster dataset’s extent represents a single zone.\nTypical global operations include determining basic statistical values for the raster as a whole.\nFor example, the minimum, maximum, average, range, and so forth can be quickly calculated over the entire extent of the input raster and subsequently be output to a raster in which every cell contains that calculated value."
-  },
-  {
-    "objectID": "lesson/Lesson06/lesson06.html#distance-functions-euclidean-distance",
-    "href": "lesson/Lesson06/lesson06.html#distance-functions-euclidean-distance",
-    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
-    "section": "Distance Functions: Euclidean Distance",
-    "text": "Distance Functions: Euclidean Distance\n\n\n\nThe Euclidean distance functions describe each cell’s relationship to a source or a set of sources.\nThe Euclidean distance output raster contains the measured distance from every cell to the nearest source."
-  },
-  {
-    "objectID": "lesson/Lesson06/lesson06.html#terrain-analysis",
-    "href": "lesson/Lesson06/lesson06.html#terrain-analysis",
-    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
-    "section": "Terrain Analysis",
-    "text": "Terrain Analysis\n\nTerrain models\nSlope and Aspect\nHillshading\nTerrain Profile\nVisibility Analysis"
-  },
-  {
-    "objectID": "lesson/Lesson06/lesson06.html#reference",
-    "href": "lesson/Lesson06/lesson06.html#reference",
-    "title": "Lesson 6: The Science of MapthematicsRaster-based GIS Analysis Methods",
-    "section": "Reference",
-    "text": "Reference\n\nBeyond Mapping I\nBeyond Mapping II - Spatial Reasoning\nBeyond Mapping III - Map Analysis\nBeyond Mapping IV – GIS Modeling"
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson7.html#content",
-    "href": "lesson/Lesson07/lesson7.html#content",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "Content",
-    "text": "Content\n\nDescriptive model\nPrescriptive models\n\nBinary method\nRanking method\nRating method\n\nGIS‐Based Multiple‐Criteria Decision Analysis\nAnalytical Hierarchical Process (AHP)\nPredictive model"
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson7.html#gis-based-descriptive-model",
-    "href": "lesson/Lesson07/lesson7.html#gis-based-descriptive-model",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "GIS-based Descriptive Model",
-    "text": "GIS-based Descriptive Model\n\nUsing GIS maps to describe the spatial distribution of real world phenomena."
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson7.html#gis-based-prescriptive-model",
-    "href": "lesson/Lesson07/lesson7.html#gis-based-prescriptive-model",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "GIS-based Prescriptive Model",
-    "text": "GIS-based Prescriptive Model\n\nSuitability analysis in a GIS context is a geographic, or GIS-based process used to determine the appropriateness of a given area for a particular use.\nThe basic premise of GIS suitability analysis is that each aspect of the landscape has intrinsic characteristics that are to some degree either suitable or unsuitable for the activities being planned.\nThe results are often displayed on a map that is used to highlight areas from high to low suitability."
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson7.html#multiplecriteria-decision-analysis-process",
-    "href": "lesson/Lesson07/lesson7.html#multiplecriteria-decision-analysis-process",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "Multiple‐Criteria Decision Analysis Process",
-    "text": "Multiple‐Criteria Decision Analysis Process"
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson7.html#gisbased-multiplecriteria-decision-analysis",
-    "href": "lesson/Lesson07/lesson7.html#gisbased-multiplecriteria-decision-analysis",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "GIS‐Based Multiple‐Criteria Decision Analysis",
-    "text": "GIS‐Based Multiple‐Criteria Decision Analysis"
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson7.html#analytical-hierarchical-process-ahp",
-    "href": "lesson/Lesson07/lesson7.html#analytical-hierarchical-process-ahp",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "Analytical Hierarchical Process (AHP)",
-    "text": "Analytical Hierarchical Process (AHP)\n\nA method for decision making in situations where multiple objectives are present.\nIt uses a pair-wise comparison matrix to calculate the relative value and costs of security requirements.\nBy using AHP, the requirements engineer can also confirm the consistency of the result.\nAHP can prevent subjective judgment errors and increase the likelihood that the results are reliable.\nTo learn more, click on this link."
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson7.html#gis-based-predictive-model",
-    "href": "lesson/Lesson07/lesson7.html#gis-based-predictive-model",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "GIS-based Predictive Model",
-    "text": "GIS-based Predictive Model\n\nGeospatial hedonic pricing modelling"
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson07.html#content",
-    "href": "lesson/Lesson07/lesson07.html#content",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "Content",
-    "text": "Content\n\nDescriptive model\nPrescriptive models\n\nBinary method\nRanking method\nRating method\n\nGIS‐Based Multiple‐Criteria Decision Analysis\nAnalytical Hierarchical Process (AHP)\nPredictive model"
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson07.html#gis-based-descriptive-model",
-    "href": "lesson/Lesson07/lesson07.html#gis-based-descriptive-model",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "GIS-based Descriptive Model",
-    "text": "GIS-based Descriptive Model\n\nUsing GIS maps to describe the spatial distribution of real world phenomena."
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson07.html#gis-based-prescriptive-model",
-    "href": "lesson/Lesson07/lesson07.html#gis-based-prescriptive-model",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "GIS-based Prescriptive Model",
-    "text": "GIS-based Prescriptive Model\n\nSuitability analysis in a GIS context is a geographic, or GIS-based process used to determine the appropriateness of a given area for a particular use.\nThe basic premise of GIS suitability analysis is that each aspect of the landscape has intrinsic characteristics that are to some degree either suitable or unsuitable for the activities being planned.\nThe results are often displayed on a map that is used to highlight areas from high to low suitability."
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson07.html#multiplecriteria-decision-analysis-process",
-    "href": "lesson/Lesson07/lesson07.html#multiplecriteria-decision-analysis-process",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "Multiple‐Criteria Decision Analysis Process",
-    "text": "Multiple‐Criteria Decision Analysis Process"
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson07.html#gisbased-multiplecriteria-decision-analysis",
-    "href": "lesson/Lesson07/lesson07.html#gisbased-multiplecriteria-decision-analysis",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "GIS‐Based Multiple‐Criteria Decision Analysis",
-    "text": "GIS‐Based Multiple‐Criteria Decision Analysis"
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson07.html#analytical-hierarchical-process-ahp",
-    "href": "lesson/Lesson07/lesson07.html#analytical-hierarchical-process-ahp",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "Analytical Hierarchical Process (AHP)",
-    "text": "Analytical Hierarchical Process (AHP)\n\nA method for decision making in situations where multiple objectives are present.\nIt uses a pair-wise comparison matrix to calculate the relative value and costs of security requirements.\nBy using AHP, the requirements engineer can also confirm the consistency of the result.\nAHP can prevent subjective judgment errors and increase the likelihood that the results are reliable.\nTo learn more, click on this link."
-  },
-  {
-    "objectID": "lesson/Lesson07/lesson07.html#gis-based-predictive-model",
-    "href": "lesson/Lesson07/lesson07.html#gis-based-predictive-model",
-    "title": "Lesson 7: GIS-based Multi-Criteria Decision Analysis",
-    "section": "GIS-based Predictive Model",
-    "text": "GIS-based Predictive Model\n\nGeospatial hedonic pricing modelling"
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#content",
-    "href": "lesson/Lesson10/lesson10.html#content",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
-    "section": "Content",
-    "text": "Content\n\nWhy analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#location-question",
-    "href": "lesson/Lesson10/lesson10.html#location-question",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
-    "section": "Location question",
-    "text": "Location question\n\nHow to assign the eldercare centres to the closest polyclinic?"
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#a-network-model",
-    "href": "lesson/Lesson10/lesson10.html#a-network-model",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
-    "section": "A Network Model",
-    "text": "A Network Model\n\nA link refers to a linear segment defined by two end points. Also called edges.\nA node refers to an end point of a link."
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#poor-man-network-data-source",
-    "href": "lesson/Lesson10/lesson10.html#poor-man-network-data-source",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
-    "section": "Poor man network data source",
-    "text": "Poor man network data source\nBulk extract at Geofabrik free download server."
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#shortest-path-analysis",
-    "href": "lesson/Lesson10/lesson10.html#shortest-path-analysis",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
-    "section": "Shortest Path Analysis",
-    "text": "Shortest Path Analysis\nShortest path analysis finds the path with the minimum cumulative impedance between nodes on a network. The path may connect just two nodes an origin and a destination or have specific stops between the nodes."
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#fastest-path",
-    "href": "lesson/Lesson10/lesson10.html#fastest-path",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
-    "section": "Fastest Path",
-    "text": "Fastest Path\n\nFastest paths are based on time and you can use any measure of time you choose (seconds, minutes, hours, etc.)."
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#travelling-salesman-problem",
-    "href": "lesson/Lesson10/lesson10.html#travelling-salesman-problem",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
-    "section": "Travelling salesman problem",
-    "text": "Travelling salesman problem\n\nA route can visit many stops in a network. The origin can also be the destination, as the warehouse is in this example delivery route."
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#beyond-network-model",
-    "href": "lesson/Lesson10/lesson10.html#beyond-network-model",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
-    "section": "Beyond network model",
-    "text": "Beyond network model\nAccessibility modelling.\n\nSource: https://developers.route360.net/index.html"
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#qgis-network-analysis-support",
-    "href": "lesson/Lesson10/lesson10.html#qgis-network-analysis-support",
-    "title": "Lesson 10: Urban Network Analysis with GIS",
-    "section": "QGIS Network Analysis Support",
-    "text": "QGIS Network Analysis Support\n\n\n\nBuild in\n\n\n\n\nPlug-in\n\n\nFor more detail, visit this link"
-  },
-  {
-    "objectID": "lesson/Lesson12/lesson12.html#content",
-    "href": "lesson/Lesson12/lesson12.html#content",
-    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
-    "section": "Content",
-    "text": "Content\n\nMotivation of GeoWeb Mapping\nHistory of GeoWeb Mapping\nFundamental of GeoWeb Mapping\nGeoWeb Mapping Protocols\nGeoWeb Mapping software\nGeoWeb Mapping 2.0"
-  },
-  {
-    "objectID": "lesson/Lesson12/lesson12.html#motivation-sharing-geographic-information",
-    "href": "lesson/Lesson12/lesson12.html#motivation-sharing-geographic-information",
-    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
-    "section": "Motivation: Sharing geographic information",
-    "text": "Motivation: Sharing geographic information\n\n\n\nThree possible ways to share geographic data.\nWeb GIS allows data to be shared over the Web"
-  },
-  {
-    "objectID": "lesson/Lesson12/lesson12.html#how-a-geoweb-mapping-service-works",
-    "href": "lesson/Lesson12/lesson12.html#how-a-geoweb-mapping-service-works",
-    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
-    "section": "How A GeoWeb Mapping Service Works",
-    "text": "How A GeoWeb Mapping Service Works\n\nClient-server architecture"
-  },
-  {
-    "objectID": "lesson/Lesson12/lesson12.html#geoweb-mapping-protocols",
-    "href": "lesson/Lesson12/lesson12.html#geoweb-mapping-protocols",
-    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
-    "section": "GeoWeb Mapping Protocols",
-    "text": "GeoWeb Mapping Protocols\n\nWeb Map Service (WMS)\nWeb Feature Service (WFS)\nExtensible Markup Language (XML)\nGeography Markup Language (GML)\nKeyhole Markup Language (KML)"
-  },
-  {
-    "objectID": "lesson/Lesson12/lesson12.html#geospatial-server-software",
-    "href": "lesson/Lesson12/lesson12.html#geospatial-server-software",
-    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
-    "section": "Geospatial Server Software",
-    "text": "Geospatial Server Software\n\n\nCommercial off-the-shelf (COS) \n\nOpen Source"
-  },
-  {
-    "objectID": "lesson/Lesson12/lesson12.html#geoweb-mapping-evolution",
-    "href": "lesson/Lesson12/lesson12.html#geoweb-mapping-evolution",
-    "title": "Lesson 12: Sharing Geographical Information with WebGIS",
-    "section": "GeoWeb Mapping evolution",
-    "text": "GeoWeb Mapping evolution\n\nImpact of Rich Internet Application (RIA)"
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#principles-of-remote-sensing",
-    "href": "lesson/Lesson08/lesson08.html#principles-of-remote-sensing",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Principles of Remote Sensing",
-    "text": "Principles of Remote Sensing\n\n\n\nRemote sensing refers to the activities of recording, observing, and perceiving (sensing) objects or events in far-away (remote) places.\nIn remote sensing, the sensors are not in direct contact with the objects or events being observed.\nElectromagnetic radiation normally is used as the information carrier in remote sensing.\nThe output of a remote sensing system is usually an image representing the scene being observed.\nA further step of image analysis and interpretation is required to extract useful information from the image."
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#content",
-    "href": "lesson/Lesson08/lesson08.html#content",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Content",
-    "text": "Content\n\nPrinciples of Remote Sensing\n\nA historical overview\n\nPhysical Principles of Remote Sensing\nBasic principles of remotely sensed data\n\nSpectral resolution\nSpatial resolution\n\nRemotely Sensed Data Sources\nUrban Applications of Remotely Sensed Data\nDigital Image Analysis Methods image\n\nprocessing techniques"
-  },
-  {
     "objectID": "Take-home_Ex01.html",
     "href": "Take-home_Ex01.html",
     "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
@@ -980,18 +1064,18 @@
     "text": "This handout provides the context, task, expectations and grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise."
   },
   {
-    "objectID": "Take-home_Ex01.html#the-tasks",
-    "href": "Take-home_Ex01.html#the-tasks",
+    "objectID": "Take-home_Ex01.html#task",
+    "href": "Take-home_Ex01.html#task",
     "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
-    "section": "The Tasks",
-    "text": "The Tasks\nMini Case 1: Impact of Master Plan 2019 on the The specific tasks of the study are as follows:\n\nassemble GIS data needed to perform the study. Three main data sets have been identified. They are: the latest primary school location and Primary 1 capacity, cadastral land lot and building footprint of residential. Other useful GIS data sets can be added if they are necessary,\nusing appropriate GIS analysis methods to delineate the catchment areas of school base on the old and new ways to calculate school-home catchment areas.\n\nprepare large-scale GIS maps (i.e. 1:5000) for selected schools your choice to show the complexity of school-home catchment areas,\nderive appropriate statistics (i.e. statistical tables and graphics) to complement the GIS maps analysis, and\nCritically evaluate the issue revealed by the map and suggest appropriate alternative planning approach for school-home catchment areas delineation.\n\nEvery five year, Urban Redevelopment Authority (URA) of Singapore will publish the new Master Plan (MP). It is the statutory land use plan which guides Singapore’s development in the medium term over the next 10 to 15 years. The latest version, Master Plan 2019 (MP19) was gazetted on 27 Nov 2019. As a socially conscious GIS analyst, you have decided to conduct a study to reveal the impact of the new master plan on our society and natural environment. The study aims to provide policy makers as well as general public analytical-centric information for supporting inclusive and participatory planning process."
+    "section": "Task",
+    "text": "Task\n\nMini Case 1: Mapping the dynamics of the city\nDemographic change is important for urban planning because it determines the size, structure and geographic distribution of the city population. In this mini case, you are tasked to analyse and visualise the changing geographical distribution of aged (i.e. age 65 and above) and young (i.e. age 14 and below) population of Singapore over the three census periods (i.e. 2000, 2010, and 2020). The specific tasks of this mini case are as follow:\n\nTo assemble, extract and derive the necessary data from relevant publicly available sources and store them in an unified urban data model.\nTo prepare a series of thematic maps by using appropriate mapping techniques showing the geographical distribution of the urban dynamics.\nFor each thematic map prepared, write a short report of not more than 100 words describing the geographical patterns revealed by the map.\nWith reference to the analysis results, discuss important lesson(s) learnt from the dynamics of urban population changes of Singapore over the last two decades. (Not more than 100 words)\n\n\nData\nFor the purpose of this study, the following data and data source are highly recommended:\n\nSingapore Residents by Planning Area / Subzone, Single Year of Age and Sex. Multiple years and you are required to extract 2000, 2010 and 2020 figures by using appropriate QGIS methods.\nMultiple years Master Plan Subzone Boundary (No Sea) data from data.gov.sg.\n\n\n\n\nMini Case 2: Impact of master plan proposal land use on the forested land\nEvery five year, Urban Redevelopment Authority (URA) of Singapore will publish the new Master Plan (MP). It is the statutory land use plan which guides Singapore’s development in the medium term over the next 10 to 15 years. The latest version, Master Plan 2019 (MP19) was gazetted on 27 Nov 2019. As a socially conscious GIS analyst, you have decided to conduct a study to reveal the impact of the new master plan on our natural environment (i.e. forested land). The study aims to provide policy makers as well as general public analytical-centric information for supporting inclusive and participatory planning process.\nThe specific tasks of the study are as follows:\n\nassemble GIS data needed to perform the study. Three main data sets have been identified. They are: MP2019 Planning subzone boundary, MP2019 Land Use and Forested Land (extracted from osm). Other useful GIS data sets can be added if they are necessary.\nusing appropriate GIS analysis methods to delineate forested land lost to the proposed land use by MP19.\nprepare a forested land change map for a selected planning areas of your choice to show the forested land lost.\nderive appropriate statistics (i.e. statistical tables and graphics) to complement the GIS maps analysis.\ncritically evaluate the issue(s) revealed by the map and suggest appropriate alternative planning approach."
   },
   {
-    "objectID": "Take-home_Ex01.html#take-home-exercise-artefact",
-    "href": "Take-home_Ex01.html#take-home-exercise-artefact",
+    "objectID": "Take-home_Ex01.html#take-home-exercise-deliverable",
+    "href": "Take-home_Ex01.html#take-home-exercise-deliverable",
     "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
-    "section": "Take-home Exercise Artefact",
-    "text": "Take-home Exercise Artefact\n\nGIS data repository\nThe GIS repository includes but not limited to geospatial data compiled and derived, QGIS project file and data dictionary. It must be in a single zipped file (i.e. .zip). The geospatial data must be stored in a GeoPackage database format. The data dictionary can be in either MS Word document or edited into the GIS data.The project artefact must be uploaded onto eLearn.\n\n\nTake-home Exercise Report\nYou are required to edit your take-home exercise report in MS Word format. The take-home exercise report, beside others, should include all the thematic maps prepared and their respective discussion.\nMore importantly, the report must provide a reproducible step-by-step guide on the following process:\n\ndata compilation, extraction and integration,\ndata cleaning, preparation and wrangling,\nGIS analysis (including tabular and graphical analysis), and\nGIS maps design.\n\n\nNote: Reproducible means that readers are able to perform the same analysis and obtain similar results by using the same data sets and by following the step-by-step guide.\n\nThe title of the report should be in the form of SMT201_AY2022-23T1_Ex1.\n\nNote: This is an individual exercise. You are required to work on the take home exercise and prepare submission individually."
+    "section": "Take-home Exercise Deliverable",
+    "text": "Take-home Exercise Deliverable\n\nGIS data repository\nThe GIS repository includes but not limited to geospatial data compiled and derived, QGIS project file and data dictionary. It must be in a single zipped file (i.e. .zip). The geospatial data must be stored in a GeoPackage database format. The data dictionary can be in either MS Word document or edited into the GIS data.The project deliverable must be uploaded onto eLearn.\n\n\nTake-home Exercise Report\nYou are required to edit your take-home exercise report in MS Word format. The take-home exercise report, beside others, should include all the thematic maps prepared and their respective discussion.\nMore importantly, the report must provide a reproducible step-by-step guide on the following process:\n\ndata compilation, extraction and integration,\ndata cleaning, preparation and wrangling,\nGIS analysis (including tabular and graphical analysis), and\nGIS maps design.\n\n\nNote: Reproducible means that readers are able to perform the same analysis and obtain similar results by using the same data sets and by following the step-by-step guide.\n\nThe title of the report should be in the form of SMT201_AY2022-23T1_Ex1.\n\nNote: This is an individual exercise. You are required to work on the take home exercise and prepare submission individually."
   },
   {
     "objectID": "Take-home_Ex01.html#grading",
@@ -1008,74 +1092,11 @@
     "text": "Submission Date\nThe take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.\nDue Date: 25th September 2022, 11:59pm (midnight)."
   },
   {
-    "objectID": "Take-home_Ex01.html#setting-the-scene",
-    "href": "Take-home_Ex01.html#setting-the-scene",
-    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
-    "section": "Setting the scene",
-    "text": "Setting the scene\nEvery five year, Urban Redevelopment Authority (URA) of Singapore will publish the new Master Plan (MP). It is the statutory land use plan which guides Singapore’s development in the medium term over the next 10 to 15 years. The latest version, Master Plan 2019 (MP19) was gazetted on 27 Nov 2019. As a socially conscious GIS analyst, you have decided to conduct a study to reveal the impact of the new master plan on our society and natural environment. The study aims to provide policy makers as well as general public analytical-centric information for supporting inclusive and participatory planning process."
-  },
-  {
-    "objectID": "Take-home_Ex01.html#task",
-    "href": "Take-home_Ex01.html#task",
-    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
-    "section": "Task",
-    "text": "Task\n\nMini Case 1: Mapping the dynamics of the city\nDemographic change is important for urban planning because it determines the size, structure and geographic distribution of the city population. In this mini case, you are tasked to analyse and visualise the changing geographical distribution of aged (i.e. age 65 and above) and young (i.e. age 14 and below) population of Singapore over the three census periods (i.e. 2000, 2010, and 2020). The specific tasks of this mini case are as follow:\n\nTo assemble, extract and derive the necessary data from relevant publicly available sources and store them in an unified urban data model.\nTo prepare a series of thematic maps by using appropriate mapping techniques showing the geographical distribution of the urban dynamics.\nFor each thematic map prepared, write a short report of not more than 100 words describing the geographical patterns revealed by the map.\nWith reference to the analysis results, discuss important lesson(s) learnt from the dynamics of urban population changes of Singapore over the last two decades. (Not more than 100 words)\n\n\nData\nFor the purpose of this study, the following data and data source are highly recommended:\n\nSingapore Residents by Planning Area / Subzone, Single Year of Age and Sex. Multiple years and you are required to extract 2000, 2010 and 2020 figures by using appropriate QGIS methods.\nMultiple years Master Plan Subzone Boundary (No Sea) data from data.gov.sg.\n\n\n\n\nMini Case 2: Impact of master plan proposal land use on the forested land\nEvery five year, Urban Redevelopment Authority (URA) of Singapore will publish the new Master Plan (MP). It is the statutory land use plan which guides Singapore’s development in the medium term over the next 10 to 15 years. The latest version, Master Plan 2019 (MP19) was gazetted on 27 Nov 2019. As a socially conscious GIS analyst, you have decided to conduct a study to reveal the impact of the new master plan on our natural environment (i.e. forested land). The study aims to provide policy makers as well as general public analytical-centric information for supporting inclusive and participatory planning process.\nThe specific tasks of the study are as follows:\n\nassemble GIS data needed to perform the study. Three main data sets have been identified. They are: MP2019 Planning subzone boundary, MP2019 Land Use and Forested Land (extracted from osm). Other useful GIS data sets can be added if they are necessary.\nusing appropriate GIS analysis methods to delineate forested land lost to the proposed land use by MP19.\nprepare a forested land change map for a selected planning areas of your choice to show the forested land lost.\nderive appropriate statistics (i.e. statistical tables and graphics) to complement the GIS maps analysis.\ncritically evaluate the issue(s) revealed by the map and suggest appropriate alternative planning approach."
-  },
-  {
-    "objectID": "Take-home_Ex01.html#mini-case-2-impact-of-master-plan-2019-on-the-the-specific-tasks-of-the-study-are-as-follows",
-    "href": "Take-home_Ex01.html#mini-case-2-impact-of-master-plan-2019-on-the-the-specific-tasks-of-the-study-are-as-follows",
-    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
-    "section": "Mini Case 2 Impact of Master Plan 2019 on the The specific tasks of the study are as follows:",
-    "text": "Mini Case 2 Impact of Master Plan 2019 on the The specific tasks of the study are as follows:\n\nassemble GIS data needed to perform the study. Three main data sets have been identified. They are: the latest primary school location and Primary 1 capacity, cadastral land lot and building footprint of residential. Other useful GIS data sets can be added if they are necessary,\nusing appropriate GIS analysis methods to delineate the catchment areas of school base on the old and new ways to calculate school-home catchment areas.\n\nprepare large-scale GIS maps (i.e. 1:5000) for selected schools your choice to show the complexity of school-home catchment areas,\nderive appropriate statistics (i.e. statistical tables and graphics) to complement the GIS maps analysis, and\nCritically evaluate the issue revealed by the map and suggest appropriate alternative planning approach for school-home catchment areas delineation.\n\nEvery five year, Urban Redevelopment Authority (URA) of Singapore will publish the new Master Plan (MP). It is the statutory land use plan which guides Singapore’s development in the medium term over the next 10 to 15 years. The latest version, Master Plan 2019 (MP19) was gazetted on 27 Nov 2019. As a socially conscious GIS analyst, you have decided to conduct a study to reveal the impact of the new master plan on our society and natural environment. The study aims to provide policy makers as well as general public analytical-centric information for supporting inclusive and participatory planning process."
-  },
-  {
-    "objectID": "Take-home_Ex01.html#take-home-exercise-deliverable",
-    "href": "Take-home_Ex01.html#take-home-exercise-deliverable",
-    "title": "Take-home Exercise 1: Urban Applications of Vector-based GIS Analysis",
-    "section": "Take-home Exercise Deliverable",
-    "text": "Take-home Exercise Deliverable\n\nGIS data repository\nThe GIS repository includes but not limited to geospatial data compiled and derived, QGIS project file and data dictionary. It must be in a single zipped file (i.e. .zip). The geospatial data must be stored in a GeoPackage database format. The data dictionary can be in either MS Word document or edited into the GIS data.The project deliverable must be uploaded onto eLearn.\n\n\nTake-home Exercise Report\nYou are required to edit your take-home exercise report in MS Word format. The take-home exercise report, beside others, should include all the thematic maps prepared and their respective discussion.\nMore importantly, the report must provide a reproducible step-by-step guide on the following process:\n\ndata compilation, extraction and integration,\ndata cleaning, preparation and wrangling,\nGIS analysis (including tabular and graphical analysis), and\nGIS maps design.\n\n\nNote: Reproducible means that readers are able to perform the same analysis and obtain similar results by using the same data sets and by following the step-by-step guide.\n\nThe title of the report should be in the form of SMT201_AY2022-23T1_Ex1.\n\nNote: This is an individual exercise. You are required to work on the take home exercise and prepare submission individually."
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#reference",
-    "href": "lesson/Lesson08/lesson08.html#reference",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Reference",
-    "text": "Reference"
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#satillite-remote-sensing-technology",
-    "href": "lesson/Lesson08/lesson08.html#satillite-remote-sensing-technology",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Satillite Remote Sensing Technology",
-    "text": "Satillite Remote Sensing Technology"
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#physical-principles-of-remote-sensing",
-    "href": "lesson/Lesson08/lesson08.html#physical-principles-of-remote-sensing",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Physical Principles of Remote Sensing",
-    "text": "Physical Principles of Remote Sensing\nElectromagnetic Radiation\n\n\nElectromagnetic spectrum is a system, which “classifies all energy by wavelengths (from short wavelength cosmic energy to long wavelength radio waves) that travel harmonically with constant speed of light” (NASA, 2013)."
-  },
-  {
     "objectID": "Take-home_Ex02.html",
     "href": "Take-home_Ex02.html",
     "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
     "section": "",
     "text": "This handout provides the context, task, expectations and grading criteria of Take-home Exercise 2. Students must review and understand them before getting started with the take-home exercise.\n\n\nElevation and related terrain variables are important in most people lives. Terrain determines the natural availability and location of surface water, and hence soil moisture and drainage. Terrain also strongly influences the location and nature of transportation networks, and the cost and methods of house and road construction. Prior to the introduction of GIS, the modelling and analysis of terrain data was a very mathematically demanding process which was usually only performed by geoscience and mapping science specialists. Today, modern GIS tool such as QGIS has made terrain modelling, anaysis and mapping relatively easy to perform by casual data analysts.\nIn this take-home exercise, you are required to apply appropriate analysis tools of QGIS to perform the following tasks and analysis:\n\nTo assemble, extract and building the following GIS layers:\n\nBukit Timah Natural Reserve boundary\nDEM for the study area.\nCycling paths and walking paths\nView points\n\nPerform and prepare a visibility analysis report by using the view points layer. The report should include maps and a short write-up of not more than 300 words discussing the findings of the analysis and recommendation.\nPerform and profile analysis report by using the the cycling paths and walking paths. The report should include maps and a short write-up of not more than 600 words discussing the findings of the analysis and recommendation.\n\n\n\n\nFor the purpose of this study, Bukit Timah Natural Reserve planning subzone will be used. The following data and data source are highly recommended:\n\nURA Master Plan 2019 Subzone Boundary. This data set can be download from data.gov.sg\nSTRM 30m Digital Elevation Model (DEM) USGS Earth Explorer portal.\nAppropriate GIS data from OpenStreetMap (OSM)"
-  },
-  {
-    "objectID": "Take-home_Ex02.html#the-task",
-    "href": "Take-home_Ex02.html#the-task",
-    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
-    "section": "The Task",
-    "text": "The Task\nElevation and related terrain variables are important in most people lives. Terrain determines the natural availability and location of surface water, and hence soil moisture and drainage. Terrain also strongly influences the location and nature of transportation networks, and the cost and methods of house and road construction. Prior to the introduction of GIS, the modelling and analysis of terrain data was a very mathematically demanding process which was usually only performed by geoscience and mapping science specialists. Today, modern GIS tool such as QGIS has made terrain modelling, anaysis and mapping relatively easy to perform by casual data analysts.\nIn this take-home exercise, you are required apply appropriate analysis tools of QGIS to perform the following analysis\nThe specific tasks of this take-home exercise are as follow:\n\nTo assemble, extract and building the following GIS layers:\n\nBukit Timah Natural Reserve boundary\nDEM for the study area.\nCycling paths and walking paths\nView points\n\nPerform and prepare a visibility analysis report by using the view points layer. The report should include maps and a short write-up of not more than 300 words discussing the findings of the analysis and recommendation.\nPerform and profile analysis report by using the the cycling paths and walking paths. The report should include maps and a short write-up of not more than 600 words discussing the findings of the analysis and recommendation."
-  },
-  {
-    "objectID": "Take-home_Ex02.html#the-data",
-    "href": "Take-home_Ex02.html#the-data",
-    "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
-    "section": "The Data",
-    "text": "The Data\nFor the purpose of this study, Bukit Timah Natural Reserve planning subzone will be used. The following data and data source are highly recommended:\n\nURA Master Plan 2019 Subzone Boundary. This data set can be download from data.gov.sg\nSTRM 30m Digital Elevation Model (DEM) USGS Earth Explorer portal.\nCycling and path within Bukit Timah Nature"
   },
   {
     "objectID": "Take-home_Ex02.html#take-home-exercise-deliverable",
@@ -1097,208 +1118,5 @@
     "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
     "section": "Submission Date",
     "text": "Submission Date\nThe take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.\nDue Date: 16th October 2022, 11:59pm (midnight)."
-  },
-  {
-    "objectID": "GISproject.html",
-    "href": "GISproject.html",
-    "title": "GIS Project",
-    "section": "",
-    "text": "The purpose of the GIS project is to provide students with a first hand experience on building a GIS-Enabled Urban Planning Support System by integrating open government data and other open source data sets. You will also learn how to collect, process and analyse spatially related issues using real world data. Students are encouraged to focus on research topics that are relevant to their field of study.\nThe project is to be done in a team. You are required to form a project team of 2-3 members by the second week of the academic term. Each project team must start thinking about their project ideas from week 8 onward. You are expected to discuss your project topic and scope of works with the instructor between week 8-9 of the academic term. A project website must be prepared and will be linked to this page by the end of week 10."
-  },
-  {
-    "objectID": "GISproject.html#topic",
-    "href": "GISproject.html#topic",
-    "title": "GIS Project",
-    "section": "Topic",
-    "text": "Topic\nYou are required to choose one of the sub-theme provided below:\nTheme 1: Urban Application of Satellite Remote Sensing and GIS\n\nSub-theme 1: A comparison study of land cover classification by using Landsat 8 and Sentinel 2 data.\nSub-theme 2: Land cover change detection using high resolution multispectral satellite data.\nSub-theme 3: Land use classification by integrating GIS and remotely sensed data.\n\nTheme 2: Geography of Accessibility with GIS-based Network Analysis\n\nSub-theme 1: Impact of closures or mergers of education institutions on equity of access.\nSub-theme 2: Catchment areas study of the Thomson-East Coast MRT Line Stage 4."
-  },
-  {
-    "objectID": "GISproject.html#scope-of-work",
-    "href": "GISproject.html#scope-of-work",
-    "title": "GIS Project",
-    "section": "Scope of Work",
-    "text": "Scope of Work\nThe project will comprise of, but not limited to the followings steps:\n\nSelection of project focus and conducting literature review.\nPreparing proposal and project website.\nData collection, extraction, integration, transformation and wrangling.\nDesigning and building GIS model and database.\nPerforming GIS analysis.\nPreparing poster and project webpage."
-  },
-  {
-    "objectID": "GISproject.html#project-milestone",
-    "href": "GISproject.html#project-milestone",
-    "title": "GIS Project",
-    "section": "Project Milestone",
-    "text": "Project Milestone\n\nFormulation of project team: by week 2 before lesson\nAssemble GIS data: from week 7 onward\nCreate project website : by week 8\nSubmission of project poster: by the end of Week 13.\nSubmission of project artifacts and update project webpage: 20th November 2022 at 11.59pm (mid-night)"
-  },
-  {
-    "objectID": "GISproject.html#grading",
-    "href": "GISproject.html#grading",
-    "title": "GIS Project",
-    "section": "Grading",
-    "text": "Grading\nThe GIS project will account for 35% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\n\nTownhall presentation (peer evaluation) 15%\nProject poster 15%\nProject website and report 30%\nProject artifact 40%\n\nThe course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.\nIn small group projects, each person will be graded individually. A good group project is a system consisting of a collection of well defined subsystems. Each subsystem should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!"
-  },
-  {
-    "objectID": "GISproject.html#townhall-poster-presentation",
-    "href": "GISproject.html#townhall-poster-presentation",
-    "title": "GIS Project",
-    "section": "Townhall Poster Presentation",
-    "text": "Townhall Poster Presentation\nA townhall presentation will be held on 14th November 2022 (Monday) between 11.30am - 2.30pm. The venue will be at SMU Basement Concourse."
-  },
-  {
-    "objectID": "GISproject.html#deliverables",
-    "href": "GISproject.html#deliverables",
-    "title": "GIS Project",
-    "section": "Deliverables",
-    "text": "Deliverables\n\nProject Website\n\nProject Github\nAt the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and project report. It must be used to maintain a complete project versioning including the application and project documents. The Github link must be included in the project webpage. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\nProject Website\nEach project team are required to create the project website by using either Quarto. It will be disseminated by using Netfity web server.\n\nThe title of your project,\nA short description of not more than 350 word summarising the motivation, objectives, methodology and key findings, and\nThe project proposal.\n\nMotivation of the project\nProject objective\nData\nScope of work\nProject schedule including a Gannt chart\n\nMethodology\n\na detail documentation of the methods used.\n\nResults and Discussion\nLesson learned\n\n\n\n\nPoster\nThe poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems that your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the GIS analysis and other urban analysis techniques you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11inci)\nResolution = 300dpi or above\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nThe poster will be considered as a final deliverable. So don’t forget to apply good visual design principles to both your poster and project report.\nNote: The course instructor will be responsible for printing your poster. You are required to upload your posters to the project webpage of your project one week and your project Dropbox before the poster presentation.\nBelow are sample posters for your reference:\n\nHut of North\nWhat’s Best for Jurong West\n\n\n\nFinal Deliverable\nThe final deliverable will include:\n\nFully updated project webpage\nProject Poster on project webpage\nProject Report on project webpage\nProject artifact, the complete GIS project folder including but not limited to raw data, process data, QGIS project file, and output maps.\n\n\nProject Report\nThe project report should focus on but not limited to the followings:\n\nA detail discussion of the GIS analysis process and functions used.\nA comprehensive discussion of the analysis results.\nA collection of analytical maps (can be statics or interactive web maps)\n\n\n\nSubmission instruction\nThe project artefact is due (submitted to LMS Dropbox) by the end of the day on 20th November 2022 at 11.59pm (mid-night)."
-  },
-  {
-    "objectID": "GISproject.html#sample-projects",
-    "href": "GISproject.html#sample-projects",
-    "title": "GIS Project",
-    "section": "Sample Projects",
-    "text": "Sample Projects\nNote that the following examples are for references purposes. You are urged to use your own creativity and innovation to design the application.\n\nAY2019-2020 Term 1 Project\n\nG1-Group3 Innogol\nG2-Group15 Nothing is 台南\n\nAY2020-2021 Term 1\n\nGroup 2\nGroup 4"
-  },
-  {
-    "objectID": "GISproject.html#qa",
-    "href": "GISproject.html#qa",
-    "title": "GIS Project",
-    "section": "Q&A",
-    "text": "Q&A"
-  },
-  {
-    "objectID": "GISproject.html#hard-work",
-    "href": "GISproject.html#hard-work",
-    "title": "GIS Project",
-    "section": "Hard Work",
-    "text": "Hard Work"
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data",
-    "href": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Popular Remotely Sensed Data",
-    "text": "Popular Remotely Sensed Data\nLandsat\n\nThe Landsat program is the longest-running enterprise for the acquisition of satellite imagery of the Earth.\nThe first satellite within the program was launched in 1972, the most recent one, Landsat 8, on February 11, 2013."
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-landsat",
-    "href": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-landsat",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Popular Remotely Sensed Data: Landsat",
-    "text": "Popular Remotely Sensed Data: Landsat\n\nThe Landsat program is the longest-running enterprise for the acquisition of satellite imagery of the Earth.\nThe first satellite within the program was launched in 1972, the most recent one, Landsat 8, on February 11, 2013."
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-sentinel",
-    "href": "lesson/Lesson08/lesson08.html#popular-remotely-sensed-data-sentinel",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Popular Remotely Sensed Data: Sentinel",
-    "text": "Popular Remotely Sensed Data: Sentinel\nSentinel is the Copernicus Programme satellite constellation conducted by the European Space Agency. The Sentinel missions have the following objectives:\n\nSentinel‑1 provides all-weather, day and night radar imaging. The first Sentinel‑1A satellite was successfully launched in 2014, and the second, Sentinel‑1B, in two years — on 25 April 2016.\nSentinel‑2 provides high-resolution optical imaging for land services (e. g. imagery of vegetation, soil and water cover, inland waterways and coastal areas). Sentinel‑2 also provides real-time information for emergency services. The first Sentinel‑2 satellite was successfully launched on 23 June 2015.\nSentinel‑3 provides ocean and global land monitoring services. The first Sentinel‑3A satellite was launched on 16 January 2016.\nSentinel‑4 will be launched in 2023. It is intended to provide data for monitoring of atmospheric composition and operate jointly with a Meteosat Third Generation Satellite."
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#fundamentals-of-image-processing",
-    "href": "lesson/Lesson08/lesson08.html#fundamentals-of-image-processing",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Fundamentals of Image Processing",
-    "text": "Fundamentals of Image Processing\n\nImage Enhancement\nBand Combinations, Ratios and Indices\nColour Composite Images"
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#image-enhancement",
-    "href": "lesson/Lesson08/lesson08.html#image-enhancement",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Image enhancement",
-    "text": "Image enhancement\n\nEnhancements are used to make it easier for visual interpretation and understanding of imagery. The advantage of digital imagery is that it allows us to manipulate the digital pixel values in an image.\nCommon practices include\n\ncontrast enhancement,\nspatial filtering and\ndensity slicing."
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#spatial-filtering",
-    "href": "lesson/Lesson08/lesson08.html#spatial-filtering",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Spatial Filtering",
-    "text": "Spatial Filtering\n\nSpatial filtering encompasses another set of digital processing functions which are used to enhance the appearance of an image.\nSpatial filters are designed to highlight or suppress specific features in an image based on their spatial frequency.\nSpatial frequency is related to the concept of image texture,\nA common filtering procedure involves moving a ‘window’ of a few pixels in dimension (e.g. 3x3, 5x5, etc.) over each pixel in the image, applying a mathematical calculation using the pixel values under that window, and replacing the central pixel with the new value."
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#ratio",
-    "href": "lesson/Lesson08/lesson08.html#ratio",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Ratio",
-    "text": "Ratio"
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#band-combinations-ratios-and-indices",
-    "href": "lesson/Lesson08/lesson08.html#band-combinations-ratios-and-indices",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Band Combinations, Ratios and Indices",
-    "text": "Band Combinations, Ratios and Indices\n\nNormalized Difference Vegetation Index (NDVI)\nNormalized Difference Built-up Index (NDBI)"
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#colour-composite-images",
-    "href": "lesson/Lesson08/lesson08.html#colour-composite-images",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Colour Composite Images",
-    "text": "Colour Composite Images\n\n\nIn displaying a colour composite image, three primary colours (red, green and blue) are used. When these three colours are combined in various proportions, they produce different colours in the visible spectrum. Associating each spectral band (not necessarily a visible band) to a separate primary colour results in a colour composite image."
-  },
-  {
-    "objectID": "lesson/Lesson08/lesson08.html#slicing",
-    "href": "lesson/Lesson08/lesson08.html#slicing",
-    "title": "Lesson 8: Fundamentals of Remote Sensing",
-    "section": "Slicing",
-    "text": "Slicing\nDensity slicing converts the continuous gray tone range into a series of density intervals marked by a separate color or symbol to represent different features."
-  },
-  {
-    "objectID": "lesson/Lesson09/lesson09.html#content",
-    "href": "lesson/Lesson09/lesson09.html#content",
-    "title": "Lesson 9: Urban Network Analysis with GIS",
-    "section": "Content",
-    "text": "Content\n\nWhy analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
-  },
-  {
-    "objectID": "lesson/Lesson09/lesson09.html#location-question",
-    "href": "lesson/Lesson09/lesson09.html#location-question",
-    "title": "Lesson 9: Urban Network Analysis with GIS",
-    "section": "Location question",
-    "text": "Location question\n\nHow to assign the eldercare centres to the closest polyclinic?"
-  },
-  {
-    "objectID": "lesson/Lesson09/lesson09.html#a-network-model",
-    "href": "lesson/Lesson09/lesson09.html#a-network-model",
-    "title": "Lesson 9: Urban Network Analysis with GIS",
-    "section": "A Network Model",
-    "text": "A Network Model\n\nA link refers to a linear segment defined by two end points. Also called edges.\nA node refers to an end point of a link."
-  },
-  {
-    "objectID": "lesson/Lesson09/lesson09.html#poor-man-network-data-source",
-    "href": "lesson/Lesson09/lesson09.html#poor-man-network-data-source",
-    "title": "Lesson 9: Urban Network Analysis with GIS",
-    "section": "Poor man network data source",
-    "text": "Poor man network data source\nBulk extract at Geofabrik free download server."
-  },
-  {
-    "objectID": "lesson/Lesson09/lesson09.html#shortest-path-analysis",
-    "href": "lesson/Lesson09/lesson09.html#shortest-path-analysis",
-    "title": "Lesson 9: Urban Network Analysis with GIS",
-    "section": "Shortest Path Analysis",
-    "text": "Shortest Path Analysis\nShortest path analysis finds the path with the minimum cumulative impedance between nodes on a network. The path may connect just two nodes an origin and a destination or have specific stops between the nodes."
-  },
-  {
-    "objectID": "lesson/Lesson09/lesson09.html#fastest-path",
-    "href": "lesson/Lesson09/lesson09.html#fastest-path",
-    "title": "Lesson 9: Urban Network Analysis with GIS",
-    "section": "Fastest Path",
-    "text": "Fastest Path\n\nFastest paths are based on time and you can use any measure of time you choose (seconds, minutes, hours, etc.)."
-  },
-  {
-    "objectID": "lesson/Lesson09/lesson09.html#travelling-salesman-problem",
-    "href": "lesson/Lesson09/lesson09.html#travelling-salesman-problem",
-    "title": "Lesson 9: Urban Network Analysis with GIS",
-    "section": "Travelling salesman problem",
-    "text": "Travelling salesman problem\n\nA route can visit many stops in a network. The origin can also be the destination, as the warehouse is in this example delivery route."
-  },
-  {
-    "objectID": "lesson/Lesson09/lesson09.html#beyond-network-model",
-    "href": "lesson/Lesson09/lesson09.html#beyond-network-model",
-    "title": "Lesson 9: Urban Network Analysis with GIS",
-    "section": "Beyond network model",
-    "text": "Beyond network model\nAccessibility modelling.\n\nSource: https://developers.route360.net/index.html"
-  },
-  {
-    "objectID": "lesson/Lesson09/lesson09.html#qgis-network-analysis-support",
-    "href": "lesson/Lesson09/lesson09.html#qgis-network-analysis-support",
-    "title": "Lesson 9: Urban Network Analysis with GIS",
-    "section": "QGIS Network Analysis Support",
-    "text": "QGIS Network Analysis Support\n\n\n\nBuild in\n\n\n\n\nPlug-in\n\n\nFor more detail, visit this link"
   }
 ]
