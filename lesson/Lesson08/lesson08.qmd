@@ -264,8 +264,6 @@ Sentinal data can be acquired from various source. The most popular source is [S
 
 ![](img/image24.jpg)
 
-
-
 ## Fundamentals of Image Processing
 
 -   Image Enhancement
