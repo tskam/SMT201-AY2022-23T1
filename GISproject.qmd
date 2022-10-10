@@ -32,7 +32,6 @@ Theme 2: Geography of Accessibility with GIS-based Network Analysis
 
 -   Sub-theme 2: Catchment areas study of the Thomson-East Coast MRT Line Stage 4.
 
-
 ## Scope of Work
 
 The project will comprise of, but not limited to the followings steps:
@@ -67,9 +66,20 @@ In small group projects, each person will be graded individually. A good group p
 
 ## Townhall Poster Presentation
 
-A townhall presentation will be held on 14th November 2022 (Monday) between 11.30am - 2.30pm.  The venue will be at SMU Basement Concourse.
+A townhall presentation will be held on 14th November 2022 (Monday) between 11.30am - 2.30pm. The venue will be at SMU Basement Concourse.
 
 ## Deliverables
+
+### Minutes of Meeting
+
+To formulate the project proposal, you are required to have at least one round of brain-storming session and take down minutes of the discussion, disagreements, and consensus made within the team in the form of **Minutes of Meeting**. At least three differences should be included and a clear documentation on how the final decisions were reached must be provided. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.
+
+The following links provided useful guides on
+how to prepare the minutes of a meeting:
+
+1. [How to Write Meeting Minutes: Examples + Best Practices](https://fellow.app/blog/meetings/meeting-minutes-example-and-best-practices/)
+
+2. [How To Write Effective Meeting Minutes withTemplates and Samples](https://www.wildapricot.com/blog/how-to-write-meeting-minutes)
 
 ### Project Website
 
@@ -79,7 +89,7 @@ At the beginning of the project, project teams are required to create a project 
 
 #### Project Website
 
-Each project team are required to create the project website by using either [Quarto](https://quarto.org/docs/tools/rstudio.html). It will be disseminated by using  [Netfity](https://www.netlify.com/) web server.
+Each project team are required to create the project website by using either [Quarto](https://quarto.org/docs/tools/rstudio.html). It will be disseminated by using [Netfity](https://www.netlify.com/) web server.
 
 -   The title of your project,
 -   A short description of not more than 350 word summarising the motivation, objectives, methodology and key findings, and
@@ -149,15 +159,10 @@ Note that the following examples are for references purposes. You are urged to u
 -   [AY2019-2020 Term 1 Project](https://wiki.smu.edu.sg/1920t1smt201/Project_Groups)
     -   [G1-Group3 Innogol](https://wiki.smu.edu.sg/1920t1smt201/G1-Group03)
     -   [G2-Group15 Nothing is 台南](https://wiki.smu.edu.sg/1920t1smt201/G2-Group15_About)
-    
--  AY2020-2021 Term 1
-   -   [Group 2](https://smt201-g1.netlify.app/)
-   -   [Group 4](https://smt201group4project.netlify.app/)
-   
+-   AY2020-2021 Term 1
+    -   [Group 2](https://smt201-g1.netlify.app/)
+    -   [Group 4](https://smt201group4project.netlify.app/)
+
 ## Q&A
 
 ## Hard Work
-
-
-
-
