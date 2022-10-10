@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   Lesson slides in [html](../lesson/Lesson09/Lesson09.html) and [pdf](../lesson/Lesson09/Lesson09.pdf) formats.
 
--   Hands-on Exercise 9 in [html](../Hands-on_Ex/Hands-on_Ex09/Hands-on_Ex09.html) and [pdf](../Hands-on_Ex/Hands-on_Ex09/Hands-on_Ex09.pdf) formats.
+-   Hands-on Exercise 9 in [html](https://gis4urbplan.netlify.app/hands-on_ex11) format.
 
 ## References
 
