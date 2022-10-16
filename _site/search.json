@@ -1118,5 +1118,12 @@
     "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
     "section": "Submission Date",
     "text": "Submission Date\nThe take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.\nDue Date: 16th October 2022, 11:59pm (midnight)."
+  },
+  {
+    "objectID": "GISproject.html#getting-started-with-quarto",
+    "href": "GISproject.html#getting-started-with-quarto",
+    "title": "GIS Project",
+    "section": "Getting Started with Quarto",
+    "text": "Getting Started with Quarto\n\nDownloading and installing the latest version of R\n\nFor Windows users, use this link\nFor Mac OS users, use this link\n\nDownloading and installing the latest version of RStudio (if you have yet to do so!)\n\nVisit this link.\n\nDownloading and installing Quarto (if you have yet to do so!)\n\nVisit this link to download Quarto installer.\n\nInstalling git\n\nDownload git at this link and install in your computer.\n\nRegister with github\n\nvisit this link and create a github account.\n\nConnecting git with RStudio\n\nVisit this link for instruction.\n\nSigning up at Netlify\n\nvisit this link and signing up with Netlify.\n\nInstalling usethis R package with RStudio.\nSolving git(GitHub) token issue (optional)\n\nRefer to this article if encountered git and gitHub credential issue when you need to connect a local repo with GitHub."
   }
 ]

@@ -40,6 +40,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   [QGIS Network Analysis Capabilities](https://www.giscourse.com/qgis-network-analysis-capabilities/)
 
--   [6.3. Lesson: Network Analysis](https://docs.qgis.org/3.16/en/docs/training_manual/vector_analysis/network_analysis.html) of QGIS Training Manual.
+-   [6.3. Lesson: Network Analysis](https://docs.qgis.org/3.22/en/docs/training_manual/vector_analysis/network_analysis.html) of QGIS Training Manual.
 
 -   [About QNEAT3](https://root676.github.io/)

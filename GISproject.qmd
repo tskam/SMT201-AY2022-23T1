@@ -74,12 +74,11 @@ A townhall presentation will be held on 14th November 2022 (Monday) between 11.3
 
 To formulate the project proposal, you are required to have at least one round of brain-storming session and take down minutes of the discussion, disagreements, and consensus made within the team in the form of **Minutes of Meeting**. At least three differences should be included and a clear documentation on how the final decisions were reached must be provided. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.
 
-The following links provided useful guides on
-how to prepare the minutes of a meeting:
+The following links provided useful guides on how to prepare the minutes of a meeting:
 
-1. [How to Write Meeting Minutes: Examples + Best Practices](https://fellow.app/blog/meetings/meeting-minutes-example-and-best-practices/)
+1.  [How to Write Meeting Minutes: Examples + Best Practices](https://fellow.app/blog/meetings/meeting-minutes-example-and-best-practices/)
 
-2. [How To Write Effective Meeting Minutes withTemplates and Samples](https://www.wildapricot.com/blog/how-to-write-meeting-minutes)
+2.  [How To Write Effective Meeting Minutes withTemplates and Samples](https://www.wildapricot.com/blog/how-to-write-meeting-minutes)
 
 ### Project Website
 
@@ -162,6 +161,28 @@ Note that the following examples are for references purposes. You are urged to u
 -   AY2020-2021 Term 1
     -   [Group 2](https://smt201-g1.netlify.app/)
     -   [Group 4](https://smt201group4project.netlify.app/)
+
+## Getting Started with Quarto
+
+-   Downloading and installing the latest version of R
+    -   For Windows users, use this [link](https://cran.r-project.org/bin/windows/base/)
+
+    -   For Mac OS users, use this [link](https://cran.r-project.org/bin/macosx/)
+-   Downloading and installing the latest version of RStudio (if you have yet to do so!)
+    -   Visit this [link](https://www.rstudio.com/products/rstudio/download/#download).
+-   Downloading and installing Quarto (if you have yet to do so!)
+    -   Visit this [link](https://quarto.org/docs/get-started/) to download Quarto installer.
+-   Installing git
+    -   Download git at this [link](https://git-scm.com/downloads) and install in your computer.
+-   Register with github
+    -   visit this [link](https://github.com/) and create a github account.
+-   Connecting git with RStudio
+    -   Visit this [link](https://r4dsa.netlify.app/posts/2021-05-22-git-in-rstudio/) for instruction.
+-   Signing up at Netlify
+    -   visit this [link](https://www.netlify.com/) and signing up with Netlify.
+-   Installing [**usethis**](https://usethis.r-lib.org/) R package with RStudio.
+-   Solving git(GitHub) token issue (optional)
+    -   Refer to this [article](https://r4dsa.netlify.app/posts/2021-05-23-git-token/) if encountered git and gitHub credential issue when you need to connect a local repo with GitHub.
 
 ## Q&A
 
