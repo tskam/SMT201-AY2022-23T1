@@ -11,7 +11,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Content
 
--   Urban Land-use/Land Cover Change Detection: Principles and Methods
+-   Multi-spectral Classification for Urban Land Use/Land Cover (LULC)
+  -   Unsupervised classification
+  -   Supervised classification
+-   Urban LULC Change Detection 
 -   Urban Features Extraction techniques
 
 ## Lesson Slides and Hands-on Notes
