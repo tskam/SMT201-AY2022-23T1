@@ -32,11 +32,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   Praveen Kumar Mallupattu\* and Jayarama Reddy Sreenivasula Reddy (2013) [*Analysis of Land Use/Land Cover Changes Using Remote Sensing Data and GIS at an Urban Area, Tirupati, India*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3679719/), **The Scientific World Journal** (online)
 
+-   Ali Alzahrani and Awos Kanan (2022) "[*Machine Learning Approaches for Developing Land Cover Mapping*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9262539/)" **Applied Bionics and Biomechanics**, Volume 2022, 8 pages.
+
+
 ### QGIS Methods
 
 -   [Landcover change detection using QGIS. Land use landcover change detection](https://www.youtube.com/watch?v=4XKgVwrztXY)
 
 -   [Step-by-Step: Land Cover Change Detection through Supervised Classification](https://www.un-spider.org/advisory-support/recommended-practices/recommended-practice-land-cover-change/step-by-step).
+
+-   [Land Cover Classification using the Semi-Automatic Classification Plugin version 7](https://www.youtube.com/watch?v=Ceyhm3DlZNY)
+
+-   [Unsupervised Classification using the Semi-Automatic Classification Plugin version 7](https://www.youtube.com/watch?v=kRPNjNvrLPU)
 
 ### QGIS Plugin
 
