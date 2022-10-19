@@ -11,10 +11,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Content
 
--   Multi-spectral Classification for Urban Land Use/Land Cover (LULC)
-  -   Unsupervised classification
-  -   Supervised classification
--   Urban LULC Change Detection 
+-   Multi-spectral Classification for Urban Land Use/Land Cover (LULC) Mapping
+    -   Unsupervised classification
+
+    -   Supervised classification
+-   Urban LULC Change Detection
 -   Urban Features Extraction techniques
 
 ## Lesson Slides and Hands-on Notes
@@ -48,6 +49,16 @@ knitr::opts_chunk$set(echo = FALSE)
 -   [Land Cover Classification using the Semi-Automatic Classification Plugin version 7](https://www.youtube.com/watch?v=Ceyhm3DlZNY)
 
 -   [Unsupervised Classification using the Semi-Automatic Classification Plugin version 7](https://www.youtube.com/watch?v=kRPNjNvrLPU)
+
+-   [Random Forest Classification using the Semi-Automatic Classification Plugin for QGIS](https://www.youtube.com/watch?v=FtHsGlLiNaw)
+
+-   [Image Conversion to Reflectance using the Semi-Automatic Classification Plugin version 7](https://www.youtube.com/watch?v=ts5VXnmoIiY)
+
+-   [Object-based Image classification in QGIS || OBIA !! || A complete Tutorial](https://www.youtube.com/watch?v=fX2UpOwoYLk)
+
+-   [Accuracy Assesment In Quantum GIS || A complete Tutorial](https://www.youtube.com/watch?v=RDRwPEujX04)
+
+-   [Calculating Land surface temperature using Landsat 8 Imagery || QGIS Tutorial](https://www.youtube.com/watch?v=OGX8oVgS-QE)
 
 ### QGIS Plugin
 
