@@ -69,3 +69,5 @@ knitr::opts_chunk$set(echo = FALSE)
 -   [Terminus](https://github.com/ikotarid/Terminus)
 -   [Tree Density Calculator](https://treedensitycalculator.readthedocs.io/en/latest/#)
 -   [Urban Green SARCA](https://www.enki.cz/en/)
+-   [RS&GIS](https://github.com/PrathamGitHub/NITK_RS-GIS_17)
+
