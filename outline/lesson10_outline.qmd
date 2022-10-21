@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   Lesson slides in [html](../lesson/Lesson10/Lesson10.html) format.
 
--   Hands-on Exercise 10 in [html](../Hands-on_Ex/Hands-on_Ex10/Hands-on_Ex10.html) and [pdf](../Hands-on_Ex/Hands-on_Ex10/Hands-on_Ex10.pdf) formats.
+-   Hands-on Exercise 10 in [html](https://qgis4rdpa.netlify.app/hands-on_04) format.
 
 ## References
 
@@ -54,6 +54,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   [Image Conversion to Reflectance using the Semi-Automatic Classification Plugin version 7](https://www.youtube.com/watch?v=ts5VXnmoIiY)
 
+-   [SCP Tips: Import ROIs from shapefile](https://www.youtube.com/watch?v=QinnaV9On3k&t=14s)
+
+-   [SCP Tips: ROI Pointer](https://www.youtube.com/watch?v=So04gNzDC9Y&list=PL7mCX6pQ2k2MeXOKoqO4sfV-6_tHDfhYh&index=5)
+
 -   [Object-based Image classification in QGIS || OBIA !! || A complete Tutorial](https://www.youtube.com/watch?v=fX2UpOwoYLk)
 
 -   [Accuracy Assesment In Quantum GIS || A complete Tutorial](https://www.youtube.com/watch?v=RDRwPEujX04)
@@ -68,6 +72,5 @@ knitr::opts_chunk$set(echo = FALSE)
 -   [Semi-Automatic Classification Plugin (SCP) for QGIS](https://fromgistors.blogspot.com/p/semi-automatic-classification-plugin.html)
 -   [Terminus](https://github.com/ikotarid/Terminus)
 -   [Tree Density Calculator](https://treedensitycalculator.readthedocs.io/en/latest/#)
--   [Urban Green SARCA](https://www.enki.cz/en/)
 -   [RS&GIS](https://github.com/PrathamGitHub/NITK_RS-GIS_17)
 
