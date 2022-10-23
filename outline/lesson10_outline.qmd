@@ -58,19 +58,22 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   [SCP Tips: ROI Pointer](https://www.youtube.com/watch?v=So04gNzDC9Y&list=PL7mCX6pQ2k2MeXOKoqO4sfV-6_tHDfhYh&index=5)
 
--   [Object-based Image classification in QGIS || OBIA !! || A complete Tutorial](https://www.youtube.com/watch?v=fX2UpOwoYLk)
+-   [Object-based Image classification in QGIS \|\| OBIA !! \|\| A complete Tutorial](https://www.youtube.com/watch?v=fX2UpOwoYLk)
 
--   [Accuracy Assesment In Quantum GIS || A complete Tutorial](https://www.youtube.com/watch?v=RDRwPEujX04)
+-   [Accuracy Assesment In Quantum GIS \|\| A complete Tutorial](https://www.youtube.com/watch?v=RDRwPEujX04)
 
--   [Calculating Land surface temperature using Landsat 8 Imagery || QGIS Tutorial](https://www.youtube.com/watch?v=OGX8oVgS-QE)
+-   [Calculating Land surface temperature using Landsat 8 Imagery \|\| QGIS Tutorial](https://www.youtube.com/watch?v=OGX8oVgS-QE)
 
 ### QGIS Plugin
 
+-   [Semi-Automatic Classification Plugin (SCP) for QGIS](https://fromgistors.blogspot.com/p/semi-automatic-classification-plugin.html)
+-   [Orfeo toolbox Plugin for QGIS](https://www.orfeo-toolbox.org/CookBook/index.html)
+-   [OTB Plugin installation](http://wiki.awf.forst.uni-goettingen.de/wiki/index.php/OTB_Plugin_installation)
+-   [dzetsaka: Classification tool](https://github.com/nkarasiak/dzetsaka) supports Random Forest, KNN and SVM for supervised classification of multi-spectral satellite data.
+-   [Neural Network MLPClassifier](https://mlp-image-classifier.readthedocs.io/en/latest/index.html) provides a supervised classification method for multi-band passive optical remote sensing data based on the Neural Network MLPClassifier by scikit-learn.
 -   [GEOSYS Plugin](https://github.com/GEOSYS/qgis-plugin)
 -   [PCA4CD - PCA for change detection](https://github.com/SMByC/PCA4CD)
 -   [buildseg: QGIS plugin for building extraction](https://github.com/deepbands/buildseg)
--   [Semi-Automatic Classification Plugin (SCP) for QGIS](https://fromgistors.blogspot.com/p/semi-automatic-classification-plugin.html)
 -   [Terminus](https://github.com/ikotarid/Terminus)
 -   [Tree Density Calculator](https://treedensitycalculator.readthedocs.io/en/latest/#)
 -   [RS&GIS](https://github.com/PrathamGitHub/NITK_RS-GIS_17)
-
