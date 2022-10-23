@@ -63,6 +63,13 @@
     "text": "Sample Projects\nNote that the following examples are for references purposes. You are urged to use your own creativity and innovation to design the application.\n\nAY2019-2020 Term 1 Project\n\nG1-Group3 Innogol\nG2-Group15 Nothing is 台南\n\nAY2020-2021 Term 1\n\nGroup 2\nGroup 4"
   },
   {
+    "objectID": "GISproject.html#getting-started-with-quarto",
+    "href": "GISproject.html#getting-started-with-quarto",
+    "title": "GIS Project",
+    "section": "Getting Started with Quarto",
+    "text": "Getting Started with Quarto\n\nDownloading and installing the latest version of R\n\nFor Windows users, use this link\nFor Mac OS users, use this link\n\nDownloading and installing the latest version of RStudio (if you have yet to do so!)\n\nVisit this link.\n\nDownloading and installing Quarto (if you have yet to do so!)\n\nVisit this link to download Quarto installer.\n\nInstalling git\n\nDownload git at this link and install in your computer.\n\nRegister with github\n\nvisit this link and create a github account.\n\nConnecting git with RStudio\n\nVisit this link for instruction.\n\nSigning up at Netlify\n\nvisit this link and signing up with Netlify.\n\nInstalling usethis R package with RStudio.\nSolving git(GitHub) token issue (optional)\n\nRefer to this article if encountered git and gitHub credential issue when you need to connect a local repo with GitHub.\n\n\n\nUseful link to learn more about Quarto\n\nExploring RStudio’s Visual Markdown Editor\nHTML Theming\nMarkdown Basics\nQuarto Websites"
+  },
+  {
     "objectID": "GISproject.html#qa",
     "href": "GISproject.html#qa",
     "title": "GIS Project",
@@ -623,6 +630,34 @@
     "text": "QGIS Network Analysis Support\n\n\n\nBuild in\n\n\n\n\nPlug-in\n\n\nFor more detail, visit this link"
   },
   {
+    "objectID": "lesson/Lesson10/lesson10.html#content",
+    "href": "lesson/Lesson10/lesson10.html#content",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
+    "section": "Content",
+    "text": "Content\n\nDigital Image Analysis\nMulti-spectral Classification\nImage change detection"
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#multi-spectral-classification",
+    "href": "lesson/Lesson10/lesson10.html#multi-spectral-classification",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
+    "section": "Multi-spectral Classification",
+    "text": "Multi-spectral Classification\n\n\nThe process of assigning individual pixels of an image to categories, generally on the basis of spectral reflectance characteristics. Two kinds of multi-spectral classifications.\nUnsupervised Classification: Digital information extraction technique in which the computer assigns pixels to categories with no instructions from the operator. Also known as Isodata Classification.\nSupervised Classification: Digital-information extraction technique in which the operator provides training-site information that the computer uses to assign pixels to categories"
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#unsupervised-classification",
+    "href": "lesson/Lesson10/lesson10.html#unsupervised-classification",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
+    "section": "Unsupervised Classification",
+    "text": "Unsupervised Classification\n\n\n\nThe goal of unsupervised classification is to automatically segregate pixels of a remote sensing image into groups of similar spectral character.\nClassification is done using one of several statistical routines generally called “clustering” where classes of pixels are created based on their shared spectral signatures.\nClusters are split and /or merged until further clustering doesn’t improve the explanation of the variation in the scene."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#supervised-classification",
+    "href": "lesson/Lesson10/lesson10.html#supervised-classification",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
+    "section": "Supervised Classification",
+    "text": "Supervised Classification\n\n\nSupervised training is closely controlled by the analyst. In this process, you select pixels that represent patterns or land cover features that you recognize, or that you can identify with help from other sources, such as aerial photos, ground truth data, or maps. Knowledge of the data, and of the classes desired, is required before classification.\nBy identifying patterns, you can instruct the computer system to identify pixels with similar characteristics. If the classification is accurate, the resulting classes represent the categories within the data that you originally identified."
+  },
+  {
     "objectID": "lesson/Lesson12/lesson12.html#content",
     "href": "lesson/Lesson12/lesson12.html#content",
     "title": "Lesson 12: Sharing Geographical Information with WebGIS",
@@ -669,7 +704,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n15/8/2022\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n22/8/2022\nLesson 2: The Evil is in The Data\n\n\n\n3\n29/8/2022\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n5/9/2022\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n12/9/2022\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n19/9/2022\nLesson 6: The Science of Mapthematics\n\n\n\n7\n26/9/2022\nLesson 7: GIS-based Multi-Criteria Decision Analysis\n\n\n\n8\n3/10/2022\nMid-term break\n\n\n\n9\n10/10/2022\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/10/2022\nLesson 9: Urban Network Analysis with GIS\n\n\n\n11\n24/10/2022\nLesson 10: Applied Image Analysis for the Urban Environment\n\n\n\n12\n31/10/2022\nLesson 11: Urban 3D Modelling and Visualisation with GIS\n\n\n\n13\n7/11/2022\nLesson 12: Sharing Geographical Information\n\n\n\n14\n14/11/2022\nTownhall Presentation"
+    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n15/8/2022\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n22/8/2022\nLesson 2: The Evil is in The Data\n\n\n\n3\n29/8/2022\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n5/9/2022\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n12/9/2022\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n19/9/2022\nLesson 6: The Science of Mapthematics\n\n\n\n7\n26/9/2022\nLesson 7: GIS-based Multi-Criteria Decision Analysis\n\n\n\n8\n3/10/2022\nMid-term break\n\n\n\n9\n10/10/2022\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/10/2022\nLesson 9: Urban Network Analysis with GIS\n\n\n\n11\n24/10/2022\nLesson 10: Applied Image Analysis for the Urban Environment\n\n\n\n12\n31/10/2022\nLesson 11: Sharing Geographical Information\n\n\n\n13\n7/11/2022\nLesson 12: Urban 3D Modelling and Visualisation with GIS\n\n\n\n14\n14/11/2022\nTownhall Presentation"
   },
   {
     "objectID": "outline/lesson01_outline.html",
@@ -949,7 +984,7 @@
     "href": "outline/lesson09_outline.html#references",
     "title": "Lesson 9: Urban Network Analysis with GIS",
     "section": "References",
-    "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\n\n\nQGIS Methods\n\nQGIS Network Analysis Capabilities\n6.3. Lesson: Network Analysis of QGIS Training Manual.\nAbout QNEAT3"
+    "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\nLee, Jin ; Lubienski, Christopher (2017) “The Impact of School Closures on Equity of Access in Chicago”, Education and Urban Society, Vol.49 (1), p.53-80.\nJan Burdziej (2017) “Using hexagonal grids and network analysis for spatial accessibility assessment in urban environments – a case study of public amenities in Toruń”, MISCELLANEA GEOGRAPHICA – REGIONAL STUDIES ON DEVELOPMENT, Vol. 23, No. 2.\nRizwan Shahid, et al. (2009) “Comparison of distance measures in spatial analytical modeling for health service planning”, BMC Health Services Research, p1-14.\n\n\nQGIS Methods\n\nQGIS Network Analysis Capabilities\n6.3. Lesson: Network Analysis of QGIS Training Manual.\nAbout QNEAT3"
   },
   {
     "objectID": "outline/lesson10_outline.html",
@@ -975,21 +1010,21 @@
   {
     "objectID": "outline/lesson11_outline.html",
     "href": "outline/lesson11_outline.html",
-    "title": "Lesson 11: Urban 3D Modelling and Visualisation with GIS",
+    "title": "Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping",
     "section": "",
     "text": "Motivation of GeoWeb Mapping\nGetting to Know GeoWeb Mapping Technology\n\nGeoWeb mapping system architecture\nGeoWeb mapping protocol\nGeoWeb mapping systems\n\nEvolution of GeoWeb Mapping\n2nd Generation GeoWeb Mapping Technology\n\nOpenLayers\nLeaflet"
   },
   {
     "objectID": "outline/lesson11_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson11_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 11: Urban 3D Modelling and Visualisation with GIS",
+    "title": "Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping",
     "section": "Lesson Slides and Hands-on Notes",
     "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 11 in html and pdf formats."
   },
   {
     "objectID": "outline/lesson11_outline.html#references",
     "href": "outline/lesson11_outline.html#references",
-    "title": "Lesson 11: Urban 3D Modelling and Visualisation with GIS",
+    "title": "Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping",
     "section": "References",
     "text": "References\n\nConcepts and Methods\n\nWeb mapping\n7 great alternatives to the Google Maps API\nEssential Resources: Mapping applications, frameworks and libraries\nResearch Explores How to Keep Up With Changing Web Mapping Technology\n\n\n\nApplications\n\n\nQGIS Methods\n\nqgis2web plugin"
   },
@@ -1118,40 +1153,5 @@
     "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
     "section": "Submission Date",
     "text": "Submission Date\nThe take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.\nDue Date: 16th October 2022, 11:59pm (midnight)."
-  },
-  {
-    "objectID": "GISproject.html#getting-started-with-quarto",
-    "href": "GISproject.html#getting-started-with-quarto",
-    "title": "GIS Project",
-    "section": "Getting Started with Quarto",
-    "text": "Getting Started with Quarto\n\nDownloading and installing the latest version of R\n\nFor Windows users, use this link\nFor Mac OS users, use this link\n\nDownloading and installing the latest version of RStudio (if you have yet to do so!)\n\nVisit this link.\n\nDownloading and installing Quarto (if you have yet to do so!)\n\nVisit this link to download Quarto installer.\n\nInstalling git\n\nDownload git at this link and install in your computer.\n\nRegister with github\n\nvisit this link and create a github account.\n\nConnecting git with RStudio\n\nVisit this link for instruction.\n\nSigning up at Netlify\n\nvisit this link and signing up with Netlify.\n\nInstalling usethis R package with RStudio.\nSolving git(GitHub) token issue (optional)\n\nRefer to this article if encountered git and gitHub credential issue when you need to connect a local repo with GitHub.\n\n\n\nUseful link to learn more about Quarto\n\nExploring RStudio’s Visual Markdown Editor\nHTML Theming\nMarkdown Basics\nQuarto Websites"
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#content",
-    "href": "lesson/Lesson10/lesson10.html#content",
-    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
-    "section": "Content",
-    "text": "Content\n\nDigital Image Analysis\nMulti-spectral Classification\nImage change detection"
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#multi-spectral-classification",
-    "href": "lesson/Lesson10/lesson10.html#multi-spectral-classification",
-    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
-    "section": "Multi-spectral Classification",
-    "text": "Multi-spectral Classification\n\n\nThe process of assigning individual pixels of an image to categories, generally on the basis of spectral reflectance characteristics. Two kinds of multi-spectral classifications.\nUnsupervised Classification: Digital information extraction technique in which the computer assigns pixels to categories with no instructions from the operator. Also known as Isodata Classification.\nSupervised Classification: Digital-information extraction technique in which the operator provides training-site information that the computer uses to assign pixels to categories"
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#unsupervised-classification",
-    "href": "lesson/Lesson10/lesson10.html#unsupervised-classification",
-    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
-    "section": "Unsupervised Classification",
-    "text": "Unsupervised Classification\n\n\n\nThe goal of unsupervised classification is to automatically segregate pixels of a remote sensing image into groups of similar spectral character.\nClassification is done using one of several statistical routines generally called “clustering” where classes of pixels are created based on their shared spectral signatures.\nClusters are split and /or merged until further clustering doesn’t improve the explanation of the variation in the scene."
-  },
-  {
-    "objectID": "lesson/Lesson10/lesson10.html#supervised-classification",
-    "href": "lesson/Lesson10/lesson10.html#supervised-classification",
-    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
-    "section": "Supervised Classification",
-    "text": "Supervised Classification\n\n\nSupervised training is closely controlled by the analyst. In this process, you select pixels that represent patterns or land cover features that you recognize, or that you can identify with help from other sources, such as aerial photos, ground truth data, or maps. Knowledge of the data, and of the classes desired, is required before classification.\nBy identifying patterns, you can instruct the computer system to identify pixels with similar characteristics. If the classification is accurate, the resulting classes represent the categories within the data that you originally identified."
   }
 ]

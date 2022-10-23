@@ -36,6 +36,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Applications
 
+Lee, Jin ; Lubienski, Christopher (2017)
+["The Impact of School Closures on Equity of Access in Chicago"](https://journals-sagepub-com.libproxy.smu.edu.sg/doi/full/10.1177/0013124516630601), *Education and Urban Society*, Vol.49 (1), p.53-80.
+
+Jan Burdziej (2017) ["Using hexagonal grids and network analysis for spatial accessibility assessment in urban environments – a case study of public amenities in Toruń"](https://www.researchgate.net/publication/330850358_Using_hexagonal_grids_and_network_analysis_for_spatial_accessibility_assessment_in_urban_environments_-_A_case_study_of_public_amenities_in_Torun), *MISCELLANEA GEOGRAPHICA – REGIONAL STUDIES ON DEVELOPMENT*, Vol. 23, No. 2.
+
+Rizwan Shahid, et al. (2009) ["Comparison of distance measures in spatial analytical modeling for health service planning"](https://bmchealthservres.biomedcentral.com/articles/10.1186/1472-6963-9-200), *BMC Health Services Research*, p1-14.  
+
 ### QGIS Methods
 
 -   [QGIS Network Analysis Capabilities](https://www.giscourse.com/qgis-network-analysis-capabilities/)
