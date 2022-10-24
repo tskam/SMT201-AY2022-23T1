@@ -634,7 +634,7 @@
     "href": "lesson/Lesson10/lesson10.html#content",
     "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
     "section": "Content",
-    "text": "Content\n\nDigital Image Analysis\nMulti-spectral Classification\nImage change detection"
+    "text": "Content\n\nUrban Land Cover Classification\nUnsupervised Classification Methods\nSupervised Classification Process\nClassification Accuracy Metrics"
   },
   {
     "objectID": "lesson/Lesson10/lesson10.html#multi-spectral-classification",
@@ -1153,5 +1153,33 @@
     "title": "Take-home Exercise 2: Urban Applications of Raster-based GIS Analysis",
     "section": "Submission Date",
     "text": "Submission Date\nThe take-home exercise deliverable must be uploaded on eLearn by the submission deadline stated below.\nDue Date: 16th October 2022, 11:59pm (midnight)."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#urban-land-cover-classification-from-satellite-remote-sensing-data",
+    "href": "lesson/Lesson10/lesson10.html#urban-land-cover-classification-from-satellite-remote-sensing-data",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
+    "section": "Urban Land Cover Classification from Satellite Remote Sensing Data",
+    "text": "Urban Land Cover Classification from Satellite Remote Sensing Data\n\n\nThe process of of assigning a pixel (or groups of pixels) of remote sensing image to an urban land cover class.\n\nUnsupervised Classification in which the computer assigns pixels to categories with no instructions from the image analyst.\nSupervised Classification in which the image analyst provides training-site information that the computer uses to assign pixels to categories."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#urban-land-cover-classification-of-satellite-remote-sensing-imagery",
+    "href": "lesson/Lesson10/lesson10.html#urban-land-cover-classification-of-satellite-remote-sensing-imagery",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
+    "section": "Urban Land Cover Classification of Satellite Remote Sensing Imagery",
+    "text": "Urban Land Cover Classification of Satellite Remote Sensing Imagery\n\n\nThe process of assigning a pixel (or groups of pixels) of remote sensing image to an urban land cover class.\n\nUnsupervised Classification in which the computer assigns pixels to categories with no instructions from the image analyst.\nSupervised Classification in which the image analyst provides training-site information that the computer uses to assign pixels to categories."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#reference",
+    "href": "lesson/Lesson10/lesson10.html#reference",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
+    "section": "Reference",
+    "text": "Reference\n\nLand Cover & Land Use\nRichards and Jia (2006) Remote Sensing Digital Image Analysis: An Introduction, Springer."
+  },
+  {
+    "objectID": "lesson/Lesson10/lesson10.html#machine-learning-random-forest",
+    "href": "lesson/Lesson10/lesson10.html#machine-learning-random-forest",
+    "title": "Lesson 10: Applied Image Analysis for the Urban Environment",
+    "section": "Machine Learning: Random Forest",
+    "text": "Machine Learning: Random Forest\n\n\n\n\nThe Random Forest (RF) algorithm (Breimann 2001) is a supervised classification algorithm. It builds upon the concept of decision trees (DT).\nThe RF relies on many self-learning decision trees (i.e. “Forest”). The idea behind using many decision trees (i.e. an ensemble) is that many base learners can come to one strong and robust decision compared to a single DT.\nDifferent from the manual (expert-based) definition of decision rules, the RF uses self-learning decision trees. These trees automatically define rules at each node based on a training dataset.\nRF seeks to minimize the heterogeneity of the two resulting subsets of the data created by the respective rule. Heterogeneity is in this case expressed as the Gini impurity index and the rule creating the least heterogeneous subsets of the data is used for the respective node."
   }
 ]

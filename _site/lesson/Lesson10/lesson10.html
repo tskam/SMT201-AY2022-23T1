@@ -323,24 +323,27 @@
   <h1 class="title">Lesson 10: Applied Image Analysis for the Urban Environment</h1>
   <p class="author">Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems</p>
   <p class="institute">School of Computing and Information Systems,<br>Singapore Management University</p>
-  <p class="date">2022-08-12 (updated: 2022-10-23)</p>
+  <p class="date">2022-08-12 (updated: 2022-10-25)</p>
 </section>
 
 <section id="content" class="slide level2">
 <h2>Content</h2>
 <ul>
-<li><p>Digital Image Analysis</p></li>
-<li><p>Multi-spectral Classification</p></li>
-<li><p>Image change detection</p></li>
+<li><p>Urban Land Cover Classification</p></li>
+<li><p>Unsupervised Classification Methods</p></li>
+<li><p>Supervised Classification Process</p></li>
+<li><p>Classification Accuracy Metrics</p></li>
 </ul>
 </section>
-<section id="multi-spectral-classification" class="slide level2">
-<h2>Multi-spectral Classification</h2>
+<section id="urban-land-cover-classification-of-satellite-remote-sensing-imagery" class="slide level2">
+<h2>Urban Land Cover Classification of Satellite Remote Sensing Imagery</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>The process of assigning individual pixels of an image to categories, generally on the basis of spectral reflectance characteristics. Two kinds of multi-spectral classifications.</p>
-<p>Unsupervised Classification: Digital information extraction technique in which the computer assigns pixels to categories with no instructions from the operator. Also known as Isodata Classification.</p>
-<p>Supervised Classification: Digital-information extraction technique in which the operator provides training-site information that the computer uses to assign pixels to categories</p>
+<p>The process of assigning a pixel (or groups of pixels) of remote sensing image to an urban land cover class.</p>
+<ul>
+<li><p><strong>Unsupervised Classification</strong> in which the computer assigns pixels to categories with no instructions from the image analyst.</p></li>
+<li><p><strong>Supervised Classification</strong> in which the image analyst provides training-site information that the computer uses to assign pixels to categories.</p></li>
+</ul>
 </div><div class="column" style="width:50%;">
 <p><img data-src="img/image1.jpg"></p>
 </div>
@@ -366,7 +369,7 @@
 <ul>
 <li>Hierarchical clustering</li>
 <li>k-means clustering</li>
-<li>Self-organised Map (SOM)</li>
+<li>ISODATA (iterative Self-Organizing Data Analysis Technique)</li>
 <li>fuzzy-clustering</li>
 </ul>
 </section>
@@ -381,7 +384,7 @@
 <li><p>The basic algorithm is very simple</p></li>
 </ul>
 
-<img data-src="img/image3.jpg" class="r-stretch"></section>
+<img data-src="img/image3.jpg" width="438" class="r-stretch"></section>
 <section class="slide level2">
 
 <h3 id="how-the-k-means-algorithm-works">How the K-means algorithm works?</h3>
@@ -435,7 +438,7 @@
 </section>
 <section class="slide level2">
 
-<h3 id="limitation-of-k-means-clustering">Limitation of k-means clustering</h3>
+<h3 id="limitation-of-k-means-and-isodata-clustering">Limitation of k-means and ISODATA clustering</h3>
 <p>k-means and ISODATA clustering work best for images with clusters that are spherical and that have the same variance. This is often not true for remote sensing images. For example, a cluster with “desert” pixels is compact/circular. A “forest” cluster, however, is usually more or less elongated/oval with a much larger variability compared to the “desert” cluster. While the “desert” cluster is usually very well detected by the k-means algorithm as one distinct cluster, the “forest” cluster is often split up into several smaller cluster. The way the “forest” cluster is split up can vary quite a bit for different starting values and is thus arbitrary.</p>
 
 <img data-src="img/image7.jpg" class="r-stretch quarto-figure-center"></section>
@@ -447,6 +450,61 @@
 <p>By identifying patterns, you can instruct the computer system to identify pixels with similar characteristics. If the classification is accurate, the resulting classes represent the categories within the data that you originally identified.</p>
 </div><div class="column" style="width:50%;">
 <p><img data-src="img/image8.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="statistical-learning-maximum-likelihood-algorithm">Statistical Learning: Maximum Likelihood Algorithm</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Maximum likelihood classification assumes that the statistics for each class in each band are normally distributed and calculates the probability that a given pixel belongs to a specific class. Unless you select a probability threshold, all pixels are classified. Each pixel is assigned to the class that has the highest probability (that is, the maximum likelihood). If the highest probability is smaller than a threshold you specify, the pixel remains unclassified.</p>
+</div><div class="column" style="width:50%;">
+<p>The discriminant function, described by Richards and Jia (2006), is calculated for every pixel as:</p>
+<p><img data-src="img/image17.jpg"></p>
+<p><img data-src="img/image17b.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="statistical-learning-minimum-distance-algorithm">Statistical Learning: Minimum Distance Algorithm</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>The minimum distance technique uses the mean vectors of each endmember and calculates the Euclidean distance from each unknown pixel to the mean vector for each class. All pixels are classified to the nearest class unless a standard deviation or distance threshold is specified, in which case some pixels may be unclassified if they do not meet the selected criteria.</p>
+</div><div class="column" style="width:50%;">
+<p>The distance is calculated for every pixel in the image, assigning the class of the spectral signature that is closer, according to the following discriminant function (adapted from Richards and Jia, 2006):</p>
+<p><img data-src="img/image18a.jpg"> <img data-src="img/image18b.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="statistical-learning-spectral-angle-mapping">Statistical Learning: Spectral Angle Mapping</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>The Spectral Angle Mapping calculates the spectral angle between spectral signatures of image pixels and training spectral signatures. The spectral angle θ is defined as (Kruse et al., 1993):</p>
+<p><img data-src="img/image19a.jpg"> <img data-src="img/image19b.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p>Therefore a pixel belongs to the class having the lowest angle, that is:</p>
+<p><img data-src="img/image20a.jpg" width="550"> <img data-src="img/image20b.jpg" width="480"> <img data-src="img/image20c.jpg" width="500"></p>
+</div>
+</div>
+</section>
+<section id="machine-learning-random-forest" class="slide level2">
+<h2>Machine Learning: Random Forest</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div style="font-size: 0.8em">
+<ul>
+<li>The Random Forest (RF) algorithm (Breimann 2001) is a supervised classification algorithm. It builds upon the concept of decision trees (DT).</li>
+<li>The RF relies on many self-learning decision trees (i.e.&nbsp;“Forest”). The idea behind using many decision trees (i.e.&nbsp;an ensemble) is that many base learners can come to one strong and robust decision compared to a single DT.</li>
+<li>Different from the manual (expert-based) definition of decision rules, the RF uses self-learning decision trees. These trees automatically define rules at each node based on a training dataset.</li>
+<li>RF seeks to minimize the heterogeneity of the two resulting subsets of the data created by the respective rule. Heterogeneity is in this case expressed as the Gini impurity index and the rule creating the least heterogeneous subsets of the data is used for the respective node.</li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image21.jpg" width="640"></p>
 </div>
 </div>
 </section>
@@ -533,6 +591,13 @@
 </ul>
 </div>
 </div>
+</section>
+<section id="reference" class="slide level2">
+<h2>Reference</h2>
+<ul>
+<li><p><a href="https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/educational-resources-applications/land-cover-biomass-mapping/land-cover-land-use/9373">Land Cover &amp; Land Use</a></p></li>
+<li><p>Richards and Jia (2006) <strong>Remote Sensing Digital Image Analysis: An Introduction</strong>, Springer.</p></li>
+</ul>
 
 <div class="footer footer-default">
 

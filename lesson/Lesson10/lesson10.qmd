@@ -13,21 +13,23 @@ editor: visual
 
 ## Content
 
--   Digital Image Analysis
+-   Urban Land Cover Classification
 
--   Multi-spectral Classification
+-   Unsupervised Classification Methods
 
--   Image change detection
+-   Supervised Classification Process
 
-## Multi-spectral Classification
+-   Classification Accuracy Metrics
+
+## Urban Land Cover Classification of Satellite Remote Sensing Imagery
 
 ::: columns
 ::: {.column width="50%"}
-The process of assigning individual pixels of an image to categories, generally on the basis of spectral reflectance characteristics. Two kinds of multi-spectral classifications.
+The process of assigning a pixel (or groups of pixels) of remote sensing image to an urban land cover class.
 
-Unsupervised Classification: Digital information extraction technique in which the computer assigns pixels to categories with no instructions from the operator. Also known as Isodata Classification.
+-   **Unsupervised Classification** in which the computer assigns pixels to categories with no instructions from the image analyst.
 
-Supervised Classification: Digital-information extraction technique in which the operator provides training-site information that the computer uses to assign pixels to categories
+-   **Supervised Classification** in which the image analyst provides training-site information that the computer uses to assign pixels to categories.
 :::
 
 ::: {.column width="50%"}
@@ -57,7 +59,7 @@ Supervised Classification: Digital-information extraction technique in which the
 
 -   Hierarchical clustering
 -   k-means clustering
--   Self-organised Map (SOM)
+-   ISODATA (iterative Self-Organizing Data Analysis Technique)
 -   fuzzy-clustering
 
 ------------------------------------------------------------------------
@@ -74,7 +76,7 @@ Supervised Classification: Digital-information extraction technique in which the
 
 -   The basic algorithm is very simple
 
-![](img/image3.jpg)
+![](img/image3.jpg){width="438"}
 
 ------------------------------------------------------------------------
 
@@ -129,7 +131,7 @@ The clustering process starts by randomly assigning objects to a number of clust
 
 ------------------------------------------------------------------------
 
-### Limitation of k-means clustering
+### Limitation of k-means and ISODATA clustering
 
 k-means and ISODATA clustering work best for images with clusters that are spherical and that have the same variance. This is often not true for remote sensing images. For example, a cluster with "desert" pixels is compact/circular. A "forest" cluster, however, is usually more or less elongated/oval with a much larger variability compared to the "desert" cluster. While the "desert" cluster is usually very well detected by the k-means algorithm as one distinct cluster, the "forest" cluster is often split up into several smaller cluster. The way the "forest" cluster is split up can vary quite a bit for different starting values and is thus arbitrary.
 
@@ -146,6 +148,77 @@ By identifying patterns, you can instruct the computer system to identify pixels
 
 ::: {.column width="50%"}
 ![](img/image8.jpg)
+:::
+:::
+
+------------------------------------------------------------------------
+
+### Statistical Learning: Maximum Likelihood Algorithm
+
+::: columns
+::: {.column width="50%"}
+Maximum likelihood classification assumes that the statistics for each class in each band are normally distributed and calculates the probability that a given pixel belongs to a specific class. Unless you select a probability threshold, all pixels are classified. Each pixel is assigned to the class that has the highest probability (that is, the maximum likelihood). If the highest probability is smaller than a threshold you specify, the pixel remains unclassified.
+:::
+
+::: {.column width="50%"}
+The discriminant function, described by Richards and Jia (2006), is calculated for every pixel as:
+
+![](img/image17.jpg)
+
+![](img/image17b.jpg)
+:::
+:::
+
+------------------------------------------------------------------------
+
+### Statistical Learning: Minimum Distance Algorithm
+
+::: columns
+::: {.column width="50%"}
+The minimum distance technique uses the mean vectors of each endmember and calculates the Euclidean distance from each unknown pixel to the mean vector for each class. All pixels are classified to the nearest class unless a standard deviation or distance threshold is specified, in which case some pixels may be unclassified if they do not meet the selected criteria.
+:::
+
+::: {.column width="50%"}
+The distance is calculated for every pixel in the image, assigning the class of the spectral signature that is closer, according to the following discriminant function (adapted from Richards and Jia, 2006):
+
+![](img/image18a.jpg) ![](img/image18b.jpg)
+:::
+:::
+
+------------------------------------------------------------------------
+
+### Statistical Learning: Spectral Angle Mapping
+
+::: columns
+::: {.column width="50%"}
+The Spectral Angle Mapping calculates the spectral angle between spectral signatures of image pixels and training spectral signatures. The spectral angle θ is defined as (Kruse et al., 1993):
+
+![](img/image19a.jpg) ![](img/image19b.jpg)
+:::
+
+::: {.column width="50%"}
+Therefore a pixel belongs to the class having the lowest angle, that is:
+
+![](img/image20a.jpg){width="550"} ![](img/image20b.jpg){width="480"} ![](img/image20c.jpg){width="500"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Machine Learning: Random Forest
+
+::: columns
+::: {.column width="50%"}
+::: {style="font-size: 0.8em"}
+-   The Random Forest (RF) algorithm (Breimann 2001) is a supervised classification algorithm. It builds upon the concept of decision trees (DT).
+-   The RF relies on many self-learning decision trees (i.e. "Forest"). The idea behind using many decision trees (i.e. an ensemble) is that many base learners can come to one strong and robust decision compared to a single DT. 
+-   Different from the manual (expert-based) definition of decision rules, the RF uses self-learning decision trees. These trees automatically define rules at each node based on a training dataset. 
+-   RF seeks to minimize the heterogeneity of the two resulting subsets of the data created by the respective rule. Heterogeneity is in this case expressed as the Gini impurity index and the rule creating the least heterogeneous subsets of the data is used for the respective node.
+:::
+:::
+
+::: {.column width="50%"}
+![](img/image21.jpg){width="640"}
 :::
 :::
 
@@ -238,3 +311,9 @@ Rating criteria of Kappa statistics
 -   The F1 score has the nice property of having values that range from 0 (worst) to 1 (best), which makes it easy to interpret.
 :::
 :::
+
+## Reference
+
+-   [Land Cover & Land Use](https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/educational-resources-applications/land-cover-biomass-mapping/land-cover-land-use/9373)
+
+-   Richards and Jia (2006) **Remote Sensing Digital Image Analysis: An Introduction**, Springer.
