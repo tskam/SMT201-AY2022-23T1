@@ -23,9 +23,12 @@ knitr::opts_chunk$set(echo = FALSE)
 -   Lesson slides in [html](../lesson/Lesson09/Lesson09.html) and [pdf](../lesson/Lesson09/Lesson09.pdf) formats.
 
 -   Hands-on Exercises:
-  -   [Shortest Path Analysis: QGIS methods](https://gis4urbplan.netlify.app/hands-on_ex09)
-  -   [Geography of Accessibility: QGIS methods](https://gis4urbplan.netlify.app/hands-on_ex10)
-  -   [Delineating Network Service Area: QGIS methods](https://gis4urbplan.netlify.app/hands-on_ex11)
+
+    -   [Shortest Path Analysis: QGIS methods](https://gis4urbplan.netlify.app/hands-on_ex09)
+
+    -   [Geography of Accessibility: QGIS methods](https://gis4urbplan.netlify.app/hands-on_ex10)
+
+    -   [Delineating Network Service Area: QGIS methods](https://gis4urbplan.netlify.app/hands-on_ex11)
 
 ## References
 
@@ -54,5 +57,3 @@ Rizwan Shahid, et al. (2009) ["Comparison of distance measures in spatial analyt
 -   [About QNEAT3](https://root676.github.io/)
 
 -   Alba KUCUKALI, et. al. (2022) ["Evaluating the pedestrian accessibility to public services using open-source geospatial data and QGIS software"](https://www.researchgate.net/publication/362883338_Evaluating_the_pedestrian_accessibility_to_public_services_using_open-source_geospatial_data_and_QGIS_software), *Nova Geodesia* 2(2):42.
-
-
