@@ -48,6 +48,8 @@ Jan Burdziej (2017) ["Using hexagonal grids and network analysis for spatial acc
 
 Rizwan Shahid, et al. (2009) ["Comparison of distance measures in spatial analytical modeling for health service planning"](https://bmchealthservres.biomedcentral.com/articles/10.1186/1472-6963-9-200), *BMC Health Services Research*, p1-14.
 
+Balasubramani, K., Gomathi, M., & Prasad, S. (2016) ["GIS-based Service Area Analysis for Optimal Planning Strategies: A Case Study of Fire Service Stations in Madurai City"](https://www.researchgate.net/publication/319644901_GIS-BASED_SERVICE_AREA_ANALYSIS_FOR_OPTIMAL_PLANNING_STRATEGIES_A_CASE_STUDY_OF_FIRE_SERVICE_STATIONS_IN_MADURAI_CITY)
+
 ### QGIS Methods
 
 -   [QGIS Network Analysis Capabilities](https://www.giscourse.com/qgis-network-analysis-capabilities/)
@@ -57,3 +59,14 @@ Rizwan Shahid, et al. (2009) ["Comparison of distance measures in spatial analyt
 -   [About QNEAT3](https://root676.github.io/)
 
 -   Alba KUCUKALI, et. al. (2022) ["Evaluating the pedestrian accessibility to public services using open-source geospatial data and QGIS software"](https://www.researchgate.net/publication/362883338_Evaluating_the_pedestrian_accessibility_to_public_services_using_open-source_geospatial_data_and_QGIS_software), *Nova Geodesia* 2(2):42.
+
+-   UNESCO (2022) [Isochrone-based catchment areas for education](https://unesdoc.unesco.org/ark:/48223/pf0000381654/PDF/381654eng.pdf.multi), **IIEP Technical Note**.
+
+-   Linden, Philip (2021)[**Improving accessibility to the bus service**](https://www.diva-portal.org/smash/get/diva2:1572503/FULLTEXT01.pdf). Master Thesis, UMEA Universitet.
+
+-   QGIS Tutorials and Tips, [Service Area Analysis using Openrouteservice(QGIS3)](https://www.qgistutorials.com/en/docs/3/service_area_analysis.html).
+
+
+
+
+
