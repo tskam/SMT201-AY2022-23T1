@@ -28,8 +28,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
     -   [Geography of Accessibility: QGIS methods](https://gis4urbplan.netlify.app/hands-on_ex10)
 
-    -   [Delineating Network Service Area: QGIS methods](https://gis4urbplan.netlify.app/hands-on_ex11)
-
 ## References
 
 ### Concepts and Methods
