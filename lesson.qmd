@@ -4,7 +4,7 @@ editor: visual
 ---
 
 | Week | Date       | Topic                                                                                            | Remarks |
-|---------------|---------------|---------------------------|---------------|
+|----------------|----------------|-------------------------|----------------|
 | 1    | 15/8/2022  | [Lesson 1: Introduction to GIS for Urban Planning](outline/lesson01_outline.html)                |         |
 | 2    | 22/8/2022  | [Lesson 2: The Evil is in The Data](outline/lesson02_outline.html)                               |         |
 | 3    | 29/8/2022  | [Lesson 3: Mapping and Visualising Urban World with GIS](outline/lesson03_outline.html)          |         |
@@ -16,6 +16,6 @@ editor: visual
 | 9    | 10/10/2022 | [Lesson 8: Introduction to Digital Image Processing and Analysis](outline/lesson08_outline.html) |         |
 | 10   | 17/10/2022 | [Lesson 9: Urban Network Analysis with GIS](outline/lesson09_outline.html)                       |         |
 | 11   | 24/10/2022 | [Lesson 10: Applied Image Analysis for the Urban Environment](outline/lesson10_outline.html)     |         |
-| 12   | 31/10/2022 | [Lesson 11: Sharing Geographical Information](outline/lesson11_outline.html)        |         |
-| 13   | 7/11/2022  | [Lesson 12: Urban 3D Modelling and Visualisation with GIS](outline/lesson12_outline.html)                     |         |
+| 12   | 31/10/2022 | [Lesson 11: Network Service Area Analysis with GIS](outline/lesson11_outline.html)                     |         |
+| 13   | 7/11/2022  | [Lesson 12: Sharing Geographical Information](outline/lesson12_outline.html)        |         |
 | 14   | 14/11/2022 | Townhall Presentation                                                                            |         |

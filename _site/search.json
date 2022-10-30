@@ -704,7 +704,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n15/8/2022\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n22/8/2022\nLesson 2: The Evil is in The Data\n\n\n\n3\n29/8/2022\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n5/9/2022\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n12/9/2022\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n19/9/2022\nLesson 6: The Science of Mapthematics\n\n\n\n7\n26/9/2022\nLesson 7: GIS-based Multi-Criteria Decision Analysis\n\n\n\n8\n3/10/2022\nMid-term break\n\n\n\n9\n10/10/2022\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/10/2022\nLesson 9: Urban Network Analysis with GIS\n\n\n\n11\n24/10/2022\nLesson 10: Applied Image Analysis for the Urban Environment\n\n\n\n12\n31/10/2022\nLesson 11: Sharing Geographical Information\n\n\n\n13\n7/11/2022\nLesson 12: Urban 3D Modelling and Visualisation with GIS\n\n\n\n14\n14/11/2022\nTownhall Presentation"
+    "text": "Week\nDate\nTopic\nRemarks\n\n\n\n\n1\n15/8/2022\nLesson 1: Introduction to GIS for Urban Planning\n\n\n\n2\n22/8/2022\nLesson 2: The Evil is in The Data\n\n\n\n3\n29/8/2022\nLesson 3: Mapping and Visualising Urban World with GIS\n\n\n\n4\n5/9/2022\nLesson 4: Vector-based GeoProcessing and GIS Analysis\n\n\n\n5\n12/9/2022\nLesson 5: Urban Applications of Vector-based GIS Analysis\n\n\n\n6\n19/9/2022\nLesson 6: The Science of Mapthematics\n\n\n\n7\n26/9/2022\nLesson 7: GIS-based Multi-Criteria Decision Analysis\n\n\n\n8\n3/10/2022\nMid-term break\n\n\n\n9\n10/10/2022\nLesson 8: Introduction to Digital Image Processing and Analysis\n\n\n\n10\n17/10/2022\nLesson 9: Urban Network Analysis with GIS\n\n\n\n11\n24/10/2022\nLesson 10: Applied Image Analysis for the Urban Environment\n\n\n\n12\n31/10/2022\nLesson 11: Network Service Area Analysis with GIS\n\n\n\n13\n7/11/2022\nLesson 12: Sharing Geographical Information\n\n\n\n14\n14/11/2022\nTownhall Presentation"
   },
   {
     "objectID": "outline/lesson01_outline.html",
@@ -1010,23 +1010,23 @@
   {
     "objectID": "outline/lesson11_outline.html",
     "href": "outline/lesson11_outline.html",
-    "title": "Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping",
+    "title": "Lesson 11: Network Service Area Analysis with GIS",
     "section": "",
-    "text": "Motivation of GeoWeb Mapping\nGetting to Know GeoWeb Mapping Technology\n\nGeoWeb mapping system architecture\nGeoWeb mapping protocol\nGeoWeb mapping systems\n\nEvolution of GeoWeb Mapping\n2nd Generation GeoWeb Mapping Technology\n\nOpenLayers\nLeaflet"
+    "text": "Why analyse with network?\nNetwork model\nReal world network system\nComplexity of urban road network\nShortest path analysis algorithm\nNetwork analysis methods"
   },
   {
     "objectID": "outline/lesson11_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/lesson11_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping",
+    "title": "Lesson 11: Network Service Area Analysis with GIS",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 11 in html and pdf formats."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercises:\n\nShortest Path Analysis: QGIS methods\nGeography of Accessibility: QGIS methods"
   },
   {
     "objectID": "outline/lesson11_outline.html#references",
     "href": "outline/lesson11_outline.html#references",
-    "title": "Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping",
+    "title": "Lesson 11: Network Service Area Analysis with GIS",
     "section": "References",
-    "text": "References\n\nConcepts and Methods\n\nWeb mapping\n7 great alternatives to the Google Maps API\nEssential Resources: Mapping applications, frameworks and libraries\nResearch Explores How to Keep Up With Changing Web Mapping Technology\n\n\n\nApplications\n\n\nQGIS Methods\n\nqgis2web plugin"
+    "text": "References\n\nConcepts and Methods\n\nManfred M. Fischer (2003) “GIS AND NETWORK ANALYSIS” in Handbook 5 Transport Geography and Spatial Systems. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon\n5 Types of Network Analysis in GIS\nChun, Y, and Kim, H. (2018). Networks Defined. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2018 Edition), John P. Wilson (Ed.).\n\n\n\nApplications\nLee, Jin ; Lubienski, Christopher (2017) “The Impact of School Closures on Equity of Access in Chicago”, Education and Urban Society, Vol.49 (1), p.53-80.\nJan Burdziej (2017) “Using hexagonal grids and network analysis for spatial accessibility assessment in urban environments – a case study of public amenities in Toruń”, MISCELLANEA GEOGRAPHICA – REGIONAL STUDIES ON DEVELOPMENT, Vol. 23, No. 2.\nRizwan Shahid, et al. (2009) “Comparison of distance measures in spatial analytical modeling for health service planning”, BMC Health Services Research, p1-14.\nBalasubramani, K., Gomathi, M., & Prasad, S. (2016) “GIS-based Service Area Analysis for Optimal Planning Strategies: A Case Study of Fire Service Stations in Madurai City”\n\n\nQGIS Methods\n\nQGIS Network Analysis Capabilities\n6.3. Lesson: Network Analysis of QGIS Training Manual.\nAbout QNEAT3\nAlba KUCUKALI, et. al. (2022) “Evaluating the pedestrian accessibility to public services using open-source geospatial data and QGIS software”, Nova Geodesia 2(2):42.\nUNESCO (2022) Isochrone-based catchment areas for education, IIEP Technical Note.\nLinden, Philip (2021)Improving accessibility to the bus service. Master Thesis, UMEA Universitet.\nQGIS Tutorials and Tips, Service Area Analysis using Openrouteservice(QGIS3)."
   },
   {
     "objectID": "outline/lesson12_outline.html",
@@ -1040,7 +1040,7 @@
     "href": "outline/lesson12_outline.html#lesson-slides-and-hands-on-notes",
     "title": "Lesson 12: Sharing Geographic Information on the Web: GeoWeb Mapping",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html format.\nHands-on Exercise 12 in html format."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats.\nHands-on Exercise 11 in html and pdf formats."
   },
   {
     "objectID": "outline/lesson12_outline.html#references",

@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-10-23">
-<meta name="description" content="In this lesson, you will learn the basic concepts of GeoWeb Mapping. You will also gain hands-on experience on creating geoweb application using QGIS extension.">
+<meta name="dcterms.date" content="2022-10-31">
+<meta name="description" content="In this lesson, you will learn the basic concepts of network service area and network service area analysis methods with GIS.">
 
-<title>SMT201-AY2022-23T1 - Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping</title>
+<title>SMT201-AY2022-23T1 - Lesson 11: Network Service Area Analysis with GIS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,12 +131,12 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 11: Sharing Geographic Information on the Web: GeoWeb Mapping</h1>
+<h1 class="title">Lesson 11: Network Service Area Analysis with GIS</h1>
 </div>
 
 <div>
   <div class="description">
-    In this lesson, you will learn the basic concepts of GeoWeb Mapping. You will also gain hands-on experience on creating geoweb application using QGIS extension.
+    In this lesson, you will learn the basic concepts of network service area and network service area analysis methods with GIS.
   </div>
 </div>
 
@@ -147,7 +147,7 @@ ul.task-list{list-style: none;}
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 23, 2022</p>
+      <p class="date">October 31, 2022</p>
     </div>
   </div>
     
@@ -159,26 +159,23 @@ ul.task-list{list-style: none;}
 <section id="content" class="level2">
 <h2 class="anchored" data-anchor-id="content">Content</h2>
 <ul>
-<li>Motivation of GeoWeb Mapping</li>
-<li>Getting to Know GeoWeb Mapping Technology
-<ul>
-<li>GeoWeb mapping system architecture</li>
-<li>GeoWeb mapping protocol</li>
-<li>GeoWeb mapping systems</li>
-</ul></li>
-<li>Evolution of GeoWeb Mapping</li>
-<li>2nd Generation GeoWeb Mapping Technology
-<ul>
-<li>OpenLayers</li>
-<li>Leaflet</li>
-</ul></li>
+<li>Why analyse with network?</li>
+<li>Network model</li>
+<li>Real world network system</li>
+<li>Complexity of urban road network</li>
+<li>Shortest path analysis algorithm</li>
+<li>Network analysis methods</li>
 </ul>
 </section>
 <section id="lesson-slides-and-hands-on-notes" class="level2">
 <h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
 <ul>
-<li><p>Lesson slides in <a href="../lesson/Lesson11/Lesson11.html">html</a> and <a href="../lesson/Lesson11/Lesson11.pdf">pdf</a> formats.</p></li>
-<li><p>Hands-on Exercise 11 in <a href="../Hands-on_Ex/Hands-on_Ex11/Hands-on_Ex11.html">html</a> and <a href="../Hands-on_Ex/Hands-on_Ex11/Hands-on_Ex11.pdf">pdf</a> formats.</p></li>
+<li><p>Lesson slides in <a href="../lesson/Lesson09/Lesson09.html">html</a> and <a href="../lesson/Lesson09/Lesson09.pdf">pdf</a> formats.</p></li>
+<li><p>Hands-on Exercises:</p>
+<ul>
+<li><p><a href="https://gis4urbplan.netlify.app/hands-on_ex09">Shortest Path Analysis: QGIS methods</a></p></li>
+<li><p><a href="https://gis4urbplan.netlify.app/hands-on_ex10">Geography of Accessibility: QGIS methods</a></p></li>
+</ul></li>
 </ul>
 </section>
 <section id="references" class="level2">
@@ -186,19 +183,28 @@ ul.task-list{list-style: none;}
 <section id="concepts-and-methods" class="level3">
 <h3 class="anchored" data-anchor-id="concepts-and-methods">Concepts and Methods</h3>
 <ul>
-<li><a href="http://en.wikipedia.org/wiki/Web_mapping">Web mapping</a></li>
-<li><a href="http://www.creativebloq.com/inspiration/top-seven-alternatives-google-maps-api-7122779">7 great alternatives to the Google Maps API</a></li>
-<li><a href="http://www.visualisingdata.com/index.php/2013/09/essential-resources-mapping-applications-frameworks-and-libraries/">Essential Resources: Mapping applications, frameworks and libraries</a></li>
-<li><a href="http://www.directionsmag.com/articles/research-explores-how-to-keep-up-with-changing-web-mapping-technology/294410">Research Explores How to Keep Up With Changing Web Mapping Technology</a></li>
+<li><p>Manfred M. Fischer (2003) <a href="https://www.researchgate.net/publication/23730944_GIS_and_network_analysis">“<em>GIS AND NETWORK ANALYSIS</em>”</a> in <strong>Handbook 5 Transport Geography and Spatial Systems</strong>. Hensher D., Button K., Haynes K. and Stopher P. (eds.); Pergamon</p></li>
+<li><p><a href="https://gisgeography.com/network-analysis/">5 Types of Network Analysis in GIS</a></p></li>
+<li><p>Chun, Y, and Kim, H. (2018). <a href="https://gistbok.ucgis.org/bok-topics/2021-quarter-01/networks-defined"><em>Networks Defined</em></a>. <strong>The Geographic Information Science &amp; Technology Body of Knowledge (4th Quarter 2018 Edition)</strong>, John P. Wilson (Ed.).</p></li>
 </ul>
 </section>
 <section id="applications" class="level3">
 <h3 class="anchored" data-anchor-id="applications">Applications</h3>
+<p>Lee, Jin ; Lubienski, Christopher (2017) <a href="https://journals-sagepub-com.libproxy.smu.edu.sg/doi/full/10.1177/0013124516630601">“The Impact of School Closures on Equity of Access in Chicago”</a>, <em>Education and Urban Society</em>, Vol.49 (1), p.53-80.</p>
+<p>Jan Burdziej (2017) <a href="https://www.researchgate.net/publication/330850358_Using_hexagonal_grids_and_network_analysis_for_spatial_accessibility_assessment_in_urban_environments_-_A_case_study_of_public_amenities_in_Torun">“Using hexagonal grids and network analysis for spatial accessibility assessment in urban environments – a case study of public amenities in Toruń”</a>, <em>MISCELLANEA GEOGRAPHICA – REGIONAL STUDIES ON DEVELOPMENT</em>, Vol. 23, No.&nbsp;2.</p>
+<p>Rizwan Shahid, et al.&nbsp;(2009) <a href="https://bmchealthservres.biomedcentral.com/articles/10.1186/1472-6963-9-200">“Comparison of distance measures in spatial analytical modeling for health service planning”</a>, <em>BMC Health Services Research</em>, p1-14.</p>
+<p>Balasubramani, K., Gomathi, M., &amp; Prasad, S. (2016) <a href="https://www.researchgate.net/publication/319644901_GIS-BASED_SERVICE_AREA_ANALYSIS_FOR_OPTIMAL_PLANNING_STRATEGIES_A_CASE_STUDY_OF_FIRE_SERVICE_STATIONS_IN_MADURAI_CITY">“GIS-based Service Area Analysis for Optimal Planning Strategies: A Case Study of Fire Service Stations in Madurai City”</a></p>
 </section>
 <section id="qgis-methods" class="level3">
 <h3 class="anchored" data-anchor-id="qgis-methods">QGIS Methods</h3>
 <ul>
-<li><a href="https://github.com/tomchadwin/qgis2web/wiki">qgis2web plugin</a></li>
+<li><p><a href="https://www.giscourse.com/qgis-network-analysis-capabilities/">QGIS Network Analysis Capabilities</a></p></li>
+<li><p><a href="https://docs.qgis.org/3.22/en/docs/training_manual/vector_analysis/network_analysis.html">6.3. Lesson: Network Analysis</a> of QGIS Training Manual.</p></li>
+<li><p><a href="https://root676.github.io/">About QNEAT3</a></p></li>
+<li><p>Alba KUCUKALI, et. al.&nbsp;(2022) <a href="https://www.researchgate.net/publication/362883338_Evaluating_the_pedestrian_accessibility_to_public_services_using_open-source_geospatial_data_and_QGIS_software">“Evaluating the pedestrian accessibility to public services using open-source geospatial data and QGIS software”</a>, <em>Nova Geodesia</em> 2(2):42.</p></li>
+<li><p>UNESCO (2022) <a href="https://unesdoc.unesco.org/ark:/48223/pf0000381654/PDF/381654eng.pdf.multi">Isochrone-based catchment areas for education</a>, <strong>IIEP Technical Note</strong>.</p></li>
+<li><p>Linden, Philip (2021)<a href="https://www.diva-portal.org/smash/get/diva2:1572503/FULLTEXT01.pdf"><strong>Improving accessibility to the bus service</strong></a>. Master Thesis, UMEA Universitet.</p></li>
+<li><p>QGIS Tutorials and Tips, <a href="https://www.qgistutorials.com/en/docs/3/service_area_analysis.html">Service Area Analysis using Openrouteservice(QGIS3)</a>.</p></li>
 </ul>
 
 
