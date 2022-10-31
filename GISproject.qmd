@@ -48,7 +48,7 @@ The project will comprise of, but not limited to the followings steps:
 -   Formulation of project team: by week 2 before lesson
 -   Assemble GIS data: from week 7 onward
 -   Create project website : by week 8
--   Submission of project poster: by the end of Week 13.
+-   Submission of project poster: 10th Nov. 2022, 11:59PM (mid-night).
 -   Submission of project artifacts and update project webpage: 20th November 2022 at 11.59pm (mid-night)
 
 ## Grading
@@ -186,11 +186,10 @@ Note that the following examples are for references purposes. You are urged to u
 
 ### Useful link to learn more about Quarto
 
-- [Exploring RStudio’s Visual Markdown Editor](https://www.rstudio.com/blog/exploring-rstudio-visual-markdown-editor/)
-- [HTML Theming](https://quarto.org/docs/output-formats/html-themes.html)
-- [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html)
-- [Quarto Websites](https://quarto.org/docs/websites/)
-
+-   [Exploring RStudio's Visual Markdown Editor](https://www.rstudio.com/blog/exploring-rstudio-visual-markdown-editor/)
+-   [HTML Theming](https://quarto.org/docs/output-formats/html-themes.html)
+-   [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html)
+-   [Quarto Websites](https://quarto.org/docs/websites/)
 
 ## Q&A
 
