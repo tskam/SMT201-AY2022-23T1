@@ -23,9 +23,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Lesson Slides and Hands-on Notes
 
--   Lesson slides in [html](../lesson/Lesson11/Lesson11.html) and [pdf](../lesson/Lesson11/Lesson11.pdf) formats.
+-   Lesson slides in [html](../lesson/Lesson12/Lesson12.html) format.
 
--   Hands-on Exercise 11 in [html](../Hands-on_Ex/Hands-on_Ex11/Hands-on_Ex11.html) and [pdf](../Hands-on_Ex/Hands-on_Ex11/Hands-on_Ex11.pdf) formats.
 
 ## References
 
@@ -41,3 +40,5 @@ knitr::opts_chunk$set(echo = FALSE)
 ### QGIS Methods
 
 -   [qgis2web plugin](https://github.com/tomchadwin/qgis2web/wiki)
+
+-   [QGIS Cloud](https://qgiscloud.com/)
