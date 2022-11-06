@@ -25,7 +25,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   Lesson slides in [html](../lesson/Lesson12/Lesson12.html) format.
 
-
 ## References
 
 ### Concepts and Methods
@@ -40,5 +39,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ### QGIS Methods
 
 -   [qgis2web plugin](https://github.com/tomchadwin/qgis2web/wiki)
+
+-   [Creating a WebMap using QGIS2WEB](https://www.youtube.com/watch?v=0V0V6TWBE14)
+
+-   [QGIS2Web plugin - search tool for multiple layers](https://www.youtube.com/watch?v=aVuL7hP-r7o)
 
 -   [QGIS Cloud](https://qgiscloud.com/)
