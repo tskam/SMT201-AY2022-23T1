@@ -19,9 +19,7 @@ website:
         href: Take-home_Ex03.html
     - text: "GIS Project"
       href: GISproject.html
-  right:
-    - text: "Resources"
-      href: resources.html
+    right:
     - text: "Home"
       href: index.html
 
