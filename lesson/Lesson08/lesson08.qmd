@@ -256,7 +256,7 @@ The Sentinel-2 satellites each carry a single multi-spectral instrument (MSI) wi
 
 ![](img/image15.jpg)
 
---- 
+------------------------------------------------------------------------
 
 ### Acquiring Sentinel data
 
@@ -497,3 +497,14 @@ Notice that vegetation appears in shades of red, urban areas are green-blue, and
 :::
 
 ## Reference
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2022-23t1.netlify.app/lesson/lesson08/lesson08.html",
+  to = "D://SMT201_AY2022-23T1/02-Lesson/pdf/Lesson08.pdf"
+)
+```
+
+
