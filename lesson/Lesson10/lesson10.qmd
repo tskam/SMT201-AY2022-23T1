@@ -3,7 +3,6 @@ title: "Lesson 10: Applied Image Analysis for the Urban Environment"
 author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
 institute: "School of Computing and Information Systems,<br/>Singapore Management University"
 date: "2022-08-12 (updated: `r Sys.Date()`)"
-css: "text.css"
 format: 
   revealjs:
     width: 1600
@@ -211,8 +210,8 @@ Therefore a pixel belongs to the class having the lowest angle, that is:
 ::: {.column width="50%"}
 ::: {style="font-size: 0.8em"}
 -   The Random Forest (RF) algorithm (Breimann 2001) is a supervised classification algorithm. It builds upon the concept of decision trees (DT).
--   The RF relies on many self-learning decision trees (i.e. "Forest"). The idea behind using many decision trees (i.e. an ensemble) is that many base learners can come to one strong and robust decision compared to a single DT. 
--   Different from the manual (expert-based) definition of decision rules, the RF uses self-learning decision trees. These trees automatically define rules at each node based on a training dataset. 
+-   The RF relies on many self-learning decision trees (i.e. "Forest"). The idea behind using many decision trees (i.e. an ensemble) is that many base learners can come to one strong and robust decision compared to a single DT.
+-   Different from the manual (expert-based) definition of decision rules, the RF uses self-learning decision trees. These trees automatically define rules at each node based on a training dataset.
 -   RF seeks to minimize the heterogeneity of the two resulting subsets of the data created by the respective rule. Heterogeneity is in this case expressed as the Gini impurity index and the rule creating the least heterogeneous subsets of the data is used for the respective node.
 :::
 :::
@@ -317,3 +316,12 @@ Rating criteria of Kappa statistics
 -   [Land Cover & Land Use](https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/educational-resources-applications/land-cover-biomass-mapping/land-cover-land-use/9373)
 
 -   Richards and Jia (2006) **Remote Sensing Digital Image Analysis: An Introduction**, Springer.
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2022-23t1.netlify.app/lesson/lesson10/lesson10.html",
+  to = "D://SMT201_AY2022-23T1/02-Lesson/pdf/Lesson10.pdf"
+)
+```
