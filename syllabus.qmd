@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Syllabus"
 editor: visual
 ---
 
@@ -76,7 +76,7 @@ There are no pre-requisites for the class and the class is open to all SMT stude
 The grading distribution of this course are as follows:
 
 | Component                                                              | Weights |
-|------------------------------------------------------------------------|---------|
+|----------------------------------------------------------|--------------|
 | Class Participation                                                    | 5%      |
 | Hands-on Exercise (Students are allowed to miss maximum 3 submissions) | 10%     |
 | In-class Exercise                                                      | 20%     |

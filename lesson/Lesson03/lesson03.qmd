@@ -3,7 +3,6 @@ title: "Lesson 3: <br/>Mapping and Visualising Urban World with GIS"
 author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
 institute: "School of Computing and Information Systems,<br/>Singapore Management University"
 date: "2022-08-06 (updated: `r Sys.Date()`)"
-css: "text.css"
 format: 
   revealjs:
     width: 1600
@@ -488,3 +487,13 @@ Source: [Bivariate choropleth map](http://kellystravelmap.blogspot.sg/2013/07/bi
 [Should a map be interactive?](https://www.axismaps.com/guide/should-a-map-be-interactive)
 
 [Map interaction](https://www.axismaps.com/guide/map-interaction)
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2022-23t1.netlify.app/lesson/lesson03/lesson03.html",
+  to = "D://SMT201_AY2022-23T1/02-Lesson/pdf/Lesson03.pdf"
+)
+```
+

@@ -653,3 +653,12 @@ Geocode Tools of [MMQGIS](https://michaelminn.com/linux/mmqgis/) plugin.
 ![](img/image2-34b.jpg)
 :::
 :::
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2022-23t1.netlify.app/lesson/lesson02/lesson02.html",
+  to = "D://SMT201_AY2022-23T1/02-Lesson/pdf/Lesson02.pdf"
+)
+```

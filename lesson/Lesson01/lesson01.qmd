@@ -238,3 +238,13 @@ A GIS extends the study of information systems by including geospatial data mana
 GIS = Get Intelligent Solutions
 :::
 :::
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2022-23t1.netlify.app/lesson/lesson01/lesson01.html",
+  to = "D://SMT201_AY2022-23T1/02-Lesson/pdf/Lesson01.pdf"
+)
+```
+
