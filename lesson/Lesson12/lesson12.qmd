@@ -3,7 +3,6 @@ title: "Lesson 12: Sharing Geographical Information with WebGIS"
 author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
 institute: "School of Computing and Information Systems,<br/>Singapore Management University"
 date: "2022-08-12 (updated: `r Sys.Date()`)"
-css: "text.css"
 format: 
   revealjs:
     width: 1600
@@ -274,3 +273,12 @@ To learn more, click on this [link](https://github.com/tomchadwin/qgis2web/wiki)
 ![](img/image15.jpg)
 :::
 :::
+
+```{r}
+#| echo: false
+#| eval: false
+renderthis::to_pdf(
+  from = "https://smt201-ay2022-23t1.netlify.app/lesson/lesson12/lesson12.html",
+  to = "D://SMT201_AY2022-23T1/02-Lesson/pdf/Lesson12.pdf"
+)
+```
